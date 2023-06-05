@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="345" y="80"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>587</width>
+			<height>591</height>
+			<sprites>
+				<spt>back_profile</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- title -->	
+		<ctrl>
+			<name>text_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>gui_profile_title</default_text>
+			<id>2</id>
+			<pos x="202" y="24" />
+			<width>189</width>
+			<height>32</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_new</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<pos x="112" y="405"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<btn_text token="gui_profile_btn_new">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_rename</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="310" y="405"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<btn_text token="gui_profile_btn_rename">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_delete</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="211" y="468"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<btn_text token="gui_profile_btn_delete">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>list_profiles</name>
+			<type>ListBox</type>
+			<ext_path>data/gui/dialogs/profile_list.xml</ext_path>
+			<text_id>1</text_id>
+			<edit_id>2</edit_id>
+			<height_step>57</height_step>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>6</id>
+			<pos x="105" y="116"/>
+			<width>379</width>
+			<height>281</height>
+		</ctrl>
+	
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="210" y="545"/>
+			<width>169</width>	
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<btn_text token="gui_cmn_btn_ok">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	</ctrls>
+</gui>

@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>		
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<sprites>
+				<spt>back_credits</spt>
+			</sprites>
+			<layer>-5</layer>
+		</ctrl>		
+
+	<!-- заголовок -->	
+		<ctrl>
+			<name>token</name>
+			<type>RichText</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<align>2</align>
+			<font_name>data\fonts\credits\myriad26.fnt</font_name>
+			<default_text>empty</default_text>
+			<id>2</id>
+			<pos x="23" y="1155"/>
+			<width>800</width>
+			<height>200</height>		
+		</ctrl>	
+
+	<!-- имена -->
+		<ctrl>
+			<name>text</name>
+			<type>RichText</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<align>2</align>
+			<font_name>data\fonts\credits\myriad34.fnt</font_name>
+			<default_text>empty</default_text>
+			<id>3</id>
+			<pos x="23" y="1155"/>
+			<width>356</width>
+			<height>1200</height>
+		</ctrl>	
+		
+		<ctrl>
+			<name>ctrl_title</name>
+			<type>RichText</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<align>2</align>
+			<font_name>data\fonts\credits\myriad36.fnt</font_name>
+			<default_text>empty</default_text>
+			<id>4</id>
+			<pos x="23" y="1155"/>
+			<width>356</width>
+			<height>200</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>ctrl_title_big</name>
+			<type>RichText</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<align>2</align>
+			<font_name>data\fonts\credits\myriad36_bold.fnt</font_name>
+			<default_text>empty</default_text>
+			<id>5</id>
+			<pos x="23" y="1155"/>
+			<width>356</width>
+			<height>200</height>
+		</ctrl>	
+
+		<!-- <ctrl>
+			<name>top_alpha_mask</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>6</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>57</height>
+			<sprites>
+				<spt>top_credits</spt>				
+			</sprites>		
+		</ctrl> -->
+		
+		<!-- <ctrl>
+			<name>bottom_alpha_mask</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>7</id>
+			<pos x="0" y="740"/>
+			<width>1280</width>
+			<height>60</height>
+			<sprites>
+				<spt>bottom_credits</spt>				
+			</sprites>		
+		</ctrl> -->
+
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>mask</mask_sprite>
+			<!-- <btn_text token="SKIP">
+				<font type="normal" color="ffffffff">data/fonts/gui/adobe_caslon63.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/adobe_caslon63_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/adobe_caslon63_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text> -->
+			<manual_render>1</manual_render>			
+		</ctrl>
+	</ctrls>
+</gui>

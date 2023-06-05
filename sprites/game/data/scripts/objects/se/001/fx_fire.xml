@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_fx_fire</name_desc>
+    <name>001_fx_fire</name>
+    <type>001_fx_fire</type>
+    <states size="1">
+        <state>
+            <particle>001_fx_fire</particle>
+            <particle_pos x="640" y="400" />
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_03_bowl|1</event_parameters>
+            <sound_fx>fire_loop1_01</sound_fx>
+            <loop_sound>1</loop_sound>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>6</layer>
+</object>

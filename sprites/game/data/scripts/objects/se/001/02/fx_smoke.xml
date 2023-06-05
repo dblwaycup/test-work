@@ -1,0 +1,21 @@
+<!-- <?xml version="1.0" ?>
+<object>
+    <name_desc>001_02_fx_smoke</name_desc>
+    <name>001_02_fx_smoke</name>
+    <type>001_02_fx_smoke</type>
+    <states size="1">
+        <state>
+            <event>ITERATE_OBJECT_IN_STATES</event>
+            <event_parameters>001_02_elephant|4</event_parameters>
+        </state>
+        <state>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>3.5</mode_param>
+        </state>
+        <state>
+            <particle>001_02_fx_smoke</particle>
+            <particle_pos x="0" y="0" />
+        </state>
+    </states>
+    <layer>30</layer>
+</object> -->

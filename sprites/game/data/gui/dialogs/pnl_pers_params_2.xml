@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Tasks>
+	<Resources>data/main.res</Resources>
+
+	<task>
+		<name_token>001_davona</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<text_token>bbt_001_davona</text_token>
+						<text_scale>1.0</text_scale>
+					</text_box_param>
+				</text_list>
+				<panel_pos x="1082" y="225" />
+			</task_state>
+		</task_panel_params>
+	</task>
+	
+</Tasks>

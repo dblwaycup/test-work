@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="359" y="110"/>
+	<ctrls>	
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>587</width>
+			<height>479</height>
+			<sprites>
+				<spt>back_menu</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- title -->	
+		<ctrl>
+			<name>text_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<default_text>main_menu_title</default_text>
+			<id>1</id>
+			<pos x="205" y="16" />
+			<width>189</width>
+			<height>32</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_resume</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="158" y="104"/>
+			<width>273</width>
+			<height>46</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_selection_menu</spt>
+				<spt>btn_selection_menu</spt>
+			</sprites>
+			<mask_sprite>btn_selection_menu_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="menu_btn_resume_game">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_menu</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<pos x="158" y="181"/>
+			<width>273</width>
+			<height>46</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_selection_menu</spt>
+				<spt>btn_selection_menu</spt>
+			</sprites>
+			<mask_sprite>btn_selection_menu_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="menu_btn_main_menu">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_settings</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="158" y="259"/>
+			<width>273</width>
+			<height>46</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_selection_menu</spt>
+				<spt>btn_selection_menu</spt>
+			</sprites>
+			<mask_sprite>btn_selection_menu_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="menu_btn_setting">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_exit</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="158" y="336"/>
+			<width>273</width>
+			<height>46</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_selection_menu</spt>
+				<spt>btn_selection_menu</spt>
+			</sprites>
+			<mask_sprite>btn_selection_menu_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="menu_btn_exit">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+	</ctrls>
+</gui>

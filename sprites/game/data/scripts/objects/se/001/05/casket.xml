@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_05_casket</name>
+    <name_desc>001_05_casket</name_desc>
+    <type>001_05_casket</type>
+    <states size="1">
+        <state>
+            <sprite>001_05_casket</sprite>
+            <mask_sprite>001_05_casket_mask</mask_sprite>
+            <event>KILL_OBJECT</event>
+            <event_parameters>001_05_sari ; 001_05_flask</event_parameters>
+            <kill_inventory size="1">
+				<object>
+					<type>001_03_casket</type>
+				</object>
+			</kill_inventory>
+            <sound_fx>ad_morf_win</sound_fx>	
+            <translate_bbt>bbt_001_05_casket</translate_bbt>
+        </state>
+        <state>
+            <sprite>001_05_casket</sprite>
+            <mask_sprite>001_05_casket_mask</mask_sprite>
+        </state>
+    </states>
+    <layer>5</layer>
+</object>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_henna</name_desc>
+    <name>002_f_henna</name>
+    <type>002_f_henna</type>
+    <states size="2">
+        <state>
+            <sprite>empty</sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_04_henna|1</event_parameters>
+        </state>
+        <state>
+            <sprite>002_f_henna</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<event>ITERATE_OBJECT_IN_STATES</event> 
+			<event_parameters>002_04_flask|2;002_04_henna|2 </event_parameters>
+        </state>
+        <state>
+            <sprite>002_f_henna_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>7</layer>
+</object>

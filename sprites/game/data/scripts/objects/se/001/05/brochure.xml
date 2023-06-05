@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_05_brochure</name>
+    <name_desc>001_05_brochure</name_desc>
+    <type>001_05_brochure</type>
+    <states size="1">
+        <state>
+            <!-- 001_05_cap -->
+        </state>
+        <state>
+            <sprite>001_05_brochure</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <fast_iterate>1</fast_iterate>
+            <iterate_effect>note_open_dr</iterate_effect>
+            <sound_fx>paper_01</sound_fx>
+            <combine_inventory_sprite>inv_001_05_broschure_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>001_05_brochure_open</sprite>
+            <cursor>spt_cursor_hand-finger</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <static_text_list>
+                <static_text>
+                    <text>001_05_brochure</text>
+                    <font>data/fonts/notes/times30.fnt</font>
+                    <pos x="149" y="263" />
+                    <size x="180" y="50" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff510909</color>
+                    <angle>0</angle>
+                    <scale>1</scale>
+                    <skew x="0.021" y="-0.216"/>
+                </static_text>
+                <static_text>
+                    <text>001_05_brochure_2</text>
+                    <font>data/fonts/notes/times30.fnt</font>
+                    <pos x="223" y="443" />
+                    <size x="220" y="50" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff510909</color>
+                    <angle>0</angle>
+                    <scale>0.7</scale>
+                    <skew x="0.021" y="-0.216"/>
+                </static_text>
+                <static_text>
+                    <text>001_05_brochure_3</text>
+                    <font>data/fonts/notes/calibri20.fnt</font>
+                    <pos x="172" y="492" />
+                    <size x="180" y="35" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ffe5c39f</color>
+                    <angle>0</angle>
+                    <scale>0.85</scale>
+                    <skew x="0.021" y="-0.183"/>
+                </static_text>
+            </static_text_list>
+            <position x="379" y="134" />
+            <combine_inventory_sprite>inv_001_05_broschure_get</combine_inventory_sprite>
+            <sound_fx>paper2_01</sound_fx>
+        </state>
+        <state>
+            <sprite>001_05_brochure_open_2</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <sound_fx>paper_01</sound_fx>
+            <static_text_list>
+                <static_text>
+                    <text>001_05_brochure_4</text>
+                    <font>data/fonts/notes/times30.fnt</font>
+                    <pos x="411" y="244" />
+                    <size x="300" y="145" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff510909</color>
+                    <angle>0</angle>
+                    <scale>0.62</scale>
+                    <skew x="0.021" y="-0.051"/>
+                </static_text>
+            </static_text_list>
+            <add_resource>001_05_brochure</add_resource>
+            <translate_bbt>bbt_001_05_brochure</translate_bbt>
+            <position x="379" y="134" />
+            <layer>100</layer>
+            <iterate_effect>note_close_dr</iterate_effect>
+            <fast_iterate>1</fast_iterate>
+            <combine_inventory_sprite>inv_001_05_broschure_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>001_05_brochure_open_2</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <static_text_list>
+                <static_text>
+                    <text>001_05_brochure_4</text>
+                    <font>data/fonts/notes/times30.fnt</font>
+                    <pos x="411" y="244" />
+                    <size x="300" y="145" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff510909</color>
+                    <angle>0</angle>
+                    <scale>0.62</scale>
+                    <skew x="0.021" y="-0.051"/>
+                </static_text>
+            </static_text_list>
+            <position x="379" y="134" />
+            <layer>150</layer>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.9</mode_param>
+            <fast_iterate>1</fast_iterate>
+			<!-- <sound_fx>get_achive</sound_fx>	   -->
+        </state>
+        <state>
+        </state>
+    </states>
+    <anchor x="296" y="360"/>
+    <layer>20</layer>
+</object>

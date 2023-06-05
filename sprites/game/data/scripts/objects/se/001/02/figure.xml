@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_02_figure</name_desc>
+    <name>001_02_figure</name>
+    <type>001_02_figure</type>
+    <states size="1">
+        <state>
+            <sprite>empty</sprite>
+        </state>
+        <state>
+            <sprite>001_02_figure</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>KILL_OBJECT</event>
+            <event_parameters>001_06_figure</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>13</layer>
+</object>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Group type="ET_PUZZLES" enabled="1" disabled_image_spt_name="spt_puzzle_disable" render_selected_element_only="1" >
+	<!-- se -->
+	<element id="0" enabled="0" spt_name="minigames_01" spt_name_disabled="minigames_01_disabled" location="se" sublocation="0" game_n="207" parent_game="2" text_caption="extra_mini_01" />
+	<element id="1" enabled="0" spt_name="minigames_02" spt_name_disabled="minigames_02_disabled" location="se" sublocation="0" game_n="505" parent_game="5" text_caption="extra_mini_02" />
+	<element id="2" enabled="0" spt_name="minigames_03" spt_name_disabled="minigames_03_disabled" location="se" sublocation="0" game_n="606" parent_game="6" text_caption="extra_mini_03" />
+	<element id="3" enabled="0" spt_name="minigames_04" spt_name_disabled="minigames_04_disabled" location="se" sublocation="0" game_n="607" parent_game="6" text_caption="extra_mini_04" />
+	<element id="4" enabled="0" spt_name="minigames_05" spt_name_disabled="minigames_05_disabled" location="se" sublocation="0" game_n="805" parent_game="8" text_caption="extra_mini_05" />
+	<element id="5" enabled="0" spt_name="minigames_06" spt_name_disabled="minigames_06_disabled" location="se" sublocation="0" game_n="1099" parent_game="10" text_caption="extra_mini_06" />
+	<element id="6" enabled="0" spt_name="minigames_07" spt_name_disabled="minigames_07_disabled" location="se" sublocation="0" game_n="1299" parent_game="12" text_caption="extra_mini_07" />
+	<element id="7" enabled="0" spt_name="minigames_08" spt_name_disabled="minigames_08_disabled" location="se" sublocation="0" game_n="1408" parent_game="14" text_caption="extra_mini_08" />
+	<element id="8" enabled="0" spt_name="minigames_09" spt_name_disabled="minigames_09_disabled" location="se" sublocation="0" game_n="1504" parent_game="15" text_caption="extra_mini_09" />
+	<element id="9" enabled="0" spt_name="minigames_10" spt_name_disabled="minigames_10_disabled" location="se" sublocation="0" game_n="1799" parent_game="17" text_caption="extra_mini_10" />
+	<element id="10" enabled="0" spt_name="minigames_11" spt_name_disabled="minigames_11_disabled" location="se" sublocation="0" game_n="1899" parent_game="18" text_caption="extra_mini_11" />
+	<element id="11" enabled="0" spt_name="minigames_12" spt_name_disabled="minigames_12_disabled" location="se" sublocation="0" game_n="2007" parent_game="20" text_caption="extra_mini_12" />
+	<element id="12" enabled="0" spt_name="minigames_13" spt_name_disabled="minigames_13_disabled" location="se" sublocation="0" game_n="2106" parent_game="21" text_caption="extra_mini_13" />
+	<element id="13" enabled="0" spt_name="minigames_14" spt_name_disabled="minigames_14_disabled" location="se" sublocation="0" game_n="2209" parent_game="22" text_caption="extra_mini_14" />
+	<element id="14" enabled="0" spt_name="minigames_15" spt_name_disabled="minigames_15_disabled" location="se" sublocation="0" game_n="2405" parent_game="24" text_caption="extra_mini_15" />
+	<!-- ce -->
+	<element id="15" enabled="0" spt_name="minigames_16" spt_name_disabled="minigames_16_disabled" location="ce" sublocation="0" game_n="206" parent_game="2" text_caption="extra_mini_16" />
+	<element id="16" enabled="0" spt_name="minigames_17" spt_name_disabled="minigames_17_disabled" location="ce" sublocation="0" game_n="406" parent_game="4" text_caption="extra_mini_17" />
+	<element id="17" enabled="0" spt_name="minigames_18" spt_name_disabled="minigames_18_disabled" location="ce" sublocation="0" game_n="606" parent_game="6" text_caption="extra_mini_18" />
+	<element id="18" enabled="0" spt_name="minigames_19" spt_name_disabled="minigames_19_disabled" location="ce" sublocation="0" game_n="806" parent_game="8" text_caption="extra_mini_19" />
+	<element id="19" enabled="0" spt_name="minigames_20" spt_name_disabled="minigames_20_disabled" location="ce" sublocation="0" game_n="1007" parent_game="10" text_caption="extra_mini_20" />
+</Group>

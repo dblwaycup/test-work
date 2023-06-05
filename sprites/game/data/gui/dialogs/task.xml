@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>	
+	<!-- background -->
+		<ctrl>
+			<name>MainTaskBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="197" y="43"/>
+			<width>922</width>
+			<height>626</height>
+			<sprites>
+				<spt>back_tasks</spt>
+			</sprites>
+			<mask_sprite>back_task_mask</mask_sprite>
+		</ctrl>	
+		
+	<!-- таски -->
+		<ctrl>
+			<name>TaskBtnSwitch</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="1030" y="311"/>
+			<width>83</width>
+			<height>52</height>
+			<sprites>	
+				<spt>btn_notes</spt>
+				<spt>btn_notes_on</spt>
+				<spt>btn_notes_on</spt>				
+			</sprites>
+			<mask_sprite>btn_tasks_mask</mask_sprite>
+			<btn_text token="btn_taskswitch">
+				<font type="normal" color="ff000000">data/fonts/gui/agopus24.fnt</font>
+				<font type="hover" color="ff000000">data/fonts/gui/agopus24.fnt</font>
+				<font type="press" color="ff000000">data/fonts/gui/agopus24.fnt</font>
+				<font type="disabled" color="ff000000">data/fonts/gui/agopus24.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="-2" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>ad_use_journal_paper</press_sound>
+		</ctrl>	
+		
+
+
+	<!-- контролы для тасок -->	
+	<!-- task 1 -->
+		<ctrl><!-- image -->
+			<name>task_image_1</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>3</id>
+			<pos x="347" y="184"/>
+			<size x="230" y="183"/>
+		</ctrl>
+		<ctrl><!-- check -->
+			<name>task_state_image_1</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>4</id>
+			<pos x="294" y="134"/>
+			<width>56</width>
+			<height>48</height>
+		</ctrl>
+		<ctrl><!-- text -->
+			<name>task_description_1</name>
+			<type>TextBox</type>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus24.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<id>5</id>
+			<pos x="347" y="135"/>
+			<width>230</width>
+			<height>47</height>
+		</ctrl>
+
+	<!-- task 2 -->
+		<ctrl><!-- image -->
+			<name>task_image_2</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>6</id>
+			<pos x="347" y="430"/>
+			<size x="230" y="183"/>
+		</ctrl>
+		<ctrl><!-- check -->
+			<name>task_state_image_2</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>7</id>
+			<pos x="294" y="380"/>
+			<width>56</width>
+			<height>48</height>
+		</ctrl>
+		<ctrl><!-- text -->
+			<name>task_description_2</name>
+			<type>TextBox</type>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus24.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<id>8</id>
+			<pos x="347" y="381"/>
+			<width>230</width>
+			<height>47</height>
+		</ctrl>
+		
+	<!-- task 3 -->
+		<ctrl><!-- image -->
+			<name>task_image_3</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>9</id>
+			<pos x="732" y="184"/>
+			<size x="230" y="183"/>
+		</ctrl>
+		<ctrl><!-- check -->
+			<name>task_state_image_3</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>10</id>
+			<pos x="679" y="134"/>
+			<width>56</width>
+			<height>48</height>
+		</ctrl>
+		<ctrl><!-- text -->
+			<name>task_description_3</name>
+			<type>TextBox</type>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus24.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<id>11</id>
+			<pos x="732" y="135"/>
+			<width>230</width>
+			<height>47</height>
+		</ctrl>
+		
+	<!-- task 4 -->
+		<ctrl><!-- image -->
+			<name>task_image_4</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>12</id>
+			<pos x="732" y="430"/>
+			<size x="230" y="183"/>
+		</ctrl>
+		<ctrl><!-- check -->
+			<name>task_state_image_4</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>13</id>
+			<pos x="679" y="380"/>
+			<width>56</width>
+			<height>48</height>
+		</ctrl>
+		<ctrl><!-- text -->
+			<name>task_description_4</name>
+			<type>TextBox</type>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus24.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<color>ff000000</color>
+			<id>14</id>
+			<pos x="732" y="381"/>
+			<width>230</width>
+			<height>47</height>
+		</ctrl>
+		
+	<!-- контролы для записок -->
+		<ctrl>
+            <name>content_closed</name>
+            <type>Background</type>
+            <enable>1</enable>
+            <visible>1</visible>
+            <id>15</id>
+            <pos x="383" y="246" />
+            <size x="147" y="221" />
+        </ctrl>
+		<ctrl>
+			<name>notepage_image_01</name>
+			<type>Background</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>16</id>
+			<childs>
+				<ctrl>
+					<name>text_01</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>17</id>
+				</ctrl>
+				<ctrl>
+					<name>text_02</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>18</id>
+				</ctrl>		
+				<ctrl>
+					<name>text_03</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>19</id>
+				</ctrl>		
+				<ctrl>
+					<name>text_04</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>20</id>
+				</ctrl>	
+				<ctrl>
+					<name>text_05</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>21</id>
+				</ctrl>		
+			</childs>
+		</ctrl>
+
+	<!-- стрелки влево / вправо -->
+		<ctrl>
+			<name>LeftTaskBtn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>30</id>
+			<pos x="288" y="530"/>
+			<width>51</width>
+			<height>88</height>
+			<sprites>
+				<spt>btn_prev</spt>
+				<spt>btn_prev_over</spt>
+				<spt>btn_prev_over</spt>
+				<spt>btn_prev_over</spt>
+				<spt>btn_prev_dis</spt>
+			</sprites>
+			<mask_sprite>btn_next_prev_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<press_sound>ad_use_journal_paper</press_sound>
+		</ctrl>
+		<ctrl>
+			<name>RightTaskBtn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>31</id>
+			<pos x="937" y="530"/>
+			<width>57</width>
+			<height>88</height>
+			<sprites>
+				<spt>btn_next</spt>
+				<spt>btn_next_over</spt>
+				<spt>btn_next_over</spt>
+				<spt>btn_next_over</spt>
+				<spt>btn_next_dis</spt>	
+			</sprites>
+			<mask_sprite>btn_next_prev_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<press_sound>ad_use_journal_paper</press_sound>
+		</ctrl>
+
+	<!-- руки -->
+		<ctrl>
+			<name>hand</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>33</id>
+			<pos x="16" y="432"/>
+			<width>1264</width>
+			<height>368</height>
+			<sprites>
+				<spt>hand_task</spt>
+			</sprites>
+			<mask_sprite>empty</mask_sprite>
+		</ctrl>
+
+	<!-- записки -->
+		<ctrl>
+			<name>NotesBtnSwitch</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="1030" y="404"/>
+			<width>83</width>
+			<height>52</height>
+			<sprites>
+				<spt>btn_tasks</spt>
+				<spt>btn_tasks_on</spt>
+				<spt>btn_tasks_on</spt>					
+			</sprites>
+			<mask_sprite>btn_notes_mask</mask_sprite>
+			<btn_text token="btn_noteswitch">
+				<font type="normal" color="ff000000">data/fonts/gui/agopus24.fnt</font>
+				<font type="hover" color="ff000000">data/fonts/gui/agopus24.fnt</font>
+				<font type="press" color="ff000000">data/fonts/gui/agopus24.fnt</font>
+				<font type="disabled" color="ff000000">data/fonts/gui/agopus24.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="2" top="-1" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>ad_use_journal_paper</press_sound>
+		</ctrl>
+
+	</ctrls>
+</gui>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_lianes</name_desc>
+    <name>002_f_lianes</name>
+    <type>002_f_lianes</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_lianes</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<discord>true</discord>
+			<distortion_vector x="1.5" y="1.57"/>
+			<distortion_speed x="1.75" y="1.65"/>
+        </state>
+    </states>
+	<anchor x="122" y="73"/>
+    <layer>30</layer>
+</object>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_purse</name>
+    <name_desc>001_03_purse</name_desc>
+    <type>001_03_purse</type>
+    <states size="1">
+        <state>
+            <sprite>001_03_purse</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <hint_delta x="0" y="0"/>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_001_03_purse_drag</drag_spt>
+    <window_spt>inv_001_03_purse_get</window_spt>
+    <text_inv_desc>obj_title_001_03_purse</text_inv_desc>
+    <on_get_title>obj_title_001_03_purse</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>37</layer>
+</object>

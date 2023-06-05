@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_1_f_1_india</name>
+	<name_desc>ho_101_1_f_1_india</name_desc>
+	<type>ho_101_1_f_1_india</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_1_f_1_india</sprite>
+			<mask_sprite>ho_101_1_f_1_india-mask</mask_sprite>
+			<mask_pos x="-135" y="-40"/>
+			<hint_delta x="-135" y="-40"/>
+			<dialog_activate>bbt_ho_101_1_f_1_india</dialog_activate>
+			<active_obj>1</active_obj>
+			<iterate_obj>1</iterate_obj>
+			<inventory_cast_obj>ho_101_1_f_1_magnifier_cast</inventory_cast_obj>
+			<cursor>spt_cursor_arrow-shest</cursor>
+			<fast_iterate>1</fast_iterate>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_1_f_1_india2</type>
+                </object>
+            </iterated_objects>
+		</state>
+		<state>
+			<sprite>ho_101_1_f_1_india</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>730</layer>
+</object>

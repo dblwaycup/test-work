@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="100"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>409</width>
+			<height>181</height>
+			<sprites>
+				<spt>back_panel</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl>
+			<name>rich_text_name</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_yellow.fnt</font>
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text>congratulations</default_text>
+			<id>1</id>
+			<pos x="10" y="53"/>
+			<width>235</width>
+			<height>25</height>
+			<sound_open>ad_mglow</sound_open>
+		</ctrl>
+		
+		<ctrl>
+			<name>rich_text_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.9</text_scale>
+			<style>TS_ALIGNHLEFT | TS_ALIGNVTOP | TS_MULTILINE</style>
+			<id>2</id>
+			<pos x="10" y="82"/>
+			<width>261</width>
+			<height>58</height>
+		</ctrl>
+		
+		<ctrl> <!-- если в res данного диалога не прописаны иконки ачивок по имени ачивки, то берутся из achievements_dialog -->
+			<name>icon</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<id>3</id>
+			<pos x="209" y="-17"/>
+			<width>275</width>
+			<height>241</height>
+			<sprites>
+				<spt>empty</spt>
+			</sprites>
+			<manual_render>0</manual_render>
+		</ctrl>
+		
+		<ctrl>
+			<name>ShowAchievementsDialogBtn</name>
+			<type>Button</type>
+			<subsubtype>pressed</subsubtype>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="23" y="154"/>
+			<width>210</width>
+			<height>53</height>
+			<sprites>
+				<spt>btn_panel</spt>
+				<spt>btn_panel_over</spt>
+				<spt>btn_panel_over</spt>
+			</sprites>
+			<mask_sprite>btn_panel_mask</mask_sprite>
+			<btn_text token="gui_btn_pnl_achievement">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="99ffffff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="16" top="20" right="0" bottom="0" />
+				<text_scale>0.9</text_scale>
+			</btn_text>
+		</ctrl>
+	</ctrls>
+</gui>

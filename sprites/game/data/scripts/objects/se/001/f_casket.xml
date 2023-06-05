@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<object>
+	<name_desc>001_f_casket</name_desc>
+	<name>001_f_casket</name>
+	<type>001_f_casket</type>
+	<states size="1">
+		<state>
+			<sprite>empty</sprite>
+			<event>END_MOVIE</event>
+			<event_parameters>001_02_seller</event_parameters>
+		</state>
+		<state>
+			<sprite>001_f_casket</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<event>ITERATE_OBJECT</event>
+			<event_parameters>001_02_casket|4</event_parameters>
+		</state>
+		<state>
+		</state>
+	</states>
+	<layer>3</layer>
+</object>

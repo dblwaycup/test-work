@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_dark</name>
+    <name_desc>002_dark</name_desc>
+    <type>002_dark</type>
+    <states size="1">
+        <state>
+            <sprite>002_dark</sprite>
+            <mask_sprite>empty</mask_sprite>      
+            <event>BEGIN_MOVIE</event>
+            <event_parameters>002_01_dlg_elephant</event_parameters>
+            <messages>
+                <message name="002_tree">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_shawl">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_road">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_bonfire">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>90</layer>
+</object>

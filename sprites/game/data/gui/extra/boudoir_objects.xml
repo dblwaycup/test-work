@@ -1,0 +1,654 @@
+﻿<?xml version="1.0"?>
+<Objects>
+	<resources>data/main.res</resources>
+	<sound_buy_pet>buy_item_zoo</sound_buy_pet><!-- звук при клике по животному -->
+	<random_object_active_state_sound_wait_min_limit>1</random_object_active_state_sound_wait_min_limit><!-- минимальное время между проигрыванием звука у случайного активного обьекта -->
+	<random_object_active_state_sound_wait_max_limit>6</random_object_active_state_sound_wait_max_limit><!-- максимальное время между проигрыванием звука у случайного активного обьекта -->
+
+	<!--antimoskito-->
+	<Object>
+		<name>extra_antimoskito</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="3">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>antimoskito_2</sprite>
+				<sprite_intersect>antimoskito_4</sprite_intersect>
+				<mask>antimoskito_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="115" y="213"/>
+				<text_popup_dialog>extra_antimoskito</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>antimoskito_2</sprite>
+				<sprite_intersect>antimoskito_4</sprite_intersect>
+				<mask>antimoskito_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="115" y="213"/>
+				<background_dialog>antimoskito_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_antimoskito</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>antimoskito</sprite>
+				<position x="115" y="213"/>
+				<buy_particle x="640" y="400" >boudoir_antimoskito</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>antimoskito</sprite>
+				<mask>antimoskito_3</mask>
+				<position x="115" y="213"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+
+	<!--barelief-->
+	<Object>
+		<name>extra_barelief</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="5">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>barelief_2</sprite>
+				<sprite_intersect>barelief_4</sprite_intersect>
+				<mask>barelief_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="552" y="213"/>
+				<text_popup_dialog>extra_barelief</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>barelief_2</sprite>
+				<sprite_intersect>barelief_4</sprite_intersect>
+				<mask>barelief_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="552" y="213"/>
+				<background_dialog>barelief_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_barelief</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>barelief</sprite>
+				<position x="552" y="213"/>
+				<buy_particle x="640" y="400" >boudoir_barelief</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>barelief</sprite>
+				<mask>barelief_3</mask>
+				<position x="552" y="213"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+<!--barelief-->
+	<Object>
+		<name>extra_bear</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="6">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>bear_2</sprite>
+				<sprite_intersect>bear_4</sprite_intersect>
+				<mask>bear_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="325" y="481"/>
+				<text_popup_dialog>extra_bear</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>bear_2</sprite>
+				<sprite_intersect>bear_4</sprite_intersect>
+				<mask>bear_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="325" y="481"/>
+				<background_dialog>bear_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_bear</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>bear</sprite>
+				<position x="325" y="481"/>
+				<buy_particle x="640" y="400" >boudoir_bear</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>bear</sprite>
+				<mask>bear_3</mask>
+				<position x="325" y="481"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	
+	<!--bed-->
+	<Object>
+		<name>extra_bed</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="9">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>bed_2</sprite>
+				<sprite_intersect>bed_4</sprite_intersect>
+				<mask>bed_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="267" y="181"/>
+				<text_popup_dialog>extra_bed</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>bed_2</sprite>
+				<sprite_intersect>bed_4</sprite_intersect>
+				<mask>bed_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="267" y="181"/>
+				<background_dialog>bed_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_bed</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>bed</sprite>
+				<position x="267" y="181"/>
+				<buy_particle x="640" y="400" >boudoir_bed</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>bed</sprite>
+				<mask>bed_3</mask>
+				<position x="267" y="181"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	<!--flower-->
+	<Object>
+		<name>extra_flower</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="2">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>flower_2</sprite>
+				<sprite_intersect>flower_4</sprite_intersect>
+				<mask>flower_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="3" y="187"/>
+				<text_popup_dialog>extra_flower</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>flower_2</sprite>
+				<sprite_intersect>flower_4</sprite_intersect>
+				<mask>flower_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="3" y="187"/>
+				<background_dialog>flower_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_flower</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>flower</sprite>
+				<position x="3" y="187"/>
+				<buy_particle x="640" y="400" >boudoir_flower</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>flower</sprite>
+				<mask>flower_3</mask>
+				<position x="3" y="187"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	<!--bookshelf-->
+	<Object>
+		<name>extra_bookshelf</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="6">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>bookshelf_2</sprite>
+				<sprite_intersect>bookshelf_4</sprite_intersect>
+				<mask>bookshelf_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="0" y="256"/>
+				<text_popup_dialog>extra_bookshelf</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>bookshelf_2</sprite>
+				<sprite_intersect>bookshelf_4</sprite_intersect>
+				<mask>bookshelf_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="0" y="256"/>
+				<background_dialog>bookshelf_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_bookshelf</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>bookshelf</sprite>
+				<position x="0" y="256"/>
+				<buy_particle x="640" y="400" >boudoir_bookshelf</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>bookshelf</sprite>
+				<mask>bookshelf_3</mask>
+				<position x="0" y="256"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	<!--chair-->
+	<Object>
+		<name>extra_chair</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="7">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>chair_2</sprite>
+				<sprite_intersect>chair_4</sprite_intersect>
+				<mask>chair_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="0" y="348"/>
+				<text_popup_dialog>extra_chair</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>chair_2</sprite>
+				<sprite_intersect>chair_4</sprite_intersect>
+				<mask>chair_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="0" y="348"/>
+				<background_dialog>chair_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_chair</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>chair</sprite>
+				<position x="0" y="348"/>
+				<buy_particle x="640" y="400" >boudoir_chair</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>chair</sprite>
+				<mask>chair_3</mask>
+				<position x="0" y="348"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	
+	
+	<!--fan-->
+	<Object>
+		<name>extra_fan</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="4">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>fan_2</sprite>
+				<sprite_intersect>fan_4</sprite_intersect>
+				<mask>fan_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="133" y="0"/>
+				<text_popup_dialog>extra_fan</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>fan_2</sprite>
+				<sprite_intersect>fan_4</sprite_intersect>
+				<mask>fan_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="133" y="0"/>
+				<background_dialog>fan_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_fan</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>fan</sprite>
+				<position x="133" y="0"/>
+				<buy_particle x="640" y="400" >boudoir_fan</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>fan</sprite>
+				<mask>fan_3</mask>
+				<position x="133" y="0"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	
+	<!--holder-->
+	<Object>
+		<name>extra_holder</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="5">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>holder_2</sprite>
+				<sprite_intersect>holder_4</sprite_intersect>
+				<mask>holder_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="737" y="318"/>
+				<text_popup_dialog>extra_holder</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>holder_2</sprite>
+				<sprite_intersect>holder_4</sprite_intersect>
+				<mask>holder_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="737" y="318"/>
+				<background_dialog>holder_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_holder</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>holder</sprite>
+				<position x="737" y="318"/>
+				<buy_particle x="640" y="400" >boudoir_holder</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>holder</sprite>
+				<mask>holder_3</mask>
+				<position x="737" y="318"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	
+	<!--peerchair-->
+	<Object>
+		<name>extra_peerchair</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="4">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>peerchair_2</sprite>
+				<sprite_intersect>peerchair_4</sprite_intersect>
+				<mask>peerchair_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="530" y="273"/>
+				<text_popup_dialog>extra_peerchair</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>peerchair_2</sprite>
+				<sprite_intersect>peerchair_4</sprite_intersect>
+				<mask>peerchair_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="530" y="273"/>
+				<background_dialog>peerchair_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_peerchair</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>peerchair</sprite>
+				<position x="530" y="273"/>
+				<buy_particle x="640" y="400" >boudoir_peerchair</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>peerchair</sprite>
+				<mask>peerchair_3</mask>
+				<position x="530" y="273"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	<!--jar-->
+	<Object>
+		<name>extra_jar</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="2">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>jar_2</sprite>
+				<sprite_intersect>jar_4</sprite_intersect>
+				<mask>jar_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="575" y="425"/>
+				<text_popup_dialog>extra_jar</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>jar_2</sprite>
+				<sprite_intersect>jar_4</sprite_intersect>
+				<mask>jar_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="575" y="425"/>
+				<background_dialog>jar_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_jar</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>jar</sprite>
+				<position x="575" y="425"/>
+				<buy_particle x="640" y="400" >boudoir_jar</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+					<particle x="640" y="400" >extra_boudoir_fireflies_idle</particle>
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>jar</sprite>
+				<mask>jar_3</mask>
+				<position x="575" y="425"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+				<particle x="640" y="400" >extra_boudoir_fireflies_idle</particle>
+			</State>
+		</States>
+	</Object>
+	<!--sofa-->
+	<Object>
+		<name>extra_sofa</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="8">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>sofa_2</sprite>
+				<sprite_intersect>sofa_4</sprite_intersect>
+				<mask>sofa_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="910" y="427"/>
+				<text_popup_dialog>extra_sofa</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>sofa_2</sprite>
+				<sprite_intersect>sofa_4</sprite_intersect>
+				<mask>sofa_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="910" y="427"/>
+				<background_dialog>sofa_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_sofa</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>sofa</sprite>
+				<position x="910" y="427"/>
+				<buy_particle x="640" y="400" >boudoir_sofa</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>sofa</sprite>
+				<mask>sofa_3</mask>
+				<position x="910" y="427"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	<!--table-->
+	<Object>
+		<name>extra_table</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="5">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>table_2</sprite>
+				<sprite_intersect>table_4</sprite_intersect>
+				<mask>table_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="121" y="354"/>
+				<text_popup_dialog>extra_table</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>table_2</sprite>
+				<sprite_intersect>table_4</sprite_intersect>
+				<mask>table_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="121" y="354"/>
+				<background_dialog>table_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_table</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>table</sprite>
+				<position x="121" y="354"/>
+				<buy_particle x="640" y="400" >boudoir_table</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>table</sprite>
+				<mask>table_3</mask>
+				<position x="121" y="354"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	<!--totem-->
+	<Object>
+		<name>extra_totem</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="3">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>totem_2</sprite>
+				<sprite_intersect>totem_4</sprite_intersect>
+				<mask>totem_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="922" y="166"/>
+				<text_popup_dialog>extra_totem</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>totem_2</sprite>
+				<sprite_intersect>totem_4</sprite_intersect>
+				<mask>totem_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="922" y="166"/>
+				<background_dialog>totem_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_totem</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>totem</sprite>
+				<position x="922" y="166"/>
+				<buy_particle x="640" y="400" >boudoir_totem</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>totem</sprite>
+				<mask>totem_3</mask>
+				<position x="922" y="166"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	
+	<!--elephant-->
+	<Object>
+		<name>extra_elephant</name><!-- используется это имя при добавлении интерьера -->
+		<buy_resource count="1">extra_crosses</buy_resource><!-- какой ресурс требуется для покупки и количество единиц-->
+		<popup_dialog>Dialog_1</popup_dialog><!-- имя всплывающего диалога -->
+		<States>
+			<State><!-- STATE_EMPTY -->
+				<sprite>elephant_2</sprite>
+				<sprite_intersect>elephant_4</sprite_intersect>
+				<mask>elephant_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="793" y="262"/>
+				<text_popup_dialog>extra_elephant</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_on>ad_magic_zoo_hover</sound_on>
+			</State>
+			<State><!-- STATE_BUY -->
+				<sprite>elephant_2</sprite>
+				<sprite_intersect>elephant_4</sprite_intersect>
+				<mask>elephant_3</mask>
+				<cursor>spt_cursor_hand-finger</cursor>
+				<position x="793" y="262"/>
+				<background_dialog>elephant_buy</background_dialog><!-- картинка, отображающаяся при покупке -->
+				<text_popup_dialog>extra_elephant</text_popup_dialog><!-- текст для всплывающего диалога при наведени -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_REVIVE -->
+				<sprite>elephant</sprite>
+				<position x="793" y="262"/>
+				<buy_particle x="640" y="400" >boudoir_elephant</buy_particle> <!-- партикл на покупку-->
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+			<State><!-- STATE_ACTIVE -->
+				<sprite>elephant</sprite>
+				<mask>elephant_3</mask>
+				<position x="793" y="262"/>
+				<block_change_alpha>true</block_change_alpha><!-- если true значит не изменять альфу -->
+				<sound_click>statue_click</sound_click><!-- звук при клике -->
+			</State>
+		</States>
+	</Object>
+	
+</Objects>
+
+<!--
+	STATE_EMPTY,		// начальное состояние( когда не нашли ничего ещё )
+	STATE_BUY,		    // получили статуэтку интерьера
+	STATE_REVIVE,		// оживление интерьера
+	STATE_ACTIVE,		// активное состояние интерьера
+	STATE_CLICK			// если кликнули по питомцу
+
+	* все теги стейта  *
+
+	<State>
+		<type>INVENTORY</sprite>				// тип INVENTORY - инвентарный, по умолчанию находится на экране
+		<sprite>dog</sprite>				// спрайт
+		<mask>dog</mask>					// маска для клика( если нет, то используется спрайт )
+		<position x="100" y="100"/>				// позиция
+		<movie>bg_001_bow</movie>				// ролик
+		<particle x="640" y="400">boudoir_vitrage</particle>  // партикл
+	</State>
+
+	может в стейте использоватся всё, что есть, но определяется конец стейта тогда, когда закончились анимация и ролик
+-->

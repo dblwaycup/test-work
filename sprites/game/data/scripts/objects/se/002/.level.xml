@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<Scene>
+	<fields size="1">
+		<field>
+			<objects size="34">
+				<object>
+					<name>002_f_bush_elef</name>
+					<position x="999" y="504" />
+				</object>
+				<object>
+					<name>002_thing1</name>
+					<position x="317" y="158" />
+				</object>
+				<object>
+					<name>002_thing2</name>
+					<position x="339" y="134" />
+				</object>
+				<object>
+					<name>002_f_diary</name>
+					<position x="423" y="487" />
+				</object>
+				<object>
+					<name>002_f_map</name>
+					<position x="426" y="484" />
+				</object>
+				<object>
+					<name>002_f_nails</name>
+					<position x="433" y="450" />
+				</object>
+				<object>
+					<name>002_eye</name>
+					<position x="367" y="470" />
+				</object>
+				<object>
+					<name>002_f_ball</name>
+					<position x="668" y="412" />
+				</object>
+				<object>
+					<name>002_f_beetle</name>
+					<position x="629" y="435" />
+				</object>
+				<object>
+					<name>002_f_book</name>
+					<position x="349" y="469" />
+				</object>
+				<object>
+					<name>002_f_butterfly</name>
+					<position x="676" y="391" />
+				</object>
+				<object>
+					<name>002_f_elastic</name>
+					<position x="694" y="435" />
+				</object>
+				<object>
+					<name>002_f_flower1</name>
+					<position x="-10" y="-10" />
+				</object>
+				<object>
+					<name>002_f_henna</name>
+					<position x="450" y="471" />
+				</object>
+				<object>
+					<name>002_f_lianes</name>
+					<position x="1037" y="0" />
+				</object>
+				<object>
+					<name>002_f_lisard</name>
+					<position x="343" y="465" />
+				</object>
+				<object>
+					<name>002_f_sky</name>
+					<position x="0" y="0" />
+				</object>
+				<object>
+					<name>002_f_stairs</name>
+					<position x="604" y="375" />
+				</object>
+				<object>
+					<name>002_f_water</name>
+					<position x="436" y="469" />
+				</object>
+				<object>
+					<name>002_f_sticks</name>
+					<position x="160" y="133" />
+				</object>
+				<object>
+					<name>002_f_palm</name>
+					<position x="603" y="97" />
+				</object>
+				<object>
+					<name>002_f_statue</name>
+					<position x="446" y="248" />
+				</object>
+				<object>
+					<name>002_f_elephant</name>
+					<position x="625" y="315" />
+				</object>
+				<object>
+					<name>002_f_flower</name>
+					<position x="-2" y="458" />
+				</object>
+				<object>
+					<name>002_f_pass</name>
+					<position x="453" y="180" />
+				</object>
+				<object>
+					<name>002_f_flowers</name>
+					<position x="-2" y="362" />
+				</object>
+				<object>
+					<name>002_f_flower_right</name>
+					<position x="1015" y="571" />
+				</object>
+				<object>
+					<name>002_monkey</name>
+					<position x="973" y="407" />
+				</object>
+				<object>
+					<name>002_for_tutorial</name>
+					<position x="0" y="0" />
+				</object>
+				<object>
+					<name>002_extra_magic</name>
+					<position x="434" y="338" />
+				</object>
+				<object>
+					<name>002_task</name>
+					<position x="0" y="0" />
+				</object>
+				<object>
+					<name>002_bonfire</name>
+					<position x="308" y="423" />
+				</object>
+				<object>
+					<name>002_road</name>
+					<position x="460" y="239" />
+				</object>
+				<object>
+					<name>002_shawl</name>
+					<position x="604" y="375" />
+				</object>
+				<object>
+					<name>002_tent</name>
+					<position x="874" y="223" />
+				</object>
+				<object>
+					<name>002_tree</name>
+					<position x="113" y="18" />
+				</object>
+				<object>
+					<name>002_elephant</name>
+					<position x="605" y="311" />
+				</object>
+				<object>
+					<name>002_dlg_elephant</name>
+					<position x="0" y="0" />
+				</object>
+				<object>
+					<name>002_dark</name>
+					<position x="0" y="0" />
+				</object>
+				<object>
+					<name>002_frog</name>
+					<position x="555" y="595" />
+				</object>
+				<object>
+					<name>002_fx_elephant</name>
+					<position x="0" y="0" />
+				</object>
+				<object>
+					<name>002_fx_light</name>
+					<position x="640" y="400" />
+					<resource>002_fx_light</resource>
+					<layer>49</layer>
+					<type>6</type>
+				</object>
+			</objects>
+		</field>
+	</fields>
+</Scene>

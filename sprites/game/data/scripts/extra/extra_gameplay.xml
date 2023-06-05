@@ -1,0 +1,17 @@
+<?xml version="1.0" ?> 
+<Group type="ET_EXTRA_GAMEPLAY" enabled="1" disabled_image_spt_name="spt_conceptart_disable">
+	<element id="0"
+			 enabled="0"
+			 spt_name="spt_extra_play"
+			 spt_name_disabled="spt_extra_play_dis"
+			 enable_dialog="1"
+			 on_enable_dialog_text="wallpaper_opened"
+			 game_end_dlg="ExtraGameplayFinishedDialog"
+			 game_end_dlg_in_scene="escAuthorizeScene"
+			 location="CE">
+		<open_dialog_params>
+			<open_in_scene>escAuthorizeScene</open_in_scene>
+			<image_spt_name>spt_end_standart_edition_bg</image_spt_name>
+		</open_dialog_params>
+	</element>
+</Group>

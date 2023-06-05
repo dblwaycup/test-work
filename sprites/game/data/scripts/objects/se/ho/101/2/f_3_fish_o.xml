@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_2_f_3_fish_o</name>
+	<name_desc>ho_101_2_f_3_fish_o</name_desc>
+	<type>ho_101_2_f_3_fish_o</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_2_f_3_fish_o</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>ho_101_2_f_3_fish_o</sprite>
+			<dialog_activate>bbt_ho_101_2_f_3_fish</dialog_activate>
+			<active_obj>1</active_obj>
+			<iterate_obj>1</iterate_obj>
+			<inventory_cast_obj>ho_101_2_f_3_fish_o_part</inventory_cast_obj>
+			<cursor>spt_cursor_arrow-shest</cursor>
+			<fast_iterate>1</fast_iterate>
+			<translate_movie>101_f_3_fish_o</translate_movie>
+		</state>
+		<state>
+			<event>END_MOVIE</event>
+			<event_parameters>101_f_3_fish_o</event_parameters>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_2_f_3_fish</type>
+                </object>
+				<object>
+                    <type>ho_101_f_3_fish_o</type>
+                </object>
+				<object>
+                    <type>ho_101_f_3_fish_o_part</type>
+                </object>
+            </iterated_objects>
+		</state>
+		<state>
+		</state>
+	</states>
+	<layer>770</layer>
+</object>

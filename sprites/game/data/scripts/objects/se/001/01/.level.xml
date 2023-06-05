@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Scene>
+	<fields size="1">
+		<field>
+			<objects size="2">
+				<object>
+					<name>001_01_monkey</name>
+					<position x="108" y="126" />
+				</object>
+				<object>
+					<name>001_01_hook</name>
+					<position x="154" y="257" />
+				</object>
+				<object>
+					<name>001_01_carpet</name>
+					<position x="-150" y="105" />
+				</object>
+				<object>
+					<name>001_01_curtain</name>
+					<position x="0" y="0" />
+				</object>
+			</objects>
+		</field>
+	</fields>
+</Scene>

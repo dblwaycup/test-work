@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_01_monkey</name>
+    <name_desc>001_01_monkey</name_desc>
+    <type>001_01_monkey</type>
+    <states size="1">
+        <state>
+            <movie>001_01_monkey_idle</movie>
+            <mask_sprite>001_01_monkey_mask</mask_sprite>
+            <mode>MoviePlay</mode>
+            <mode_param>001_01_monkey_click</mode_param>   
+            <cursor>spt_cursor_arrow_question</cursor>
+            <dialog_activate>bbt_001_01_monkey</dialog_activate>
+        </state>
+    </states>
+    <layer>10</layer>
+</object>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<object>
+	<name>001_01_carpet</name>
+	<name_desc>001_01_carpet</name_desc>
+	<type>001_01_carpet</type>
+	<states size="1">
+		<state>
+			<sprite>001_01_carpet</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>5</layer>
+</object>

@@ -1,0 +1,2599 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<sprites>
+				<spt>back_more_games</spt>
+			</sprites>
+			<filter>always</filter>
+		</ctrl>
+
+	<!-- begin render -->
+		<ctrl>
+			<name>begin_render_clip</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1000</id>
+			<filter>always</filter>
+		</ctrl>
+		
+	<!-- title buttons -->	
+		<ctrl>
+			<name>cc_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>159</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc_title</spt>
+				<spt>preview_cc_title</spt>
+				<spt>preview_cc_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>cc</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>-260</min_scroll><!-- на сколько скролить внутри кнопки -->
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>sc_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>158</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_sc_title</spt>
+				<spt>preview_sc_title</spt>
+				<spt>preview_sc_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>sc</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>0</min_scroll>
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>sl_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>157</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_sl_title</spt>
+				<spt>preview_sl_title</spt>
+				<spt>preview_sl_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>sl</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>0</min_scroll>
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>fe_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>156</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_fe_title</spt>
+				<spt>preview_fe_title</spt>
+				<spt>preview_fe_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>fe</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>0</min_scroll><!-- на сколько скролить внутри кнопки -->
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>hn_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>155</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_hn_title</spt>
+				<spt>preview_hn_title</spt>
+				<spt>preview_hn_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>hn</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>0</min_scroll>
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>ch_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>154</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ch_title</spt>
+				<spt>preview_ch_title</spt>
+				<spt>preview_ch_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>ch</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>0</min_scroll>
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>dr_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>153</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr_title</spt>
+				<spt>preview_dr_title</spt>
+				<spt>preview_dr_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>dr</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>-360</min_scroll>
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>mt_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>152</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt_title</spt>
+				<spt>preview_mt_title</spt>
+				<spt>preview_mt_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>mt</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>-360</min_scroll>
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>ek_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>151</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ek_title</spt>
+				<spt>preview_ek_title</spt>
+				<spt>preview_ek_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>ek</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>0</min_scroll>
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>tcs_title_btn</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>150</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_tcs_title</spt>
+				<spt>preview_tcs_title</spt>
+				<spt>preview_tcs_title</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="btn_show_more">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<FilterButton>tcs</FilterButton>
+            <filter>Main</filter>
+            <min_scroll>0</min_scroll>
+			<scrollable>1</scrollable>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+	<!-- fatal evidence -->	
+		<ctrl>
+			<name>button_fe1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>160</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_fe1</spt>
+				<spt>preview_fe1</spt>
+				<spt>preview_fe1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>fe</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15161/fatal-evidence-the-cursed-island-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+	<!-- halloween chronicles -->	
+		<ctrl>
+			<name>button_hn2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>80</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_hn2</spt>
+				<spt>preview_hn2</spt>
+				<spt>preview_hn2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+
+			</btn_text>
+			<filter>hn</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15249/halloween-chronicles-evil-behind-mask-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		<ctrl>
+			<name>button_hn1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>140</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_hn1</spt>
+				<spt>preview_hn1</spt>
+				<spt>preview_hn1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>hn</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/14410/halloween-chronicles-monsters-among-us-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+	<!-- spirit legends -->
+		<ctrl>
+			<name>button_sl3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>122</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_sl3</spt>
+				<spt>preview_sl3</spt>
+				<spt>preview_sl3</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>sl</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/18430/spirit-legends-time-for-change-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>		
+		<ctrl>
+			<name>button_sl2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>121</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_sl2</spt>
+				<spt>preview_sl2</spt>
+				<spt>preview_sl2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>sl</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15167/spirit-legends-solar-eclipse-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>button_sl1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>120</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_sl1</spt>
+				<spt>preview_sl1</spt>
+				<spt>preview_sl1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>sl</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15087/spirit-legends-forest-wraith-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+	<!-- labyrinths of the world -->
+		<ctrl>
+			<name>button_cc10</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>99</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc10</spt>
+				<spt>preview_cc10</spt>
+				<spt>preview_cc10</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="103" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15205/labyrinths-world-fools-gold-ce</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>button_cc9</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>98</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc9</spt>
+				<spt>preview_cc9</spt>
+				<spt>preview_cc9</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15102/labyrinths-of-the-world-lost-island-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>button_cc8</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>97</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc8</spt>
+				<spt>preview_cc8</spt>
+				<spt>preview_cc8</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/14314/labyrinths-of-the-world-worlds-collide-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>button_cc7</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>96</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc7</spt>
+				<spt>preview_cc7</spt>
+				<spt>preview_cc7</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/11986/labyrinths-of-the-world-a-dangerous-game-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>button_cc6</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>95</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc6</spt>
+				<spt>preview_cc6</spt>
+				<spt>preview_cc6</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11775/labyrinths-of-the-world-the-devils-tower-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>button_cc5</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>94</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc5</spt>
+				<spt>preview_cc5</spt>
+				<spt>preview_cc5</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11679/labyrinths-of-the-world-easter-island-ce</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_cc4</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>93</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc4</spt>
+				<spt>preview_cc4</spt>
+				<spt>preview_cc4</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11546/labyrinths-of-the-world-stonehenge-legend-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_cc3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>92</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc3</spt>
+				<spt>preview_cc3</spt>
+				<spt>preview_cc3</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11350/labyrinths-of-the-world-changing-the-past-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_cc2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>91</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc2</spt>
+				<spt>preview_cc2</spt>
+				<spt>preview_cc2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11181/labyrinths-of-the-world-forbidden-muse-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_cc1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>90</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_cc1</spt>
+				<spt>preview_cc1</spt>
+				<spt>preview_cc1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>cc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/8325/labyrinths-of-the-world-shattered-soul-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	<!-- dark romance -->	
+		<ctrl>
+			<name>button_dr11</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>70</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr11</spt>
+				<spt>preview_dr11</spt>
+				<spt>preview_dr11</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15215/dark-romance-ethereal-gardens-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		<ctrl>
+			<name>button_dr10</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>69</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr10</spt>
+				<spt>preview_dr10</spt>
+				<spt>preview_dr10</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15121/dark-romance-hunchback-notre-dame-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+
+		<ctrl>
+			<name>button_dr9</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>68</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr9</spt>
+				<spt>preview_dr9</spt>
+				<spt>preview_dr9</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/14336/dark-romance-a-performance-to-die-for-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>button_dr8</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>67</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr8</spt>
+				<spt>preview_dr8</spt>
+				<spt>preview_dr8</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/11996/dark-romance-winter-lily-collectors-edition/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+	
+		<ctrl>
+			<name>button_dr7</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>66</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr7</spt>
+				<spt>preview_dr7</spt>
+				<spt>preview_dr7</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11884/dark-romance-the-monster-within-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>button_dr6</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>65</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr6</spt>
+				<spt>preview_dr6</spt>
+				<spt>preview_dr6</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11721/dark-romance-romeo-and-juliet-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_dr5</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>64</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr5</spt>
+				<spt>preview_dr5</spt>
+				<spt>preview_dr5</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11595/dark-romance-curse-of-bluebeard-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_dr4</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>63</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr4</spt>
+				<spt>preview_dr4</spt>
+				<spt>preview_dr4</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11441/dark-romance-kingdom-of-death-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_dr3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>62</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr3</spt>
+				<spt>preview_dr3</spt>
+				<spt>preview_dr3</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/8973/dark-romance-3-the-swan-sonata-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_dr2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>61</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr2</spt>
+				<spt>preview_dr2</spt>
+				<spt>preview_dr2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11136/dark-romance-heart-of-the-beast-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_dr1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>60</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_dr1</spt>
+				<spt>preview_dr1</spt>
+				<spt>preview_dr1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>dr</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/8736/dark-romance-vampire-in-love-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	<!-- mystery tales -->	
+		<ctrl>
+			<name>button_mt12</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>51</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt12</spt>
+				<spt>preview_mt12</spt>
+				<spt>preview_mt12</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15239/mystery-tales-art-souls-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		<ctrl>
+			<name>button_mt11</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>50</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt11</spt>
+				<spt>preview_mt11</spt>
+				<spt>preview_mt11</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15138/mystery-tales-dealers-choices-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_mt10</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>49</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt10</spt>
+				<spt>preview_mt10</spt>
+				<spt>preview_mt10</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/14382/mystery-tales-the-reel-horror-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_mt9</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>48</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt9</spt>
+				<spt>preview_mt9</spt>
+				<spt>preview_mt9</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/14241/mystery-tales-the-other-side-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_mt8</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>47</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt8</spt>
+				<spt>preview_mt8</spt>
+				<spt>preview_mt8</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/11933/mystery-tales-dangerous-desires-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_mt7</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>46</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt7</spt>
+				<spt>preview_mt7</spt>
+				<spt>preview_mt7</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11822/mystery-tales-the-house-of-others-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_mt6</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>45</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt6</spt>
+				<spt>preview_mt6</spt>
+				<spt>preview_mt6</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11698/mystery-tales-the-hangman-returns-ce</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_mt5</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>44</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt5</spt>
+				<spt>preview_mt5</spt>
+				<spt>preview_mt5</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11581/mystery-tales-eye-of-the-fire-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_mt4</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>43</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt4</spt>
+				<spt>preview_mt4</spt>
+				<spt>preview_mt4</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11386/mystery-tales-her-own-eyes-collectors-edition/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<!-- <ctrl>
+			<name>button_mt3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>42</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt3</spt>
+				<spt>preview_mt3</spt>
+				<spt>preview_mt3</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11263/mystery-tales-alaskan-wild-collectors-edition/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl> -->
+		
+		<ctrl>
+			<name>button_mt2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>41</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt2</spt>
+				<spt>preview_mt2</spt>
+				<spt>preview_mt2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/8497/mystery-tales-the-twilight-world-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>	
+		</ctrl>
+		
+		<ctrl>
+			<name>button_mt1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>40</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_mt1</spt>
+				<spt>preview_mt1</spt>
+				<spt>preview_mt1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>mt</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/7808/mystery-tales-the-lost-hope-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	<!-- enchanted kingdom -->
+		<ctrl>
+			<name>button_ek6</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>25</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ek6</spt>
+				<spt>preview_ek6</spt>
+				<spt>preview_ek6</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+
+			</btn_text>
+			<filter>ek</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15236/enchanted-kingdom-arcadian-backwoods-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		<ctrl>
+			<name>button_ek5</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>24</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ek5</spt>
+				<spt>preview_ek5</spt>
+				<spt>preview_ek5</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>ek</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15130/enchanted-kingdom-descent-elders-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_ek4</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>23</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ek4</spt>
+				<spt>preview_ek4</spt>
+				<spt>preview_ek4</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>ek</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/14360/enchanted-kingdom-fiend-of-darkness-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_ek3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>22</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ek3</spt>
+				<spt>preview_ek3</spt>
+				<spt>preview_ek3</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>ek</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/14211/enchanted-kingdom-fog-of-rivershire-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_ek2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>21</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ek2</spt>
+				<spt>preview_ek2</spt>
+				<spt>preview_ek2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>ek</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11924/enchanted-kingdom-a-strangers-venom-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_ek1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>20</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ek1</spt>
+				<spt>preview_ek1</spt>
+				<spt>preview_ek1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>ek</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11750/enchanted-kingdom-a-dark-seed-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	<!-- the christmas spirit -->	
+		<ctrl>
+			<name>button_ch2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>11</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ch2</spt>
+				<spt>preview_ch2</spt>
+				<spt>preview_ch2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>ch</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/14374/the-christmas-spirit-mother-gooses-untold-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_ch1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>10</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_ch1</spt>
+				<spt>preview_ch1</spt>
+				<spt>preview_ch1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>ch</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/11888/the-christmas-spirit-trouble-in-oz-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	<!-- secret city -->	
+		<ctrl>
+			<name>button_sc3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>6</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_sc3</spt>
+				<spt>preview_sc3</spt>
+				<spt>preview_sc3</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>sc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/15191/secret-city-human-threat-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_sc2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_sc2</spt>
+				<spt>preview_sc2</spt>
+				<spt>preview_sc2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>sc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/18365/secret-city-the-sunken-kingdom-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_sc1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_sc1</spt>
+				<spt>preview_sc1</spt>
+				<spt>preview_sc1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>sc</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>https://www.bigfishgames.com/games/18290/secret-city-london-calling-collectors-edition/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	<!-- the curio society -->	
+		<ctrl>
+			<name>button_tcs3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_tcs3</spt>
+				<spt>preview_tcs3</spt>
+				<spt>preview_tcs3</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>tcs</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11659/the-curio-society-the-thief-of-life-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_tcs2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_tcs2</spt>
+				<spt>preview_tcs2</spt>
+				<spt>preview_tcs2</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>tcs</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11467/the-curio-society-new-order-ce</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_tcs1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<width>366</width>
+			<height>259</height>
+			<sprites>
+				<spt>preview_tcs1</spt>
+				<spt>preview_tcs1</spt>
+				<spt>preview_tcs1</spt>
+			</sprites>
+			<over_btn_sprite>frame_more_games</over_btn_sprite>
+			<over_btn_sprite_pos>0|0</over_btn_sprite_pos>
+			<mask_sprite>frame_mask_more_games</mask_sprite>
+			<btn_text token="gui_cmn_btn_play_now">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-4" top="99" right="0" bottom="0" />
+			</btn_text>
+			<filter>tcs</filter>
+			<scrollable>1</scrollable>
+			<open_url_link_by_click>http://www.bigfishgames.com/games/11321/the-curio-society-eclipse-over-mesina-ce/</open_url_link_by_click>
+			<press_sound>button_click</press_sound>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	<!-- end render -->
+		<ctrl>
+			<name>end_render_clip</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1001</id>
+			<filter>always</filter>
+		</ctrl>
+		
+	<!-- top bottom -->	
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>200</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>237</height>
+			<sprites>
+				<spt>top_cover</spt>
+			</sprites>
+			<filter>always</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>201</id>
+			<pos x="0" y="758"/>
+			<width>1280</width>
+			<height>42</height>
+			<sprites>
+				<spt>bottom_cover</spt>
+			</sprites>
+			<filter>always</filter>
+		</ctrl>
+
+	<!-- up down -->	
+		<ctrl>
+			<name>button_up</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>202</id>
+			<pos x="1178" y="314"/>
+			<size x="87" y="98"/>
+			<sprites>
+				<spt>btn_up</spt>
+				<spt>btn_up_over</spt>
+				<spt>btn_up_over</spt>
+				<spt>btn_up_over</spt>
+				<spt>btn_up</spt>
+			</sprites>
+			<mask_sprite>btn_down_up_mask</mask_sprite>
+			<filter>always</filter>
+		</ctrl>
+		<ctrl>
+			<name>button_down</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>203</id>
+			<pos x="1178" y="564"/>
+			<size x="87" y="98"/>
+			<sprites>
+				<spt>btn_down</spt>
+				<spt>btn_down_over</spt>
+				<spt>btn_down_over</spt>
+				<spt>btn_down_over</spt>
+				<spt>btn_down</spt>
+			</sprites>
+			<mask_sprite>btn_down_up_mask</mask_sprite>
+			<filter>always</filter>
+		</ctrl>
+
+	<!-- logo -->	
+		<ctrl>
+			<name>logo</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>204</id>
+			<pos x="308" y="-33"/>
+			<width>619</width>
+			<height>327</height>
+			<mask_sprite>logo_mask</mask_sprite>
+			<movies>
+				<instance>
+					<movie>logo_small_idle</movie>
+					<before_draw>true</before_draw>
+					<use_parent_alpha>1</use_parent_alpha><!-- альфа -->
+				</instance>
+			</movies>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>logo_small_click</movie_name>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<movies_max_count>1</movies_max_count>
+				</action>
+			</actions>
+			<filter>Main</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_cc</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>205</id>
+			<pos x="308" y="-33"/>
+			<width>568</width>
+			<height>245</height>
+			<movies>
+				<instance>
+					<movie>logo_cc</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>cc</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_dr</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>206</id>
+			<pos x="388" y="-23"/>
+			<width>508</width>
+			<height>330</height>
+			<movies>
+				<instance>
+					<movie>logo_dr</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>dr</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_mt</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>207</id>
+			<pos x="416" y="-29"/>
+			<width>394</width>
+			<height>358</height>
+			<movies>
+				<instance>
+					<movie>logo_mt</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>mt</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_ek</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>208</id>
+			<pos x="359" y="-25"/>
+			<width>486</width>
+			<height>259</height>
+			<movies>
+				<instance>
+					<movie>logo_ek</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>ek</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_ch</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>209</id>
+			<pos x="433" y="-10"/>
+			<width>305</width>
+			<height>218</height>
+			<movies>
+				<instance>
+					<movie>logo_ch</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>ch</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_sc</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>210</id>
+			<pos x="427" y="3"/>
+			<width>379</width>
+			<height>246</height>
+			<movies>
+				<instance>
+					<movie>logo_sc</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>sc</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_tcs</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>211</id>
+			<pos x="405" y="-40"/>
+			<width>325</width>
+			<height>235</height>
+			<movies>
+				<instance>
+					<movie>logo_tcs</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>tcs</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_hn</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>212</id>
+			<pos x="331" y="-5"/>
+			<width>644</width>
+			<height>308</height>
+			<movies>
+				<instance>
+					<movie>logo_hn</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>hn</filter>
+		</ctrl>
+		
+		<ctrl>
+			<name>logo_sl</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>213</id>
+			<pos x="268" y="5"/>
+			<width>644</width>
+			<height>308</height>
+			<movies>
+				<instance>
+					<movie>logo_sl</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>sl</filter>
+		</ctrl>
+
+		<ctrl>
+			<name>logo_fe</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>214</id>
+			<pos x="405" y="-13"/>
+			<width>406</width>
+			<height>287</height>
+			<movies>
+				<instance>
+					<movie>logo_fe</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<filter>fe</filter>
+		</ctrl>
+
+	<!-- buttons cancel -->
+		<ctrl>
+			<name>button_cancel</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>230</id>
+			<pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<filter>Main</filter>
+		</ctrl>
+		
+		<ctrl>
+            <name>button_cancel_cc</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>231</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>cc</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+		<ctrl>
+            <name>button_cancel_dr</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>232</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>dr</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+		<ctrl>
+            <name>button_cancel_mt</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>234</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>mt</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+		<ctrl>
+            <name>button_cancel_ek</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>235</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>ek</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+		<ctrl>
+            <name>button_cancel_ch</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>236</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>ch</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+		<ctrl>
+            <name>button_cancel_sc</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>237</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>sc</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+		<ctrl>
+            <name>button_cancel_tcs</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>238</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>tcs</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+		<ctrl>
+            <name>button_cancel_hn</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>239</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>hn</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+		<ctrl>
+            <name>button_cancel_sl</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>240</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>sl</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+
+		<ctrl>
+            <name>button_cancel_fe</name>
+            <type>Button</type>
+            <enable>1</enable>
+            <visible>0</visible>
+            <subtype>box</subtype>
+            <id>241</id>
+           <pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+            <sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+            <tutorial_ignore>1</tutorial_ignore>
+            <FilterButton>Main</FilterButton>
+            <filter>fe</filter>
+			<min_scroll>-300</min_scroll>
+        </ctrl>
+		
+	</ctrls>
+</gui>

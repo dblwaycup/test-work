@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Scene>
+	<fields size="1">
+		<field>
+			<objects size="8">
+				<!-- <object>
+                    <name>001_03_forceps</name>
+                    <position x="315" y="190" />
+                </object> -->
+				<object>
+					<name>001_03_bowl</name>
+					<position x="172" y="0" />
+				</object>
+				<object>
+					<name>001_03_casket</name>
+					<position x="0" y="255" />
+				</object>
+				<object>
+					<name>001_03_backpack</name>
+					<position x="-68" y="41" />
+				</object>
+				<object>
+					<name>001_03_saucer</name>
+					<position x="229" y="173" />
+				</object>
+				<object>
+					<name>001_03_feather2</name>
+					<position x="275" y="276" />
+				</object>
+				<object>
+					<name>001_03_purse</name>
+					<position x="-16" y="308" />
+				</object>
+				<object>
+					<name>001_03_task</name>
+					<position x="-22" y="110" />
+				</object>
+				<object>
+					<name>001_03_fx_fire</name>
+					<position x="0" y="0" />
+				</object>
+				<object>
+					<name>001_03_fx_smoke</name>
+					<position x="0" y="0" />
+				</object>
+				<object>
+					<name>001_03_name</name>
+					<position x="-50" y="395" />
+				</object>
+			</objects>
+		</field>
+	</fields>
+</Scene>

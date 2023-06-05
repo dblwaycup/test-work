@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<Scene template="dialog">
+	<life_time>4000</life_time>
+	<activate_bbt>bbt_002_01_dlg_elephant</activate_bbt>
+	<black_alpha_max>0</black_alpha_max>
+	<common_alpha_coeff>50000</common_alpha_coeff>
+	<common_alpha_coeff_dis>-1</common_alpha_coeff_dis>
+	<start_music_after_end>track2_mus</start_music_after_end>
+    <hide_gui_element_by_name>task_state_panel</hide_gui_element_by_name>
+	<Layers size="1">
+
+		<Layer>
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<loop>1</loop>
+			<sound>
+				<life_time>99999</life_time>
+				<name>ad_dialog_mus</name>
+				<loop>1</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+			</sound>
+		</Layer>		
+
+
+	<!-- ******************************* movie ******************************* -->
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/talk1.flv</movie_avi>
+			<create_anim_position x="290" y="-84" />
+			<enable_time>0</enable_time>
+			<life_time>16.125</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/elephant_idle.flv</movie_avi>
+			<create_anim_position x="290" y="-84" />
+			<enable_time>16.125</enable_time>
+			<life_time>4000</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/monkey_idle.flv</movie_avi>
+			<create_anim_position x="707" y="207" />
+			<enable_time>0</enable_time>
+			<life_time>1000</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>	
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/talk2.flv</movie_avi>
+			<create_anim_position x="707" y="207" />
+			<enable_time>1000</enable_time>
+			<life_time>9.375</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/monkey_idle.flv</movie_avi>
+			<create_anim_position x="707" y="207" />
+			<enable_time>1009.375</enable_time>
+			<life_time>990.625</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/talk3.flv</movie_avi>
+			<create_anim_position x="707" y="207" />
+			<enable_time>2000</enable_time>
+			<life_time>6.541</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/monkey_idle.flv</movie_avi>
+			<create_anim_position x="707" y="207" />
+			<enable_time>2006.541</enable_time>
+			<life_time>993.459</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/talk4.flv</movie_avi>
+			<create_anim_position x="707" y="207" />
+			<enable_time>3000</enable_time>
+			<life_time>3.625</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_01_dlg_elephant/monkey_idle.flv</movie_avi>
+			<create_anim_position x="707" y="207" />
+			<enable_time>3003.625</enable_time>
+			<life_time>996.375</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+
+	<!-- ******************************* panels ******************************* -->		
+    	<Layer>
+			<show_gui>dialog_interface</show_gui>
+			<enable_time>0</enable_time>
+			<life_time>4000</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>0</alpha_disable_coeff>
+		</Layer>
+		
+	<!-- ******************************* text ******************************* -->
+		<Layer>
+			<parent>1</parent>
+			<enable_time>0</enable_time>
+			<life_time>1000</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>002_01_dlg_elephant</default_resource_text>
+			<click_to_continue>true</click_to_continue>
+			<sound>
+				<name>002_01_dlg_elephant_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+		<Layer>
+			<parent>1</parent>
+			<enable_time>1000</enable_time>
+			<life_time>1000</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>002_01_dlg_elephant_2</default_resource_text>
+			<click_to_continue>true</click_to_continue>
+			<sound>
+				<name>002_01_dlg_elephant_2_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+		<Layer>
+			<parent>1</parent>
+			<enable_time>2000</enable_time>
+			<life_time>1000</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>002_01_dlg_elephant_3</default_resource_text>
+			<click_to_continue>true</click_to_continue>
+			<sound>
+				<name>002_01_dlg_elephant_3_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+		<Layer>
+			<parent>1</parent>
+			<enable_time>3000</enable_time>
+			<life_time>1000</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>002_01_dlg_elephant_4</default_resource_text>
+			<click_to_continue>true</click_to_continue>
+			<sound>
+				<name>002_01_dlg_elephant_4_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+		
+	</Layers>
+</Scene>

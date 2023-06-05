@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="6">
+                <object>
+                    <name>002_02_stairs</name>
+                    <position x="274" y="120" />
+                </object>
+                <object>
+                    <name>002_02_back</name>
+                    <position x="212" y="133" />
+                </object>
+                <object>
+                    <name>002_02_elastic</name>
+                    <position x="753" y="470" />
+                </object>
+                <object>
+                    <name>002_02_ball</name>
+                    <position x="648" y="347" />
+                </object>
+                <object>
+                    <name>002_02_f_butterfly</name>
+                    <position x="544" y="104" />
+                </object>
+                <object>
+                    <name>002_02_f_beetle</name>
+                    <position x="317" y="471" />
+                </object>
+                <object>
+                    <name>002_02_f_grass</name>
+                    <position x="663" y="247" />
+                </object>
+                <object>
+                    <name>002_02_f_grass1</name>
+                    <position x="544" y="104" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

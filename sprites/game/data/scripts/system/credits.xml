@@ -1,0 +1,233 @@
+<?xml version="1.0" ?> 
+<Credits>
+
+	<!-- так можно сделать что бы рисовать в 2 столбца -->
+	
+	<!-- <text_title>General</text_title> 
+	<text_desc>Ilya Busalaev</text_desc> 
+	<bool_value2>1</bool_value2> Если 1, то значение на той же строчке, что и заголовок
+	<vec_value> дельта значения
+		<x>300</x>
+		<y>0</y>
+	</vec_value> -->
+	
+	<!-- через сколько будет рисоваться след блок -->
+	<!-- <float_value4>50</float_value4> --> <!-- Y DELTA -->
+	
+	<!-- <ctrl_title>big</ctrl_title> -->	<!-- контрол для text_title -->
+	<!-- <ctrl_desc>big</ctrl_desc> -->	<!-- контрол для ctrl_title -->
+
+	<!-- координаты от куда рисуется -->
+	<rect>
+		<left>240</left><!-- левая точка -->
+		<right>800</right><!-- сколько пикселей от левой точки -->
+		<top>40</top><!-- верхняя точка -->
+		<bottom>760</bottom><!-- сколько пикселей от верхней точки -->
+	</rect>
+	
+	<!-- параметры клиппинга -->
+	<rect_clip>
+		<left>140</left><!-- левая точка -->
+		<right>1140</right><!-- правая точка -->
+		<top>0</top><!-- верхняя точка -->
+		<bottom>800</bottom><!-- нижняя точка -->
+	</rect_clip>
+	
+	<params>
+		<int_value>60</int_value> <!-- speed -->
+		<float_value>30</float_value> <!-- Delta Per Token & Text -->
+		<float_value2>60</float_value2> <!-- Delta Per Blocks -->
+		<float_value3>500</float_value3> <!-- alpha speed -->
+	</params>
+	
+	<pair_string_array size="1">
+	
+	<!-- BIG FISH GAMES -->
+		<value>
+			<text_title>title_bfg</text_title> 
+			<ctrl_title>ctrl_title_big</ctrl_title>
+		</value>		
+		
+	<!-- Production Group -->	
+		<value>
+			<text_title>title1</text_title> 
+			<ctrl_title>ctrl_title</ctrl_title>
+			<float_value4>10</float_value4>
+		</value>
+		
+		<value>
+			<text_title>token1_1</text_title> 
+			<text_desc>token1_2</text_desc> 
+			<float_value4>8</float_value4>
+		</value>	
+		<value>
+			<text_title>token1_3</text_title> 
+			<text_desc>token1_4</text_desc> 
+		</value>
+		<value>
+			<text_title>token1_5</text_title> 
+			<text_desc>token1_6</text_desc> 
+		</value>
+
+	<!-- Narrative Design -->	
+		<value>
+			<text_title>title2</text_title> 
+			<ctrl_title>ctrl_title</ctrl_title>
+			<float_value4>10</float_value4>
+		</value>
+		
+		<value>
+			<text_title>token2_1</text_title> 
+			<text_desc>token2_2</text_desc> 
+			<float_value4>8</float_value4>
+		</value>	
+		<value>
+			<text_title>token2_3</text_title> 
+			<text_desc>token2_4</text_desc> 
+		</value>
+		<value>
+			<text_title>token2_5</text_title> 
+			<text_desc>token2_6</text_desc> 
+		</value>
+		<value>
+			<text_title>token2_7</text_title> 
+			<text_desc>token2_8</text_desc> 
+		</value>		
+		<value>
+			<text_title>token2_9</text_title> 
+			<text_desc>token2_10</text_desc> 
+		</value>
+
+	<!-- QA -->	
+		<value>
+			<text_title>title3</text_title> 
+			<ctrl_title>ctrl_title</ctrl_title>
+			<float_value4>10</float_value4>
+		</value>
+		
+		<value>
+			<text_title>token3_1</text_title> 
+			<text_desc>token3_2</text_desc> 
+			<float_value4>8</float_value4>
+		</value>	
+		<value>
+			<text_title>token3_3</text_title> 
+			<text_desc>token3_4</text_desc> 
+		</value>
+		<value>
+			<text_title>token3_5</text_title> 
+			<text_desc>token3_6</text_desc> 
+		</value>
+		<value>
+			<text_title>token3_7</text_title> 
+			<text_desc>token3_8</text_desc> 
+		</value>		
+		<value>
+			<text_title>token3_9</text_title> 
+			<text_desc>token3_10</text_desc> 
+		</value>
+		<value>
+			<text_title>token3_11</text_title> 
+			<text_desc>token3_12</text_desc> 
+		</value>
+		<value>
+			<text_title>token3_13</text_title> 
+			<text_desc>token3_14</text_desc> 
+		</value>
+		
+		
+	<!-- DOMINI GAMES -->
+		<value>
+			<text_title>title4</text_title> 
+			<ctrl_title>ctrl_title_big</ctrl_title>
+			<float_value4>10</float_value4>
+		</value>		
+		
+	<!-- Lead -->
+		<value>
+			<text_title>token4_1</text_title> 
+			<text_desc>token4_2</text_desc> 
+			<float_value4>10</float_value4>
+		</value>	
+		<value>
+			<text_title>token4_3</text_title> 
+			<text_desc>token4_4</text_desc>
+			<float_value4>8</float_value4> 
+		</value>
+		<value>
+			<text_title>token4_5</text_title> 
+			<text_desc>token4_6</text_desc> 
+		</value>
+		<value>
+			<text_title>token4_7</text_title> 
+			<text_desc>token4_8</text_desc> 
+		</value>
+		<value>
+			<text_title>token4_9</text_title> 
+			<text_desc>token4_10</text_desc> 
+		</value>
+		<value>
+			<text_title>token4_11</text_title> 
+			<text_desc>token4_12</text_desc> 
+		</value>
+
+	<!-- level designers -->	
+		<value>
+			<text_title>title5</text_title> 
+			<text_desc>token5_1</text_desc> 
+		</value>
+		
+	<!-- programmers -->	
+		<value>
+			<text_title>title6</text_title> 
+			<text_desc>token6_1</text_desc> 
+		</value>
+		
+	<!-- art -->
+		<value>
+			<text_title>title7</text_title> 
+			<text_desc>token7_1</text_desc> 
+		</value>
+		
+	<!-- anim -->
+		<value>
+			<text_title>title8</text_title> 
+			<text_desc>token8_1</text_desc> 
+		</value>
+		
+	<!-- game designers -->
+		<value>
+			<text_title>title9</text_title> 
+			<text_desc>token9_1</text_desc> 
+		</value>
+		
+	<!-- music -->	
+		<value>
+			<text_title>title10</text_title> 
+			<text_desc>token10_1</text_desc> 
+		</value>
+		
+	<!-- writing -->	
+		<value>
+			<text_title>title11</text_title> 
+			<text_desc>token11_1</text_desc> 
+		</value>
+		
+	<!-- voices -->	
+		<value>
+			<text_title>title12</text_title> 
+			<text_desc>token12_1</text_desc> 
+		</value>
+		
+		<value>
+			<text_title>title13</text_title> 
+			<text_desc>token13_1</text_desc> 
+			<float_value4>50</float_value4>
+		</value>
+		
+		<value>
+			<text_title>token13_2</text_title> 
+		</value>
+
+	</pair_string_array>
+</Credits>

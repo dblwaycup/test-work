@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_beetle</name_desc>
+    <name>002_f_beetle</name>
+    <type>002_f_beetle</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_beetle</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_02_f_beetle|1</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>4</layer>
+</object>

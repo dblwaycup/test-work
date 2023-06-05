@@ -1,0 +1,10 @@
+<?xml version="1.0" ?> 
+<ExtraGroups>
+	<Group path="data/scripts/extra/concept_art.xml"/>
+	<Group path="data/scripts/extra/cutscenes.xml"/>
+	<Group path="data/scripts/extra/extra_gameplay.xml"/>
+	<Group path="data/scripts/extra/free_search.xml"/>
+	<Group path="data/scripts/extra/music.xml"/>
+	<Group path="data/scripts/extra/puzzles.xml"/>
+	<Group path="data/scripts/extra/wallpapers.xml"/>
+</ExtraGroups>

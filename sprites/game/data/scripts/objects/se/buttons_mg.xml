@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<object>
+    <name>buttons_mg</name>
+    <name_desc>buttons_mg</name_desc>
+    <type>buttons_mg</type>
+    <states size="1">
+        <state>
+            <translate_particle>buttons_mg</translate_particle>
+            <translate_particle_offset x="640" y="400"/>
+        </state>
+        <state>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>1</mode_param>
+            <mode_param2>no_block</mode_param2>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>1000</layer>
+</object>

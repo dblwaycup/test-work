@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="354" y="0"/>
+	<ctrls>
+	
+		<ctrl>
+			<name>BackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>585</width>
+			<height>650</height>
+			<sprites>
+				<spt>buy_back</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- image -->
+		<ctrl>
+			<name>MainBackGround</name><!-- обязательное название -->
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>10</id>
+			<pos x="89" y="181"/>
+			<width>405</width>
+			<height>396</height>
+			<sprites>
+				<spt>empty</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- header -->
+		<ctrl>
+			<name>header</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text>extra_boudoir_buy_header</default_text>
+			<id>3</id>
+			<pos x="202" y="88" />
+			<width>189</width>
+			<height>32</height>
+		</ctrl>
+
+	<!-- buy_cost -->	
+		<ctrl>
+			<name>buy_cost</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<font>data/fonts/gui/agopus50.fnt</font>
+			<default_text>buy_cost</default_text>
+			<id>4</id>
+			<pos x="49" y="121" />
+			<width>75</width>
+			<height>74</height>
+		</ctrl>
+
+	<!-- buy_desc -->	
+		<ctrl>
+			<name>buy_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text>extra_boudoir_buy_desc</default_text>
+			<id>5</id>
+			<pos x="122" y="550"/>
+			<width>340</width>
+			<height>40</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>Button_Buy</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>20</id>
+				<pos x="205" y="604"/>
+			<width>169</width>	
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="gui_cmn_btn_accept">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="1" right="0" bottom="0" />
+			</btn_text>
+			
+		</ctrl>
+		
+		<ctrl>
+			<name>Button_Close</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="522" y="101"/>
+			<width>169</width>
+			<height>46</height>
+			<sprites>
+				<spt>btn_close</spt>
+				<spt>btn_close_over</spt>
+				<spt>btn_close_over</spt>
+			</sprites>
+			<mask_sprite>btn_close_mask</mask_sprite>			
+		</ctrl>
+
+	</ctrls>
+</gui>

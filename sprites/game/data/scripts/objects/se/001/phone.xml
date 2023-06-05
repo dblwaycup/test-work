@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_phone</name>
+    <name_desc>001_phone</name_desc>
+    <type>001_phone</type>
+    <states size="1">
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_cs_intro</event_parameters>
+            <tweens_defined>
+                <tween>
+                    <type>transform</type>
+                    <name>001_phone</name>
+                </tween>
+            </tweens_defined>
+        </state>
+        <state>
+            <movie>001_phone_idle</movie>
+            <mask_sprite>001_phone_mask</mask_sprite>
+            <event>TRANSLATE_TWEEN_END</event>
+            <event_parameters>001_phone</event_parameters>
+        </state>
+        <state>
+            <movie>001_phone_idle</movie>
+            <mask_sprite>001_phone_mask</mask_sprite>
+            <cursor>spt_cursor_hand-finger</cursor>
+            <mode>Click</mode>
+            <hint_delta x="1" y="40"/>
+            <translate_movie>001_phone_slide</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_phone_slide</event_parameters>
+			<mask_sprite>001_phone_mask</mask_sprite>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_dlg_margaret</event_parameters>
+			<mask_sprite>001_phone_mask</mask_sprite>
+        </state>
+        <state>
+            <sprite>001_phone3</sprite>
+            <mask_sprite>001_phone_mask</mask_sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0</mode_param>
+            <tweens_transformations size="1">
+                <queue size="1">
+                    <transform>
+                        <delay>0</delay>
+                        <duration>1000</duration> <!-- time in ms -->
+                        <type>position</type> <!-- scale, position, rotation, alpha -->
+                        <param1>0</param1>
+                        <param2>700</param2>
+                        <param3>1</param3> <!-- is local -->
+                        <type_int>ease_inOutQuad</type_int>
+                    </transform>
+                </queue>
+                <queue size="1">
+                    <transform>
+                        <delay>0</delay>
+                        <duration>0</duration>
+                        <type>rotation</type>
+                        <param1>0</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>950</duration>
+                        <type>rotation</type>
+                        <param1>-1</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                </queue>
+            </tweens_transformations> 	   
+        </state>
+        <state>
+            <sprite>001_phone3</sprite>
+            <mask_sprite>001_phone_mask</mask_sprite>
+        </state>
+    </states>
+    <anchor x="166" y="650"/>
+    <layer>150</layer>
+</object>

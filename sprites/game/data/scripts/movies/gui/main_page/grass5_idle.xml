@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>999999999</life_time>
+	<Layers size="1">
+		<Layer>
+			<resource>data/sprites/gui/authorizeinterface/grass5.png</resource>
+			<create_position x="0" y="0" />
+			<hot_spot>1</hot_spot>
+			<hot_spot_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>99999999</life_time>
+			<alpha_enable_coeff>500000</alpha_enable_coeff>
+			<alpha_disable_coeff>500000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+			<!-- <tweens_loop size="1">
+				<queue size="1">
+					<transform>
+                        <delay>0</delay>
+                        <duration>2999</duration>
+                        <type>rotation</type>
+                        <param1>-0.029</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>2599</duration>
+                        <type>rotation</type>
+                        <param1>0.025</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+				</queue>
+			</tweens_loop> -->
+			<loop>1</loop>
+		</Layer>
+	</Layers>
+</Scene>

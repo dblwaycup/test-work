@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<sprites>
+				<spt>statuettes_back</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>stone_bear</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>12</id>
+			<pos x="600" y="378"/>
+			<size x="203" y="194"/>
+			<sprites>
+				<spt>stone_bear</spt>
+				<spt>stone_bear_3</spt>
+				<spt>stone_bear_3</spt>
+				<spt>stone_bear_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>stone_bear_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_stone_bear_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>civetta</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>13</id>
+			<pos x="289" y="27"/>
+			<size x="236" y="186"/>
+			<sprites>
+				<spt>civetta</spt>
+				<spt>civetta_3</spt>
+				<spt>civetta_3</spt>
+				<spt>civetta_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>civetta_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_civetta_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>crokodile</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>14</id>
+			<pos x="445" y="0"/>
+			<size x="210" y="228"/>
+			<sprites>
+				<spt>crokodile</spt>
+				<spt>crokodile_3</spt>
+				<spt>crokodile_3</spt>
+				<spt>crokodile_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>crokodile_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_crokodile_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>deer</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>15</id>
+			<pos x="479" y="557"/>
+			<size x="226" y="234"/>
+			<sprites>
+				<spt>deer</spt>
+				<spt>deer_3</spt>
+				<spt>deer_3</spt>
+				<spt>deer_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>deer_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_deer_title</tooltip>
+		</ctrl>
+
+		<ctrl>
+			<name>stone_elephant</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>16</id>
+			<pos x="772" y="388"/>
+			<size x="301" y="242"/>
+			<sprites>
+				<spt>stone_elephant</spt>
+				<spt>stone_elephant_3</spt>
+				<spt>stone_elephant_3</spt>
+				<spt>stone_elephant_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>stone_elephant_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_stone_elephant_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>hawk</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>17</id>
+			<pos x="213" y="308"/>
+			<size x="238" y="269"/>
+			<sprites>
+				<spt>hawk</spt>
+				<spt>hawk_3</spt>
+				<spt>hawk_3</spt>
+				<spt>hawk_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>hawk_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_hawk_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>hyaena</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>18</id>
+			<pos x="307" y="512"/>
+			<size x="220" y="232"/>
+			<sprites>
+				<spt>hyaena</spt>
+				<spt>hyaena_3</spt>
+				<spt>hyaena_3</spt>
+				<spt>hyaena_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>hyaena_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_hyaena_title</tooltip>
+		</ctrl>
+
+		<ctrl>
+			<name>lemur</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>19</id>
+			<pos x="697" y="176"/>
+			<size x="172" y="228"/>
+			<sprites>
+				<spt>lemur</spt>
+				<spt>lemur_3</spt>
+				<spt>lemur_3</spt>
+				<spt>lemur_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>lemur_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_lemur_title</tooltip>
+		</ctrl>
+
+		<ctrl>
+			<name>macho</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>20</id>
+			<pos x="427" y="360"/>
+			<size x="207" y="218"/>
+			<sprites>
+				<spt>macho</spt>
+				<spt>macho_3</spt>
+				<spt>macho_3</spt>
+				<spt>macho_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>macho_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_macho_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>monkey</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>21</id>
+			<pos x="830" y="213"/>
+			<size x="231" y="174"/>
+			<sprites>
+				<spt>monkey</spt>
+				<spt>monkey_3</spt>
+				<spt>monkey_3</spt>
+				<spt>monkey_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>monkey_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_monkey_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>moongak</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>22</id>
+			<pos x="777" y="0"/>
+			<size x="246" y="221"/>
+			<sprites>
+				<spt>moongak</spt>
+				<spt>moongak_3</spt>
+				<spt>moongak_3</spt>
+				<spt>moongak_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>moongak_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_moongak_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>snake</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>23</id>
+			<pos x="220" y="186"/>
+			<size x="332" y="185"/>
+			<sprites>
+				<spt>snake</spt>
+				<spt>snake_3</spt>
+				<spt>snake_3</spt>
+				<spt>snake_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>snake_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_snake_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>stork</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>24</id>
+			<pos x="644" y="0"/>
+			<size x="186" y="233"/>
+			<sprites>
+				<spt>stork</spt>
+				<spt>stork_3</spt>
+				<spt>stork_3</spt>
+				<spt>stork_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>stork_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_stork_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>tiger</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>25</id>
+			<pos x="661" y="552"/>
+			<size x="293" y="235"/>
+			<sprites>
+				<spt>tiger</spt>
+				<spt>tiger_3</spt>
+				<spt>tiger_3</spt>
+				<spt>tiger_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>tiger_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_tiger_title</tooltip>
+		</ctrl>
+		
+		<ctrl>
+			<name>wolf</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>26</id>
+			<pos x="519" y="214"/>
+			<size x="206" y="189"/>
+			<sprites>
+				<spt>wolf</spt>
+				<spt>wolf_3</spt>
+				<spt>wolf_3</spt>
+				<spt>wolf_3</spt>
+				<spt>empty</spt>
+			</sprites>
+			<mask_sprite>wolf_4</mask_sprite>
+			<cursor> </cursor>
+			<tooltip>Dialog_1|extra_statuettes_wolf_title</tooltip>
+		</ctrl>
+
+		<ctrl>
+			<name>fx_light</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>51</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<particles>
+				<instance>
+					<name>artifacts_light</name>
+					<position x="640" y="400"/>
+					<loop>1</loop>
+				</instance>   
+			</particles>
+		</ctrl>
+
+		<ctrl>
+			<name>Close</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="1183" y="20"/>
+			<width>81</width>
+            <height>80</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+		</ctrl>
+
+	</ctrls>
+</gui>

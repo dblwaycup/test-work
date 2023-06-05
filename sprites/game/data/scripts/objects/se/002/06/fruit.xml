@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_06_fruit</name>
+    <name_desc>002_06_fruit</name_desc>
+    <type>002_06_fruit</type>
+    <states size="1">
+        <state>
+            <!-- 002_06_recept -->
+            <blazing_sprite name="002_06_fruit_click" spawn_time="0.5" time_hold="0.5" fade_time="0.5" all_levels="false">
+                <shift_pos x="0" y="0" />
+            </blazing_sprite>
+            <tweens_defined>
+                <tween>
+                    <type>transform</type>
+                    <name>insert_morfo</name>
+                </tween>
+            </tweens_defined>
+        </state>
+        <state>
+            <sprite>002_06_fruit</sprite>
+            <event>TRANSLATE_TWEEN_END</event>
+            <event_parameters>002_06_fruit</event_parameters>
+            <combine_inventory_sprite>inv_002_06_fruit_get</combine_inventory_sprite>
+            <sound_fx>ad_getall</sound_fx>
+        </state>
+        <state>
+            <sprite>002_06_fruit</sprite>
+            <combine_inventory_sprite>inv_002_06_fruit_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>empty</sprite>
+            <speed_iterate>600</speed_iterate>
+        </state>
+    </states>
+    <layer>25</layer>
+</object>

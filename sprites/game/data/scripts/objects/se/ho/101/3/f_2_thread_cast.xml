@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_3_f_2_thread_cast</name>
+	<name_desc>ho_101_3_f_2_thread_cast</name_desc>
+	<type>ho_101_3_f_2_thread_cast</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_3_f_2_thread_cast</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>ho_101_3_f_2_thread_cast</sprite>
+			<mode>ActiveDrag</mode>
+            <drag_obj_press_sound>ad_getall</drag_obj_press_sound>	
+            <mode_param>ho_101_3_f_2_elephant</mode_param>
+            <cursor>spt_cursor_hand</cursor>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_f_2_thread_cast</type>
+                </object>
+            </iterated_objects>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>ho_101_3_f_2_thread_drag</drag_spt>
+	<layer>670</layer>
+</object>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_2_z_butterfly</name>
+	<name_desc>ho_101_2_z_butterfly</name_desc>
+	<type>ho_101_2_z_butterfly</type>
+	<states size="1">
+		<state>
+			<movie>101_z_butterfly</movie>
+			<mask_sprite>empty</mask_sprite>
+			<sound_fx>loop_water_01</sound_fx>
+			<loop_sound>1</loop_sound>
+		</state>
+    </states>
+	<layer>740</layer>
+</object>

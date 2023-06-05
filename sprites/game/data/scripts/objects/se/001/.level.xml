@@ -1,0 +1,193 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="43">
+                <object>
+                    <name>001_zoom</name>
+                    <position x="960" y="0" />
+                </object>
+                <object>
+                    <name>001_window</name>
+                    <position x="559" y="119" />
+                </object>
+                <object>
+                    <name>001_backpack</name>
+                    <position x="386" y="497" />
+                </object>
+                <object>
+                    <name>001_bush</name>
+                    <position x="72" y="305" />
+                </object>
+                <object>
+                    <name>001_f_bag</name>
+                    <position x="604" y="465" />
+                </object>               
+                <object>
+                    <name>001_fx_portal</name>
+                    <position x="428" y="103" />
+                </object>
+                <object>
+                    <name>001_f_backpack</name>
+                    <position x="375" y="521" />
+                </object>
+                <object>
+                    <name>001_f_bench</name>
+                    <position x="236" y="496" />
+                </object>
+                <object>
+                    <name>001_f_bird1</name>
+                    <position x="831" y="191" />
+                </object>
+                <object>
+                    <name>001_f_bird2</name>
+                    <position x="864" y="635" />
+                </object>
+                <object>
+                    <name>001_f_bird3</name>
+                    <position x="339" y="672" />
+                </object>
+                <object>
+                    <name>001_f_bird5</name>
+                    <position x="881" y="201" />
+                </object>
+                <object>
+                    <name>001_f_bottle</name>
+                    <position x="1087" y="454" />
+                </object>
+                <object>
+                    <name>001_f_bowl</name>
+                    <position x="480" y="536" />
+                </object>
+                <object>
+                    <name>001_f_casket</name>
+                    <position x="1014" y="460" />
+                </object>
+                <object>
+                    <name>001_f_casket_bird</name>
+                    <position x="394" y="544" />
+                </object>
+                <object>
+                    <name>001_f_elephant</name>
+                    <position x="1039" y="417" />
+                </object>
+                <object>
+                    <name>001_f_feather1</name>
+                    <position x="1083" y="465" />
+                </object>
+                <object>
+                    <name>001_f_feather2</name>
+                    <position x="488" y="577" />
+                </object>
+                <object>
+                    <name>001_f_fish</name>
+                    <position x="978" y="432" />
+                </object>
+                <object>
+                    <name>001_f_guide</name>
+                    <position x="439" y="355" />
+                </object>
+                <object>
+                    <name>001_f_harish</name>
+                    <position x="598" y="201" />
+                </object>
+                <object>
+                    <name>001_f_hint</name>
+                    <position x="150" y="498" />
+                </object>
+                <object>
+                    <name>001_f_forceps</name>
+                    <position x="150" y="498" />
+                </object> 
+                <object>
+                    <name>001_f_lasso</name>
+                    <position x="498" y="221" />
+                </object>
+                <object>
+                    <name>001_f_lighter</name>
+                    <position x="160" y="543" />
+                </object>
+                <object>
+                    <name>001_f_monkey1</name>
+                    <position x="189" y="436" />
+                </object>
+                <object>
+                    <name>001_f_monkey2</name>
+                    <position x="806" y="332" />
+                </object>
+                <object>
+                    <name>001_f_sky</name>
+                    <position x="0" y="0" />
+                </object>             
+                <object>
+                    <name>001_f_purse</name>
+                    <position x="399" y="564" />
+                </object>
+                <object>
+                    <name>001_f_seller</name>
+                    <position x="1000" y="397" />
+                </object>
+                <object>
+                    <name>001_f_tasks</name>
+                    <position x="401" y="529" />
+                </object>
+                <object>
+                    <name>001_guide</name>
+                    <position x="411" y="317" />
+                </object>
+                <object>
+                    <name>001_signboard</name>
+                    <position x="1078" y="440" />
+                </object>
+                <object>
+                    <name>001_tourists</name>
+                    <position x="346" y="342" />
+                </object>
+                <object>
+                    <name>001_f_curtain</name>
+                    <position x="510" y="168" />
+                </object>
+                <object>
+                    <name>001_tower</name>
+                    <position x="981" y="382" />
+                </object>
+                <object>
+                    <name>001_task</name>
+                    <position x="0" y="0" />
+                </object>
+                <object>
+                    <name>001_dlg_margaret</name>
+                    <position x="0" y="0" />
+                </object>
+                <object>
+                    <name>001_phone</name>
+                    <position x="238" y="150" />
+                </object>
+               
+                <object>
+                    <name>001_fun_lizart</name>
+                    <position x="1080" y="408" />
+                </object>
+                <object>
+                    <name>001_for_tutorial</name>
+                    <position x="0" y="0" />
+                </object>
+                <object>
+                    <name>001_fx_fire</name>
+                    <position x="0" y="0" />
+                </object>
+                <object>
+                    <name>001_fx_smoke</name>
+                    <position x="0" y="0" />
+                </object>
+                 <object>
+                    <name>001_fx_leaves</name>
+                    <position x="640" y="400" />
+                    <resource>001_fx_leaves</resource>
+                    <layer>49</layer>
+                    <type>6</type>
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

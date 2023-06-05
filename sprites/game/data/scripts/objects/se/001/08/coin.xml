@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_08_coin</name>
+	<name_desc>001_08_coin</name_desc>
+    <type>001_08_coin</type>
+    <states size="1">
+        <state>
+		<sprite>001_08_coin</sprite>
+		<mask_sprite>001_08_coin-mask</mask_sprite>
+		<mode>ToInventory</mode>
+        <cursor>spt_cursor_hand</cursor>
+        <hint_delta x="0" y="0"/>
+        </state>
+    <state>
+    </state>	
+    </states>
+      <drag_spt>inv_001_08_coin_drag</drag_spt>><!--перетаскиваемый спрайт-->
+      <window_spt>inv_001_08_coin_get</window_spt>><!--спрайт, отображающийся в инвентаре-->
+      <text_inv_desc>obj_title_001_08_coin</text_inv_desc> <!--текстовое название объекта-->
+      <on_get_title>obj_title_001_08_coin</on_get_title> <!--текстовое название объекта-->
+	  <tween_over_type>inv_icon</tween_over_type>
+    <layer>5</layer>
+</object>

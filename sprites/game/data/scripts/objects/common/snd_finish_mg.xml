@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+что за объект
+	объект содержит общий звук для завершения всех мини-игр и морфов (там, где есть партикл)
+как использовать
+	вставить в _back_after мини-игры
+-->
+<object>
+	<name>cmn_snd_finish_mg</name>
+	<name_desc>cmn_snd_finish_mg</name_desc>
+	<type>cmn_snd_finish_mg</type>
+	<states size="1">
+		<state>
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>0.1</mode_param>
+			<sound_fx>finish_mini</sound_fx>
+		</state>
+		<state></state>
+	</states>
+	<layer>0</layer>
+</object>

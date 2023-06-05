@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<ctrls>
+		
+		<ctrl>
+			<name>border_top</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1</id>
+			<pos x="0" y="0"/>
+			<size x="0" y="0" />
+			<sprites>
+				<spt>border_top</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl>
+			<name>border_bottom</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="0" y="0"/>
+			<size x="0" y="0" />
+			<sprites>
+				<spt>border_bottom</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>border_text</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>3</id>
+			<pos x="0" y="0"/>
+			<sprites>
+				<spt>border_text</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl>
+			<name>default_textbox</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.95</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<id>4</id>
+			<pos x="0" y="0" />
+			<size x="0" y="0" />
+		</ctrl>
+
+		<ctrl>
+			<name>click_to_continue</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="0" y="0"/>
+			<size x="140" y="33" />
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="click_to_continue">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25_yellow.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_yellow_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_yellow.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25_yellow.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+	
+	</ctrls>
+</gui>

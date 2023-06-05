@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_05_puzzle2_on</name>
+    <name_desc>002_05_puzzle2_on</name_desc>
+    <type>002_05_puzzle2_on</type>
+    <states size="1">
+        <state>
+            <event>OBJECT_FLY_END</event>
+			<event_parameters>002_05_puzzle2</event_parameters>
+            <messages>
+                <message name="002_05_cap">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <sprite>002_05_puzzle2_on</sprite>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>45</layer>
+</object>

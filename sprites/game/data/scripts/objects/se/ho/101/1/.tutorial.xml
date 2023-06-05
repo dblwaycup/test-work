@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<hint_behavior>
+	<Blocks size="50">
+		<Block>
+			<steps size="30">
+
+				<step>
+					<type_action>ET_TIME</type_action>
+					<param1>0.1</param1>
+
+					<close_type>ET_COMBINE_DRAG_OBJ</close_type>
+
+					<!-- <param2>ho_101_flower_3_part</param2> -->
+					<!-- <hide_is_match3_play>1</hide_is_match3_play> -->
+
+					<param2>ho_101_1_f_1_magnifier_cast</param2>
+					<param4>ho_101_1_f_1_india</param4>
+					<hide_is_match3_play>1</hide_is_match3_play>
+					<no_exit>1</no_exit>
+					<hint_desc>
+						<back_spt>back_cmn</back_spt>
+						<!-- back tutorial -->
+						<back_positions x="190" y="100" />
+						<text>tutor_ho_controls</text>
+						<!-- text steps -->
+						<skip_button>1</skip_button>
+						<!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button>
+						<!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>130</anim_rotation>
+								<!-- rotation -->
+								<anim_pos x="260" y="170" />
+							</animation>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>90</anim_rotation>
+								<!-- rotation -->
+								<anim_pos x="375" y="60" />
+							</animation>
+
+						</animations>
+					</hint_desc>
+				</step>
+
+			</steps>
+		</Block>
+	</Blocks>
+
+	<!-- непошаговый туториал -->	
+	<CommonHintSteps>
+		<steps>
+
+		</steps>
+	</CommonHintSteps>
+
+</hint_behavior>

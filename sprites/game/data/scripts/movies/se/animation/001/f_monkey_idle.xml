@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>4.041</life_time>	
+	<Layers size="1">
+
+		 <Layer>
+			<movie_avi>data/movies/se/animation/001/01_monkey_idle.flv</movie_avi>
+			<create_anim_position x="11" y="-9" />
+			<virtual_video_size>
+				<x>23</x>
+				<y>40</y>
+			</virtual_video_size>
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer> 
+
+	</Layers>
+</Scene>

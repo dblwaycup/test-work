@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_05_flask</name>
+    <name_desc>001_05_flask</name_desc>
+    <type>001_05_flask</type>
+    <states size="1">
+        <state>
+            <!-- 001_05_cap -->
+        </state>
+        <state>
+            <sprite>001_05_flask</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_05_brochure|4</event_parameters>
+            <combine_inventory_sprite>inv_001_05_flask_1_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>001_05_flask</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <hint_delta x="0" y="0"/>
+            <combine_inventory_sprite>inv_001_05_flask_1_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_001_05_flask_drag</drag_spt>
+    <window_spt>inv_001_05_flask_get</window_spt>
+    <text_inv_desc>obj_title_001_05_flask</text_inv_desc>
+    <on_get_title>obj_title_001_05_flask</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>15</layer>
+</object>

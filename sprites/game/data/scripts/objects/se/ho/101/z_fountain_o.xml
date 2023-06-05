@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_z_fountain_o</name>
+	<name_desc>ho_101_z_fountain_o</name_desc>
+	<type>ho_101_z_fountain_o</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_z_fountain_o</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<sound_fx>loop_water1_01</sound_fx>
+			<loop_sound>1</loop_sound>
+		</state>
+	</states>
+	<layer>75</layer>
+</object>

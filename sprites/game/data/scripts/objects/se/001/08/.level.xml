@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="4">
+                <object>
+                    <name>001_08_object</name>
+                    <position x="0" y="0" />
+                </object>
+                <object>
+                    <name>001_08_key</name>
+                    <position x="0" y="356" />
+                </object>
+				<object>
+                    <name>001_08_casket</name>
+                    <position x="0" y="0" />
+                </object>
+				<object>
+                    <name>001_08_coin</name>
+                    <position x="226" y="262" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

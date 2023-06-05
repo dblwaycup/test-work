@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Group type="ET_CONCEPT_ART" enabled="1" disabled_image_spt_name="conceptart_disable">
+	<element id="0" enabled="1" spt_name="concept_01" spt_name_disabled="concept_01" save_filename="LOTW_TheWildSide_CE_Concept_01.jpg" />
+	<element id="1" enabled="1" spt_name="concept_02" spt_name_disabled="concept_02" save_filename="LOTW_TheWildSide_CE_Concept_02.jpg" />
+	<element id="2" enabled="1" spt_name="concept_03" spt_name_disabled="concept_03" save_filename="LOTW_TheWildSide_CE_Concept_03.jpg" />
+	<element id="3" enabled="1" spt_name="concept_04" spt_name_disabled="concept_04" save_filename="LOTW_TheWildSide_CE_Concept_04.jpg" />
+	<element id="4" enabled="1" spt_name="concept_05" spt_name_disabled="concept_05" save_filename="LOTW_TheWildSide_CE_Concept_05.jpg" />
+	<element id="5" enabled="1" spt_name="concept_06" spt_name_disabled="concept_06" save_filename="LOTW_TheWildSide_CE_Concept_06.jpg" />
+	<element id="6" enabled="1" spt_name="concept_07" spt_name_disabled="concept_07" save_filename="LOTW_TheWildSide_CE_Concept_07.jpg" />
+	<element id="7" enabled="1" spt_name="concept_08" spt_name_disabled="concept_08" save_filename="LOTW_TheWildSide_CE_Concept_08.jpg" />
+	<element id="8" enabled="1" spt_name="concept_09" spt_name_disabled="concept_09" save_filename="LOTW_TheWildSide_CE_Concept_09.jpg" />
+	<element id="9" enabled="1" spt_name="concept_10" spt_name_disabled="concept_10" save_filename="LOTW_TheWildSide_CE_Concept_10.jpg" />
+	<element id="10" enabled="1" spt_name="concept_11" spt_name_disabled="concept_11" save_filename="LOTW_TheWildSide_CE_Concept_11.jpg" />
+	<element id="11" enabled="1" spt_name="concept_12" spt_name_disabled="concept_12" save_filename="LOTW_TheWildSide_CE_Concept_12.jpg" />
+	<element id="12" enabled="1" spt_name="concept_13" spt_name_disabled="concept_13" save_filename="LOTW_TheWildSide_CE_Concept_13.jpg" />
+	<element id="13" enabled="1" spt_name="concept_14" spt_name_disabled="concept_14" save_filename="LOTW_TheWildSide_CE_Concept_14.jpg" />
+	<element id="14" enabled="1" spt_name="concept_15" spt_name_disabled="concept_15" save_filename="LOTW_TheWildSide_CE_Concept_15.jpg" />
+	<element id="15" enabled="1" spt_name="concept_16" spt_name_disabled="concept_16" save_filename="LOTW_TheWildSide_CE_Concept_16.jpg" />
+	<element id="16" enabled="1" spt_name="concept_17" spt_name_disabled="concept_17" save_filename="LOTW_TheWildSide_CE_Concept_17.jpg" />
+	<element id="17" enabled="1" spt_name="concept_18" spt_name_disabled="concept_18" save_filename="LOTW_TheWildSide_CE_Concept_18.jpg" />
+	<element id="18" enabled="1" spt_name="concept_19" spt_name_disabled="concept_19" save_filename="LOTW_TheWildSide_CE_Concept_19.jpg" />
+	<element id="19" enabled="1" spt_name="concept_20" spt_name_disabled="concept_20" save_filename="LOTW_TheWildSide_CE_Concept_20.jpg" />
+</Group>

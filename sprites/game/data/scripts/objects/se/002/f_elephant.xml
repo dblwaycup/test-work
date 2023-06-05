@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_elephant</name_desc>
+    <name>002_f_elephant</name>
+    <type>002_f_elephant</type>
+    <states size="1">
+        <state>
+            <movie>002_f_elephant_idle</movie>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_07_condition|2</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>12</layer>
+</object>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_window</name>
+    <name_desc>001_window</name_desc>
+    <type>001_window</type>
+    <states size="1">
+        <state>
+        </state>
+        <state>
+            <mask_sprite>001_window</mask_sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <hint_delta x="0" y="0"/>
+            <particle>active_object</particle>
+            <particle_pos x="62" y="103"/>
+            <particle_wait_min_limit>2</particle_wait_min_limit>
+            <particle_wait_max_limit>7</particle_wait_max_limit>
+            <particle_fire_min_limit>1</particle_fire_min_limit>
+            <particle_fire_max_limit>1</particle_fire_max_limit>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>9</layer>
+</object>

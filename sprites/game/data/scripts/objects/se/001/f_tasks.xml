@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_tasks</name_desc>
+    <name>001_f_tasks</name>
+    <type>001_f_tasks</type>
+    <states size="1">
+        <state>
+            <sprite>001_f_tasks</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>BEGIN_MOVIE</event>
+            <event_parameters>001_03_tasks_add</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state> 
+    </states>
+    <layer>12</layer>
+</object>

@@ -1,0 +1,673 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="239" y="80"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>805</width>
+			<height>579</height>
+			<sprites>
+				<spt>back_custom</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- title -->
+		<ctrl>
+			<name>text_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text>custom_dialog</default_text>
+			<id>2</id>
+			<pos x="312" y="13" />
+			<width>189</width>
+			<height>32</height>
+		</ctrl>
+
+	<!-- tutorial -->
+		<ctrl>
+			<name>button_tutorial</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>3</id>
+			<pos x="89" y="83"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_tutorial">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- easy mini games -->	
+		<ctrl>
+			<name>button_easy_difficulty_mg</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>4</id>
+			<pos x="433" y="83"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_easy_difficulty_mg">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>	
+		
+	<!-- tutorial only -->	
+		<ctrl>
+			<name>button_tutorial_only_special</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>5</id>
+			<pos x="110" y="129"/>
+			<width>270</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_tutorial_only_special">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- hard mini games -->		
+		<ctrl>
+			<name>button_hard_difficulty_mg</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>6</id>
+			<pos x="433" y="129"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_hard_difficulty_mg">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- sparkless on hop -->	
+		<ctrl>
+			<name>button_sparkles_on_hidden_objects</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>7</id>
+			<pos x="89" y="175"/>
+			<width>290</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_sparkles_on_hidden_objects">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- sparkles on active areas -->
+		<ctrl>
+			<name>button_sparkles_on_active_areas</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>8</id>
+			<pos x="433" y="175"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_sparkles_on_active_areas">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- show help bbt -->	
+		<ctrl>
+			<name>button_show_help_bbt_on_active_zone</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>9</id>
+			<pos x="89" y="221"/>
+			<width>310</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_show_help_bbt">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- icon changes over active areas -->
+		<ctrl>
+			<name>button_change_cursor_on_active_zone</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>10</id>
+			<pos x="433" y="221"/>
+			<width>290</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_change_cursor">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- active task indication -->	
+		<ctrl>
+			<name>button_active_task_indication</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>11</id>
+			<pos x="89" y="267"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_active_task">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>	
+
+	<!-- extra indicator check -->
+		<ctrl>
+			<name>extra_indicator_check</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>12</id>
+			<pos x="433" y="267"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="extra_indicator_check">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- morph indication -->	
+		<ctrl>
+			<name>button_active_morph_indication</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>13</id>
+			<pos x="89" y="313"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_active_morph">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- task panel -->
+		<ctrl>
+			<name>hide_task_panel</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>14</id>
+			<pos x="433" y="313"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="task_panel">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+
+	<!-- blazing sprites active -->		
+		<ctrl>
+			<name>blazing_sprites_active</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>15</id>
+			<pos x="89" y="359"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="blazing_sprite">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+
+	<!-- hint -->
+		<ctrl>
+			<name>button_hint</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>16</id>
+			<pos x="89" y="406"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_hint">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+
+	<!-- skip -->
+		<ctrl>
+			<name>button_skip_puzzle</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>17</id>
+			<pos x="433" y="406"/>
+			<width>260</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="button_skip_puzzle">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+				<text_scale>0.97</text_scale>
+			</btn_text>
+			<special>1</special>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+
+	<!-- status check hint -->	
+		<ctrl>
+			<name>hint_recharge_status_check</name>
+			<type>StatusCheck</type>
+			<ext_path>data/gui/dialogs/custom_difficulty_status.xml</ext_path>
+			<act_but_id>1</act_but_id>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>18</id>
+			<pos x="81" y="453"/>
+			<width>293</width>
+			<height>9</height>
+			<width_edge>8</width_edge>
+			<cur_pos_per>10</cur_pos_per>
+			<sprites>
+				<spt>status</spt>
+			</sprites>
+			<mask_sprite>status_check_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+		<ctrl>
+			<name>hint_recharge_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.97</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text>hint_recharge_desc</default_text>
+			<id>19</id>
+			<pos x="91" y="478" />
+			<width>250</width>
+			<height>29</height>
+		</ctrl>
+		<ctrl>
+			<name>hint_recharge_value_text</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.97</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text></default_text>
+			<id>20</id>
+			<pos x="258" y="478" />
+			<width>30</width>
+			<height>29</height>
+		</ctrl>
+
+	<!-- status check skip -->	
+		<ctrl>
+			<name>skip_recharge_status_check</name>
+			<type>StatusCheck</type>
+			<ext_path>data/gui/dialogs/custom_difficulty_status.xml</ext_path>
+			<act_but_id>1</act_but_id>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>21</id>
+			<pos x="436" y="453"/>
+			<width>293</width>
+			<height>9</height>
+			<width_edge>8</width_edge>
+			<cur_pos_per>10</cur_pos_per>
+			<sprites>
+				<spt>status</spt>
+			</sprites>
+			<mask_sprite>status_check_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+		<ctrl>
+			<name>skip_recharge_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.97</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text>skip_recharge_desc</default_text>
+			<id>22</id>
+			<pos x="456" y="478" />
+			<width>250</width>
+			<height>29</height>
+		</ctrl>
+		<ctrl>
+			<name>skip_puzzle_recharge_value_text</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.97</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text></default_text>
+			<id>23</id>
+			<pos x="623" y="478" />
+			<width>30</width>
+			<height>29</height>
+		</ctrl>
+
+	<!-- btn ok -->	
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="325" y="533"/>
+			<width>169</width>
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="gui_cmn_btn_ok">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+
+	</ctrls>
+</gui>

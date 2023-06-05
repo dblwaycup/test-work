@@ -1,0 +1,1427 @@
+﻿<?xml version="1.0"?>
+<Achievements>
+	<Resources>data/main.res</Resources>
+
+	<!-- "achievements_dialog" - полноэкранный диалог с ачивками в виде прокручиваемого списка  -->
+	<!-- "achiev_dialog" - маленькая плашка ачивки, которая появится при получении ачивки в верхнем левом углу экрана  -->
+
+<!-- hop_no_hints  -->
+	<achievement>	<!-- 1 хидден пройден без хинта -->
+		<name>achievements_hop_no_hints01</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_hop_no_hints01</sprite_icon> <!-- иконка (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<sprite_icon_not_recieved>icon_hop_no_hints01_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>hop_no_hints01_header</desc_name> <!-- название ачивки  -->
+		<desc>hop_no_hints01_desc</desc> <!-- описание ачивки -->
+
+		<!-- параметры для прокручиваемых плашек диалога "achievements_dialog"  -->
+		<!-- смещение для иконки  -->
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>	<!-- 3 хидденов пройдено без хинта -->
+		<name>achievements_hop_no_hints02</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_hop_no_hints02</sprite_icon>
+		<sprite_icon_not_recieved>icon_hop_no_hints02_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+		
+		<desc_name>hop_no_hints02_header</desc_name>
+		<desc>hop_no_hints02_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>	<!-- 5 хидденов пройдено без хинта -->
+		<name>achievements_hop_no_hints03</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_hop_no_hints03</sprite_icon>
+		<sprite_icon_not_recieved>icon_hop_no_hints03_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+		
+		<desc_name>hop_no_hints03_header</desc_name>
+		<desc>hop_no_hints03_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+<!-- hop for time -->
+    <achievement>	<!-- 1 hop for 60sec -->
+        <name>achievements_hop_time01</name>
+        <sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+        <sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+        <sprite_icon>icon_hop_time01</sprite_icon>
+        <sprite_icon_not_recieved>icon_hop_time01_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+        <position>
+            <x>0</x>
+            <y>0</y>
+        </position>
+        <position_offset>
+            <x>0</x>
+            <y>24</y>
+        </position_offset>
+		
+		<desc_name>hop_time_1_60_header</desc_name>
+        <desc>hop_time_1_60_desc</desc>
+
+        <icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+        <desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+        <desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+        <desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+        <desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+        <desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+        <desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+        <desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+        <desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+    </achievement>
+
+    <achievement>	<!-- 3 hop for 60sec -->
+        <name>achievements_hop_time02</name>
+        <sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+        <sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+        <sprite_icon>icon_hop_time02</sprite_icon>
+        <sprite_icon_not_recieved>icon_hop_time02_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+        <position>
+            <x>0</x>
+            <y>0</y>
+        </position>
+        <position_offset>
+            <x>0</x>
+			<y>24</y>
+        </position_offset>
+
+        <desc_name>hop_3_time_60_header</desc_name>
+		<desc>hop_3_time_60_desc</desc>
+
+        <icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+        <desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+        <desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+        <desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+        <desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+        <desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+        <desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+        <desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+        <desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+    </achievement>
+
+    <achievement>	<!-- 5 hop for 60sec -->
+        <name>achievements_hop_time03</name>
+        <sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+        <sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+        <sprite_icon>icon_hop_time03</sprite_icon>
+        <sprite_icon_not_recieved>icon_hop_time03_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+        <position>
+            <x>0</x>
+            <y>0</y>
+        </position>
+        <position_offset>
+            <x>0</x>
+            <y>24</y>
+        </position_offset>
+
+        <desc_name>hop_5_time_60_header</desc_name>
+		<desc>hop_5_time_60_desc</desc>
+
+       <icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+        <desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+        <desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+        <desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+        <desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+        <desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+        <desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+        <desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+        <desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+    </achievement>
+	
+<!-- hop objects -->	
+	<achievement>	<!-- found 100 obj HOP -->
+		<name>achievements_found_100_obj</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_found_100_obj</sprite_icon>
+		<sprite_icon_not_recieved>icon_found_100_obj_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>hop_obj100_header</desc_name>
+		<desc>hop_obj100_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>	<!-- match3 only -->
+		<name>achievements_hop_match3</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_hop_match3</sprite_icon>
+		<sprite_icon_not_recieved>icon_hop_match3_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>hop_match3_header</desc_name>
+		<desc>hop_match3_desc</desc>
+		
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>	<!-- hop_no_misclicks -->
+		<name>achievements_hop_no_misclicks</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_hop_no_misclicks</sprite_icon>
+		<sprite_icon_not_recieved>icon_hop_no_misclicks_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>hop_no_misclicks_header</desc_name>
+		<desc>hop_no_misclicks_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+<!-- mg_no_skip -->
+	<achievement>	<!-- 5 -->
+		<name>achievements_mg_no_skip01</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_mg_no_skip01</sprite_icon>
+		<sprite_icon_not_recieved>icon_mg_no_skip01_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>mg_no_skip01_header</desc_name>
+		<desc>mg_no_skip01_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>	<!-- 10 -->
+		<name>achievements_mg_no_skip02</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_mg_no_skip02</sprite_icon>
+		<sprite_icon_not_recieved>icon_mg_no_skip02_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>mg_no_skip02_header</desc_name>
+		<desc>mg_no_skip02_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+<!-- mg_time -->
+	<achievement>	<!-- solved one game for 60sec -->
+		<name>achievements_mg_time</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_mg_time</sprite_icon>
+		<sprite_icon_not_recieved>icon_mg_time_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>mg_time_header</desc_name>
+		<desc>mg_time_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+<!-- mg_no_info -->
+	<achievement>	<!-- Solve 5 mini-games without turning to Info -->
+		<name>achievements_mg_no_info</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_mg_no_info</sprite_icon>
+		<sprite_icon_not_recieved>icon_mg_no_info_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>mg_no_info_header</desc_name>
+		<desc>mg_no_info_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+<!--hop_time01 -->
+	<achievement>	<!-- Find three hidden objects in three seconds.-->
+		<name>achievements_hop_time04</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_hop_time04</sprite_icon>
+		<sprite_icon_not_recieved>icon_hop_time04_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>lit_gui_extra_achivements_hop_obj_time01_header</desc_name>
+		<desc>lit_gui_extra_achivements_hop_obj_time01_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+<!-- hop_time02 -->
+	<achievement>	<!-- Find five hidden objects in five seconds.-->
+		<name>achievements_hop_time05</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_hop_time05</sprite_icon>
+		<sprite_icon_not_recieved>icon_hop_time05_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>lit_gui_extra_achivements_hop_obj_time02_header</desc_name>
+		<desc>lit_gui_extra_achivements_hop_obj_time02_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+<!-- hop_time03 -->
+	<achievement>	<!-- Find 10 hidden objects in 10 seconds. -->
+		<name>achievements_hop_time06</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_hop_time06</sprite_icon>
+		<sprite_icon_not_recieved>icon_hop_time06_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>lit_gui_extra_achivements_hop_obj_time03_header</desc_name>
+		<desc>lit_gui_extra_achivements_hop_obj_time03_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+<!-- extra1 -->
+	<achievement>	<!-- Collect all the medallions. -->
+		<name>achievements_misc_medalions</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_misc_medalions</sprite_icon>
+		<sprite_icon_not_recieved>icon_misc_medalions_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>lit_gui_extra_achivements_extra_header</desc_name>
+		<desc>lit_gui_extra_achivements_extra_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+<!-- extra2 -->
+	<achievement>	<!-- Find all collectibles in the game -->
+		<name>achievements_misc_all</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_misc_all</sprite_icon>
+		<sprite_icon_not_recieved>icon_misc_all_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>lit_gui_extra_achivements_all_header</desc_name>
+		<desc>lit_gui_extra_achivements_all_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+<!-- extra3 -->
+	<achievement>	<!-- Buy everything for your Boudoir. -->
+		<name>achievements_misc_all_budoir</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_misc_all_budoir</sprite_icon>
+		<sprite_icon_not_recieved>icon_misc_all_budoir_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>lit_gui_extra_achivements_boudoire_buy_all_header</desc_name>
+		<desc>lit_gui_extra_achivements_boudoire_buy_all_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+<!-- story_line -->
+	<achievement>
+		<name>achievements_special01</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special01</sprite_icon>
+		<sprite_icon_not_recieved>icon_special01_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special01_header</desc_name>
+		<desc>special01_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>
+		<name>achievements_special02</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special02</sprite_icon>
+		<sprite_icon_not_recieved>icon_special02_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special02_header</desc_name>
+		<desc>special02_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>
+		<name>achievements_special03</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special03</sprite_icon>
+		<sprite_icon_not_recieved>icon_special03_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special03_header</desc_name>
+		<desc>special03_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>
+		<name>achievements_special04</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special04</sprite_icon>
+		<sprite_icon_not_recieved>icon_special04_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special04_header</desc_name>
+		<desc>special04_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special05</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special05</sprite_icon>
+		<sprite_icon_not_recieved>icon_special05_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special05_header</desc_name>
+		<desc>special05_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>
+		<name>achievements_special06</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special06</sprite_icon>
+		<sprite_icon_not_recieved>icon_special06_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special06_header</desc_name>
+		<desc>special06_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>
+		<name>achievements_special07</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special07</sprite_icon>
+		<sprite_icon_not_recieved>icon_special07_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special07_header</desc_name>
+		<desc>special07_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special08</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special08</sprite_icon>
+		<sprite_icon_not_recieved>icon_special08_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special08_header</desc_name>
+		<desc>special08_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special09</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special09</sprite_icon>
+		<sprite_icon_not_recieved>icon_special09_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special09_header</desc_name>
+		<desc>special09_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special10</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special10</sprite_icon>
+		<sprite_icon_not_recieved>icon_special10_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special10_header</desc_name>
+		<desc>special10_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special11</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special11</sprite_icon>
+		<sprite_icon_not_recieved>icon_special11_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special11_header</desc_name>
+		<desc>special11_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special12</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special12</sprite_icon>
+		<sprite_icon_not_recieved>icon_special12_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special12_header</desc_name>
+		<desc>special12_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special13</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special13</sprite_icon>
+		<sprite_icon_not_recieved>icon_special13_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special13_header</desc_name>
+		<desc>special13_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special14</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special14</sprite_icon>
+		<sprite_icon_not_recieved>icon_special14_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special14_header</desc_name>
+		<desc>special14_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special15</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special15</sprite_icon>
+		<sprite_icon_not_recieved>icon_special15_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special15_header</desc_name>
+		<desc>special15_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>
+		<name>achievements_special16</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special16</sprite_icon>
+		<sprite_icon_not_recieved>icon_special16_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special16_header</desc_name>
+		<desc>special16_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special17</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special17</sprite_icon>
+		<sprite_icon_not_recieved>icon_special17_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special17_header</desc_name>
+		<desc>special17_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+	
+	<achievement>
+		<name>achievements_special18</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special18</sprite_icon>
+		<sprite_icon_not_recieved>icon_special18_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special18_header</desc_name>
+		<desc>special18_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>
+		<name>achievements_special19</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special19</sprite_icon>
+		<sprite_icon_not_recieved>icon_special19_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special19_header</desc_name>
+		<desc>special19_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+	<achievement>
+		<name>achievements_special20</name>
+		<sprite>achiev_elem</sprite> <!-- плашка полученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_not_recieved>achiev_elem_dis</sprite_not_recieved> <!-- плашка неполученной ачивки (для диалога "achievements_dialog") -->
+		<sprite_icon>icon_special20</sprite_icon>
+		<sprite_icon_not_recieved>icon_special20_dis</sprite_icon_not_recieved> <!-- иконка неполученной ачивки (для диалога "achievements_dialog" и "achiev_dialog") -->
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<position_offset>
+			<x>0</x>
+			<y>24</y>
+		</position_offset>
+
+		<desc_name>special20_header</desc_name>
+		<desc>special20_desc</desc>
+
+		<icon_offset>
+			<x>0</x>
+			<y>-25</y>
+		</icon_offset>
+
+		<desc_name_text_locked_font>data/fonts/gui/agopus25.fnt</desc_name_text_locked_font> <!-- шрифт для названия неполученной ачивки  -->
+		<desc_name_text_locked_font_color>ff86c9d7</desc_name_text_locked_font_color> <!-- цвет  -->
+
+		<desc_name_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_name_text_unlocked_font> <!-- шрифт для названия полученной ачивки  -->
+		<desc_name_text_unlocked_font_color>ffffffff</desc_name_text_unlocked_font_color> <!-- цвет  -->
+
+		<desc_text_locked_font>data/fonts/gui/agopus25.fnt</desc_text_locked_font> <!-- шрифт для описания неполученной ачивки  -->
+		<desc_text_locked_font_color>ff86c9d7</desc_text_locked_font_color> <!-- цвет  -->
+
+		<desc_text_unlocked_font>data/fonts/gui/agopus25.fnt</desc_text_unlocked_font> <!-- шрифт для описания полученной ачивки  -->
+		<desc_text_unlocked_font_color>ffffffff</desc_text_unlocked_font_color> <!-- цвет  -->
+	</achievement>
+
+</Achievements>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>999999999</life_time>
+	<Layers size="1">
+		<Layer>
+			<particle>hint_over</particle>
+			<create_fx_position x="-380" y="-195" />
+			<enable_time>0</enable_time>
+			<life_time>999999999</life_time>
+			<loop>1</loop>
+			<sound>
+				<life_time>99999</life_time>
+				<name>ad_hint_loop</name>
+				<loop>1</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+			</sound>
+		</Layer>
+	</Layers>
+</Scene>

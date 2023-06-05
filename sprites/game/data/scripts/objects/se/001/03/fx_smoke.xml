@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_fx_smoke</name>
+    <name_desc>001_03_fx_smoke</name_desc>
+    <type>001_03_fx_smoke</type>
+    <states size="4">
+        <state>
+            <particle>001_03_fx_smoke</particle>
+            <particle_pos x="0" y="0" />
+            <event>BEGIN_MOVIE</event>
+            <event_parameters>001_03_bowl1</event_parameters>
+            <particle_fast_stop>0</particle_fast_stop>
+        </state>
+        <state>
+            <particle>001_03_fx_smoke</particle>
+            <particle_pos x="0" y="0" />
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>1.5</mode_param>
+            <particle_fast_stop>0</particle_fast_stop>
+        </state>
+        <state>
+            <particle>empty</particle>
+        </state>
+    </states>
+    <layer>20</layer>
+</object>

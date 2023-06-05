@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_04_paint</name>
+    <name_desc>002_04_paint</name_desc>
+    <type>002_04_paint</type>
+    <states size="1">
+        <state>
+            <event>KILL_OBJECT</event>
+            <event_parameters>002_04_nails</event_parameters>
+        </state>
+        <state>
+            <sprite_sprite>empty</sprite_sprite>
+            <mask_sprite>002_04_paint_mask</mask_sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <mode>Click</mode>
+            <position x="513" y="304" />
+
+            <hint_delta x="0" y="0"/>
+            <fast_iterate>1</fast_iterate>
+            <iterate_effect>note_open_dr</iterate_effect>
+            <sound_fx>ad_use_paper</sound_fx>
+        </state>
+        <state>
+            <sprite>002_04_paint_open</sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <position x="470" y="184" />
+            <layer>100</layer>
+            <fast_iterate>1</fast_iterate>
+            <iterate_effect>note_close</iterate_effect>
+        </state>
+
+        <state>
+            <sprite>002_04_paint_open</sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <mode>Click</mode>
+
+            <fast_iterate>1</fast_iterate>
+            <jump_to_state>1</jump_to_state>
+        </state>
+        <state>
+        </state>
+
+    </states>
+    <layer>10</layer>
+    <decorate>1</decorate>
+    <anchor x="192" y="191"/>
+</object>

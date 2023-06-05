@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_bench</name_desc>
+    <name>001_f_bench</name>
+    <type>001_f_bench</type>
+    <states size="1">
+        <state>
+            <sprite>001_f_bench</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>8</layer>
+</object>

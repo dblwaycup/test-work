@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="0" y="-9"/>
+			<width>29</width>
+			<height>27</height>
+			<sprites>
+				<spt>status_button</spt>
+				<spt>status_button_over</spt>
+				<spt>status_button_over</spt>
+			</sprites>
+			<mask_sprite>status_button_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+	</ctrls>
+</gui>

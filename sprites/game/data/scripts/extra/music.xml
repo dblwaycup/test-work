@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Group type="ET_MUSIC" enabled="1" disabled_image_spt_name="spt_music_disable">
+	<element id="0" enabled="1" gui_name="music_element_panel" title="extra_msc_danger" pos_x="410" pos_y="170" music_name="extra_danger" save_filename="Danger.mp3" />
+	<element id="1" enabled="1" gui_name="music_element_panel" title="extra_msc_elephants_house" pos_x="410" pos_y="270" music_name="extra_elephants_house" save_filename="Elephant's House.mp3" />
+	<element id="2" enabled="1" gui_name="music_element_panel" title="extra_msc_india" pos_x="410" pos_y="370" music_name="extra_India" save_filename="India.mp3" />
+	<element id="3" enabled="1" gui_name="music_element_panel" title="extra_msc_jungle" pos_x="410" pos_y="470" music_name="extra_jungle" save_filename="Jungle.mp3" />
+	<element id="4" enabled="1" gui_name="music_element_panel" title="extra_msc_lake" pos_x="410" pos_y="570" music_name="extra_lake" save_filename="Lake.mp3" />
+</Group>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_f_1_thousand</name>
+	<name_desc>ho_101_f_1_thousand</name_desc>
+	<type>ho_101_f_1_thousand</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_f_1_thousand</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<!-- <color_id_reset>id_ho_101_f_1_thousand</color_id_reset> -->
+		</state>
+		<state>
+			<sprite>ho_101_f_1_thousand</sprite>
+			<mode>Click</mode>
+			<auto_play>1</auto_play>
+			<mode_param3>kill</mode_param3>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_level_2</type>
+                </object>
+            </iterated_objects>
+			<color_id_reset>id_ho_101_f_1_thousand</color_id_reset>
+			
+			<frame_linked_objects2>1001012:ho_101_2_f_1_thousand;ho_101_2_f_1_thousand</frame_linked_objects2>
+			<!-- <linked_objects>ho_101_fountain</linked_objects> -->
+		</state>
+		<state>
+			<sprite>ho_101_f_1_thousand</sprite>
+		</state>
+	</states>
+	<type_accept_effect>1</type_accept_effect>
+	<accept_particle>kill_object</accept_particle>
+	<global_desc>ho_desc_101_1</global_desc>
+	<layer>70</layer>
+</object>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_table</name_desc>
+    <name>002_f_table</name>
+    <type>002_f_table</type>
+    <states size="2">
+        <state>
+            <sprite>002_f_table</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_04_diary|2</event_parameters>
+        </state>
+        <state>
+            <sprite>002_f_table_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>5</layer>
+</object>

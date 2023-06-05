@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="359" y="60"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>593</width>
+			<height>578</height>
+			<sprites>
+				<spt>back_settings</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- title -->
+		<ctrl>
+			<name>text_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>menu_btn_setting</default_text>
+			<id>2</id>
+			<pos x="205" y="16" />
+			<width>189</width>
+			<height>32</height>
+		</ctrl>
+		
+	<!-- text -->
+		<ctrl>
+			<name>sound_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_yellow.fnt</font>
+			<style>TS_ALIGNRIGHT | TS_ALIGNRIGHT</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>sound_title</default_text>
+			<id>3</id>
+			<pos x="82" y="84" />
+			<width>100</width>
+			<height>30</height>
+		</ctrl>
+		<ctrl>
+			<name>music_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNRIGHT | TS_ALIGNRIGHT</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->	
+			<default_text>music_desc</default_text>
+			<id>4</id>
+			<pos x="82" y="118" />
+			<width>100</width>
+			<height>30</height>
+		</ctrl>
+		<ctrl>
+			<name>effect_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNRIGHT | TS_ALIGNRIGHT</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>effect_desc</default_text>
+			<id>5</id>
+			<pos x="82" y="164" />
+			<width>100</width>
+			<height>30</height>
+		</ctrl>
+		<ctrl>
+			<name>environment_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNRIGHT | TS_ALIGNRIGHT</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>environment_desc</default_text>
+			<id>6</id>
+			<pos x="82" y="212" />
+			<width>100</width>
+			<height>30</height>
+		</ctrl>
+		<ctrl>
+			<name>voice_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNRIGHT | TS_ALIGNRIGHT</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>voice_desc</default_text>
+			<id>7</id>
+			<pos x="82" y="258" />
+			<width>100</width>
+			<height>30</height>
+		</ctrl>
+		<ctrl>
+			<name>other_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_yellow.fnt</font>
+			<style>TS_ALIGNRIGHT | TS_ALIGNRIGHT</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>other_title</default_text>
+			<id>8</id>
+			<pos x="82" y="315" />
+			<width>100</width>
+			<height>30</height>
+		</ctrl>
+	
+	<!-- status check -->
+		<ctrl>
+			<name>music_status_check</name>
+			<type>StatusCheck</type>
+			<ext_path>data/gui/dialogs/settings_status.xml</ext_path>
+			<act_but_id>1</act_but_id>
+			<percentage_text>music_status_text</percentage_text>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>9</id>
+			<pos x="210" y="126"/>
+			<width>293</width>
+			<height>9</height>
+			<width_edge>8</width_edge>
+			<cur_pos_per>10</cur_pos_per>
+			<sprites>
+				<spt>status</spt>
+			</sprites>
+			<tutorial_ignore>1</tutorial_ignore>
+			<on_change_sound>DefaultBackMusic</on_change_sound>
+		</ctrl>
+		<ctrl>
+			<name>sound_effects_status_check</name>
+			<type>StatusCheck</type>
+			<ext_path>data/gui/dialogs/settings_status.xml</ext_path>
+			<act_but_id>1</act_but_id>
+			<percentage_text>sound_effects_status_text</percentage_text>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>10</id>
+			<pos x="210" y="172"/>
+			<width>293</width>
+			<height>9</height>
+			<width_edge>8</width_edge>
+			<cur_pos_per>10</cur_pos_per>
+			<sprites>
+				<spt>status</spt>
+			</sprites>
+			<tutorial_ignore>1</tutorial_ignore>
+			<on_change_sound>ad_getextra2</on_change_sound>
+		</ctrl>
+		<ctrl>
+			<name>sound_enveronment_status_check</name>
+			<type>StatusCheck</type>
+			<ext_path>data/gui/dialogs/settings_status.xml</ext_path>
+			<act_but_id>1</act_but_id>
+			<percentage_text>sound_enveronment_status_text</percentage_text>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>11</id>
+			<pos x="210" y="220"/>
+			<width>293</width>
+			<height>9</height>
+			<width_edge>8</width_edge>
+			<cur_pos_per>10</cur_pos_per>
+			<sprites>
+				<spt>status</spt>
+			</sprites>
+			<on_change_sound>ad_under_the_water_env</on_change_sound>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+		<ctrl>
+			<name>sound_voice_status_check</name>
+			<type>StatusCheck</type>
+			<ext_path>data/gui/dialogs/settings_status.xml</ext_path>
+			<act_but_id>1</act_but_id>
+			<percentage_text>sound_voice_status_text</percentage_text>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>12</id>
+			<pos x="210" y="266"/>
+			<width>293</width>
+			<height>9</height>
+			<width_edge>8</width_edge>
+			<cur_pos_per>10</cur_pos_per>
+			<sprites>
+				<spt>status</spt>
+			</sprites>
+			<on_change_sound>201_cs_text_1_voc</on_change_sound>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+		
+	<!-- text status check -->
+		<ctrl>
+			<name>music_status_text</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>__MUS__</default_text>
+			<id>13</id>
+			<pos x="513" y="116" />
+			<width>40</width>
+			<height>30</height>
+		</ctrl>
+		<ctrl>
+			<name>sound_effects_status_text</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>	
+			<default_text>__SOUND__</default_text>
+			<id>14</id>
+			<pos x="513" y="162" />
+			<width>40</width>
+			<height>30</height>
+		</ctrl>
+		<ctrl>
+			<name>sound_enveronment_status_text</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>__ENV__</default_text>
+			<id>15</id>
+			<pos x="513" y="210" />
+			<width>40</width>
+			<height>30</height>
+		</ctrl>
+		<ctrl>
+			<name>sound_voice_status_text</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->	
+			<default_text>__VOC__</default_text>
+			<id>16</id>
+			<pos x="513" y="256" />
+			<width>40</width>
+			<height>30</height>
+		</ctrl>
+		
+	<!-- stretch -->
+		<ctrl>
+			<name>ch_widescreen</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>17</id>
+			<pos x="137" y="356"/>
+			<width>145</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="widescreen_desc">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- fullscreen -->	
+		<ctrl>
+			<name>ch_fullscreen</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>18</id>
+			<pos x="137" y="410"/>
+			<width>145</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="fullscreen_desc">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- custom_cursor -->	
+		<ctrl>
+			<name>ch_custom_cur</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>19</id>
+			<pos x="317" y="356"/>
+			<width>145</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="custom_cursor_desc">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- special_effects -->	
+		<ctrl>
+			<name>ch_special_effects</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>20</id>
+			<pos x="317" y="410"/>
+			<width>145</width>
+			<height>29</height>
+			<sprites>
+				<spt>btn_check</spt>
+				<spt>btn_check</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_arrow</spt>
+				<spt>btn_check_disable</spt>
+			</sprites>
+			<mask_sprite>btn_check_mask</mask_sprite>
+			<btn_text token="special_effects_desc">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25.fnt</font>
+				<font type="press">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="ff94d7e4">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="37" top="0" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+
+	<!-- credits -->	
+		<ctrl>
+			<name>button_authors</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>21</id>
+			<pos x="345" y="458"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<btn_text token="dlg_settings_btn_credits">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+	<!-- play mode -->	
+		<ctrl>
+			<name>button_play_mode</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>22</id>
+			<pos x="74" y="458"/>
+			<width>270</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_long</spt>
+				<spt>btn_long_over</spt>
+				<spt>btn_long_over</spt>
+			</sprites>			
+			<mask_sprite>btn_long_mask</mask_sprite>
+			<btn_text token="dlg_settings_btn_play_mode">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="32" top="0" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>text_play_mode</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->	
+			<default_text>mode</default_text>
+			<id>23</id>
+			<pos x="214" y="458"/>
+			<width>100</width>
+			<height>63</height>
+		</ctrl>
+		
+	<!-- button_ok -->	
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="213" y="530"/>
+			<width>169</width>	
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="gui_cmn_btn_accept">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="1" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+	</ctrls>
+</gui>

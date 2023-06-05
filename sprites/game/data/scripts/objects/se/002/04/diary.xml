@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_04_diary</name>
+	<name_desc>002_04_diary</name_desc>
+	<type>002_04_diary</type>
+	<states size="1">
+		<state>
+			<sprite>002_04_diary</sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<event>END_MOVIE</event>
+			<event_parameters>002_04_map_add</event_parameters>
+		</state>
+		<state>
+			<sprite>002_04_diary</sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<hint_delta x="0" y="0"/>
+			<fast_iterate>1</fast_iterate>
+			<iterate_effect>note_open_dr</iterate_effect>
+			<sound_fx>notebook_02</sound_fx>
+		</state>
+		<state>
+			<sprite>002_04_diary_open</sprite>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<mode>Click</mode>
+			<hint_delta x="0" y="0"/>
+			<sound_fx>paper1_01</sound_fx>
+			<position x="206" y="87" />
+			<layer>100</layer>
+		</state>
+		<state>
+			<sprite>002_04_diary_open_2</sprite>
+			<event>KILL_OBJECT</event>
+			<event_parameters>002_04_recipe</event_parameters>
+			<static_text_list>
+				<static_text>
+					<text>002_04_diary</text>
+					<font>data/fonts/notes/brushScript30.fnt</font>
+					<pos x="213" y="263" />
+					<size x="340" y="340" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff4a0d05</color>
+					<scale>0.75</scale>
+					<skew x="0.129" y="-0.147"/>
+				</static_text>
+			</static_text_list>
+			<position x="206" y="87" />
+			<layer>100</layer>
+		</state>
+		<state>
+			<sprite>002_04_diary_open_2</sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<hint_delta x="0" y="0"/>
+			<static_text_list>
+				<static_text>
+					<text>002_04_diary</text>
+					<font>data/fonts/notes/brushScript30.fnt</font>
+					<pos x="213" y="263" />
+					<size x="340" y="340" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff4a0d05</color>
+					<scale>0.75</scale>
+					<skew x="0.129" y="-0.147"/>
+				</static_text>
+			</static_text_list>
+			<position x="206" y="87" />
+			<layer>100</layer>
+			<iterate_effect>note_close_dr</iterate_effect>
+			<fast_iterate>1</fast_iterate>
+            <add_resource>002_04_diary</add_resource>
+            <translate_bbt>bbt_002_04_diary</translate_bbt>	
+			<sound_fx>notebook_02</sound_fx>
+		</state>
+		<state>
+			<sprite>002_04_diary_open_2</sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<hint_delta x="0" y="0"/>
+			<static_text_list>
+				<static_text>
+					<text>002_04_diary</text>
+					<font>data/fonts/notes/brushScript30.fnt</font>
+					<pos x="213" y="263" />
+					<size x="340" y="340" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<color>ff4a0d05</color>
+					<scale>0.75</scale>
+					<skew x="0.129" y="-0.147"/>
+				</static_text>
+			</static_text_list>
+			<position x="206" y="87" />
+            <layer>150</layer>           
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>0.9</mode_param>
+			<fast_iterate>1</fast_iterate>
+			<!-- <sound_fx>get_achive</sound_fx>	   -->
+		</state>
+		<state>
+		</state>
+	</states>
+	<anchor x="597" y="280"/>
+	<layer>35</layer>
+</object>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_sky</name_desc>
+    <name>002_f_sky</name>
+    <type>002_f_sky</type>
+    <states size="1">
+        <state>
+            <movie>002_f_sky</movie>
+        </state>
+    </states>
+    <layer>1</layer>
+</object>

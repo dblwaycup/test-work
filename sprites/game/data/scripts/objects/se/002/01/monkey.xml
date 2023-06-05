@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_01_monkey</name>
+    <name_desc>002_01_monkey</name_desc>
+    <type>002_01_monkey</type>
+    <states size="1">
+        <state>
+            <movie>002_01_monkey_idle</movie>
+            <mask_sprite>002_01_monkey_mask</mask_sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.7</mode_param>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_01_dlg_elephant</event_parameters>
+        </state>
+        <state>
+            <movie>002_01_monkey_idle</movie>
+            <mask_sprite>002_01_monkey_mask</mask_sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <mode>MoviePlay</mode>
+            <mode_param>002_01_monkey | 002_01_monkey_2 | 002_01_monkey_3</mode_param>
+            <translate_movie>002_01_monkey_cast</translate_movie>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_01_elephant|3</event_parameters>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_01_monkey_cast</event_parameters>
+            <messages>   
+                <message name="002_elephant">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>   
+        </state>
+        <state>
+            <movie>002_01_monkey_idle</movie>
+            <mask_sprite>002_01_monkey_mask</mask_sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.5</mode_param>    
+        </state>
+        <state>
+            <movie>002_01_monkey_final</movie>
+            <mask_sprite>002_01_monkey_mask</mask_sprite>
+        </state>
+    </states>
+    <layer>10</layer>
+</object>

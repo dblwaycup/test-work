@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="7">
+                <object>
+                    <name>002_06_recept</name>
+                    <position x="133" y="141" />
+                </object>             
+				<object>
+                    <name>002_06_petals</name>
+                    <position x="133" y="391" />
+                </object>			
+				<object>
+                    <name>002_06_fruit</name>
+                    <position x="150" y="141" />
+                </object>
+				<object>
+                    <name>002_06_stupka</name>
+                    <position x="849" y="96" />
+                </object>
+				<object>
+                    <name>002_06_fx_stupka</name>
+                    <position x="482" y="143" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

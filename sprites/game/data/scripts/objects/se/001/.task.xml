@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<object>
+	<name>001_task</name>
+	<name_desc>001_task</name_desc>
+	<type>001_task</type>
+	<states size="2">
+		<state>
+			<event>END_MOVIE</event>
+            <event_parameters>001_cs_monkey</event_parameters>
+			<add_resource>task_01</add_resource>
+			<spritelight>true</spritelight>
+		</state>
+		<state>
+		</state>
+	</states>
+</object>

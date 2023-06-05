@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_06_recept</name>
+    <name_desc>002_06_recept</name_desc>
+    <type>002_06_recept</type>
+    <states size="2">
+        <state>
+            <sprite>002_06_recept</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_06_recept</dialog_activate>
+            <hint_delta x="0" y="0"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>003_01_leaves : 002_06_petals ; -1 | 003_02_fruit : 002_06_fruit ; -1 | 003_03_mortar : 002_06_stupka;-1</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <blazing_watch>
+                <action>002_06_fruit</action>
+                <action>002_06_petals</action>
+                <action>002_06_stupka</action>
+            </blazing_watch>
+            <static_text_list>
+                <static_text>
+                    <text>002_06_recept</text>
+                    <font>data/fonts/notes/brushScript30.fnt</font>
+                    <pos x="423" y="120" />
+                    <size x="330" y="60" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff441f08</color>
+                    <scale>0.85</scale>
+                    <angle>1</angle>
+                </static_text>
+            </static_text_list>
+
+        </state>
+        <state>
+            <sprite>002_06_recept</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_06_recept</dialog_activate>
+            <hint_delta x="0" y="0"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>003_01_leaves : 002_06_petals ; -1 | 003_02_fruit : 002_06_fruit ; -1 | 003_03_mortar : 002_06_stupka;-1</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <blazing_watch>
+                <action>002_06_fruit</action>
+                <action>002_06_petals</action>
+                <action>002_06_stupka</action>
+            </blazing_watch>
+            <static_text_list>
+                <static_text>
+                    <text>002_06_recept</text>
+                    <font>data/fonts/notes/brushScript30.fnt</font>
+                    <pos x="423" y="120" />
+                    <size x="330" y="60" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff441f08</color>
+                    <scale>0.85</scale>
+                    <angle>1</angle>
+                </static_text>
+            </static_text_list>
+            <combine_inventory_sprite>inv_002_06_recipe_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>002_06_recept</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_06_recept</dialog_activate>
+            <hint_delta x="0" y="0"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>003_01_leaves : 002_06_petals ; -1 | 003_02_fruit : 002_06_fruit ; -1 | 003_03_mortar : 002_06_stupka;-1</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <blazing_watch>
+                <action>002_06_fruit</action>
+                <action>002_06_petals</action>
+                <action>002_06_stupka</action>
+            </blazing_watch>
+            <static_text_list>
+                <static_text>
+                    <text>002_06_recept</text>
+                    <font>data/fonts/notes/brushScript30.fnt</font>
+                    <pos x="423" y="120" />
+                    <size x="330" y="60" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff441f08</color>
+                    <scale>0.85</scale>
+                    <angle>1</angle>
+                </static_text>
+            </static_text_list>
+            <combine_inventory_sprite>inv_002_06_recipe_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>002_06_recept</sprite>
+            <event>ITERATE_OBJECT_IN_STATES</event>
+            <event_parameters>002_06_fruit|2 ; 002_06_petals|2 ; 002_06_stupka|2</event_parameters>
+            <static_text_list>
+                <static_text>
+                    <text>002_06_recept</text>
+                    <font>data/fonts/notes/brushScript30.fnt</font>
+                    <pos x="423" y="120" />
+                    <size x="330" y="60" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff441f08</color>
+                    <scale>0.85</scale>
+                    <angle>1</angle>
+                </static_text>
+            </static_text_list>
+            <messages>
+                <message name="002_06_stupka">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+            <tweens_defined>
+                <tween>
+                    <type>transform</type>
+                    <name>002_06_recept</name>
+                </tween>
+            </tweens_defined>
+            <combine_inventory_sprite>inv_002_06_recipe_get</combine_inventory_sprite>
+            <sound_fx>paper_03</sound_fx>
+        </state>
+        <state>
+            <sprite>002_06_recept</sprite>
+            <event>TRANSLATE_TWEEN_END</event>
+            <event_parameters>002_06_recept</event_parameters>
+            <static_text_list>
+                <static_text>
+                    <text>002_06_recept</text>
+                    <font>data/fonts/notes/brushScript30.fnt</font>
+                    <pos x="423" y="120" />
+                    <size x="330" y="60" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff441f08</color>
+                    <scale>0.85</scale>
+                    <angle>1</angle>
+                </static_text>
+            </static_text_list>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>35</layer>
+</object>

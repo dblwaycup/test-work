@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_z_crystal_5</name>
+	<name_desc>ho_101_z_crystal_5</name_desc>
+	<type>ho_101_z_crystal_5</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_z_crystal_5</sprite>
+			<mask_sprite>empty</mask_sprite>
+			
+			<tweens_loop size="1">
+                <queue size="1">
+                    <transform>
+                        <delay>0</delay>
+                        <duration>3200</duration>
+                        <type>rotation</type>
+                        <param1>0.03</param1>
+                        <param2>0</param2>
+                        <param3>0</param3> <!-- is local -->
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>2700</duration>
+                        <type>rotation</type>
+                        <param1>-0.03</param1>
+                        <param2>0</param2>
+                        <param3>0</param3> <!-- is local -->
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                </queue>
+            </tweens_loop>
+		</state>
+	</states>
+	<anchor x="16" y="0"/>
+	<layer>70</layer>
+</object>

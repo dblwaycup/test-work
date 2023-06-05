@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<Behavior>
+	<params size="1">
+		<param>
+			<name>ext_TextColorChange</name>
+		</param>
+	</params>
+	<params2>
+		<param>
+			<name>TextParams</name>
+			<params size="1">
+				<param>
+					<ctrl_name>place_desc</ctrl_name>
+					<color_default>fff7ff26</color_default>
+					<color_complex>ffff8926</color_complex>
+					<params size="1">
+						<param>
+							<object_name>ho_101_f_1_eye</object_name>
+						</param>
+						<param>
+							<object_name>ho_101_f_1_india</object_name>
+						</param>
+						<param>
+							<object_name>ho_101_f_1_thousand</object_name>
+						</param>
+						
+						<param>
+							<object_name>ho_101_f_2_hands</object_name>
+						</param>
+						<param>
+							<object_name>ho_101_f_2_door</object_name>
+						</param>
+						<param>
+							<object_name>ho_101_f_2_elephant</object_name>
+							<color_id_reset>id_ho_101_f_2_elephant</color_id_reset>
+						</param>
+						
+						<param>
+							<object_name>ho_101_f_3_crown</object_name>
+						</param>
+						<param>
+							<object_name>ho_101_f_3_papaya</object_name>
+						</param>
+						<param>
+							<object_name>ho_101_f_3_fish</object_name>
+						</param>
+						
+						<param>
+							<object_name>ho_101_f_4_fang</object_name>
+						</param>
+						<param>
+							<object_name>ho_101_f_4_dagger</object_name>
+						</param>
+						<param>
+							<object_name>ho_101_f_4_love</object_name>
+						</param>
+					</params>
+				</param>
+			</params>
+		</param>
+	</params2>
+</Behavior>

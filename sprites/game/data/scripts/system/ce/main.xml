@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<LocationDesc>
+	<TechName>ce</TechName>
+	<Resources>data/scripts/system/ce/objects.res</Resources>
+
+	<Players_Desc_Blocks size="2">
+		<block>
+			<Name>ce</Name>
+			<player_index>0</player_index>
+			<start_game>1</start_game>
+		</block>
+	</Players_Desc_Blocks>
+
+	<Subgame_Desc_Blocks size="2">
+		<block>
+			<!-- 0 - 400x500 -->
+			<button_spt_active>btn_close</button_spt_active>
+			<button_spt_over>btn_close_over</button_spt_over>
+			<button_spt_press>btn_close_over</button_spt_press>
+			<button_spt_mask>btn_close_mask</button_spt_mask>
+			<button_delta x="367" y="-4" />
+			<expanding_sprite>frame</expanding_sprite>
+			<delta_expanding_sprite x="-26" y="-22" />
+			<window_pos x="440" y="110" />
+			<frame_width>452</frame_width>
+			<frame_height>544</frame_height>
+			<expanding_sprite_layer>90</expanding_sprite_layer>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseFrame</tween_close>
+		</block>
+		<block>
+			<!-- 1 - 500x500 -->
+			<button_spt_active>btn_close</button_spt_active>
+			<button_spt_over>btn_close_over</button_spt_over>
+			<button_spt_press>btn_close_over</button_spt_press>
+			<button_spt_mask>btn_close_mask</button_spt_mask>
+			<button_delta x="467" y="-4" />
+			<expanding_sprite>frame</expanding_sprite>
+			<delta_expanding_sprite x="-26" y="-22" />
+			<window_pos x="390" y="110" />
+			<frame_width>552</frame_width>
+			<frame_height>544</frame_height>
+			<expanding_sprite_layer>90</expanding_sprite_layer>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseFrame</tween_close>
+		</block>
+		<block>
+			<!-- 2 - 700x500 -->
+			<button_spt_active>btn_close</button_spt_active>
+			<button_spt_over>btn_close_over</button_spt_over>
+			<button_spt_press>btn_close_over</button_spt_press>
+			<button_spt_mask>btn_close_mask</button_spt_mask>
+			<button_delta x="667" y="-4" />
+			<expanding_sprite>frame</expanding_sprite>
+			<delta_expanding_sprite x="-26" y="-22" />
+			<window_pos x="290" y="110" />
+			<frame_width>752</frame_width>
+			<frame_height>544</frame_height>
+			<expanding_sprite_layer>90</expanding_sprite_layer>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseFrame</tween_close>
+		</block>
+		<block>
+			<!-- 3 - mini_game -->
+			<button_spt_active>btn_close_big</button_spt_active>
+			<button_spt_over>btn_close_big_over</button_spt_over>
+			<button_spt_press>btn_close_big_over</button_spt_press>
+			<button_delta x="1183" y="20"/>
+			<window_pos x="0" y="0"/>
+			<frame_width>1280</frame_width>
+			<frame_height>800</frame_height>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseFrame</tween_close>
+		</block>
+		<block>
+			<!-- 4 - morpho -->
+			<button_spt_active>btn_close_big</button_spt_active>
+			<button_spt_over>btn_close_big_over</button_spt_over>
+			<button_spt_press>btn_close_big_over</button_spt_press>
+			<button_delta x="1136" y="67"/>
+			<window_pos x="0" y="0"/>
+			<frame_width>1280</frame_width>
+			<frame_height>800</frame_height>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseMorph</tween_close>
+			<scene_scale_effect_disabled>1</scene_scale_effect_disabled>
+		</block>
+	</Subgame_Desc_Blocks>
+
+	<Location size="4">
+		<SubLocation>
+			<n>0</n>
+			<!-- ************************************* основные фоны ************************************* -->
+			<Games size="2">
+				<!-- 001 -->
+				<!-- <Game>
+					<n>1</n>
+					<Location>1</Location>
+					<path>data/scripts/objects/ce/001/.level.xml</path>
+					<Backgrounds size="1">
+						<Background>001_back</Background>
+					</Backgrounds>
+					<dialog_before>ce_001_cs_intro</dialog_before>
+					<dialog_before_end_effect>none</dialog_before_end_effect>
+					<game_behavior size="2">
+						<action>dialog_before</action>
+						<action>game</action>
+					</game_behavior>
+					<SoundsBack>
+						<sounds size="1">
+							<sound>
+								<name>ce_1_env</name>
+								<loop>1</loop>
+								<period_min>0</period_min>
+								<period_max>0</period_max>
+							</sound>
+						</sounds>
+					</SoundsBack>
+					<subgames size="1">
+						<subgame>
+							<clk_object>001_z_vases</clk_object>
+							<game>101</game>
+							<state>0</state>
+							<sublocation>-1</sublocation>
+							<mini_window>1</mini_window>
+							<subgame_template_number>1</subgame_template_number>
+							<sub_game_block>
+								<back_spt>001_01_back</back_spt>
+							</sub_game_block>
+						</subgame>
+					</subgames>
+				</Game>
+				<Game>
+					<n>101</n>
+					<path>data/scripts/objects/ce/001/01/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="390" y="110"/>
+				</Game> -->
+
+			</Games>
+		</SubLocation>
+	</Location>
+</LocationDesc>

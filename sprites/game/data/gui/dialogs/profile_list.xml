@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/gui/dialogs/profile/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>text_template</name>
+			<type>Text</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<align>2</align>
+			<font_name>data\fonts\gui\agopus35.fnt</font_name>
+			<second_font_name>data\fonts\gui\agopus35_yellow.fnt</second_font_name>
+			<default_text>list_box_text</default_text>
+			<id>1</id>
+			<pos x="0" y="0"/>
+			<width>379</width>
+			<height>281</height>
+		</ctrl>
+		<ctrl>
+			<name>edit_template</name>
+			<type>Edit</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<align>2</align>
+			<font_name>data\fonts\gui\agopus35.fnt</font_name>
+			<second_font_name>data\fonts\gui\agopus35_yellow.fnt</second_font_name>
+			<default_text>list_box_text</default_text>
+			<char_count>10</char_count>
+			<available_chars>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</available_chars>
+			<id>2</id>
+			<pos x="0" y="0"/>
+			<width>379</width>
+			<height>53</height>
+		</ctrl>
+	</ctrls>
+</gui>

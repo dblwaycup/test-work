@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Scene template="cut_scene">
+	<life_time>24.750</life_time>
+	<activate_bbt>bbt_003_cs_intro</activate_bbt>
+	<start_music_after_end>track3_mus</start_music_after_end>
+
+	<Layers size="1">
+
+	<!-- ******************************* movie ******************************* -->
+
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/003_cs_intro.mp4</movie_avi>
+			<create_anim_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>25</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+
+	<!-- ******************************* panels ******************************* -->
+		<Layer>
+			<show_gui>cut_scene_interface</show_gui>
+			<enable_time>0</enable_time>
+			<life_time>23</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>0</alpha_disable_coeff>
+		</Layer>
+
+	<!-- ******************************* text ******************************* -->
+		<Layer>
+			<enable_time>1.205</enable_time>
+			<life_time>10</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>003_cs_intro</default_resource_text>
+			<sound>
+				<name>003_cs_intro_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+		<Layer>
+			<enable_time>12.240</enable_time>
+			<life_time>5</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>003_cs_intro_2</default_resource_text>
+			<sound>
+				<name>003_cs_intro_2_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+
+	</Layers>
+</Scene>

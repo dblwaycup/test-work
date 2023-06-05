@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_06_fx_stupka</name>
+	<name_desc>002_06_fx_stupka</name_desc>
+	<type>002_06_fx_stupka</type>
+	<states size="1">
+
+		<state>
+			<event>BEGIN_MOVIE</event>
+			<event_parameters>002_06_stupka</event_parameters>
+		</state>
+		<state>
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>4</mode_param>
+		</state>
+		<state>
+			<particle>002_06_potion</particle>
+			<particle_pos x="-110" y="304" />
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>3</mode_param>
+		</state>
+		<state>
+		</state>
+	</states>
+	<layer>16</layer>
+</object>

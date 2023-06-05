@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="1">
+                <object>
+                    <name>001_04_guide</name>
+                    <position x="89" y="107" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

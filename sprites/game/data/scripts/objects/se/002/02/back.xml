@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_02_back</name>
+    <name_desc>002_02_back</name_desc>
+    <type>002_02_back</type>
+    <states size="1">
+        <state>
+			<sprite>002_02_back</sprite>
+        </state>    
+    </states>
+    <layer>5</layer>
+</object>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_f_2_elephant</name>
+	<name_desc>ho_101_f_2_elephant</name_desc>
+	<type>ho_101_f_2_elephant</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_f_2_elephant</sprite>
+			<mask_sprite>empty</mask_sprite>
+<!-- 			<color_id_reset>id_ho_101_f_2_elephant</color_id_reset> -->
+		</state>
+		<state>
+			<sprite>ho_101_f_2_elephant_2</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<!-- <color_id_reset>id_ho_101_f_2_elephant</color_id_reset> -->
+		</state>
+		<state>
+			<sprite>ho_101_f_2_elephant_2</sprite>
+			<mode>Click</mode>
+			<auto_play>1</auto_play>
+			<mode_param3>kill</mode_param3>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_level_2</type>
+                </object>
+            </iterated_objects>
+			<color_id_reset>id_ho_101_f_2_elephant</color_id_reset>
+			
+			<frame_linked_objects2>1001013:ho_101_3_f_2_elephant;ho_101_3_f_2_elephant;ho_101_3_f_2_thread_cast;ho_101_3_f_2_thread_cast</frame_linked_objects2>
+			<linked_objects>ho_101_f_2_thread_cast</linked_objects>
+		</state>
+		<state>
+			<sprite>ho_101_f_2_elephant_2</sprite>
+		</state>
+	</states>
+	<type_accept_effect>1</type_accept_effect>
+	<accept_particle>kill_object</accept_particle>
+	<global_desc>ho_desc_101_2</global_desc>
+	<layer>80</layer>
+</object>

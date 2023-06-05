@@ -1,0 +1,718 @@
+<?xml version="1.0" ?>
+<LocationDesc>
+	<TechName>se</TechName>
+	<Resources>data/scripts/system/se/objects.res</Resources>
+
+	<Players_Desc_Blocks size="2">
+		<block>
+			<Name>se</Name>
+			<player_index>0</player_index>
+			<start_game>1</start_game>
+		</block>
+	</Players_Desc_Blocks>
+
+	<Subgame_Desc_Blocks size="2">
+		<block>
+			<!-- 0 - 400x500 -->
+			<button_spt_active>btn_close</button_spt_active>
+			<button_spt_over>btn_close_over</button_spt_over>
+			<button_spt_press>btn_close_over</button_spt_press>
+			<button_spt_mask>btn_close_mask</button_spt_mask>
+			<button_delta x="367" y="-4" />
+			<expanding_sprite>frame</expanding_sprite>
+			<delta_expanding_sprite x="-26" y="-22" />
+			<window_pos x="440" y="110" />
+			<frame_width>452</frame_width>
+			<frame_height>544</frame_height>
+			<expanding_sprite_layer>90</expanding_sprite_layer>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseFrame</tween_close>
+		</block>
+		<block>
+			<!-- 1 - 500x500 -->
+			<button_spt_active>btn_close</button_spt_active>
+			<button_spt_over>btn_close_over</button_spt_over>
+			<button_spt_press>btn_close_over</button_spt_press>
+			<button_spt_mask>btn_close_mask</button_spt_mask>
+			<button_delta x="467" y="-4" />
+			<expanding_sprite>frame</expanding_sprite>
+			<delta_expanding_sprite x="-26" y="-22" />
+			<window_pos x="390" y="110" />
+			<frame_width>552</frame_width>
+			<frame_height>544</frame_height>
+			<expanding_sprite_layer>90</expanding_sprite_layer>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseFrame</tween_close>
+		</block>
+		<block>
+			<!-- 2 - 700x500 -->
+			<button_spt_active>btn_close</button_spt_active>
+			<button_spt_over>btn_close_over</button_spt_over>
+			<button_spt_press>btn_close_over</button_spt_press>
+			<button_spt_mask>btn_close_mask</button_spt_mask>
+			<button_delta x="667" y="-4" />
+			<expanding_sprite>frame</expanding_sprite>
+			<delta_expanding_sprite x="-26" y="-22" />
+			<window_pos x="290" y="110" />
+			<frame_width>752</frame_width>
+			<frame_height>544</frame_height>
+			<expanding_sprite_layer>90</expanding_sprite_layer>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseFrame</tween_close>
+		</block>
+		<block>
+			<!-- 3 - mini_game -->
+			<button_spt_active>btn_close_big</button_spt_active>
+			<button_spt_over>btn_close_big_over</button_spt_over>
+			<button_spt_press>btn_close_big_over</button_spt_press>
+			<button_delta x="1183" y="20"/>
+			<window_pos x="0" y="0"/>
+			<frame_width>1280</frame_width>
+			<frame_height>800</frame_height>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseFrame</tween_close>
+		</block>
+		<block>
+			<!-- 4 - morpho -->
+			<button_spt_active>btn_close_big</button_spt_active>
+			<button_spt_over>btn_close_big_over</button_spt_over>
+			<button_spt_press>btn_close_big_over</button_spt_press>
+			<button_delta x="1136" y="67"/>
+			<window_pos x="0" y="0"/>
+			<frame_width>1280</frame_width>
+			<frame_height>800</frame_height>
+			<button_close_layer>95</button_close_layer>
+			<tween_open>OpenFrame</tween_open>
+			<tween_close>CloseMorph</tween_close>
+			<scene_scale_effect_disabled>1</scene_scale_effect_disabled>
+		</block>
+	</Subgame_Desc_Blocks>
+
+	<Location size="4">
+		<SubLocation>
+			<n>0</n>
+			<!-- ************************************* основные фоны ************************************* -->
+			<Games size="2">
+				<Game>
+					<!-- существует внутри всех фонов, в него можно добавлять любые объекты -->
+					<n>999</n>
+					<Location>1</Location>
+					<path>data/scripts/objects/se/.level_global.xml</path>
+					<game_behavior size="2">
+						<action>game</action>
+					</game_behavior>
+					<hint_path_name>data/scripts/objects/se/.global_tutorial.xml</hint_path_name>
+					<hint_path_res>data/main.res</hint_path_res>
+				</Game>
+
+				<!-- 001 -->
+				<Game>
+					<n>1</n>
+					<Location>1</Location>
+					<path>data/scripts/objects/se/001/.level.xml</path>
+					<Backgrounds size="1">
+						<Background>001_back</Background>
+					</Backgrounds>
+					<dialog_before>001_cs_intro</dialog_before>
+					<dialog_before_end_effect>none</dialog_before_end_effect>
+					<game_behavior size="2">
+						<action>dialog_before</action>
+						<action>game</action>
+					</game_behavior>
+					<SoundsBack>
+						<sounds size="1">
+							<sound>
+								<name>hall_env</name>
+								<loop>1</loop>
+								<period_min>0</period_min>
+								<period_max>0</period_max>
+							</sound>
+						</sounds>
+					</SoundsBack>
+					<subgames size="1">
+						<subgame>
+							<clk_object>001_window</clk_object>
+							<game>101</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>0</subgame_template_number>
+							<sub_game_block>
+								<back_spt>001_01_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>001_tower</clk_object>
+							<game>102</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>2</subgame_template_number>
+							<sub_game_block>
+								<back_spt>001_02_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>001_backpack</clk_object>
+							<game>103</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>1</subgame_template_number>
+							<sub_game_block>
+								<back_spt>001_03_back</back_spt>
+								<expanding_sprite_layer>3</expanding_sprite_layer>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>001_guide</clk_object>
+							<game>104</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>1</subgame_template_number>
+							<sub_game_block>
+								<back_spt>001_04_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>001_guide</clk_object>
+							<game>100101</game>
+							<state>2</state>
+						</subgame>
+						<subgame>
+							<game>105</game>
+							<state>0</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+						<subgame>
+							<clk_object>001_bush</clk_object>
+							<game>107</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+						<subgame>
+							<clk_object>001_zoom</clk_object>
+							<game>108</game>
+							<state>0</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>1</subgame_template_number>
+							<sub_game_block>
+								<back_spt>001_08_back</back_spt>
+							</sub_game_block>
+						</subgame>
+					</subgames>
+					<hint_path_name>data/scripts/objects/se/001/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/main.res</hint_path_res>
+				</Game>
+
+				<!-- frames -->
+				<Game>
+					<n>101</n>
+					<path>data/scripts/objects/se/001/01/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="440" y="110"/>
+				</Game>
+				<Game>
+					<n>102</n>
+					<path>data/scripts/objects/se/001/02/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="290" y="110"/>
+					<subgames>
+						<subgame>
+							<clk_object>001_02_casket</clk_object>
+							<state>1</state>
+							<game>106</game>
+							<sublocation>-1</sublocation>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+						<subgame>
+							<clk_object>001_02_casket</clk_object>
+							<state>2</state>
+							<game>106</game>
+							<sublocation>-1</sublocation>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+					</subgames>
+					<hint_path_name>data/scripts/objects/se/001/02/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/scripts/system/se/objects.res</hint_path_res>
+				</Game>
+				<Game>
+					<n>106</n>
+					<path>data/scripts/objects/se/001/06/.level.xml</path>
+					<game_type>1000</game_type>
+					<game_params size="3">
+						<action>disable_render_hint_arrow:true</action>
+					</game_params>
+					<exit_pos x="1176" y="109"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<show_reset_info>false</show_reset_info>
+				</Game>
+				<Game>
+					<n>103</n>
+					<path>data/scripts/objects/se/001/03/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="390" y="110"/>
+					<subgames>
+						<subgame>
+							<clk_object>001_03_backpack</clk_object>
+							<game>10301</game>
+							<states>
+								<state>1</state>
+								<state>2</state>
+								<state>3</state>
+							</states>
+							<mini_window>1</mini_window>
+							<subgame_template_number>1</subgame_template_number>
+							<sub_game_block>
+								<button_delta x="-5000" y="-5000"/>
+								<expanding_sprite>none</expanding_sprite>
+							</sub_game_block>
+						</subgame>
+					</subgames>
+					<hint_path_name>data/scripts/objects/se/001/03/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/scripts/system/se/objects.res</hint_path_res>
+				</Game>
+				<Game>
+					<n>10301</n>
+					<path>data/scripts/objects/se/001/03/01/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="390" y="110"/>
+					<blackout>120</blackout>
+					<hint_path_name>data/scripts/objects/se/001/03/01/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/scripts/system/se/objects.res</hint_path_res>
+				</Game>
+				<Game>
+					<n>104</n>
+					<path>data/scripts/objects/se/001/04/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="390" y="110"/>
+				</Game>
+				<Game>
+					<n>105</n>
+					<path>data/scripts/objects/se/001/05/.level.xml</path>
+					<game_type>1000</game_type>
+					<game_params size="3">
+						<action>disable_render_hint_arrow:true</action>
+					</game_params>
+					<exit_pos x="1176" y="109"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<show_reset_info>false</show_reset_info>
+					<hint_path_name>data/scripts/objects/se/001/05/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/scripts/system/se/objects.res</hint_path_res>
+				</Game>
+				<Game>
+					<n>107</n>
+					<path>data/scripts/objects/se/001/07/.level.xml</path>
+					<game_type>1000</game_type>
+					<game_params size="3">
+						<action>disable_render_hint_arrow:true</action>
+					</game_params>
+					<exit_pos x="1176" y="109"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<show_reset_info>false</show_reset_info>
+					<hint_path_name>data/scripts/objects/se/001/07/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/scripts/system/se/objects.res</hint_path_res>
+				</Game>
+				<Game>
+					<n>108</n>
+					<path>data/scripts/objects/se/001/08/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="390" y="110"/>
+				</Game>
+				<!-- 002 -->
+				<Game>
+					<n>2</n>
+					<Location>1</Location>
+					<path>data/scripts/objects/se/002/.level.xml</path>
+					<Backgrounds size="1">
+						<Background>002_back</Background>
+					</Backgrounds>
+					<dialog_before>002_cs_intro</dialog_before>
+					<dialog_before_end_effect>none</dialog_before_end_effect>
+					<game_behavior size="2">
+						<action>dialog_before</action>
+						<action>game</action>
+					</game_behavior>
+					<SoundsBack>
+						<sounds size="1">
+							<sound>
+								<name>house_env</name>
+								<loop>1</loop>
+								<period_min>0</period_min>
+								<period_max>0</period_max>
+							</sound>
+						</sounds>
+					</SoundsBack>
+					<subgames size="1">
+						<subgame>
+							<clk_object>002_road</clk_object>
+							<game>3</game>
+							<state>2</state>
+						</subgame>
+						<subgame>
+							<clk_object>002_tent</clk_object>
+							<game>4</game>
+							<state>1</state>
+						</subgame>
+						<subgame>
+							<clk_object>002_elephant</clk_object>
+							<game>201</game>
+							<state>0</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>2</subgame_template_number>
+							<sub_game_block>
+								<expanding_sprite_layer>5</expanding_sprite_layer>
+								<back_spt>002_01_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>002_elephant</clk_object>
+							<game>201</game>
+							<state>2</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>2</subgame_template_number>
+							<sub_game_block>
+								<expanding_sprite_layer>5</expanding_sprite_layer>
+								<back_spt>002_01_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>002_shawl</clk_object>
+							<game>202</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+						<subgame>
+							<clk_object>002_road</clk_object>
+							<game>203</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>2</subgame_template_number>
+							<sub_game_block>
+								<back_spt>002_03_back</back_spt>
+								<expanding_sprite_layer>4</expanding_sprite_layer>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>002_bonfire</clk_object>
+							<game>204</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>2</subgame_template_number>
+							<sub_game_block>
+								<back_spt>002_04_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>002_tree</clk_object>
+							<game>205</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>1</subgame_template_number>
+							<sub_game_block>
+								<back_spt>002_05_back</back_spt>
+								<expanding_sprite_layer>105</expanding_sprite_layer>
+								<button_close_layer>110</button_close_layer>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<game>206</game>
+							<state>0</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+						<subgame>
+							<clk_object>002_elephant</clk_object>
+							<game>207</game>
+							<state>1</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+						<subgame>
+							<game>208</game>
+							<state>0</state>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+					</subgames>
+					<hint_path_name>data/scripts/objects/se/002/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/scripts/system/se/objects.res</hint_path_res>
+				</Game>
+
+				<!-- frames -->
+				<Game>
+					<n>201</n>
+					<path>data/scripts/objects/se/002/01/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="290" y="110"/>
+				</Game>
+				<Game>
+					<n>202</n>
+					<path>data/scripts/objects/se/002/02/.level.xml</path>
+					<game_type>18</game_type>
+					<game_params size="3">
+						<action>disable_render_hint_arrow:true</action>
+					</game_params>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<exit_pos x="1176" y="109"/>
+				</Game>
+				<Game>
+					<n>203</n>
+					<path>data/scripts/objects/se/002/03/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="290" y="110"/>
+				</Game>
+				<Game>
+					<n>204</n>
+					<path>data/scripts/objects/se/002/04/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="290" y="110"/>
+				</Game>
+				<Game>
+					<n>205</n>
+					<path>data/scripts/objects/se/002/05/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="390" y="110"/>
+				</Game>
+				<Game>
+					<n>206</n>
+					<path>data/scripts/objects/se/002/06/.level.xml</path>
+					<game_type>1000</game_type>
+					<game_params size="3">
+						<action>disable_render_hint_arrow:true</action>
+					</game_params>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<exit_pos x="1176" y="109"/>
+					<show_reset_info>false</show_reset_info>
+				</Game>
+				<Game>
+					<n>207</n>
+					<hard_game>227</hard_game>
+					<path>data/scripts/objects/se/002/07/.level_easy.xml</path>
+					<path_behavior>data/scripts/objects/se/002/07/.game_easy.xml</path_behavior>
+					<game_desc_local>spt_game_4_info|game_002_07_text</game_desc_local>
+					<game_type>575</game_type>
+					<exit_pos x="1176" y="109"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<hint_path_name>data/scripts/objects/se/002/07/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/scripts/system/se/objects.res</hint_path_res>
+				</Game>
+				<Game>
+					<n>227</n>
+					<easy_game>207</easy_game>
+					<path>data/scripts/objects/se/002/07/.level_hard.xml</path>
+					<path_behavior>data/scripts/objects/se/002/07/.game_hard.xml</path_behavior>
+					<game_desc_local>spt_game_4_info|game_002_07_text</game_desc_local>
+					<game_type>575</game_type>
+					<exit_pos x="1176" y="109"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+				</Game>
+				<Game>
+					<n>208</n>
+					<path>data/scripts/objects/se/002/08/.level.xml</path>
+					<game_type>1000</game_type>
+					<game_params size="3">
+						<action>disable_render_hint_arrow:true</action>
+					</game_params>
+					<exit_pos x="1176" y="109"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<show_reset_info>false</show_reset_info>
+				</Game>
+			
+				<!-- ************************************* (хиддены)(<n>1000</n>) ************************************* -->
+
+				<!-- 00101 -->
+				<Game>
+					<n>100101</n>
+					<starting_default_game_n>-1</starting_default_game_n>
+					<return_to_game_n>-1</return_to_game_n>
+					<sub_game>1</sub_game>
+					<path>data/scripts/objects/se/HO/101/.level.xml</path>
+					<back_width>1280</back_width>
+					<back_height>800</back_height>
+					<Backgrounds size="1">
+						<Background>ho_101_back</Background>
+					</Backgrounds>
+					<SoundsBack>
+						<sounds size="2">
+						</sounds>
+						<min_limit_time>0</min_limit_time>
+						<max_limit_time>0</max_limit_time>
+						<play_all>1</play_all>
+					</SoundsBack>
+					<game_type>2000</game_type>
+					<game_params size="3">
+						<action>find_count:30</action>
+						<!-- <action>finds_type:object_list</action> -->
+						<!-- <action>finds_type:revert_xo</action> -->
+						<action>finds:ho_101_f_1_eye|ho_101_f_1_india|ho_101_f_1_thousand</action>
+						<action>finds_ext:data/scripts/objects/se/ho/101/.ext_stage_01.xml</action>
+						<action>finds_wait_time:1</action>
+
+						<action>finds2:ho_101_f_2_hands|ho_101_f_2_door|ho_101_f_2_elephant</action>
+						<action>finds2_ext:data/scripts/objects/se/ho/101/.ext_stage_01.xml</action>
+						<action>finds2_wait_time:1</action>
+
+						<action>finds3:ho_101_f_3_crown|ho_101_f_3_papaya|ho_101_f_3_fish</action>
+						<action>finds3_ext:data/scripts/objects/se/ho/101/.ext_stage_01.xml</action>
+						<action>finds3_wait_time:1</action>
+
+						<action>finds4:ho_101_f_4_fang|ho_101_f_4_dagger|ho_101_f_4_love</action>
+						<action>finds4_ext:data/scripts/objects/se/ho/101/.ext_stage_01.xml</action>
+						<action>finds4_wait_time:1</action>
+
+						<action>finds5:ho_101_item</action>
+						<action>finds_stage_count:5</action>
+
+						<!-- <action>level_sound:ho_desc_101_1_voc|ho_desc_101_2_voc|ho_desc_101_3_voc|ho_desc_101_4_voc|ho_desc_101_5_voc</action> -->
+						<action>imagebox:panel_image_box</action>
+						<action>offset_image:35</action>
+						<action>speed_image:5</action>
+						<action>wrong_object_use_sound:wrong_use_inv_obj</action>
+						<action>finds_last_state:</action>
+						<action>trans_area_ignore_inventory:1</action>
+						<action>remove_find_object_from_list:false</action>
+					</game_params>
+					<game_behavior size="2">
+						<action>game</action>
+					</game_behavior>
+					<helper_game_number>200101</helper_game_number>
+					<subgames size="2">
+						<subgame>
+							<clk_object>ho_101_back</clk_object>
+							<game>1</game>
+							<state>0</state>
+						</subgame>
+						<subgame>
+							<game>200101</game>
+							<sub_game_block>
+								<unique_name>match3_101</unique_name>
+								<window_pos x="0" y="0"/>
+								<button_delta x="-1000" y="-1000"/>
+								<button_skip_delta x="-1000" y="-1000"/>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>ho_101_table</clk_object>
+							<state>0</state>
+							<game>1001011</game>
+							<sublocation>-1</sublocation>
+							<mini_window>1</mini_window>
+							<subgame_template_number>2</subgame_template_number>
+							<sub_game_block>
+								<back_spt>ho_101_1_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>ho_101_fountain</clk_object>
+							<state>0</state>
+							<game>1001012</game>
+							<sublocation>-1</sublocation>
+							<mini_window>1</mini_window>
+							<subgame_template_number>2</subgame_template_number>
+							<sub_game_block>
+								<back_spt>ho_101_2_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>ho_101_pillows</clk_object>
+							<state>0</state>
+							<game>1001013</game>
+							<sublocation>-1</sublocation>
+							<mini_window>1</mini_window>
+							<subgame_template_number>2</subgame_template_number>
+							<sub_game_block>
+								<back_spt>ho_101_3_back</back_spt>
+							</sub_game_block>
+						</subgame>
+						<subgame>
+							<clk_object>ho_101_f_2_caleidoscope</clk_object>
+							<game>1001014</game>
+							<state>1</state>
+							<sublocation>-1</sublocation>
+							<mini_window>1</mini_window>
+							<subgame_template_number>4</subgame_template_number>
+						</subgame>
+					</subgames>
+					<hint_path_name>data/scripts/objects/se/ho/101/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/main.res</hint_path_res>
+				</Game>
+				<Game>
+					<n>1001011</n>
+					<path>data/scripts/objects/se/HO/101/1/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="290" y="110"/>
+					<hint_path_name>data/scripts/objects/se/ho/101/1/.tutorial.xml</hint_path_name>
+					<hint_path_res>data/main.res</hint_path_res>
+				</Game>
+				<Game>
+					<n>1001012</n>
+					<path>data/scripts/objects/se/HO/101/2/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="290" y="110"/>
+				</Game>
+				<Game>
+					<n>1001013</n>
+					<path>data/scripts/objects/se/HO/101/3/.level.xml</path>
+					<game_type>18</game_type>
+					<exit_pos x="200" y="360"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<window_offset x="290" y="110"/>
+				</Game>
+				<Game>
+					<n>1001014</n>
+					<path>data/scripts/objects/se/ho/101/4/.level.xml</path>
+					<game_type>18</game_type>
+					<game_params size="3">
+						<action>disable_render_hint_arrow:true</action>
+					</game_params>
+					<exit_pos x="1176" y="109"/>
+					<exit_pos_angle>3.14</exit_pos_angle>
+					<show_reset_info>false</show_reset_info>
+				</Game>
+				
+				<!-- ************************************* (match-3)(<n>2000</n>) ************************************* -->
+				<Game>
+					<n>200101</n>
+					<path>data/scripts/objects/se/ho/101/.game.xml</path>
+					<game_type>65</game_type>
+					<game_params size="3">
+					</game_params>
+					<scene_scale_effect_disabled>1</scene_scale_effect_disabled>
+					<disable_activation_scale_effect>1</disable_activation_scale_effect>
+				</Game>
+	
+			</Games>
+		</SubLocation>
+	</Location>
+</LocationDesc>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_purse</name_desc>
+    <name>001_f_purse</name>
+    <type>001_f_purse</type>
+    <states size="1">
+        <state>
+            <sprite>001_f_purse</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>KILL_OBJECT</event>
+            <event_parameters>001_03_purse</event_parameters>
+            <messages>
+                <message name="001_for_tutorial">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>13</layer>
+</object>

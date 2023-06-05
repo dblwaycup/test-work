@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Group type="ET_FREE_SEARCH" enabled="1" disabled_image_spt_name="spt_hiddenscene_disable" render_selected_element_only="1" >
+	<!-- se -->	
+	<element id="0" enabled="0" spt_name="ho_01" spt_name_disabled="ho_01_disabled" location="SE" sublocation="0" game_n="100101" text_caption="extra_ho_01" />
+	<element id="1" enabled="0" spt_name="ho_02" spt_name_disabled="ho_02_disabled" location="SE" sublocation="0" game_n="100401" text_caption="extra_ho_02" />
+	<element id="2" enabled="0" spt_name="ho_03" spt_name_disabled="ho_03_disabled" location="SE" sublocation="0" game_n="100701" text_caption="extra_ho_03" />
+	<element id="3" enabled="0" spt_name="ho_04" spt_name_disabled="ho_04_disabled" location="SE" sublocation="0" game_n="100801" text_caption="extra_ho_04" />
+	<element id="4" enabled="0" spt_name="ho_05" spt_name_disabled="ho_05_disabled" location="SE" sublocation="0" game_n="100901" text_caption="extra_ho_05" />
+	<element id="5" enabled="0" spt_name="ho_06" spt_name_disabled="ho_06_disabled" location="SE" sublocation="0" game_n="101101" text_caption="extra_ho_06" />
+	<element id="6" enabled="0" spt_name="ho_07" spt_name_disabled="ho_07_disabled" location="SE" sublocation="0" game_n="101301" text_caption="extra_ho_07" />
+	<element id="7" enabled="0" spt_name="ho_08" spt_name_disabled="ho_08_disabled" location="SE" sublocation="0" game_n="101601" text_caption="extra_ho_08" />
+	<element id="8" enabled="0" spt_name="ho_09" spt_name_disabled="ho_09_disabled" location="SE" sublocation="0" game_n="101701" text_caption="extra_ho_09" />
+	<element id="9" enabled="0" spt_name="ho_10" spt_name_disabled="ho_10_disabled" location="SE" sublocation="0" game_n="101801" text_caption="extra_ho_10" />
+	<element id="10" enabled="0" spt_name="ho_11" spt_name_disabled="ho_11_disabled" location="SE" sublocation="0" game_n="101901" text_caption="extra_ho_11" />
+	<element id="11" enabled="0" spt_name="ho_12" spt_name_disabled="ho_12_disabled" location="SE" sublocation="0" game_n="102301" text_caption="extra_ho_12" />
+	<element id="12" enabled="0" spt_name="ho_13" spt_name_disabled="ho_13_disabled" location="SE" sublocation="0" game_n="102501" text_caption="extra_ho_13" />
+	<!-- ce -->	
+	<element id="13" enabled="0" spt_name="ho_14" spt_name_disabled="ho_14_disabled" location="CE" sublocation="0" game_n="100101" text_caption="extra_ho_14" />
+	<element id="14" enabled="0" spt_name="ho_15" spt_name_disabled="ho_15_disabled" location="CE" sublocation="0" game_n="100301" text_caption="extra_ho_15" />
+	<element id="15" enabled="0" spt_name="ho_16" spt_name_disabled="ho_16_disabled" location="CE" sublocation="0" game_n="100501" text_caption="extra_ho_16" />
+	<element id="16" enabled="0" spt_name="ho_17" spt_name_disabled="ho_17_disabled" location="CE" sublocation="0" game_n="100701" text_caption="extra_ho_17" />
+	<element id="17" enabled="0" spt_name="ho_18" spt_name_disabled="ho_18_disabled" location="CE" sublocation="0" game_n="100901" text_caption="extra_ho_18" />
+</Group>

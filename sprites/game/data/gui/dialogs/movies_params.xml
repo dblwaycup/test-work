@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<config>
+	<gui_path>data/gui/dialogs/movies.xml</gui_path>
+
+	<!-- шаблоны с настройками роликов -->
+	<movie_templates>
+		<template name="cut_scene">
+			<cut_scene>true</cut_scene>
+			<top_video>1</top_video><!-- выключает все мувики на фоне -->
+			<button_skip>3</button_skip><!-- через сколько появится кнопка скипа -->
+			<block_scene>1</block_scene><!-- заблокировать клики -->
+			<hide_gui_element>1</hide_gui_element><!-- скрыть интерфейс -->
+			<volume_back_music_reduce>100</volume_back_music_reduce>
+			<volume_surround_sound_reduce>100</volume_surround_sound_reduce>
+		</template>
+
+		<template name="dialog">
+			<cut_scene>true</cut_scene>
+			<button_skip>3</button_skip><!-- через сколько появится кнопка скипа -->
+			<block_scene>1</block_scene><!-- заблокировать клики -->
+			<hide_gui_element>1</hide_gui_element><!-- скрыть интерфейс -->
+			<black_alpha_max>128</black_alpha_max><!-- затемнение -->
+			<common_alpha_coeff>600</common_alpha_coeff><!-- коэффициент альфы при старте -->
+			<common_alpha_coeff_dis>600</common_alpha_coeff_dis><!-- коэффициент альфы в конце -->
+			<volume_back_music_reduce>100</volume_back_music_reduce>
+		</template>
+	</movie_templates>
+
+	<!-- шаблоны с настройками интерфейсов роликов -->
+	<gui_templates>
+		<template name="cut_scene_interface">
+			<ctrls>
+				<gui name="border_top">
+					<pos x="0" y="-78" />
+					<tween_open>BorderTopUp</tween_open>
+					<tween_close>BorderTopDown</tween_close>
+				</gui>
+				<gui name="border_bottom">
+					<pos x="0" y="800" />
+					<tween_open>BorderBottomUp</tween_open>
+					<tween_close>BorderBottomDown</tween_close>
+					<ctrls>
+						<gui name="default_textbox">
+							<font>data\fonts\gui\agopus25.fnt</font>
+							<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+							<pos x="140" y="17"/>
+							<size x="1052" y="63"/>
+						</gui>
+					</ctrls>
+				</gui>
+			</ctrls>
+		</template>
+
+		<template name="dialog_interface">
+			<ctrls>
+				<gui name="border_text">
+					<pos x="196" y="800" />
+					<tween_open>BorderTextUp</tween_open>
+					<tween_close>BorderTextDown</tween_close>
+					<ctrls>
+						<gui name="default_textbox">
+							<font>Data\Fonts\gui\agopus25.fnt</font>
+							<align>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+							<pos x="40" y="35"/>
+							<size x="810" y="95"/>
+							<text_effect>2</text_effect>
+							<time_effect>1</time_effect>
+							<base_velocity>30</base_velocity>
+						</gui>
+						<gui name="click_to_continue">
+							<pos x="707" y="94"/>
+						</gui>
+					</ctrls>
+				</gui>
+			</ctrls>
+		</template>
+
+		<template name="dialog_left_interface">
+			<ctrls>
+				<gui name="border_text">
+					<pos x="3" y="800" />
+					<tween_open>BorderTextLeftUp</tween_open>
+					<tween_close>BorderTextLeftDown</tween_close>
+					<ctrls>
+						<gui name="default_textbox">
+							<font>Data\Fonts\gui\agopus25.fnt</font>
+							<align>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+							<pos x="40" y="35"/>
+							<size x="810" y="95"/>
+							<text_effect>2</text_effect>
+							<time_effect>1</time_effect>
+							<base_velocity>30</base_velocity>
+						</gui>
+						<gui name="click_to_continue">
+							<pos x="707" y="94"/>
+						</gui>
+					</ctrls>
+				</gui>
+			</ctrls>
+		</template>
+
+		<template name="dialog_right_interface">
+			<ctrls>
+				<gui name="border_text">
+					<pos x="389" y="800" />
+					<tween_open>BorderTextRightUp</tween_open>
+					<tween_close>BorderTextRightDown</tween_close>
+					<ctrls>
+						<gui name="default_textbox">
+							<font>Data\Fonts\gui\agopus25.fnt</font>
+							<align>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</align>
+							<pos x="40" y="35"/>
+							<size x="810" y="95"/>
+							<text_effect>2</text_effect>
+							<time_effect>1</time_effect>
+							<base_velocity>30</base_velocity>
+						</gui>
+						<gui name="click_to_continue">
+							<pos x="707" y="94"/>
+						</gui>
+					</ctrls>
+				</gui>	
+			</ctrls>		
+		</template>
+
+	</gui_templates>
+
+</config>

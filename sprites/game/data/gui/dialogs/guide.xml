@@ -1,0 +1,306 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>BgBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<sprites>
+				<spt>back_sg</spt>
+			</sprites>
+		</ctrl>
+
+	<!-- заголовок диалога -->
+		<ctrl>
+			<name>title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus50.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | S_MULTILINE</style>
+			<text_scale>0.9</text_scale>
+			<default_text>gui_sg_title</default_text>
+			<id>2</id>
+			<pos x="465" y="20"/>
+			<width>388</width>
+			<height>66</height>
+		</ctrl>
+
+	<!-- кнопка вернутся в начало -->
+		<ctrl>
+			<name>button_begin</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<pos x="85" y="80"/>
+			<width>270</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_long</spt>
+				<spt>btn_long_over</spt>
+				<spt>btn_long_over</spt>
+			</sprites>
+			<mask_sprite>btn_long_mask</mask_sprite>
+			<btn_text token="gui_sg_btn_begin">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+		
+	<!-- btn_navigation -->
+		<ctrl>
+			<name>button_prev</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="456" y="702"/>
+			<width>97</width>
+			<height>87</height>
+			<sprites>
+				<spt>btn_left</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_dis</spt>
+			</sprites>
+			<mask_sprite>btn_left_right_mask</mask_sprite>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		<ctrl>
+			<name>button_next</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="728" y="702"/>
+			<width>97</width>
+			<height>87</height>
+			<sprites>
+				<spt>btn_right</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_dis</spt>
+			</sprites>
+			<mask_sprite>btn_left_right_mask</mask_sprite>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- content -->
+		<ctrl><!-- текст заголовка -->
+			<name>caption</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNLEFT | TS_MULTILINE</style>
+			<id>6</id>
+			<pos x="115" y="164"/>
+			<width>500</width>
+			<height>50</height>
+		</ctrl>
+		<ctrl><!-- текст описания -->
+			<name>text</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNLEFT | TS_MULTILINE</style>
+			<text_scale>1</text_scale>
+			<id>7</id>
+			<pos x="115" y="211"/>
+			<width>550</width>
+			<height>444</height>
+		</ctrl>
+		<ctrl><!-- текст номер страницы -->
+			<name>text_count</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus35.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<id>9</id>
+			<pos x="557" y="714"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+			</sprites>
+		</ctrl>
+
+	<!-- картинка и рамка к ней -->
+		<ctrl>
+			<name>btn_image_0</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>10</id>
+			<pos x="958" y="154"/>
+			<width>270</width>
+			<height>175</height>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<position>0</position>
+			<cover>CoverImg0</cover>
+		</ctrl>
+		<ctrl>
+			<name>CoverImg0</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>11</id>
+			<pos x="938" y="138"/>
+			<width>270</width>
+			<height>175</height>
+			<sprites>
+				<spt>frame_sg_small</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>btn_image_1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>12</id>
+			<pos x="700" y="155"/>
+			<width>232</width>
+			<height>142</height>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<position>1</position>
+			<cover>CoverImg1</cover>
+		</ctrl>
+		<ctrl>
+			<name>CoverImg1</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>13</id>
+			<pos x="680" y="138"/>
+			<width>304</width>
+			<height>214</height>
+			<sprites>
+				<spt>frame_sg_small</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>btn_image_2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>14</id>
+			<pos x="958" y="329"/>
+			<width>232</width>
+			<height>142</height>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<position>2</position>
+			<cover>CoverImg2</cover>
+		</ctrl>
+		<ctrl>
+			<name>CoverImg2</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>15</id>
+			<pos x="938" y="313"/>
+			<width>304</width>
+			<height>214</height>
+			<sprites>
+				<spt>frame_sg_small</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>btn_image_3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>16</id>
+			<pos x="700" y="329"/>
+			<width>232</width>
+			<height>142</height>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<position>3</position>
+			<cover>CoverImg3</cover>
+		</ctrl>
+		<ctrl>
+			<name>CoverImg3</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>17</id>
+			<pos x="680" y="313"/>
+			<width>304</width>
+			<height>214</height>
+			<sprites>
+				<spt>frame_sg_small</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>btn_image_4</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>18</id>
+			<pos x="958" y="504"/>
+			<width>232</width>
+			<height>142</height>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<position>4</position>
+			<cover>CoverImg4</cover>
+		</ctrl>
+		<ctrl>
+			<name>CoverImg4</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>19</id>
+			<pos x="938" y="488"/>
+			<width>304</width>
+			<height>214</height>
+			<sprites>
+				<spt>frame_sg_small</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_close</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+		</ctrl>
+	</ctrls>
+</gui>

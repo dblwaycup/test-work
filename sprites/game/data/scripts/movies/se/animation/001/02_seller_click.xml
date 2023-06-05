@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>7.375</life_time>	
+	<killer_click>true</killer_click>	
+	<activate_dialog_start name="bbt_pers" params="001_02_seller" />
+	<close_dialog>bbt_pers</close_dialog>	
+	<Layers size="1">
+
+		 <Layer>
+			<movie_avi>data/movies/se/animation/001/02_seller_click.flv</movie_avi>
+			<create_anim_position x="-23" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<sound>
+				<name>bbt_001_02_seller_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer> 
+	</Layers>
+</Scene>

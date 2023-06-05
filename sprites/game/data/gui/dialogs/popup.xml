@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<PopupDialogs size="1">
+	<PopupDialog>
+		<name>Dialog_1</name><!-- имя диалога -->
+		<sprite>popup</sprite><!-- подложка диалога ( он лежит в главном main.res ) -->
+		<font>data\fonts\gui\agopus25.fnt</font>
+		<scale>1</scale>
+		<rect_top_left><!-- левый верхний прямоугольник -->
+			<x1>0</x1><!-- координата по Х -->
+			<y1>0</y1><!-- координата по Y -->
+			<x2>24</x2><!-- ширина -->
+			<y2>10</y2><!-- высота -->
+		</rect_top_left>
+		<rect_bottom_right><!-- правый нижний прямоугольник -->
+			<x1>164</x1><!-- координата по Х -->
+			<y1>34</y1><!-- координата по Y -->
+			<x2>24</x2><!-- ширина -->
+			<y2>10</y2><!-- высота -->
+		</rect_bottom_right>
+		<delta_text><!-- отступ текста от верхнего левого угла диалога -->
+			<x>30</x>
+			<y>10</y>
+		</delta_text>
+		<offset>-50</offset><!-- на каком расстоянии диалог будет от мыши -->
+	</PopupDialog>
+</PopupDialogs>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<cursor xhot="6" yhot="6">
+	<object path="gears/01.png"/>
+	<object path="gears/02.png"/>
+	<object path="gears/03.png"/>
+	<object path="gears/04.png"/>
+	<object path="gears/05.png"/>
+	<object path="gears/06.png"/>
+	<object path="gears/07.png"/>
+	<object path="gears/08.png"/>
+	<object path="gears/09.png"/>
+	<object path="gears/10.png"/>
+	<object path="gears/11.png"/>
+	<object path="gears/12.png"/>
+	<object path="gears/13.png"/>
+	<object path="gears/14.png"/>
+	<object path="gears/15.png"/>
+	<object path="gears/16.png"/>
+	<object path="gears/17.png"/>
+	<object path="gears/18.png"/>
+</cursor>

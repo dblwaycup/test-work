@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_item</name>
+	<name_desc>ho_101_item</name_desc>
+	<type>ho_101_item</type>
+	<states size="1">
+		<state>
+			<sprite>empty</sprite>
+			<!-- <sprite_inventory>ho_101_item_inv</sprite_inventory> -->
+		</state>
+		<state>
+			<mask_sprite>ho_101_item_mask</mask_sprite>
+			<mask_pos x="0" y="-20"/>
+			<hint_delta x="0" y="-20"/>
+			<!-- <sprite_inventory>ho_101_item_inv</sprite_inventory> -->
+			<mode>Click</mode>
+			<cursor>spt_cursor_hand</cursor>
+			<sound_fx>ad_getall</sound_fx>
+		</state>
+		<state>
+			<sprite>empty</sprite>
+			<!-- <sprite_inventory>ho_101_item_inv</sprite_inventory> -->
+		</state>
+	</states>
+	<global_desc>ho_desc_101_5</global_desc>
+	<layer>150</layer>
+</object>

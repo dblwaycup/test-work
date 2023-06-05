@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_01_hook</name>
+    <name_desc>001_01_hook</name_desc>
+    <type>001_01_hook</type>
+    <states size="2">
+        <state>
+            <sprite>empty</sprite>
+            <mask_sprite>001_01_hook_mask</mask_sprite>
+            <mode>MoviePlay</mode>
+            <mode_param>001_01_hook_click</mode_param>        
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_001_01_hook</dialog_activate>
+            <hint_delta x="41" y="-56"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>001_05_sari</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>001_01_hook</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_01_hook</event_parameters>
+            <messages>
+                <message name="ENGINE">
+                    <msg>GM_STARTGAME</msg>
+                    <int1>2</int1>
+                    <int2>1</int2>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <sprite>001_01_hook</sprite>
+        </state>
+    </states>
+    <layer>95</layer>
+</object>

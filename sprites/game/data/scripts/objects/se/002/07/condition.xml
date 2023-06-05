@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_07_condition</name>
+    <name_desc>002_07_condition</name_desc>
+    <type>002_07_condition</type>
+    <states size="1">
+        <state>
+            <sprite>002_07_condition</sprite>
+        </state>
+        <state>
+            <sprite>002_07_condition</sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>2</mode_param>
+            <messages>
+                <message name="ENGINE">
+                    <msg>GM_STARTGAME</msg>
+                    <int1>201</int1>
+                    <int2>1</int2>
+                    <str1>StartFrame</str1>
+                </message>
+            </messages>  
+        </state>
+		<state>
+            <sprite>002_07_condition</sprite>
+        </state>
+    </states>
+    <layer>5</layer>
+</object>

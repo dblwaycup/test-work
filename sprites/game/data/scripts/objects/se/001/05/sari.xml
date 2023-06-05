@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_05_sari</name>
+    <name_desc>001_05_sari</name_desc>
+    <type>001_05_sari</type>
+    <states size="1">
+        <state>
+            <!-- 001_05_cap -->
+        </state>
+        <state>
+            <sprite>001_05_sari</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <event>KILL_OBJECT</event>
+            <event_parameters>001_05_flask</event_parameters>
+            <combine_inventory_sprite>inv_001_05_sari_1_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>001_05_sari</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <translate_movie>001_05_sari</translate_movie>
+            <combine_inventory_sprite>inv_001_05_sari_1_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_05_sari</event_parameters>
+        </state>
+        <state>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <auto_play>1</auto_play>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_001_05_sari_drag</drag_spt>
+    <window_spt>inv_001_05_sari_get</window_spt>
+    <text_inv_desc>obj_title_001_05_sari</text_inv_desc>
+    <on_get_title>obj_title_001_05_sari</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>10</layer>
+</object>

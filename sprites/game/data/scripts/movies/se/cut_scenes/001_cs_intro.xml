@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Scene template="cut_scene">
+	<life_time>35.042</life_time>
+	<activate_bbt>bbt_001_cs_intro</activate_bbt>
+
+	<Layers size="1">
+
+	<!-- ******************************* movie ******************************* -->
+
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/001_cs_intro.mp4</movie_avi>
+			<create_anim_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>35.042</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+
+	<!-- ******************************* panels ******************************* -->
+		<Layer>
+			<show_gui>cut_scene_interface</show_gui>
+			<enable_time>0</enable_time>
+			<life_time>34.6</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>0</alpha_disable_coeff>
+		</Layer>
+
+	<!-- ******************************* text ******************************* -->
+		<Layer>
+			<enable_time>2</enable_time>
+			<life_time>9</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>001_cs_intro</default_resource_text>
+			<sound>
+				<name>001_cs_intro_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+		<Layer>
+			<enable_time>11</enable_time>
+			<life_time>11</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>001_cs_intro_2</default_resource_text>
+			<sound>
+				<name>001_cs_intro_2_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+		<!-- <Layer>
+			<enable_time>20</enable_time>
+			<life_time>10</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>001_cs_intro_3</default_resource_text>
+			<sound>
+				<name>001_cs_intro_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer> -->
+
+	</Layers>
+</Scene>

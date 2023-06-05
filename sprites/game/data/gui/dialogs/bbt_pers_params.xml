@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<Tasks>
+	<Resources>data/main.res</Resources>
+
+	<task>
+		<name_token>001_04_guide1</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>guide</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>001_cs_intro_3</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>
+
+	<task>
+		<name_token>002_01_monkey</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>harish</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>bbt_002_01_monkey</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>
+
+	<task>
+		<name_token>002_01_monkey_2</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>harish</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>bbt_002_01_monkey_2</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>
+
+	<task>
+		<name_token>002_01_monkey_3</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>harish</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>bbt_002_01_monkey_3</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>
+
+	<task>
+		<name_token>004_04_harish</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>harish</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>bbt_004_04_harish</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>
+
+	<task>
+		<name_token>001_02_seller</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>seller</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>bbt_001_02_seller</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>
+
+	<task>
+		<name_token>001_02_seller1</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>seller</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>bbt_001_02_seller1</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>
+	
+	<task>
+		<name_token>013_06_panther</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>panther</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>bbt_013_06_cage</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>	
+
+	<task>
+		<name_token>ce_006_08_panther</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<background_params>
+					<background>
+						<ctrl_name>icon</ctrl_name>
+						<image_spt>panther</image_spt>
+					</background>
+				</background_params>
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<vec_text_token>
+							<action>ce_bbt_006_08_pantera</action>
+						</vec_text_token>
+						<text_scale>0.95</text_scale>
+					</text_box_param>
+				</text_list>
+			</task_state>
+		</task_panel_params>
+	</task>
+
+</Tasks>

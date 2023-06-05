@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_01_backpack</name>
+    <name_desc>001_03_01_backpack</name_desc>
+    <type>001_03_01_backpack</type>
+    <states size="4">
+        <state>
+            <sprite>001_03_01_backpack</sprite>
+            <mask_sprite>001_03_01_backpack_mask</mask_sprite>
+            <fast_iterate>1</fast_iterate>
+            <cursor>spt_cursor_hand-finger</cursor>
+            <mode>Click</mode>  
+            <translate_movie>001_03_01_backpack1</translate_movie>
+        </state>
+        <state>
+            <sprite>001_03_01_backpack_2</sprite>
+            <fast_iterate>1</fast_iterate>  
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_01_backpack1</event_parameters>
+            <translate_bbt>bbt_001_03_01_backpack</translate_bbt>  
+        </state>
+        <state>
+            <sprite>001_03_01_backpack_1</sprite>
+            <mode>MoviePlay</mode>
+            <mode_param>001_03_01_backpack_click</mode_param>
+            <mask_sprite>001_03_01_backpack_mask</mask_sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_001_03_01_backpack</dialog_activate>
+            <hint_delta x="5" y="-40"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <fast_iterate>1</fast_iterate>
+            <inventory_cast_obj>001_06_handkerchief</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>001_03_01_backpack2</translate_movie>
+        </state>
+        <state>
+            <sprite>001_03_01_backpack_2</sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_01_backpack2</event_parameters>
+            <fast_iterate>1</fast_iterate>
+        </state>
+        <state>
+            <sprite>001_03_01_backpack_5</sprite>
+            <mask_sprite>001_03_01_backpack_mask</mask_sprite>
+        </state>
+    </states>
+    <layer>5</layer>
+</object>

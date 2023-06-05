@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_02_bottle</name>
+    <name_desc>001_02_bottle</name_desc>
+    <type>001_02_bottle</type>
+    <states size="1">
+        <state>
+            <sprite>001_02_bottle</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_02_elephant|5</event_parameters>
+        </state>
+        <state>
+            <sprite>001_02_bottle</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <hint_delta x="0" y="0"/>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_001_02_bottle_drag</drag_spt>
+    <window_spt>inv_001_02_bottle_get</window_spt>
+    <text_inv_desc>obj_title_001_02_bottle</text_inv_desc>
+    <on_get_title>obj_title_001_02_bottle</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>40</layer>
+    <drag_particle_inventory>001_fx_sand</drag_particle_inventory>
+    <particle_to_inventory_delta x="120" y="40" />
+    <particle_to_inventory_drag_delta x="52" y="57" />
+    <get_object_particle_pos x="75" y="75" />
+    <particle_drag_scale>0.66</particle_drag_scale>
+</object>

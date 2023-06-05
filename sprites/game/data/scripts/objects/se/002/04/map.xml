@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_04_map</name>
+    <name_desc>002_04_map</name_desc>
+    <type>002_04_map</type>
+    <states size="2">
+        <!-- <state>
+            <sprite>empty</sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_04_diary|2</event_parameters>   
+        </state> -->
+        <state>
+            <sprite>002_04_map</sprite>
+			<mask_pos x="-2" y="-11" />
+			<cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<hint_delta x="0" y="0" />
+			<translate_movie>002_04_map_add</translate_movie>
+		</state>
+		<state>
+			<event>END_MOVIE</event>
+			<event_parameters>002_04_map_add</event_parameters>
+			<messages>
+                <message name="MapLevelsBtn" >
+                    <msg>GBM_ENABLE</msg>
+                </message>
+                <message name="MapLevelsBtn" >
+                    <msg>GBM_VISIBLE</msg>
+                </message>
+            </messages>
+            <position x="0" y="0" />
+			<layer>3000</layer>
+		</state>
+		<state>
+		</state>
+    </states>
+    <layer>40</layer>
+</object>

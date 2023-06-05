@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<Behavior>
+    <conditions> <!-- условия того, что это миниигра -->
+        <condition>
+            <object>002_07_condition</object>
+            <min_state>0</min_state>
+            <max_state>0</max_state>
+        </condition>
+    </conditions>
+
+    <final_object> <!-- как только прошли паззл, проверяем текущий стейт объекта, если он совпадает, то итерируем его -->
+        <object>002_07_condition</object>
+        <state>0</state>
+    </final_object>
+	
+	<params size="1">
+
+		<param>
+			<name>AddParams</name>
+			<value7>3</value7>  <!-- скорость -->
+			<value4>2</value4>  <!-- задержка после мини-игры -->
+			<mechanics_type>state_change</mechanics_type>
+		</param>
+
+		<param>
+			<name>WaterBox</name>
+			<value2>002_07_bank5</value2> 		<!-- бокал/кубок/кружка/ваза в виде объекта -->
+			<value3>002_07_water5</value3> 		<!-- вино/пиво/эль/вода в виде спрайта -->
+			<vec_val1 x="5" y="0"/>				<!-- x - текущий стейт, y - нужный ( если 0, то не нужен вообще)-->
+			<!-- стейты -->
+			<actions>
+				<action>0</action>
+				<action>1</action>
+				<action>2</action>
+				<action>3</action>
+				<action>4</action>
+				<action>5</action>
+			</actions>
+		</param>
+
+		<param>
+			<name>WaterBox</name>
+			<value2>002_07_bank8</value2> 		<!-- бокал/кубок/кружка/ваза в виде объекта -->
+			<value3>002_07_water8</value3> 		<!-- вино/пиво/эль/вода в виде спрайта -->
+			<vec_val1 x="0" y="4"/>				<!-- x - текущий стейт, y - нужный ( если 0, то не нужен вообще)-->
+			<!-- стейты -->
+			<actions>
+				<action>0</action>
+				<action>1</action>
+				<action>2</action>
+				<action>3</action>
+				<action>4</action>
+				<action>5</action>
+				<action>6</action>
+				<action>7</action>
+				<action>8</action>
+			</actions>
+		</param>
+
+		<param>
+			<name>WaterBox</name>
+			<value2>002_07_bank3</value2> 		<!-- бокал/кубок/кружка/ваза в виде объекта -->
+			<value3>002_07_water3</value3> 		<!-- вино/пиво/эль/вода в виде спрайта -->
+			<vec_val1 x="3" y="0"/>				<!-- x - текущий стейт, y - нужный ( если 0, то не нужен вообще)-->
+			<!-- стейты -->
+			<actions>
+				<action>0</action>
+				<action>1</action>
+				<action>2</action>
+				<action>3</action>
+			</actions>
+		</param>
+
+		<param>
+			<name>Sounds</name>
+			<value>click_mg1_02</value><!-- звук при переливании -->
+		</param>
+
+		<param>
+			<name>Skip</name>
+			<value>1</value> <!-- задержка между шагами -->
+			<actions>
+				<action>002_07_bank5</action> <!-- откуда  -->
+				<action>002_07_bank8</action> <!-- куда  -->
+
+				<action>002_07_bank3</action> <!-- откуда  -->
+				<action>002_07_bank5</action> <!-- куда  -->
+
+				<action>002_07_bank8</action> <!-- откуда  -->
+				<action>002_07_bank3</action> <!-- куда  -->
+
+				<action>002_07_bank3</action> <!-- откуда  -->
+				<action>002_07_bank5</action> <!-- куда  -->
+
+				<action>002_07_bank5</action> <!-- откуда  -->
+				<action>002_07_bank8</action> <!-- куда  -->
+
+				<action>002_07_bank3</action> <!-- откуда  -->
+				<action>002_07_bank5</action> <!-- куда  -->
+
+				<action>002_07_bank8</action> <!-- откуда  -->
+				<action>002_07_bank3</action> <!-- куда  -->
+			</actions>
+		</param>
+
+	</params>
+
+</Behavior>

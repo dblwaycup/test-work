@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_statue</name_desc>
+    <name>002_f_statue</name>
+    <type>002_f_statue</type>
+    <states size="2">
+        <state>
+            <sprite>002_f_statue</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_03_statue|2</event_parameters>
+            <fast_iterate>1</fast_iterate>
+        </state>
+        <state>
+            <sprite>002_f_statue_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>7</layer>
+</object>

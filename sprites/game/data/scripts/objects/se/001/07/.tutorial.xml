@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<hint_behavior>
+	<Blocks size="50">
+		<Block>
+			<steps size="30">
+
+			<!-- hint -->
+			<step>
+				<type_action>ET_OBJECT_IN_STATE</type_action>
+				<param1>001_07_hint</param1>
+				<param3>2</param3>				
+				<close_type>ET_ON_SCREEN_CLICK</close_type>
+				<!-- <close_type>ET_BUTTON_CLICK</close_type>    -->
+				<!-- <param2>ButtonHint</param2>  -->
+				<hint_desc>
+					<back_spt>back_cmn</back_spt>
+					<!-- back tutorial -->
+					<back_positions x="610" y="350" />
+					<text>tutor_hint</text>
+					<!-- text steps -->
+					<skip_button>1</skip_button>
+					<!-- button skip -->
+					<show_skip_hint_step_button>1</show_skip_hint_step_button>
+					<!-- button close -->
+					<global>1</global>
+					<!-- анимации -->
+					<animations>
+						<animation>
+							<anim_name>tutorial_arrow</anim_name>
+							<anim_rotation>125</anim_rotation>
+							<!-- rotation -->
+							<anim_pos x="250" y="161" />
+						</animation>
+					</animations>
+				</hint_desc>
+			</step>
+
+			</steps>
+		</Block>
+	</Blocks>
+
+	<!-- непошаговый туториал -->	
+	<CommonHintSteps>
+		<steps>
+
+		</steps>
+	</CommonHintSteps>
+
+</hint_behavior>

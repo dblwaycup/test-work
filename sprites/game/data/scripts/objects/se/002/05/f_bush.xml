@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_05_f_bush</name_desc>
+    <name>002_05_f_bush</name>
+    <type>002_05_f_bush</type>
+    <states size="1">
+        <state>
+            <sprite>002_05_f_bush</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<discord>true</discord>
+			<distortion_vector x="0.5" y="0.57"/>
+			<distortion_speed x="1.75" y="1.65"/>    
+        </state>
+    </states>
+    <layer>3</layer>
+</object>

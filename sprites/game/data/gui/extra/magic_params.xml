@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<!-- magic_bear|magic_civetta|magic_crokodile|magic_deer|magic_hawk|magic_hyaena|magic_lemur|magic_macho|magic_monkey|magic_moongak|magic_snake|magic_elephant|magic_stork|magic_tiger|magic_wolf-->
+<objects>
+
+	<!--stone_bear-->
+	<object name="magic_bear">
+		<page>0</page>
+		<parent_button_name>magic_bear</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_bear_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_bear_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_bear_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_bear_big</image_name>
+		</open_dialog_on_click>
+	</object>
+
+
+	<!--civetta-->
+	<object name="magic_civetta">
+		<page>0</page>
+		<parent_button_name>magic_civetta</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_civetta_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_civetta_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_civetta_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_civetta_big</image_name>
+		</open_dialog_on_click>
+	</object>
+
+	<!--crokodile-->
+	<object name="magic_crokodile">
+		<page>0</page>
+		<parent_button_name>magic_crokodile</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_crokodile_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_crokodile_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_crokodile_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_crokodile_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--deer-->
+	<object name="magic_deer">
+		<page>0</page>
+		<parent_button_name>magic_deer</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_deer_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_deer_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_deer_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_deer_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	
+	<!--hawk-->
+	<object name="magic_hawk">
+		<page>0</page>
+		<parent_button_name>magic_hawk</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_hawk_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_hawk_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_hawk_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_hawk_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--hyaena-->
+	<object name="magic_hyaena">
+		<page>0</page>
+		<parent_button_name>magic_hyaena</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_hyaena_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_hyaena_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_hyaena_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_hyaena_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--lemur-->
+	<object name="magic_lemur">
+		<page>0</page>
+		<parent_button_name>magic_lemur</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_lemur_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_lemur_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_lemur_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_lemur_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--macho-->
+	<object name="magic_macho">
+		<page>0</page>
+		<parent_button_name>magic_macho</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_macho_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_macho_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_macho_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_macho_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--monkey-->
+	<object name="magic_monkey">
+		<page>0</page>
+		<parent_button_name>magic_monkey</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_monkey_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_monkey_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_monkey_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_monkey_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--moongak-->
+	<object name="magic_moongak">
+		<page>0</page>
+		<parent_button_name>magic_moongak</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_moongak_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_moongak_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_moongak_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_moongak_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--snake-->
+	<object name="magic_snake">
+		<page>0</page>
+		<parent_button_name>magic_snake</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_snake_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_snake_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_snake_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_snake_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--elephant-->
+	<object name="magic_elephant">
+		<page>0</page>
+		<parent_button_name>magic_elephant</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_elephant_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_elephant_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_elephant_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_elephant_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--stork-->
+	<object name="magic_stork">
+		<page>0</page>
+		<parent_button_name>magic_stork</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_stork_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_stork_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_stork_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_stork_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--tiger-->
+	<object name="magic_tiger">
+		<page>0</page>
+		<parent_button_name>magic_tiger</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_tiger_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_tiger_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_tiger_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_tiger_big</image_name>
+		</open_dialog_on_click>
+	</object>
+	
+	<!--wolf-->
+	<object name="magic_wolf">
+		<page>0</page>
+		<parent_button_name>magic_wolf</parent_button_name>
+		<open_dialog_on_click>
+			<dialog_name>collectibles_info_panel</dialog_name>
+			<text_ctrl>text_title</text_ctrl>
+			<text_token>extra_magic_wolf_title</text_token>
+			<text_ctrl2>text_desc</text_ctrl2>
+			<text_token2>extra_magic_wolf_desc</text_token2>
+			<tooltip>Dialog_1|extra_magic_wolf_title</tooltip>
+			<image_ctrl>image</image_ctrl>
+			<image_name>magic_wolf_big</image_name>
+		</open_dialog_on_click>
+	</object>
+</objects>

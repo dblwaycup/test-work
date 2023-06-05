@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>0.500</life_time>	
+	<Layers size="1">
+
+		 <Layer>
+			<movie_avi>data/movies/se/animation/002/frog_click.flv</movie_avi>
+			<create_anim_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer> 
+
+	</Layers>
+</Scene>

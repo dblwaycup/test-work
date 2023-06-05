@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_1_f_1_magnifier_f</name>
+	<name_desc>ho_101_1_f_1_magnifier_f</name_desc>
+	<type>ho_101_1_f_1_magnifier_f</type>
+	<states size="1">
+		<state>
+			<sound_fx>ad_getall</sound_fx>
+        </state>
+		<state>
+			<sprite>ho_101_1_f_1_magnifier_f</sprite>
+			<mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+	<layer>740</layer>
+</object>

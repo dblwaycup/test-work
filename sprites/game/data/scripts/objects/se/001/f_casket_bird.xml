@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_casket_bird</name_desc>
+    <name>001_f_casket_bird</name>
+    <type>001_f_casket_bird</type>
+    <states size="1">
+        <state>
+            <sprite>001_f_casket_bird</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>KILL_OBJECT</event>
+            <event_parameters>001_03_casket</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state> 
+    </states>
+    <layer>14</layer>
+</object>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<hint_behavior>
+	<Blocks size="50">
+		<Block>
+			<steps size="30">
+			<!-- будешь туториал? -->
+				<step>
+					<type_action>ET_OBJECT_IN_STATE</type_action>
+					<param1>001_for_tutorial</param1>
+					<param3>1</param3>
+					<close_type>ET_OK</close_type>
+					<hint_desc>
+						<back_spt>back_cmn</back_spt><!-- back tutorial -->
+						<back_positions x="433" y="193" />
+						<text>tutor_start</text><!-- text steps -->
+						<text_local_pos x="70" y="65" /><!-- text pos -->
+						<yes_button>1</yes_button><!-- button yes -->
+						<no_button>1</no_button><!-- button no -->
+						<show_special_button>1</show_special_button><!-- feature only -->
+					</hint_desc>
+				</step>
+
+				<!-- смотри - зум -->
+				<step>
+					<type_action>ET_TIME</type_action>
+					<param1>0.01</param1>
+					<close_type>ET_START_GAME</close_type>
+					<param2>103</param2>				
+					<hint_desc>
+						<back_spt>back_cmn</back_spt><!-- back tutorial -->
+						<back_positions x="560" y="380" />
+						<text>tutor_zoom</text><!-- text steps -->
+						<skip_button>1</skip_button><!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button><!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>-90</anim_rotation><!-- rotation -->
+								<anim_pos x="-272" y="30" />
+							</animation>
+						</animations>
+					</hint_desc>
+				</step>
+				
+				<!-- ХО -->
+				<step>					
+						<type_action>ET_OBJECT_IN_STATE</type_action>
+						<param1>001_guide</param1>
+						<param3>2</param3>
+						<close_type>ET_START_GAME</close_type>
+						<param2>100101</param2>
+						<hint_desc>
+							<back_spt>back_cmn</back_spt><!-- back tutorial -->
+							<back_positions x="550" y="250" />
+							<text>tutor_ho</text><!-- text steps -->
+							<skip_button>1</skip_button><!-- button skip -->
+							<show_skip_hint_step_button>1</show_skip_hint_step_button><!-- button close -->
+							<global>1</global>
+							<!-- анимации -->
+							<animations>
+								<animation>
+									<anim_name>tutorial_arrow</anim_name>
+									<anim_rotation>-90</anim_rotation><!-- rotation -->
+									<anim_pos x="-260" y="0" />
+								</animation>
+							</animations>
+						</hint_desc>
+				</step>		
+				
+
+				
+				
+<!-- //////////////////////////////////////////////// -->
+				
+			
+				
+				
+			</steps>
+		</Block>
+	</Blocks>
+
+	
+</hint_behavior>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_for_tutorial</name>
+	<name_desc>002_for_tutorial</name_desc>
+	<type>002_for_tutorial</type>
+	<states size="1">
+		<state>
+			<event>END_MOVIE</event>
+			<event_parameters>002_cs_intro</event_parameters>
+		</state>		
+		<state>
+			<event>CLOSE_FRAME</event>
+			<event_parameters>203</event_parameters>
+		</state>
+		<state>
+		</state>
+	</states>
+	<layer>150</layer>
+</object>

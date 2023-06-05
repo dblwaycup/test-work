@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_palm</name_desc>
+    <name>002_f_palm</name>
+    <type>002_f_palm</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_palm</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_07_condition|2</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>1</layer>
+</object>

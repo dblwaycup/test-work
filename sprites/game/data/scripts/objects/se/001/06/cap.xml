@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_06_cap</name_desc>
+    <name>001_06_cap</name>
+    <type>001_06_cap</type>
+    <states size="2">
+        <state>
+            <sprite>001_06_cap</sprite>
+            <cursor>spt_cursor_hand-finger</cursor>
+			<mode>Click</mode>
+			<sound_fx>open_box_01</sound_fx>
+			<iterated_objects size="1">
+			<object>
+				<type>001_06_brush</type>
+			</object>		
+			<object>
+				<type>001_02_casket</type>
+			</object>		
+			<object>
+				<type>001_02_brush</type>
+			</object>		
+			<object>
+				<type>001_02_figure</type>
+			</object>		
+			<object>
+				<type>001_02_handkerchief</type>
+			</object>		
+			<object>
+				<type>001_06_figure</type>
+			</object>	
+			<object>
+				<type>001_06_handkerchief</type>
+			</object>
+			</iterated_objects>
+        </state>
+        <state>
+            <sprite>001_06_cap_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<layer>10</layer>
+        </state>
+    </states>
+    <layer>30</layer>
+</object>

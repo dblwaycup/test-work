@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>wallpapers_image</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1028</width>
+			<height>647</height>
+			<sprites>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>button_left</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="277" y="559"/>
+			<width>97</width>
+			<height>87</height>
+			<sprites>
+				<spt>btn_left</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_dis</spt>
+			</sprites>
+			<mask_sprite>btn_left_right_mask</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_right</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="651" y="559"/>
+			<width>97</width>
+			<height>87</height>
+			<sprites>
+				<spt>btn_right</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_dis</spt>
+			</sprites>
+			<mask_sprite>btn_left_right_mask</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_set_wallpaper</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<pos x="404" y="574"/>
+			<width>216</width>
+			<height>77</height>
+			<sprites>
+				<spt>btn_extra_ok</spt>
+				<spt>btn_extra_ok_over</spt>
+				<spt>btn_extra_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_extra_ok_mask</mask_sprite>
+			<btn_text token="extra_wallpaper_btn">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="99ffffff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER</align>
+				<spacing left="-28" top="-8" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+		<ctrl>
+			<name>text_counter</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text></default_text>
+			<id>4</id>
+			<pos x="509" y="591"/>
+			<width>80</width>
+			<height>26</height>
+		</ctrl>
+		
+	</ctrls>
+</gui>

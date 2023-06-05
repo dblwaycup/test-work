@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="1">
+                <object>
+                    <name>002_01_dlg_elephant</name>
+                    <position x="-290" y="-110" />
+                </object>
+                <object>
+                    <name>002_01_monkey</name>
+                    <position x="380" y="57" />
+                </object>
+				<object>
+                    <name>002_01_elephant</name>
+                    <position x="0" y="-194" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

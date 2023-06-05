@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>2</life_time>
+	<Layers size="1">
+		<Layer>
+			<hot_spot>1</hot_spot><!-- 1 - center of the image; 0 - left top corner -->
+			<enable_time>0</enable_time>
+			<life_time>2</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<particle>inventory_text</particle>
+			<particle_pos x="0" y="25" />
+		</Layer>
+	</Layers>
+</Scene>

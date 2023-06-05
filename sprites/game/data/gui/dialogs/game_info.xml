@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="400" y="200"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>502</width>
+			<height>327</height>
+			<sprites>
+				<spt>back_info_game</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl>
+			<name>MainBackGroundLol</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>4</id>
+			<pos x="20" y="-16"/>
+			<width>248</width>
+			<height>76</height>
+			<expand_align>true</expand_align>
+			<expand_align_H>CENTERWHOTSPOT</expand_align_H>
+			<expand_align_V>TOP</expand_align_V>
+			<sprites>
+				<spt>title</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl><!-- заголовок -->
+			<name>title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>3</id>
+			<pos x="20" y="-16"/>
+			<width>248</width>
+			<height>76</height>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text>dlg_info_title</default_text>
+			<expand_align>true</expand_align>
+			<expand_align_H>CENTERWHOTSPOT</expand_align_H>
+			<expand_align_V>TOP</expand_align_V>
+		</ctrl>
+		
+		<ctrl><!-- описание мини-игры -->
+			<name>Text</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text>Empty</default_text>
+			<id>2</id>
+			<expand_align>true</expand_align>
+			<expand_align_H>CENTERWHOTSPOT</expand_align_H>
+			<expand_align_V>CENTERWHOTSPOT</expand_align_V>
+			<pos x="20" y="10"/>
+			<width>371</width>
+			<height>151</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>Button_Close</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="163" y="276"/>
+			<width>169</width>	
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<expand_align>true</expand_align>
+			<expand_align_H>CENTERWHOTSPOT</expand_align_H>
+			<expand_align_V>BOTTOM</expand_align_V>
+			<btn_text token="gui_cmn_btn_ok">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+	</ctrls>
+</gui>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>2</life_time>	
+	<Layers size="1">
+         <Layer>
+			<resource>data/sprites/objects/se/001/08/casket.png</resource>
+			<create_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>9999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		 <Layer>
+			<resource>data/sprites/objects/se/001/08/animation_2.png</resource>
+			<create_position x="137" y="70" />
+			<enable_time>0</enable_time>
+			<life_time>1</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer> 
+		 <Layer>
+			<resource>data/sprites/objects/se/001/08/animation.png</resource>
+			<create_anim_position x="0" y="0" />
+			<hint_delta x="137" y="70"/>
+			<enable_time>1</enable_time>
+			<life_time>1</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer> 
+
+	</Layers>
+</Scene>

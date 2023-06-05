@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<object>
+	<name_desc>001_06_figure</name_desc>
+	<name>001_06_figure</name>
+	<type>001_06_figure</type>
+	<states size="1">
+		<state>
+			<sprite>001_06_figure</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>001_06_figure</sprite>
+			<cursor>spt_cursor_hand</cursor>
+			<mode>ToInventory</mode>
+			<hint_delta x="0" y="0"/>
+		</state>
+		<state>
+		</state>
+	</states>
+	<drag_spt>inv_001_06_figure_drag</drag_spt>
+	<window_spt>inv_001_06_figure_get</window_spt>
+	<text_inv_desc>obj_title_001_02_figure</text_inv_desc>
+	<on_get_title>obj_title_001_02_figure</on_get_title>
+	<tween_over_type>inv_icon</tween_over_type>
+	<layer>25</layer>
+</object>

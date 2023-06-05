@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_4_door</name>
+	<name_desc>ho_101_4_door</name_desc>
+	<type>ho_101_4_door</type>
+	<states size="1">
+		<state><!-- 0 -->
+			<sprite>empty</sprite>
+		</state>
+		<state><!-- 0 -->
+			<sprite>ho_101_4_door</sprite>
+			<mode>Click</mode>
+			<mode_param3>kill</mode_param3>
+			<iterated_objects size="1">
+				<object>
+					<type>ho_101_f_2_caleidoscope</type>
+				</object>
+			</iterated_objects>
+		</state>
+		<state><!-- 2 -->
+			<sprite>ho_101_4_door</sprite>
+		</state>
+	</states>
+	<type_accept_effect>1</type_accept_effect>
+	<accept_particle>kill_object</accept_particle>
+	<layer>10</layer>
+</object>

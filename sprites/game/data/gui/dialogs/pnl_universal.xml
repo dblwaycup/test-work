@@ -1,0 +1,174 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="100"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>449</width>
+			<height>184</height>
+			<sprites>
+				<spt>back_panel</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl>
+			<name>text_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_yellow.fnt</font>
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>congratulations</default_text>
+			<id>1</id>
+			<pos x="10" y="61"/>
+			<width>235</width>
+			<height>25</height>
+			<font_height>1</font_height>
+			<sound_open>ad_mglow</sound_open>
+		</ctrl>
+		
+		<ctrl>
+			<name>text_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.9</text_scale>
+			<style>TS_ALIGNHLEFT | TS_ALIGNVTOP | TS_MULTILINE</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM,TS_MULTILINE -->
+			<id>2</id>
+			<pos x="10" y="90"/>
+			<width>261</width>
+			<height>58</height>
+		</ctrl>
+
+		<ctrl><!-- иконки -->
+			<name>icon</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<id>3</id>
+			<pos x="209" y="-41"/>
+			<width>266</width>
+			<height>274</height>
+			<sprites>
+				<spt>empty</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl><!-- дополнительный контрол для вывода кол-ва найденных ресурсов, отдельным шрифтом. Текстовка подхватывается из конфига "dialog_params.xml", тег "text" -->
+			<name>resource_count</name>
+			<type>Button</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="251" y="128"/>
+			<width>70</width>
+			<height>70</height>
+			<sprites>
+				<spt>counter_panel</spt>
+				<spt>counter_panel</spt>
+				<spt>counter_panel</spt>
+			</sprites>
+			<mask_sprite>empty</mask_sprite>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<btn_text token="none">
+				<font type="normal">data/fonts/gui/number.fnt</font>
+				<font type="hover">data/fonts/gui/number.fnt</font>
+				<font type="press">data/fonts/gui/number.fnt</font>
+				<font type="disabled">data/fonts/gui/number.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="1.5" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+		<ctrl><!-- кнопка для крестов -->
+			<name>BtnCrosses</name>
+			<type>Button</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="15" y="157"/>
+			<width>254</width>
+			<height>77</height>
+			<sprites>
+				<spt>btn_panel</spt>
+				<spt>btn_panel_over</spt>
+				<spt>btn_panel_over</spt>
+			</sprites>
+			<mask_sprite>btn_panel_mask</mask_sprite>
+			<btn_text token="gui_btn_pnl_universal">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="99ffffff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="9" right="0" bottom="0" />
+				<text_scale>0.9</text_scale>
+			</btn_text>
+			<open_dialog_by_click>extra_boudoir</open_dialog_by_click>
+		</ctrl>
+
+		<ctrl><!-- кнопка для волшебных палочек -->
+			<name>BtnMagic</name>
+			<type>Button</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>6</id>
+			<pos x="15" y="157"/>
+			<width>254</width>
+			<height>77</height>
+			<sprites>
+				<spt>btn_panel</spt>
+				<spt>btn_panel_over</spt>
+				<spt>btn_panel_over</spt>
+			</sprites>
+			<mask_sprite>btn_panel_mask</mask_sprite>
+			<btn_text token="gui_btn_pnl_universal">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="99ffffff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<spacing left="0" top="9" right="0" bottom="0" />
+				<text_scale>0.9</text_scale>
+			</btn_text>
+			<open_dialog_by_click>magic_dialog</open_dialog_by_click>
+		</ctrl>
+		
+		<ctrl><!-- кнопка для статуэток -->
+			<name>BtnStatuettes</name>
+			<type>Button</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>7</id>
+			<pos x="15" y="157"/>
+			<width>254</width>
+			<height>77</height>
+			<sprites>
+				<spt>btn_panel</spt>
+				<spt>btn_panel_over</spt>
+				<spt>btn_panel_over</spt>
+			</sprites>
+			<mask_sprite>btn_panel_mask</mask_sprite>
+			<btn_text token="gui_btn_pnl_universal">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="99ffffff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+					<spacing left="0" top="9" right="0" bottom="0" />
+				<text_scale>0.9</text_scale>
+			</btn_text>
+			<open_dialog_by_click>statuettes_dialog</open_dialog_by_click>
+		</ctrl>
+	</ctrls>
+</gui>

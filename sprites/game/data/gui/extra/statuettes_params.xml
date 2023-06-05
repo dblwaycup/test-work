@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- stone_bear|civetta|crokodile|deer|hawk|hyaena|lemur|macho|stone_monkey|moongak|snake|stone_elephant|stork|tiger|wolf-->
+<objects>
+
+	<!--stone_bear-->
+	<object name="stone_bear">
+		<page>0</page>
+		<parent_button_name>stone_bear</parent_button_name>
+		
+	</object>
+
+
+	<!--civetta-->
+	<object name="civetta">
+		<page>0</page>
+		<parent_button_name>civetta</parent_button_name>
+	
+	</object>
+
+	<!--crokodile-->
+	<object name="crokodile">
+		<page>0</page>
+		<parent_button_name>crokodile</parent_button_name>
+		
+	</object>
+	
+	<!--deer-->
+	<object name="deer">
+		<page>0</page>
+		<parent_button_name>deer</parent_button_name>
+		
+	</object>
+	
+	
+	<!--hawk-->
+	<object name="hawk">
+		<page>0</page>
+		<parent_button_name>hawk</parent_button_name>
+		
+	</object>
+	
+	<!--hyaena-->
+	<object name="hyaena">
+		<page>0</page>
+		<parent_button_name>hyaena</parent_button_name>
+		
+	</object>
+	
+	<!--lemur-->
+	<object name="lemur">
+		<page>0</page>
+		<parent_button_name>lemur</parent_button_name>
+		
+	</object>
+	
+	<!--macho-->
+	<object name="macho">
+		<page>0</page>
+		<parent_button_name>macho</parent_button_name>
+		
+	</object>
+	
+	<!--monkey-->
+	<object name="monkey">
+		<page>0</page>
+		<parent_button_name>monkey</parent_button_name>
+	
+	</object>
+	
+	<!--moongak-->
+	<object name="moongak">
+		<page>0</page>
+		<parent_button_name>moongak</parent_button_name>
+		
+	</object>
+	
+	<!--snake-->
+	<object name="snake">
+		<page>0</page>
+		<parent_button_name>snake</parent_button_name>
+		
+	</object>
+	
+	<!--stone_elephant-->
+	<object name="stone_elephant">
+		<page>0</page>
+		<parent_button_name>stone_elephant</parent_button_name>
+	
+	</object>
+	
+	<!--stork-->
+	<object name="stork">
+		<page>0</page>
+		<parent_button_name>stork</parent_button_name>
+		
+	</object>
+	
+	<!--tiger-->
+	<object name="tiger">
+		<page>0</page>
+		<parent_button_name>tiger</parent_button_name>
+		
+	</object>
+	
+	<!--wolf-->
+	<object name="wolf">
+		<page>0</page>
+		<parent_button_name>wolf</parent_button_name>
+		
+	</object>
+	
+</objects>

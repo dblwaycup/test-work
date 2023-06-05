@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_tent</name>
+    <name_desc>002_tent</name_desc>
+    <type>002_tent</type>
+    <states size="1">
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_cs_elephant</event_parameters>
+        </state>
+        <state>
+            <mask_sprite>002_tent</mask_sprite>
+            <arrow_hint_pos x="920" y="320" />
+            <arrow_hint_particle_offset x="0" y="0" />
+            <particle_on_mouse>light_small</particle_on_mouse>
+            <particle_om_pos x="49" y="97" />
+        </state>
+    </states>
+    <text_next_location>scene_04</text_next_location>
+    <layer>5</layer>
+</object>

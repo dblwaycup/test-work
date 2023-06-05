@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_04_bowl</name>
+    <name_desc>002_04_bowl</name_desc>
+    <type>002_04_bowl</type>
+    <states size="1">
+        <state>
+            <sprite>002_04_bowl</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_04_bowl</dialog_activate>
+            <event>KILL_OBJECT</event>
+            <event_parameters>002_04_nails</event_parameters>
+        </state>
+        <state>
+            <sprite>002_04_bowl</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_04_bowl</dialog_activate>
+            <hint_delta x="95" y="-18"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>001_05_flask:002_04_flask;-1 | 002_05_henna:002_04_henna;-1</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+        </state>
+        <state>
+            <sprite>002_04_bowl</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_04_bowl</dialog_activate>
+            <hint_delta x="95" y="-18"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>001_05_flask:002_04_flask;-1 | 002_05_henna:002_04_henna;-1</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+        </state>
+        <state>
+            <sprite>002_04_bowl</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>BEGIN_MOVIE</event>
+            <event_parameters>002_04_hennaflask</event_parameters>
+            <fast_iterate>1</fast_iterate>
+        </state> 
+        <state>
+            <sprite>002_04_bowl_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>002_04_hennaflask</event_parameters> 
+            <fast_iterate>1</fast_iterate> 
+        </state>
+        <state>
+            <sprite>002_04_bowl_3</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_04_bowl</dialog_activate>
+            <hint_delta x="95" y="-18"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>001_06_brush</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <messages>
+                <message name="002_04_hand">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages> 
+        </state>       
+        <state>
+            <sprite>002_04_bowl_3</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>25</layer>
+</object>

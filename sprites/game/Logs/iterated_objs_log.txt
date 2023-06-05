@@ -1,0 +1,2 @@
+Object: 001_phone last state : 0 
+Object: 001_phone new state : 1 

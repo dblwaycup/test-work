@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="5">
+                <object>
+                    <name>001_05_casket</name>
+                    <position x="344" y="107" />  
+                </object>
+                <object>
+                    <name>001_05_sari</name>
+                    <position x="477" y="442" />
+                </object>
+                <object>
+                    <name>001_05_flask</name>
+                    <position x="567" y="417" />
+                </object>
+                <object>
+                    <name>001_05_brochure</name>
+                    <position x="513" y="332" />
+                </object>
+                <object>
+                    <name>001_05_cap</name>
+                    <position x="344" y="107" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

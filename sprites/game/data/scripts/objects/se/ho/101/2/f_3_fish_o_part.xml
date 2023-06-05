@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_2_f_3_fish_o_part</name>
+	<name_desc>ho_101_2_f_3_fish_o_part</name_desc>
+	<type>ho_101_2_f_3_fish_o_part</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_2_f_3_fish_o_part</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>ho_101_2_f_3_fish_o_part</sprite>
+			<mode>ActiveDrag</mode>
+            <drag_obj_press_sound>ad_getall</drag_obj_press_sound>
+            <mode_param>ho_101_2_f_3_fish_o</mode_param>
+            <cursor>spt_cursor_hand</cursor>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>ho_101_2_f_3_fish_o_part_drag</drag_spt>
+	<layer>780</layer>
+</object>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Dialog_params>
+	<items>
+	
+	<!-- Кельтские Кресты -->
+		<item>
+			<name>extra_crosses</name><!-- название ресурса -->
+			<type>extra_crosses</type><!-- общий тип. Для подсчета кол-ва -->
+			<spt_image>extra_crosses</spt_image><!-- для плашки название спрайта картинки -->
+			<button_name>BtnCrosses</button_name> <!-- название кнопки, которая включится на плашке "UniversalAchievementDialog" -->
+			<universal>1</universal><!-- если = 1 - обьект будет считаться универсальным (не старый тип, мозайки, бабочки, монетки; просто универсальный тип) будет появляться плашка -->
+			<texts>
+				<text>
+					<ctrl_name>text_desc</ctrl_name><!-- имя текстового контрола -->
+					<localized_text>extra_crosses</localized_text><!-- токен текста -->
+				</text>
+				<text>
+					<ctrl_name>resource_count</ctrl_name><!-- имя текстового контрола -->
+					<localized_text>%CURRENT_NUM%/70</localized_text><!-- токен текста (текущее кол-во найденных ресурсов) -->
+				</text>
+			</texts>
+		</item>
+		
+	<!-- Феи -->
+		<item>
+			<name>extra_magic</name><!-- название ресурса -->
+			<type>extra_magic</type><!-- общий тип. Для подсчета кол-ва -->
+			<spt_image>extra_magic</spt_image><!-- для плашки название спрайта картинки -->
+			<button_name>BtnMagic</button_name><!-- название кнопки, которая включится на плашке "UniversalAchievementDialog" -->
+			<universal>1</universal><!-- если = 1 - обьект будет считаться универсальным (не старый тип, мозайки, бабочки, монетки; просто универсальный тип) будет появляться плашка -->
+			<texts>
+				<text>
+					<ctrl_name>text_desc</ctrl_name><!-- имя текстового контрола -->
+					<localized_text>extra_magic</localized_text><!-- токен текста -->
+				</text>
+				<text>
+					<ctrl_name>resource_count</ctrl_name><!-- имя текстового контрола -->
+					<localized_text>%CURRENT_NUM%/15</localized_text><!-- токен текста (текущее кол-во найденных ресурсов) -->
+				</text>
+			</texts>
+		</item>
+		
+	<!-- Статьи -->
+		<item>
+			<name>extra_statuettes</name><!-- название ресурса -->
+			<type>extra_statuettes</type><!-- общий тип. Для подсчета кол-ва -->
+			<spt_image>extra_statuettes</spt_image><!-- для плашки название спрайта картинки -->
+			<button_name>BtnStatuettes</button_name> <!-- название кнопки, которая включится на плашке "UniversalAchievementDialog"-->
+			<universal>1</universal><!-- если = 1 - обьект будет считаться универсальным (не старый тип, мозайки, бабочки, монетки; просто универсальный тип) будет появляться плашка -->
+			<texts>
+				<text>
+					<ctrl_name>text_desc</ctrl_name><!-- имя текстового контрола -->
+					<localized_text>extra_statuettes</localized_text><!-- токен текста -->
+				</text>
+				<text>
+					<ctrl_name>resource_count</ctrl_name><!-- имя текстового контрола -->
+					<localized_text>%CURRENT_NUM%/15</localized_text><!-- токен текста (текущее кол-во найденных ресурсов) -->
+				</text>
+			</texts>
+		</item>
+
+	</items>
+</Dialog_params>

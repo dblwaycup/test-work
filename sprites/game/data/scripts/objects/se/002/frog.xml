@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_frog</name_desc>
+    <name>002_frog</name>
+    <type>002_frog</type>
+    <states size="1">
+        <state>
+            <translate_movie>002_frog_click</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_frog_click</event_parameters>
+        </state>
+        <state>
+            <movie>002_frog_idle</movie>
+            <mask_sprite>002_frog_mask</mask_sprite>
+            <mode>Click</mode>
+            <translate_movie>002_frog_change</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_frog_change</event_parameters>
+        </state>
+        <state>
+        </state>
+    </states>
+    <decorate>1</decorate>
+    <layer>77</layer>
+</object>

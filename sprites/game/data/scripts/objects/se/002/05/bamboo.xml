@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_05_bamboo</name>
+    <name_desc>002_05_bamboo</name_desc>
+    <type>002_05_bamboo</type>
+    <states size="2">
+        <state>
+            <mask_sprite>002_05_bamboo_mask</mask_sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_05_bamboo</dialog_activate>
+            <hint_delta x="0" y="0"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>002_08_stairs</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>002_05_bamboo_cast</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_05_bamboo_cast</event_parameters>
+        </state>
+        <state>
+            <sprite>002_05_bamboo</sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>1</mode_param>
+            <translate_movie>002_05_bamboo_change</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_05_bamboo_change</event_parameters>
+            <layer>21</layer>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>10</layer>
+</object>

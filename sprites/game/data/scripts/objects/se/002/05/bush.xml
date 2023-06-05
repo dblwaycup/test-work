@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_05_bush</name>
+    <name_desc>002_05_bush</name_desc>
+    <type>002_05_bush</type>
+    <states size="1">
+        <state>
+            <sprite>002_05_bush</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>20</layer>
+</object>

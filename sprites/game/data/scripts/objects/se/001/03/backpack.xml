@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_backpack</name>
+    <name_desc>001_03_backpack</name_desc>
+    <type>001_03_backpack</type>
+    <states size="4">
+        <state>
+            <sprite>001_03_backpack</sprite>
+            <static_text_list>
+                <static_text>
+                    <text>001_03_backpack</text>
+                    <font>data/fonts/notes/adventure22.fnt</font>
+                    <pos x="59" y="422" />
+                    <size x="110" y="50" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <angle>328</angle>
+                    <scale>1</scale>
+                </static_text>
+            </static_text_list>
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_tasks_add</event_parameters>
+        </state>
+        <state>
+            <sprite>001_03_backpack</sprite>
+            <mask_sprite>001_03_backpack_mask</mask_sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <fast_iterate>1</fast_iterate>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0" />
+            <static_text_list>
+                <static_text>
+                    <text>001_03_backpack</text>
+                    <font>data/fonts/notes/adventure22.fnt</font>
+                    <pos x="59" y="422" />
+                    <size x="110" y="50" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <angle>328</angle>
+                    <scale>1</scale>
+                </static_text>
+            </static_text_list>
+        </state>
+        <state>
+            <sprite>001_03_backpack</sprite>
+            <mask_sprite>001_03_backpack_mask</mask_sprite>
+            <fast_iterate>1</fast_iterate>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <hint_delta x="0" y="0" />
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_01_backpack2</event_parameters>
+            <static_text_list>
+                <static_text>
+                    <text>001_03_backpack</text>
+                    <font>data/fonts/notes/adventure22.fnt</font>
+                    <pos x="59" y="422" />
+                    <size x="110" y="50" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <angle>328</angle>
+                    <scale>1</scale>
+                </static_text>
+            </static_text_list>
+        </state>
+        <state>
+            <sprite>001_03_backpack_2</sprite>
+            <mask_sprite>001_03_backpack_mask</mask_sprite>
+            <fast_iterate>1</fast_iterate>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <hint_delta x="0" y="0" />
+            <static_text_list>
+                <static_text>
+                    <text>001_03_backpack</text>
+                    <font>data/fonts/notes/adventure22.fnt</font>
+                    <pos x="59" y="422" />
+                    <size x="110" y="50" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <angle>328</angle>
+                    <scale>1</scale>
+                </static_text>
+            </static_text_list>
+        </state>
+        <state>
+            <sprite>001_03_backpack_3</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <static_text_list>
+                <static_text>
+                    <text>001_03_backpack</text>
+                    <font>data/fonts/notes/adventure22.fnt</font>
+                    <pos x="59" y="422" />
+                    <size x="110" y="50" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <angle>328</angle>
+                    <scale>1</scale>
+                </static_text>
+            </static_text_list>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.49</mode_param>
+            <translate_movie>001_003_backpack_change</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_003_backpack_change</event_parameters>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>35</layer>
+</object>

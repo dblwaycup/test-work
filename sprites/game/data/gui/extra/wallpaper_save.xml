@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="409" y="208"/>
+	<ctrls>
+		<ctrl>
+			<name>BackGround</name><!-- обязательное название кнопки -->
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>501</width>
+			<height>326</height>
+			<sprites>
+				<spt>back_cmn</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl>
+			<name>SaveWallpaperConfirmDialog</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text>extra_wallpaper_save_desc</default_text>
+			<id>40</id>
+			<pos x="64" y="60" />
+			<width>372</width>
+			<height>60</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="74" y="190"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<btn_text token="gui_cmn_btn_ok">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_cancel</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="258" y="190"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<btn_text token="gui_cmn_btn_no">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+	</ctrls>
+</gui>

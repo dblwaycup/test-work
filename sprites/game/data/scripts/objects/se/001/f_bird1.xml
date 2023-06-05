@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_bird1</name_desc>
+    <name>001_f_bird1</name>
+    <type>001_f_bird1</type>
+    <states size="1">
+        <state>
+            <movie>001_f_bird1_idle</movie>
+            <mask_sprite>001_f_bird1-mask</mask_sprite>
+            <mode>Click</mode>
+            <translate_movie>001_f_bird1_click</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_f_bird1_click</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <decorate>1</decorate>
+    <layer>10</layer>
+</object>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<hint_behavior>
+	<Blocks size="50">
+		<Block>
+			<steps size="30">
+				<step>
+					<type_action>ET_TIME</type_action>
+					<param1>0</param1>
+					<close_type>FIND_OBJ</close_type>
+					<param2>ho_101_f_1_eye</param2>
+					<hide_is_match3_play>1</hide_is_match3_play>
+					<hint_desc>
+						<back_spt>back_cmn</back_spt>
+						<!-- back tutorial -->
+						<back_positions x="449" y="305" />
+						<text>tutor_ho_list</text>
+						<!-- text steps -->
+						<skip_button>1</skip_button>
+						<!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button>
+						<!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>180</anim_rotation>
+								<!-- rotation -->
+								<anim_pos x="-199" y="294" />
+							</animation>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>0</anim_rotation>
+								<!-- поворот -->
+								<anim_pos x="-45" y="-210" />			
+							</animation>	
+						</animations>
+					</hint_desc>
+				</step>
+
+				<step>
+					<type_action>ET_TIME</type_action>
+					<param1>0.01</param1>
+					
+					<close_type>ET_START_GAME</close_type>
+					<param2>1001011</param2>
+					<hide_is_match3_play>1</hide_is_match3_play>
+					<hint_desc>
+						<back_spt>back_cmn</back_spt>
+						<!-- back tutorial -->
+						<back_positions x="449" y="335" />
+						<text>tutor_ho_zoom</text>
+						<!-- text steps -->
+						<skip_button>1</skip_button>
+						<!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button>
+						<!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>-90</anim_rotation>
+								<!-- rotation -->
+								<anim_pos x="-280" y="30" />
+							</animation>
+						</animations>
+					</hint_desc>
+				</step>
+
+
+				<!-- 10 :: от хо переключение на Матч3 -->
+				<step>
+					<type_action>ET_ON_MINIGAME_CLOSED</type_action>
+					<param1>1001011</param1>
+					<close_type>ET_ON_SCREEN_CLICK</close_type>
+					<special>1</special>
+					<hide_is_match3_play>1</hide_is_match3_play>
+					<hint_desc>
+						<back_spt>back_cmn</back_spt>
+						<!-- back tutorial -->
+						<back_positions x="775" y="130" />
+						<text>tutor_ho_match3</text>
+						<!-- text steps -->
+						<skip_button>1</skip_button>
+						<!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button>
+						<!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>0</anim_rotation>
+								<!-- rotation -->
+								<anim_pos x="140" y="-175" />
+							</animation>
+						</animations>
+					</hint_desc>	
+				</step>
+
+
+			</steps>
+		</Block>
+	</Blocks>
+
+	<!-- непошаговый туториал -->	
+	<CommonHintSteps>
+		<steps>
+
+		</steps>
+	</CommonHintSteps>
+
+</hint_behavior>

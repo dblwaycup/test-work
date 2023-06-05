@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<Group type="ET_CUTSCENES" enabled="1" disabled_image_spt_name="spt_wallpaper_disable" >
+	<!-- se -->
+	<element id="0" enabled="1" spt_name="cutscenes_01" spt_name_disabled="cutscenes_01_disabled" movie_name="preintro" text_caption="extra_movie_01" />
+	<element id="1" enabled="0" spt_name="cutscenes_02" spt_name_disabled="cutscenes_02_disabled" movie_name="001_cs_intro" text_caption="extra_movie_02" />
+	<element id="2" enabled="0" spt_name="cutscenes_03" spt_name_disabled="cutscenes_03_disabled" movie_name="001_cs_monkey" text_caption="extra_movie_03" />
+	<element id="3" enabled="0" spt_name="cutscenes_04" spt_name_disabled="cutscenes_04_disabled" movie_name="002_cs_intro" text_caption="extra_movie_04" />
+	<element id="4" enabled="0" spt_name="cutscenes_05" spt_name_disabled="cutscenes_05_disabled" movie_name="003_cs_intro" text_caption="extra_movie_05" />
+	<element id="5" enabled="0" spt_name="cutscenes_06" spt_name_disabled="cutscenes_06_disabled" movie_name="002_cs_elephant" text_caption="extra_movie_06" />
+	<element id="6" enabled="0" spt_name="cutscenes_07" spt_name_disabled="cutscenes_07_disabled" movie_name="005_cs_intro" text_caption="extra_movie_07" />
+	<element id="7" enabled="0" spt_name="cutscenes_08" spt_name_disabled="cutscenes_08_disabled" movie_name="006_cs_intro" text_caption="extra_movie_08" />
+	<element id="8" enabled="0" spt_name="cutscenes_09" spt_name_disabled="cutscenes_09_disabled" movie_name="007_cs_intro" text_caption="extra_movie_09" />
+	<element id="9" enabled="0" spt_name="cutscenes_10" spt_name_disabled="cutscenes_10_disabled" movie_name="008_cs_intro" text_caption="extra_movie_10" />
+	<element id="10" enabled="0" spt_name="cutscenes_11" spt_name_disabled="cutscenes_11_disabled" movie_name="008_cs_final" text_caption="extra_movie_11" />
+	<element id="11" enabled="0" spt_name="cutscenes_12" spt_name_disabled="cutscenes_12_disabled" movie_name="009_cs_intro" text_caption="extra_movie_12" />
+	<element id="12" enabled="0" spt_name="cutscenes_13" spt_name_disabled="cutscenes_13_disabled" movie_name="013_cs_intro" text_caption="extra_movie_13" />
+	<element id="13" enabled="0" spt_name="cutscenes_14" spt_name_disabled="cutscenes_14_disabled" movie_name="013_dlg_sajita2" text_caption="extra_movie_14" />
+	<element id="14" enabled="0" spt_name="cutscenes_15" spt_name_disabled="cutscenes_15_disabled" movie_name="014_cs_intro" text_caption="extra_movie_15" />
+	<element id="15" enabled="0" spt_name="cutscenes_16" spt_name_disabled="cutscenes_16_disabled" movie_name="017_cs_intro" text_caption="extra_movie_16" />
+	<element id="16" enabled="0" spt_name="cutscenes_17" spt_name_disabled="cutscenes_17_disabled" movie_name="018_cs_intro" text_caption="extra_movie_17" />
+	<element id="17" enabled="0" spt_name="cutscenes_18" spt_name_disabled="cutscenes_18_disabled" movie_name="019_cs_intro" text_caption="extra_movie_18" />
+	<element id="18" enabled="0" spt_name="cutscenes_19" spt_name_disabled="cutscenes_19_disabled" movie_name="019_cs_monkeyking" text_caption="extra_movie_19" />
+	<element id="19" enabled="0" spt_name="cutscenes_20" spt_name_disabled="cutscenes_20_disabled" movie_name="020_cs_intro" text_caption="extra_movie_20" />
+	<element id="20" enabled="0" spt_name="cutscenes_21" spt_name_disabled="cutscenes_21_disabled" movie_name="021_cs_intro" text_caption="extra_movie_21" />
+	<element id="21" enabled="0" spt_name="cutscenes_22" spt_name_disabled="cutscenes_22_disabled" movie_name="022_cs_intro" text_caption="extra_movie_22" />
+	<element id="22" enabled="0" spt_name="cutscenes_23" spt_name_disabled="cutscenes_23_disabled" movie_name="024_cs_intro" text_caption="extra_movie_23" />
+	<element id="23" enabled="0" spt_name="cutscenes_24" spt_name_disabled="cutscenes_24_disabled" movie_name="024_cs_final" text_caption="extra_movie_24" />
+	<!-- ce -->
+	<element id="24" enabled="0" spt_name="cutscenes_25" spt_name_disabled="cutscenes_25_disabled" movie_name="ce_001_cs_intro" text_caption="extra_movie_25" />
+	<element id="25" enabled="0" spt_name="cutscenes_26" spt_name_disabled="cutscenes_26_disabled" movie_name="ce_003_cs_intro" text_caption="extra_movie_26" />
+	<element id="26" enabled="0" spt_name="cutscenes_27" spt_name_disabled="cutscenes_27_disabled" movie_name="005_ce_intro" text_caption="extra_movie_27" />
+	<element id="27" enabled="0" spt_name="cutscenes_28" spt_name_disabled="cutscenes_28_disabled" movie_name="005_ce_cs_amala" text_caption="extra_movie_28" />
+	<element id="28" enabled="0" spt_name="cutscenes_29" spt_name_disabled="cutscenes_29_disabled" movie_name="006_ce_intro" text_caption="extra_movie_29" />
+	<element id="29" enabled="0" spt_name="cutscenes_30" spt_name_disabled="cutscenes_30_disabled" movie_name="009_ce_intro" text_caption="extra_movie_30" />
+	<element id="30" enabled="0" spt_name="cutscenes_31" spt_name_disabled="cutscenes_31_disabled" movie_name="010_ce_intro" text_caption="extra_movie_31" />
+	<element id="31" enabled="0" spt_name="cutscenes_32" spt_name_disabled="cutscenes_32_disabled" movie_name="010_ce_final" text_caption="extra_movie_32" />
+</Group>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_book</name_desc>
+    <name>002_f_book</name>
+    <type>002_f_book</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_book</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<event>KILL_OBJECT</event>
+			<event_parameters>002_04_book</event_parameters>
+		</state>
+		<state>
+			<sprite>empty</sprite>
+		</state>
+    </states>
+    <layer>2</layer>
+</object>

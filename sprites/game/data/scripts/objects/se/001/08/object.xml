@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_08_object</name_desc>
+    <name>001_08_object</name>
+    <type>001_08_object</type>
+    <states size="1">
+        <state>
+		<sprite>001_08_object</sprite>
+		<mask_sprite>empty</mask_sprite>
+		<cursor>spt_cursor_hand-finger</cursor>
+		<mode>Click</mode>
+		<iterated_objects size="1">
+			<object>
+				<type>001_08_coin</type>
+			</object>
+	    </iterated_objects>
+		</state>
+		<state>
+		<sprite>001_08_object</sprite>
+		<mask_sprite>001_08_zoom</mask_sprite>
+		<mode>WaitTimeWithHint</mode>
+            <mode_param>0.5</mode_param>
+        </state>       
+        <state>
+        </state>
+    </states>
+    <layer>5</layer>
+</object>

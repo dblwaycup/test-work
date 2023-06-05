@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl><!--  бекграунд  -->
+			<name>back_inv</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>733</width>
+			<height>138</height>
+			<sprites>
+				<spt>inventory_ho</spt>
+			</sprites>
+			<layer>-5</layer>
+		</ctrl>
+
+		<ctrl><!-- заголовок -->
+			<name>list_game_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<font>data\fonts\gui\agopus25.fnt</font>
+			<default_text>gui_pnl_ho</default_text>
+			<id>4</id>
+			<pos x="258" y="4" />
+			<width>210</width>
+			<height>39</height>
+		</ctrl>
+		
+		<ctrl><!--  поле с текстовыми элементами  -->
+			<name>text_template</name>
+			<type>RichText</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<align>2</align>
+			<font_name>data\fonts\gui\agopus25.fnt</font_name>
+			<second_font_name>data\fonts\gui\agopus25.fnt</second_font_name>
+			<default_text>list_box_text</default_text>
+			<id>1</id>
+			<pos x="44" y="60"/>
+			<text_dx>0</text_dx>
+			<text_dy>0</text_dy>
+			<delta_h>0</delta_h>
+			<width>180</width>
+			<height>80</height>
+			<sprites>
+				<spt>empty</spt>
+			</sprites>
+		</ctrl>
+	</ctrls>
+</gui>

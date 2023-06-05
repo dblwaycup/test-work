@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_05_puzzle6</name>
+    <name_desc>002_05_puzzle6</name_desc>
+    <type>002_05_puzzle6</type>
+    <states size="1">
+        <state>
+           <event>END_MOVIE</event>
+            <event_parameters>002_05_bamboo_change</event_parameters>
+        </state>  
+        <state>
+            <sprite>002_05_puzzle6</sprite>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <messages>
+				<message name="ENGINE" >
+					<msg>GMB_MOVE</msg>
+					<int1>6</int1>
+					<int2>2</int2>
+					<float1>4</float1>
+					<str1>002_05_puzzle6</str1>
+					<str2>002_05_puzzle6_on</str2>
+				</message>
+			</messages>
+            <sound_fx>puzzle_02</sound_fx>
+        </state>
+        <state>
+        </state>
+    </states>
+    <sprite_icon>002_05_puzzle6_fly</sprite_icon>
+    <layer>95</layer>
+</object>

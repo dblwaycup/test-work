@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_flower1</name_desc>
+    <name>002_f_flower1</name>
+    <type>002_f_flower1</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_flower1</sprite>
+            <translate_movie>002_f_flower1_click</translate_movie>
+            <mode>Click</mode>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <translate_movie>002_f_flower1_click</translate_movie>
+       
+            <sprite>002_f_flower1_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <discord>true</discord>
+            <distortion_vector x="0.65" y="0.7"/>
+            <distortion_speed x="0.95" y="0.95"/>
+            <tweens_loop size="1">
+                <queue size="1">
+                    <transform>
+                        <delay>0</delay>
+                        <duration>2099</duration>
+                        <type>rotation</type>
+                        <param1>0.015</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>1999</duration>
+                        <type>rotation</type>
+                        <param1>-0.012</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                </queue>
+            </tweens_loop>
+        </state>
+    </states>
+    <anchor x="-20" y="-20"/>
+    <layer>30</layer>
+    <decorate>1</decorate>
+</object>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="373" y="90"/>
+	<ctrls>	
+		<ctrl>
+			<name>BackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<size x="555" y="158" />
+			<sprites>
+				<spt>task_panel</spt>
+			</sprites>
+		</ctrl>
+
+		<!-- заголовок -->
+		<ctrl>
+			<name>text_headline</name>
+			<type>TextBox</type>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.95</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<visible>1</visible>
+			<id>1</id>
+			<pos x="201" y="31"/>
+			<size x="179" y="32" />
+		</ctrl>
+		
+		<!-- текстовка таски -->
+		<ctrl>
+			<name>task_description</name>
+			<type>TextBox</type>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.95</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</style>
+			<text_effect>2</text_effect>
+			<time_effect>1</time_effect>
+			<base_velocity>17</base_velocity><!-- сколько символов напечатается за время указанное выше(получаем постоянную скорость) -->
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="76" y="76"/>
+			<size x="441" y="58" />
+		</ctrl>
+	</ctrls>
+</gui>

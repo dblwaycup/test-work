@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>3.833</life_time>
+	<Layers size="1">
+
+		<Layer>
+			<movie_avi>data/movies/se/animation/001/03_bowl2.flv</movie_avi>
+			<create_anim_position x="32" y="-106" />
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		<!-- <Layer>
+			<resource>data/sprites/objects/se/001/03/sand_anim.png</resource>
+			<create_position x="-172" y="7" />
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer> -->
+	</Layers>
+</Scene>

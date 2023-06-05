@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="-25" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>circle</subtype>
+			<id>1</id>
+			<pos x="0" y="-15"/>
+			<width>59</width>
+			<height>59</height>
+			<sprites>
+				<spt>music_status_button</spt>
+				<spt>music_status_button_on</spt>
+				<spt>music_status_button_on</spt>
+			</sprites>
+		</ctrl>
+	</ctrls>
+</gui>

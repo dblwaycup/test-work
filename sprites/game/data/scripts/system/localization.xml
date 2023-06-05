@@ -1,0 +1,2613 @@
+﻿<?xml version="1.0" ?>
+<Localization>
+
+	<Element>
+		<Token>GameTitle</Token>
+		<Text>Labyrinths Of The World: The Wild Side Collector's Edition</Text>
+	</Element>
+
+	<!-- ******************************************* gui ******************************************* -->
+
+	<!-- common -->
+	<Element>
+		<Token>gui_cmn_btn_ok</Token>
+		<Text>OK</Text>
+	</Element>
+	<Element>
+		<Token>gui_cmn_btn_cancel</Token>
+		<Text>Cancel</Text>
+	</Element>
+	<Element>
+		<Token>gui_cmn_btn_close</Token>
+		<Text>Close</Text>
+	</Element>
+	<Element>
+		<Token>gui_cmn_btn_no</Token>
+		<Text>No</Text>
+	</Element>
+	<Element>
+		<Token>gui_cmn_btn_yes</Token>
+		<Text>Yes</Text>
+	</Element>
+	<Element>
+		<Token>gui_cmn_btn_play</Token>
+		<Text>Play</Text>
+	</Element>
+	<Element>
+		<Token>gui_cmn_btn_play_now</Token>
+		<Text>Play Now</Text>
+	</Element>
+	<Element>
+		<Token>btn_show_more</Token>
+		<Text>Show More</Text>
+	</Element>
+	<Element>
+		<Token>gui_cmn_btn_accept</Token>
+		<Text>Accept</Text>
+	</Element>
+	<Element>
+		<Token>gui_cmn_btn_back</Token>
+		<Text>Back</Text>
+	</Element>
+	<Element>
+		<Token>congratulations</Token>
+		<Text>Congratulations!</Text>
+	</Element>
+	<Element>
+		<Token>bbt_disable</Token>
+		<Text>I'm not someone who does things the easy way, so I'll brace myself and keep going!</Text>
+	</Element>
+	<Element>
+		<Token>hint_btn_is_charging</Token>
+		<Text>Hint is recharging.</Text>
+	</Element>
+	<Element>
+		<Token>skip_btn_is_charging</Token>
+		<Text>Skip is recharging.</Text>
+	</Element>
+	<Element>
+		<Token>freeplay_disabled_hint</Token>
+		<Text>The Skip function is disabled in mini-games Replay.</Text>
+	</Element>
+	<Element>
+		<Token>exit_dialog</Token>
+		<Text>Are you sure you want to quit?</Text>
+	</Element>
+	<Element>
+		<Token>wrong_dialog_time_mode</Token>
+		<Text>This mode will unlock after you finish the main game.</Text>
+	</Element>
+	<Element>
+		<Token>time_desc</Token>
+		<Text>#80ffffff*Customize the difficulty level to your own preferences.*</Text>
+	</Element>
+	<Element>
+		<Token>no_hint_bbt</Token>
+		<Text>There's nothing to do here right now.</Text>
+	</Element>
+	<Element>
+		<Token>dlg_obj_wrong</Token>
+		<Text>That wasn't quite right.</Text>
+		<Text>That didn't work.</Text>
+		<Text>I'll try another solution.</Text>
+		<Text>There must be a better way.</Text>
+		<Text>That wasn't my best idea.</Text>
+		<Text>I should try something else.</Text>
+		<Text>I'm sure I'll find the solution.</Text>
+		<Text>There must be another way.</Text>
+		<Text>What should I try next?</Text>
+		<Text>I hate when that happens.</Text>
+		<Text>I'd better rethink this one.</Text>
+		<Text>That didn't turn out the way I planned.</Text>
+		<Text>That wasn't quite right.</Text>
+		<Text>I'll try another way.</Text>
+		<Text>That's not the result I was hoping for.</Text>
+	</Element>
+
+	<!-- authorize -->
+	<Element>
+		<Token>auth_play</Token>
+		<Text>PLAY</Text>
+	</Element>
+	<Element>
+		<Token>auth_hello</Token>
+		<Text>Hello</Text>
+	</Element>
+	<Element>
+		<Token>auth_change</Token>
+		<Text>Change</Text>
+	</Element>
+	<Element>
+		<Token>auth_settings</Token>
+		<Text>Settings</Text>
+	</Element>
+	<Element>
+		<Token>auth_extras</Token>
+		<Text>Extras</Text>
+	</Element>
+	<Element>
+		<Token>auth_more_games</Token>
+		<Text>More Games</Text>
+	</Element>
+	<Element>
+		<Token>auth_exit</Token>
+		<Text>Exit</Text>
+	</Element>
+
+	<!-- buy -->
+	<Element>
+		<Token>gui_buy_title_demo</Token>
+		<Text>Thank you for playing ♥ the demo of:</Text>
+	</Element>
+	<Element>
+		<Token>gui_buy_title_play_test</Token>
+		<Text>Thank you for playing ♥ the play test of:</Text>
+	</Element>
+	<Element>
+		<Token>gui_buy_title_survey</Token>
+		<Text>Thank you for playing ♥ the survey of:</Text>
+	</Element>
+	<Element>
+		<Token>gui_buy_full_title</Token>
+		<Text>Get the full version:</Text>
+	</Element>
+	<Element>
+		<Token>gui_buy_full</Token>
+		<Text>- Explore more than 37 stunning scenes! ♥ - Solve more than 25 intriguing puzzles! ♥ - Find out what happened ♥  in the Jungle!</Text>
+	</Element>
+	<Element>
+		<Token>gui_buy_btn</Token>
+		<Text>Buy the full version now!</Text>
+	</Element>
+	<Element>
+		<Token>gui_buy_btn_survey</Token>
+		<Text>Fill out the survey!</Text>
+	</Element>
+
+	<!-- custom -->
+	<Element>
+		<Token>custom_dialog</Token>
+		<Text>CUSTOM MODE</Text>
+	</Element>
+	<Element>
+		<Token>button_tutorial</Token>
+		<Text>Tutorial</Text>
+	</Element>
+	<Element>
+		<Token>button_tutorial_only_special</Token>
+		<Text>Special features tutorial only</Text>
+	</Element>
+	<Element>
+		<Token>button_change_cursor</Token>
+		<Text>Icon changes over active areas</Text>
+	</Element>
+	<Element>
+		<Token>button_show_help_bbt</Token>
+		<Text>Show helpful text on active areas</Text>
+	</Element>
+	<Element>
+		<Token>button_sparkles_on_active_areas</Token>
+		<Text>Active areas sparkle</Text>
+	</Element>
+	<Element>
+		<Token>button_sparkles_on_hidden_objects</Token>
+		<Text>Hidden-Object Puzzles sparkle</Text>
+	</Element>
+	<Element>
+		<Token>button_active_task</Token>
+		<Text>Active tasks shown on map</Text>
+	</Element>
+	<Element>
+		<Token>button_active_morph</Token>
+		<Text>Plus-items indicated</Text>
+	</Element>
+	<Element>
+		<Token>button_easy_difficulty_mg</Token>
+		<Text>Easy Mini-games Difficulty</Text>
+	</Element>
+	<Element>
+		<Token>button_hard_difficulty_mg</Token>
+		<Text>Hard Mini-games Difficulty</Text>
+	</Element>
+	<Element>
+		<Token>blazing_sprite</Token>
+		<Text>Plus-items Zoom Hints</Text>
+	</Element>
+	<Element>
+		<Token>task_panel</Token>
+		<Text>Hide task panel</Text>
+	</Element>
+	<Element>
+		<Token>extra_indicator_check</Token>
+		<Text>Extra objects indicator</Text>
+	</Element>
+	<Element>
+		<Token>button_hint</Token>
+		<Text>Use Hints</Text>
+	</Element>
+	<Element>
+		<Token>hint_recharge_desc</Token>
+		<Text>Hint charge time (     sec)</Text>
+	</Element>
+	<Element>
+		<Token>button_skip_puzzle</Token>
+		<Text>Skip Mini-games</Text>
+	</Element>
+	<Element>
+		<Token>skip_recharge_desc</Token>
+		<Text>Skip charge time (     sec)</Text>
+	</Element>
+
+	<!-- menu -->
+	<Element>
+		<Token>main_menu_title</Token>
+		<Text>MAIN MENU</Text>
+	</Element>
+	<Element>
+		<Token>menu_btn_exit</Token>
+		<Text>EXIT GAME</Text>
+	</Element>
+	<Element>
+		<Token>menu_btn_main_menu</Token>
+		<Text>MAIN MENU</Text>
+	</Element>
+	<Element>
+		<Token>menu_btn_resume_game</Token>
+		<Text>RESUME GAME</Text>
+	</Element>
+	<Element>
+		<Token>menu_btn_setting</Token>
+		<Text>SETTINGS</Text>
+	</Element>
+
+	<!-- play game confirm -->
+	<Element>
+		<Token>play_game_confirm_dialog</Token>
+		<Text>START THE GAME</Text>
+	</Element>
+	<Element>
+		<Token>play_confirm_btn_continue</Token>
+		<Text>CONTINUE</Text>
+	</Element>
+	<Element>
+		<Token>play_confirm_btn_reset</Token>
+		<Text>RESET</Text>
+	</Element>
+
+	<!-- play mode -->
+	<Element>
+		<Token>offer_free_dialog</Token>
+		<Text>PLAY MODE</Text>
+	</Element>
+	<Element>
+		<Token>casual_title</Token>
+		<Text>CASUAL MODE</Text>
+	</Element>
+	<Element>
+		<Token>casual_desc</Token>
+		<Text>Active zones are indicated. Skip and Hint buttons charge quickly.</Text>
+	</Element>
+	<Element>
+		<Token>advanced_title</Token>
+		<Text>ADVANCED MODE</Text>
+	</Element>
+	<Element>
+		<Token>advanced_desc</Token>
+		<Text>Active zones aren't indicated. Skip and Hint buttons charge slowly.</Text>
+	</Element>
+	<Element>
+		<Token>hardcore_title</Token>
+		<Text>HARDCORE MODE</Text>
+	</Element>
+	<Element>
+		<Token>hardcore_desc</Token>
+		<Text>Active zones aren't indicated. Skip and Hint buttons are disabled. No tutorial is included. Available actions and collectibles are disabled on the map.</Text>
+	</Element>
+	<Element>
+		<Token>custom_title</Token>
+		<Text>CUSTOM MODE</Text>
+	</Element>
+	<Element>
+		<Token>custom_desc</Token>
+		<Text>Set all difficulty options to your own preferences.</Text>
+	</Element>
+
+	<!-- profile -->
+	<Element>
+		<Token>gui_profile_title</Token>
+		<Text>SELECT PLAYER</Text>
+	</Element>
+	<Element>
+		<Token>gui_profile_new_title</Token>
+		<Text>PLAYER NAME</Text>
+	</Element>
+	<Element>
+		<Token>gui_profile_btn_new</Token>
+		<Text>New Player</Text>
+	</Element>
+	<Element>
+		<Token>gui_profile_btn_rename</Token>
+		<Text>Edit Name</Text>
+	</Element>
+	<Element>
+		<Token>gui_profile_btn_delete</Token>
+		<Text>Delete</Text>
+	</Element>
+	<Element>
+		<Token>gui_profile_max</Token>
+		<Text>You can't create anymore profiles.</Text>
+	</Element>
+	<Element>
+		<Token>gui_profile_delete_desc</Token>
+		<Text>Are you sure you want to delete this profile?</Text>
+	</Element>
+	<Element>
+		<Token>gui_profile_corrupt_desc</Token>
+		<Text>A profile was corrupted and deleted.</Text>
+	</Element>
+	<Element>
+		<Token>gui_profile_exist_desc</Token>
+		<Text>A player with this name already exists.</Text>
+	</Element>
+	<Element>
+		<Token>reset_profile</Token>
+		<Text>Are you sure you want to start the game from the beginning?</Text>
+	</Element>
+
+	<!-- setting -->
+	<Element>
+		<Token>sound_title</Token>
+		<Text>SOUND</Text>
+	</Element>
+	<Element>
+		<Token>music_desc</Token>
+		<Text>Music</Text>
+	</Element>
+	<Element>
+		<Token>effect_desc</Token>
+		<Text>Effects</Text>
+	</Element>
+	<Element>
+		<Token>environment_desc</Token>
+		<Text>Environment</Text>
+	</Element>
+	<Element>
+		<Token>voice_desc</Token>
+		<Text>Voices</Text>
+	</Element>
+	<Element>
+		<Token>other_title</Token>
+		<Text>OTHER</Text>
+	</Element>
+	<Element>
+		<Token>widescreen_desc</Token>
+		<Text>Stretch</Text>
+	</Element>
+	<Element>
+		<Token>fullscreen_desc</Token>
+		<Text>Full-screen</Text>
+	</Element>
+	<Element>
+		<Token>custom_cursor_desc</Token>
+		<Text>Custom Icon</Text>
+	</Element>
+	<Element>
+		<Token>special_effects_desc</Token>
+		<Text>Special Effects</Text>
+	</Element>
+	<Element>
+		<Token>dlg_settings_btn_credits</Token>
+		<Text>Credits</Text>
+	</Element>
+	<Element>
+		<Token>dlg_settings_btn_play_mode</Token>
+		<Text>Play Mode:</Text>
+	</Element>
+	<Element>
+		<Token>DifficultyEasy</Token>
+		<Text>Casual</Text>
+	</Element>
+	<Element>
+		<Token>DifficultyNormal</Token>
+		<Text>Advanced</Text>
+	</Element>
+	<Element>
+		<Token>DifficultyHard</Token>
+		<Text>Hardcore</Text>
+	</Element>
+	<Element>
+		<Token>DifficultyCustom</Token>
+		<Text>Custom</Text>
+	</Element>
+
+	<!-- sound -->
+	<Element>
+		<Token>sound_desc</Token>
+		<Text>No sound device detected. The game will continue without sound.</Text>
+	</Element>
+
+	<!-- loading -->
+	<Element>
+		<Token>loading_title</Token>
+		<Text>LOADING</Text>
+	</Element>
+
+	<!-- inv -->
+	<Element>
+		<Token>gui_pnl_ho</Token>
+		<Text>ITEM LIST</Text>
+	</Element>
+	<Element>
+		<Token>gui_pnl_inventory</Token>
+		<Text>INVENTORY</Text>
+	</Element>
+	<Element>
+		<Token>inventory_extra_magic</Token>
+		<Text>Figurines RES_COUNT / 15</Text>
+	</Element>
+	<Element>
+		<Token>inventory_extra_statuettes</Token>
+		<Text>Stones RES_COUNT / 15</Text>
+	</Element>
+	<Element>
+		<Token>inventory_extra_crosses</Token>
+		<Text>Butterflies RES_COUNT / 70</Text>
+	</Element>
+
+	<!-- ui btn -->
+	<Element>
+		<Token>gui_btn_map</Token>
+		<Text>MAP</Text>
+	</Element>
+	<Element>
+		<Token>gui_btn_hint</Token>
+		<Text>HINT</Text>
+	</Element>
+	<Element>
+		<Token>gui_btn_skip</Token>
+		<Text>SKIP</Text>
+	</Element>
+	<Element>
+		<Token>gui_btn_menu</Token>
+		<Text>MENU</Text>
+	</Element>
+	<Element>
+		<Token>gui_btn_strategy_guide</Token>
+		<Text>Strategy Guide</Text>
+	</Element>
+
+	<!-- cs btn -->
+	<Element>
+		<Token>click_to_continue</Token>
+		<Text>CONTINUE...</Text>
+	</Element>
+
+	<!-- switch ho match3 -->
+	<Element>
+		<Token>gui_btn_switch_to_match3</Token>
+		<Text>PLAY MATCH-3</Text>
+	</Element>
+	<Element>
+		<Token>gui_btn_switch_to_hidden</Token>
+		<Text>FIND OBJECTS</Text>
+	</Element>
+	<Element>
+		<Token>gui_match3_help</Token>
+		<Text>HELP</Text>
+	</Element>
+
+	<!-- mg defeat -->
+	<Element>
+		<Token>mg_defeat_desc</Token>
+		<Text>You lose. Please try again.</Text>
+	</Element>
+
+	<!-- info -->
+	<Element>
+		<Token>dlg_info_title</Token>
+		<Text>INFO</Text>
+	</Element>
+
+	<!-- match-3-->
+	<Element>
+		<Token>puzzle_help_title</Token>
+		<Text>Match-3</Text>
+	</Element>
+	<Element>
+		<Token>puzzle_help_desc</Token>
+		<Text>Remove all the green squares to remove items from the object list. Match three or more symbols in a row to remove them. Select two adjacent symbols to swap them.</Text>
+	</Element>
+
+	<!-- strategy guide -->
+	<Element>
+		<Token>gui_sg_title</Token>
+		<Text>Strategy Guide</Text>
+	</Element>
+	<Element>
+		<Token>gui_sg_btn_begin</Token>
+		<Text>Table of Contents</Text>
+	</Element>
+
+	<!-- get object -->
+	<Element>
+		<Token>get_object_title</Token>
+		<Text>GREAT JOB!</Text>
+	</Element>
+	<Element>
+		<Token>main_you_found</Token>
+		<Text>You've found:</Text>
+	</Element>
+
+	<!-- pnl universal -->
+	<Element>
+		<Token>gui_btn_pnl_achievement</Token>
+		<Text>View Achievements</Text>
+	</Element>
+	<Element>
+		<Token>gui_btn_pnl_universal</Token>
+		<Text>View Collections</Text>
+	</Element>
+	<Element>
+		<Token>extra_crosses</Token>
+		<Text>You've found a butterfly!</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic</Token>
+		<Text>You've found a morphing figurine!</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes</Token>
+		<Text>You've found an animal plate!</Text>
+	</Element>
+
+	<!-- map -->
+	<Element>
+		<Token>you_are_here</Token>
+		<Text>You are here</Text>
+	</Element>
+	<Element>
+		<Token>unlocked_locations</Token>
+		<Text>Unlocked Locations</Text>
+	</Element>
+	<Element>
+		<Token>available_actions</Token>
+		<Text>Available Actions</Text>
+	</Element>
+	<Element>
+		<Token>Collectibles</Token>
+		<Text>Collectibles</Text>
+	</Element>
+	<Element>
+		<Token>show</Token>
+		<Text>Show</Text>
+	</Element>
+
+	<!-- tasks -->
+	<Element>
+		<Token>new_task</Token>
+		<Text>NEW TASK</Text>
+	</Element>
+	<Element>
+		<Token>task_complete</Token>
+		<Text>TASK COMPLETE</Text>
+	</Element>
+	<Element>
+		<Token>btn_taskswitch</Token>
+		<Text>Tasks</Text>
+	</Element>
+	<Element>
+		<Token>btn_noteswitch</Token>
+		<Text>Notes</Text>
+	</Element>
+
+	<!-- ******************************************* credits ******************************************* -->
+
+	<!-- big fish games -->
+	<Element>
+		<Token>title_bfg</Token>
+		<Text>BIG FISH GAMES</Text>
+	</Element>
+
+	<!-- production group -->
+	<Element>
+		<Token>title1</Token>
+		<Text>Production Group</Text>
+	</Element>
+
+	<Element>
+		<Token>token1_1</Token>
+		<Text>Game Producer</Text>
+	</Element>
+	<Element>
+		<Token>token1_2</Token>
+		<Text>Mike Donnelly</Text>
+	</Element>
+
+	<Element>
+		<Token>token1_3</Token>
+		<Text>Senior Game Producer</Text>
+	</Element>
+	<Element>
+		<Token>token1_4</Token>
+		<Text>Joe Ezell</Text>
+	</Element>
+
+	<Element>
+		<Token>token1_5</Token>
+		<Text>Production Manager</Text>
+	</Element>
+	<Element>
+		<Token>token1_6</Token>
+		<Text>Christine Zeigler</Text>
+	</Element>
+
+	<!-- narrative design -->
+	<Element>
+		<Token>title2</Token>
+		<Text>Narrative Design</Text>
+	</Element>
+
+	<Element>
+		<Token>token2_1</Token>
+		<Text>Narrative Design Manager</Text>
+	</Element>
+	<Element>
+		<Token>token2_2</Token>
+		<Text>Faye Hoerauf</Text>
+	</Element>
+
+	<Element>
+		<Token>token2_3</Token>
+		<Text>Narrative Designers</Text>
+	</Element>
+	<Element>
+		<Token>token2_4</Token>
+		<Text>Corinne Hutchinson♥Dan Lefever♥Joanie Rich</Text>
+	</Element>
+
+	<Element>
+		<Token>token2_5</Token>
+		<Text>Beta Writer/Editor</Text>
+	</Element>
+	<Element>
+		<Token>token2_6</Token>
+		<Text>Cindy Phelps</Text>
+	</Element>
+
+	<Element>
+		<Token>token2_7</Token>
+		<Text>Senior Strategy Guide Editor</Text>
+	</Element>
+	<Element>
+		<Token>token2_8</Token>
+		<Text>Margie Bissainthe</Text>
+	</Element>
+
+	<Element>
+		<Token>token2_9</Token>
+		<Text>Strategy Guide Creator</Text>
+	</Element>
+	<Element>
+		<Token>token2_10</Token>
+		<Text>Chrysanne Westin</Text>
+	</Element>
+
+	<!-- QA -->
+	<Element>
+		<Token>title3</Token>
+		<Text>QA</Text>
+	</Element>
+
+	<Element>
+		<Token>token3_1</Token>
+		<Text>VP, Technical Game Operations</Text>
+	</Element>
+	<Element>
+		<Token>token3_2</Token>
+		<Text>Curtis Reynolds</Text>
+	</Element>
+
+	<Element>
+		<Token>token3_3</Token>
+		<Text>QA Manager</Text>
+	</Element>
+	<Element>
+		<Token>token3_4</Token>
+		<Text>Wendy Scodeller♥Matt McClure</Text>
+	</Element>
+
+	<Element>
+		<Token>token3_5</Token>
+		<Text>QA Associate Manager</Text>
+	</Element>
+	<Element>
+		<Token>token3_6</Token>
+		<Text>Nathaniel Umipeg</Text>
+	</Element>
+
+
+	<Element>
+		<Token>token3_7</Token>
+		<Text>Project Leads</Text>
+	</Element>
+	<Element>
+		<Token>token3_8</Token>
+		<Text>Joel Flamme♥Max Nafziger</Text>
+	</Element>
+
+	<Element>
+		<Token>token3_9</Token>
+		<Text>QA Testers</Text>
+	</Element>
+	<Element>
+		<Token>token3_10</Token>
+		<Text>Josh Bugenig♥Lauren Sallen-Paris♥Brandon Christian♥Vijay Sutari♥Ayush Sharma♥Nikhil Singh♥Priyanka Yadav♥Chrissi Ducotey♥Kristofer Ducotey</Text>
+	</Element>
+
+	<Element>
+		<Token>token3_11</Token>
+		<Text>Lab Lead</Text>
+	</Element>
+	<Element>
+		<Token>token3_12</Token>
+		<Text>Peter Corwin</Text>
+	</Element>
+
+	<Element>
+		<Token>token3_13</Token>
+		<Text>Lab Tech</Text>
+	</Element>
+	<Element>
+		<Token>token3_14</Token>
+		<Text>Will Herschelman</Text>
+	</Element>
+
+	<!-- domini games -->
+	<Element>
+		<Token>title4</Token>
+		<Text>DOMINI GAMES</Text>
+	</Element>
+
+	<Element>
+		<Token>token4_1</Token>
+		<Text>Chief Executive Officer</Text>
+	</Element>
+	<Element>
+		<Token>token4_2</Token>
+		<Text>Oleg Smolyanskiy</Text>
+	</Element>
+
+	<Element>
+		<Token>token4_3</Token>
+		<Text>Chief Production Officer</Text>
+	</Element>
+	<Element>
+		<Token>token4_4</Token>
+		<Text>Elena Smolyanskaya</Text>
+	</Element>
+
+	<Element>
+		<Token>token4_5</Token>
+		<Text>Project Lead</Text>
+	</Element>
+	<Element>
+		<Token>token4_6</Token>
+		<Text>Mikhail Salamakhin</Text>
+	</Element>
+
+	<Element>
+		<Token>token4_7</Token>
+		<Text>Level Designer Lead</Text>
+	</Element>
+	<Element>
+		<Token>token4_8</Token>
+		<Text>Natalya Belyaeva</Text>
+	</Element>
+
+	<Element>
+		<Token>token4_9</Token>
+		<Text>Lead Artist</Text>
+	</Element>
+	<Element>
+		<Token>token4_10</Token>
+		<Text>Ekaterina Studenikina</Text>
+	</Element>
+
+	<Element>
+		<Token>token4_11</Token>
+		<Text>Lead 3-D Artist</Text>
+	</Element>
+	<Element>
+		<Token>token4_12</Token>
+		<Text>Andrew Lukyanenko</Text>
+	</Element>
+
+	<Element>
+		<Token>title5</Token>
+		<Text>Level Designers</Text>
+	</Element>
+	<Element>
+		<Token>token5_1</Token>
+		<Text>Natalya Belyaeva♥Artem Dobrokvashin♥Pavel Anatskiy♥Vladislav Ryazantsev♥Vyacheslav Perov♥Ilya Zuev♥Dmitry Ryazantsev♥Irina Nebrat♥Roman Glagolev</Text>
+	</Element>
+
+	<Element>
+		<Token>title6</Token>
+		<Text>Programmers</Text>
+	</Element>
+	<Element>
+		<Token>token6_1</Token>
+		<Text>Alexey Limansky♥Aleksandr Popchenko</Text>
+	</Element>
+
+	<Element>
+		<Token>title7</Token>
+		<Text>2-D Artists</Text>
+	</Element>
+	<Element>
+		<Token>token7_1</Token>
+		<Text>Marina Gribanova♥Olga Ilina♥Nikolay Artuhov♥Dmitry Shuvalov♥Dmitry Andriyuk♥Natalya Fetisova♥Tatiana Ledeneva♥Yulia Klevtsova♥Mariya Bobyleva♥Oksana Solodukhina♥Konstantin Malygin♥Nikolai Zaharchenko♥Olga Ivannikova♥Ekaterina Makarova♥Polina Belova♥Sergey Bogdanov</Text>
+	</Element>
+
+	<Element>
+		<Token>title8</Token>
+		<Text>3-D Artists</Text>
+	</Element>
+	<Element>
+		<Token>token8_1</Token>
+		<Text>Stanislav Orlianskiy♥Marina Shestakova♥Yulia Shestakova♥Anastasia Chmutova♥Veronika Makarenko♥Dmitriy Gulbin♥Elena Filimonova♥Tamara Checheneva</Text>
+	</Element>
+
+	<Element>
+		<Token>title9</Token>
+		<Text>Game Designers</Text>
+	</Element>
+	<Element>
+		<Token>token9_1</Token>
+		<Text>Kristian Grechishnikov♥Anna Tarakanova♥Sofia Shidlovskaya</Text>
+	</Element>
+
+	<Element>
+		<Token>title10</Token>
+		<Text>Music and Sound Effects</Text>
+	</Element>
+	<Element>
+		<Token>token10_1</Token>
+		<Text>Valentin Kogut♥Dmitry Mescheryakov♥Alexander Golovanov♥Anton Yurlov</Text>
+	</Element>
+
+	<Element>
+		<Token>title11</Token>
+		<Text>Writing</Text>
+	</Element>
+	<Element>
+		<Token>token11_1</Token>
+		<Text>Olga Kasyanova</Text>
+	</Element>
+
+	<Element>
+		<Token>title12</Token>
+		<Text>Voices</Text>
+	</Element>
+	<Element>
+		<Token>token12_1</Token>
+		<Text>Alex Robertson♥Amy Fisher♥Brandon Woodall♥Marissa Lenti♥Reza Nasooti♥Voiceovers by Gale♥Weston Heflin</Text>
+	</Element>
+
+	<Element>
+		<Token>title13</Token>
+		<Text>© 2020 Big Fish Games, Inc.,</Text>
+	</Element>
+	<Element>
+		<Token>token13_1</Token>
+		<Text>All Rights Reserved</Text>
+	</Element>
+	<Element>
+		<Token>token13_2</Token>
+		<Text>Big Fish, the Big Fish logo, and Labyrinths Of The World are trademarks of Big Fish Games, Inc.</Text>
+	</Element>
+
+	<!-- ******************************************* extra ******************************************* -->
+
+	<!-- common -->
+	<Element>
+		<Token>se_complete_title</Token>
+		<Text>CONGRATULATIONS!</Text>
+	</Element>
+	<Element>
+		<Token>se_complete_desc</Token>
+		<Text>You've completed the main game and can now play the Bonus Chapter. Find it in the Extras section on the Main Menu.</Text>
+	</Element>
+	<Element>
+		<Token>se_not_complete</Token>
+		<Text>Complete the main game to unlock the bonus content.</Text>
+	</Element>
+	<Element>
+		<Token>ce_complete_desc</Token>
+		<Text>You've completed the game.</Text>
+	</Element>
+	<Element>
+		<Token>ce_restart_desc</Token>
+		<Text>Would you like to replay the Bonus Chapter?</Text>
+	</Element>
+	<Element>
+		<Token>extra_content_closed_desc</Token>
+		<Text>Complete this content in the game to replay it here.</Text>
+	</Element>
+	<Element>
+		<Token>extra_disable_in_demo_desc</Token>
+		<Text>This content isn't available in the demo. Upgrade to the full version to unlock the bonus content.</Text>
+	</Element>
+
+	<!-- btn -->
+	<Element>
+		<Token>extra_btn_morphing</Token>
+		<Text>Morphing</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_magic</Token>
+		<Text>Statuettes</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_btn_statuettes</Token>
+		<Text>Animal Plates</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_wlp</Token>
+		<Text>Wallpapers</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_concept</Token>
+		<Text>Concept Art</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_achievements</Token>
+		<Text>Achievements</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_boudoir</Token>
+		<Text>Tree House</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_video</Token>
+		<Text>Videos</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_music</Token>
+		<Text>Music</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_ho</Token>
+		<Text>Hidden Objects</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_mg</Token>
+		<Text>Mini-♥Games</Text>
+	</Element>
+	<Element>
+		<Token>extra_btn_bonus_chapter</Token>
+		<Text>Bonus♥Chapter</Text>
+	</Element>
+
+	<!-- achievements -->
+	<Element>
+		<Token>extra_achievements_header</Token>
+		<Text>ACHIEVEMENTS</Text>
+	</Element>
+
+	<!-- hops -->
+	<Element>
+		<Token>hop_no_hints01_header</Token>
+		<Text>Concentration</Text>
+	</Element>
+	<Element>
+		<Token>hop_no_hints01_desc</Token>
+		<Text>Finish a Hidden-Object Puzzle without any hints.</Text>
+	</Element>
+
+	<Element>
+		<Token>hop_no_hints02_header</Token>
+		<Text>Yoga Fan</Text>
+	</Element>
+	<Element>
+		<Token>hop_no_hints02_desc</Token>
+		<Text>Finish three Hidden-Object Puzzles without any hints.</Text>
+	</Element>
+
+	<Element>
+		<Token>hop_no_hints03_header</Token>
+		<Text>Meditation Guru</Text>
+	</Element>
+	<Element>
+		<Token>hop_no_hints03_desc</Token>
+		<Text>Finish five Hidden-Object Puzzles without any hints.</Text>
+	</Element>
+
+	<Element>
+		<Token>hop_time_1_60_header</Token>
+		<Text>Cheetah Speed</Text>
+	</Element>
+	<Element>
+		<Token>hop_time_1_60_desc</Token>
+		<Text>Finish a Hidden-Object Puzzle in one minute.</Text>
+	</Element>
+
+	<Element>
+		<Token>hop_3_time_60_header</Token>
+		<Text>Faster than a Hawk</Text>
+	</Element>
+	<Element>
+		<Token>hop_3_time_60_desc</Token>
+		<Text>Finish three Hidden-Object Puzzles in a row in one minute each.</Text>
+	</Element>
+
+	<Element>
+		<Token>hop_5_time_60_header</Token>
+		<Text>Time Tamer</Text>
+	</Element>
+	<Element>
+		<Token>hop_5_time_60_desc</Token>
+		<Text>Finish five Hidden-Object Puzzles in a row in one minute each.</Text>
+	</Element>
+
+	<Element>
+		<Token>hop_obj100_header</Token>
+		<Text>Raja's Collection</Text>
+	</Element>
+	<Element>
+		<Token>hop_obj100_desc</Token>
+		<Text>Find 100 objects.</Text>
+	</Element>
+
+	<Element>
+		<Token>lit_gui_extra_achivements_hop_obj_time01_header</Token>
+		<Text>Guard</Text>
+	</Element>
+	<Element>
+		<Token>lit_gui_extra_achivements_hop_obj_time01_desc</Token>
+		<Text>Find three hidden objects in three seconds.</Text>
+	</Element>
+
+	<Element>
+		<Token>lit_gui_extra_achivements_hop_obj_time02_header</Token>
+		<Text>Guardian Chief</Text>
+	</Element>
+	<Element>
+		<Token>lit_gui_extra_achivements_hop_obj_time02_desc</Token>
+		<Text>Find five hidden objects in five seconds.</Text>
+	</Element>
+
+	<Element>
+		<Token>lit_gui_extra_achivements_hop_obj_time03_header</Token>
+		<Text>General</Text>
+	</Element>
+	<Element>
+		<Token>lit_gui_extra_achivements_hop_obj_time03_desc</Token>
+		<Text>Find 10 hidden objects in 10 seconds.</Text>
+	</Element>
+
+	<Element>
+		<Token>hop_match3_header</Token>
+		<Text>Oblivion</Text>
+	</Element>
+	<Element>
+		<Token>hop_match3_desc</Token>
+		<Text>Finish a Hidden-Object Puzzle using only the alternate challenge.</Text>
+	</Element>
+
+	<Element>
+		<Token>hop_no_misclicks_header</Token>
+		<Text>Jinn's Abilities</Text>
+	</Element>
+	<Element>
+		<Token>hop_no_misclicks_desc</Token>
+		<Text>No wrong selections in a HOP.</Text>
+	</Element>
+
+	<!-- misc -->
+	<Element>
+		<Token>lit_gui_extra_achivements_extra_header</Token>
+		<Text>Elephants' Treasures</Text>
+	</Element>
+	<Element>
+		<Token>lit_gui_extra_achivements_extra_desc</Token>
+		<Text>Collect all morphing figurines.</Text>
+	</Element>
+
+	<Element>
+		<Token>lit_gui_extra_achivements_all_header</Token>
+		<Text>Curiosity Keeper</Text>
+	</Element>
+	<Element>
+		<Token>lit_gui_extra_achivements_all_desc</Token>
+		<Text>Find all collectibles in the game</Text>
+	</Element>
+
+	<Element>
+		<Token>lit_gui_extra_achivements_boudoire_buy_all_header</Token>
+		<Text>In the Jungle</Text>
+	</Element>
+	<Element>
+		<Token>lit_gui_extra_achivements_boudoire_buy_all_desc</Token>
+		<Text>Buy everything for your Boudoir.</Text>
+	</Element>
+
+	<!-- mgs -->
+	<Element>
+		<Token>mg_no_skip01_header</Token>
+		<Text>Stubborn Raja</Text>
+	</Element>
+	<Element>
+		<Token>mg_no_skip01_desc</Token>
+		<Text>Solve five mini-games without skipping.</Text>
+	</Element>
+
+	<Element>
+		<Token>mg_no_skip02_header</Token>
+		<Text>Persistent Nabob</Text>
+	</Element>
+	<Element>
+		<Token>mg_no_skip02_desc</Token>
+		<Text>Complete 10 mini-games without skipping.</Text>
+	</Element>
+
+	<Element>
+		<Token>mg_time_header</Token>
+		<Text>Maharaja</Text>
+	</Element>
+	<Element>
+		<Token>mg_time_desc</Token>
+		<Text>Solve a mini-game in one minute.</Text>
+	</Element>
+
+	<Element>
+		<Token>mg_no_info_header</Token>
+		<Text>Wise Yogi</Text>
+	</Element>
+	<Element>
+		<Token>mg_no_info_desc</Token>
+		<Text>Solve five mini-games without reading the instructions.</Text>
+	</Element>
+
+	<!-- game story -->
+	<Element>
+		<Token>special01_header</Token>
+		<Text>Novice Artist</Text>
+	</Element>
+	<Element>
+		<Token>special01_desc</Token>
+		<Text>Draw a mehndi design.</Text>
+	</Element>
+
+	<Element>
+		<Token>special02_header</Token>
+		<Text>Explorer</Text>
+	</Element>
+	<Element>
+		<Token>special02_desc</Token>
+		<Text>Look into the spyglass.</Text>
+	</Element>
+
+	<Element>
+		<Token>special03_header</Token>
+		<Text>Connoisseur</Text>
+	</Element>
+	<Element>
+		<Token>special03_desc</Token>
+		<Text>Bring a sitar to the statue.</Text>
+	</Element>
+
+	<Element>
+		<Token>special04_header</Token>
+		<Text>Insect Tamer</Text>
+	</Element>
+	<Element>
+		<Token>special04_desc</Token>
+		<Text>Scare away the scorpions.</Text>
+	</Element>
+
+	<Element>
+		<Token>special05_header</Token>
+		<Text>Snake Charmer</Text>
+	</Element>
+	<Element>
+		<Token>special05_desc</Token>
+		<Text>Play the bansuri.</Text>
+	</Element>
+
+	<!-- se -->
+	<Element>
+		<Token>special06_header</Token>
+		<Text>Healer</Text>
+	</Element>
+	<Element>
+		<Token>special06_desc</Token>
+		<Text>Send King Lorius to sleep.</Text>
+	</Element>
+
+	<Element>
+		<Token>special07_header</Token>
+		<Text>Family Ties</Text>
+	</Element>
+	<Element>
+		<Token>special07_desc</Token>
+		<Text>Bring the peacock their baby.</Text>
+	</Element>
+
+	<Element>
+		<Token>special08_header</Token>
+		<Text>Seer</Text>
+	</Element>
+	<Element>
+		<Token>special08_desc</Token>
+		<Text>Look through the prophet's sphere.</Text>
+	</Element>
+
+	<Element>
+		<Token>special09_header</Token>
+		<Text>Care for the Weak</Text>
+	</Element>
+	<Element>
+		<Token>special09_desc</Token>
+		<Text>Help the porcupine.</Text>
+	</Element>
+
+	<Element>
+		<Token>special10_header</Token>
+		<Text>Lord of Elements</Text>
+	</Element>
+	<Element>
+		<Token>special10_desc</Token>
+		<Text>Place a lightning ball on the scales.</Text>
+	</Element>
+
+	<Element>
+		<Token>special11_header</Token>
+		<Text>Key Master</Text>
+	</Element>
+	<Element>
+		<Token>special11_desc</Token>
+		<Text>Make a mold of the key.</Text>
+	</Element>
+
+	<Element>
+		<Token>special12_header</Token>
+		<Text>Linguist</Text>
+	</Element>
+	<Element>
+		<Token>special12_desc</Token>
+		<Text>Read in the monkey language.</Text>
+	</Element>
+
+	<Element>
+		<Token>special13_header</Token>
+		<Text>Sweet Tooth</Text>
+	</Element>
+	<Element>
+		<Token>special13_desc</Token>
+		<Text>Open the coconut milk with a toucan's help.</Text>
+	</Element>
+
+	<Element>
+		<Token>special14_header</Token>
+		<Text>Spy</Text>
+	</Element>
+	<Element>
+		<Token>special14_desc</Token>
+		<Text>Wear a monkey's mask.</Text>
+	</Element>
+
+	<Element>
+		<Token>special15_header</Token>
+		<Text>Go-getter</Text>
+	</Element>
+	<Element>
+		<Token>special15_desc</Token>
+		<Text>Get a banana with the help of a lance.</Text>
+	</Element>
+
+	<!-- ce -->
+	<Element>
+		<Token>special16_header</Token>
+		<Text>Family Portrait</Text>
+	</Element>
+	<Element>
+		<Token>special16_desc</Token>
+		<Text>Learn about Harish's sister Amala.</Text>
+	</Element>
+
+	<Element>
+		<Token>special17_header</Token>
+		<Text>Full Ahead!</Text>
+	</Element>
+	<Element>
+		<Token>special17_desc</Token>
+		<Text>Repair the toy ship.</Text>
+	</Element>
+
+	<Element>
+		<Token>special18_header</Token>
+		<Text>Step to Uncertainty</Text>
+	</Element>
+	<Element>
+		<Token>special18_desc</Token>
+		<Text>Open the portal.</Text>
+	</Element>
+
+	<Element>
+		<Token>special19_header</Token>
+		<Text>Precious Gift</Text>
+	</Element>
+	<Element>
+		<Token>special19_desc</Token>
+		<Text>Get a gift from Kahli.</Text>
+	</Element>
+
+	<Element>
+		<Token>special20_header</Token>
+		<Text>Good-heartedness</Text>
+	</Element>
+	<Element>
+		<Token>special20_desc</Token>
+		<Text>Return the statue's heart.</Text>
+	</Element>
+
+	<!-- music -->
+	<Element>
+		<Token>extra_music_header</Token>
+		<Text>MUSIC</Text>
+	</Element>
+	<Element>
+		<Token>extra_music_save_desc</Token>
+		<Text>Would you like to download the soundtrack to your Documents/Labyrinths of the World the Wild Side Collector's Edition folder?</Text>
+	</Element>
+	<Element>
+		<Token>extra_msc_lake</Token>
+		<Text>Lake</Text>
+	</Element>
+	<Element>
+		<Token>extra_msc_jungle</Token>
+		<Text>Jungle</Text>
+	</Element>
+	<Element>
+		<Token>extra_msc_india</Token>
+		<Text>India</Text>
+	</Element>
+	<Element>
+		<Token>extra_msc_elephants_house</Token>
+		<Text>Elephant's House</Text>
+	</Element>
+	<Element>
+		<Token>extra_msc_danger</Token>
+		<Text>Danger</Text>
+	</Element>
+
+	<!-- wallpapers -->
+	<Element>
+		<Token>extra_wallpaper_header</Token>
+		<Text>WALLPAPER</Text>
+	</Element>
+	<Element>
+		<Token>extra_wallpaper_btn</Token>
+		<Text>Set</Text>
+	</Element>
+	<Element>
+		<Token>extra_wallpaper_save_desc</Token>
+		<Text>Would you like to set the wallpaper on your desktop? Wallpapers will also be saved to the Documents/Labyrinths of the World the Wild Side Collector's Edition folder.</Text>
+	</Element>
+
+	<!-- concept art -->
+	<Element>
+		<Token>extra_concept_btn</Token>
+		<Text>Save</Text>
+	</Element>
+	<Element>
+		<Token>extra_concept_header</Token>
+		<Text>CONCEPT ART</Text>
+	</Element>
+	<Element>
+		<Token>extra_concept_save_desc</Token>
+		<Text>Would you like to download this picture to your Documents/Labyrinths of the World the Wild Side Collector's Edition folder?</Text>
+	</Element>
+
+	<!-- ho -->
+	<Element>
+		<Token>extra_hidden_header</Token>
+		<Text>HIDDEN OBJECTS</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_ho_01</Token>
+		<Text>Excursion</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_02</Token>
+		<Text>Nanda's Treasures</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_03</Token>
+		<Text>Manu's Diary</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_04</Token>
+		<Text>Well</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_05</Token>
+		<Text>King Lorius</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_06</Token>
+		<Text>Peacock</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_07</Token>
+		<Text>Magic Sphere</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_08</Token>
+		<Text>Living Tree</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_09</Token>
+		<Text>Bones</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_10</Token>
+		<Text>Tower</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_11</Token>
+		<Text>Monkey Market</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_12</Token>
+		<Text>Altar</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_13</Token>
+		<Text>Manuscript</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_14</Token>
+		<Text>Jewelry</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_15</Token>
+		<Text>Cart</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_16</Token>
+		<Text>Cupboard</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_17</Token>
+		<Text>Broken Boat</Text>
+	</Element>
+	<Element>
+		<Token>extra_ho_18</Token>
+		<Text>Aquarium</Text>
+	</Element>
+
+	<!-- mini -->
+	<Element>
+		<Token>extra_minigames_header</Token>
+		<Text>MINI-GAMES</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_mini_01</Token>
+		<Text>Potion</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_02</Token>
+		<Text>Dangerous Plants</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_03</Token>
+		<Text>Sandbags</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_04</Token>
+		<Text>Chess</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_05</Token>
+		<Text>Snakes</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_06</Token>
+		<Text>Fountain</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_07</Token>
+		<Text>Dolphin</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_08</Token>
+		<Text>Tornado</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_09</Token>
+		<Text>Fresco</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_10</Token>
+		<Text>Box</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_11</Token>
+		<Text>Keys</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_12</Token>
+		<Text>Plane Panel</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_13</Token>
+		<Text>Shining Fish</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_14</Token>
+		<Text>Monkey Sanctuary</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_15</Token>
+		<Text>Ancestors Horn</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_16</Token>
+		<Text>Kitchen</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_17</Token>
+		<Text>Decorations</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_18</Token>
+		<Text>Moon and Sun</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_19</Token>
+		<Text>Metope</Text>
+	</Element>
+	<Element>
+		<Token>extra_mini_20</Token>
+		<Text>Sunil</Text>
+	</Element>
+
+	<!-- movie -->
+	<Element>
+		<Token>extra_cutscenes_header</Token>
+		<Text>CUT SCENES</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_movie_01</Token>
+		<Text>The Prophecy</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_02</Token>
+		<Text>Birthday Gift</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_03</Token>
+		<Text>Little Thief!</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_04</Token>
+		<Text>Portal to India</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_05</Token>
+		<Text>Kahli and Mokhan</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_06</Token>
+		<Text>Nanda</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_07</Token>
+		<Text>Snakes Path</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_08</Token>
+		<Text>Princess Manu</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_09</Token>
+		<Text>Kahli's Warning</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_10</Token>
+		<Text>Lemur Village</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_11</Token>
+		<Text>A Betrayal</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_12</Token>
+		<Text>Harish Helps</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_13</Token>
+		<Text>Crocodile City</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_14</Token>
+		<Text>Kahli's Tears</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_15</Token>
+		<Text>Mokhan and Jagan</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_16</Token>
+		<Text>Trap</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_17</Token>
+		<Text>Monkey World</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_18</Token>
+		<Text>Mokhan and Nishant</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_19</Token>
+		<Text>Defeating Mokhan</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_20</Token>
+		<Text>Through a Desert</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_21</Token>
+		<Text>The River</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_22</Token>
+		<Text>Underwater Temple</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_23</Token>
+		<Text>Kahli and Jagan</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_24</Token>
+		<Text>Prophecy Fulfilled</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_25</Token>
+		<Text>Earthquake</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_26</Token>
+		<Text>Sunil the Mammoth</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_27</Token>
+		<Text>Amala</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_28</Token>
+		<Text>Saving Amala</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_29</Token>
+		<Text>Kahli and Sunil</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_30</Token>
+		<Text>Following Sunil</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_31</Token>
+		<Text>Wrath</Text>
+	</Element>
+	<Element>
+		<Token>extra_movie_32</Token>
+		<Text>Victory</Text>
+	</Element>
+
+	<!-- boudoir -->
+	<Element>
+		<Token>extra_boudoir_buy_header</Token>
+		<Text>PURCHASE</Text>
+	</Element>
+	<Element>
+		<Token>extra_boudoir_buy_desc</Token>
+		<Text>Do you want to purchase this item?</Text>
+	</Element>
+	<Element>
+		<Token>extra_boudoir_no_resource</Token>
+		<Text>You don't have enough butterflies.</Text>
+	</Element>
+
+	<!-- objects -->
+	<Element>
+		<Token>extra_antimoskito</Token>
+		<Text>Mosquito Net - 3 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_barelief</Token>
+		<Text>Elephant Art - 5 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_bear</Token>
+		<Text>Tiger Skin Rug - 6 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_bed</Token>
+		<Text>Canopy Bed - 9 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_flower</Token>
+		<Text>Potted Plant - 2 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_bookshelf</Token>
+		<Text>Bookcase - 6 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_chair</Token>
+		<Text>Armchair - 7 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_fan</Token>
+		<Text>Ceiling Fan - 4 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_holder</Token>
+		<Text>Decorative Table - 5 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_peerchair</Token>
+		<Text>Beanbag Chair - 4 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_jar</Token>
+		<Text>Fireflies - 2 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_sofa</Token>
+		<Text>Sofa - 8 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_table</Token>
+		<Text>Coffee Table - 5 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_totem</Token>
+		<Text>Ritual Mask - 3 butterflies</Text>
+	</Element>
+	<Element>
+		<Token>extra_elephant</Token>
+		<Text>Elephant Statuette - 1 butterfly</Text>
+	</Element>
+
+
+	<!-- экстра - наскальная живопись -->
+	<Element>
+		<Token>extra_statuettes_stone_bear_title</Token>
+		<Text>Bear</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_wolf_title</Token>
+		<Text>Wolf</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_tiger_title</Token>
+		<Text>Tiger</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_deer_title</Token>
+		<Text>Deer</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_stork_title</Token>
+		<Text>Stork</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_stone_elephant_title</Token>
+		<Text>Elephant</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_monkey_title</Token>
+		<Text>Monkey</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_snake_title</Token>
+		<Text>Snake</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_moongak_title</Token>
+		<Text>Muntjac</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_lemur_title</Token>
+		<Text>Lemur</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_civetta_title</Token>
+		<Text>Viverra</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_crokodile_title</Token>
+		<Text>Crocodile</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_hawk_title</Token>
+		<Text>Hawk</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_macho_title</Token>
+		<Text>Peacock</Text>
+	</Element>
+	<Element>
+		<Token>extra_statuettes_hyaena_title</Token>
+		<Text>Hyena</Text>
+	</Element>
+
+	<!-- экстра - морфинги -->
+	<Element>
+		<Token>extra_magic_bear_title</Token>
+		<Text>Asian Black Bear</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_bear_desc</Token>
+		<Text>They are also known as "white-chested bears." They live in forests and can climb the trees very quickly. They eat plants, branches, and leaves, but are capable of attacking any human who poses a danger.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_wolf_title</Token>
+		<Text>Indian Wolf</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_wolf_desc</Token>
+		<Text>This subspecies is smaller than wolves of Europe and Northern Asian. Their colors range from reddish gray to light red with black-tipped fur. They live in small packs that include a male and a female with their cubs.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_tiger_title</Token>
+		<Text>Panther</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_tiger_desc</Token>
+		<Text>Panthers are not actually a separate species of cats, but an entire genus within the cat family. Lions, tigers, leopards, and jaguars are all panthers.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_deer_title</Token>
+		<Text>Sambar Deer</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_deer_desc</Token>
+		<Text>These large deer have towering antlers. Their shaggy coats vary from yellowish brown to dark gray in color. They live in dense forests near water sources. They swim and spend a lot of time in water, especially in the summer.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_stork_title</Token>
+		<Text>Woolly-necked Stork</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_stork_desc</Token>
+		<Text>These large birds have crimson eyes, black and white feathers, and long legs. They inhabit a variety of freshwater wetlands including seasonal and perennial reservoirs and marshes, crop lands, irrigation canals, and rivers.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_elephant_title</Token>
+		<Text>Elephants</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_elephant_desc</Token>
+		<Text>Elephants are one of the largest animals. For many peoples, they are sacred animals that embody wisdom and power. They are known for taking care of their wounded and youngsters. They live in groups of 15 to 20 and obey an elder female elephant.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_monkey_title</Token>
+		<Text>Bonnet Macaque</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_monkey_desc</Token>
+		<Text>These small primates have a tuft of hair on their heads that resemble a hat. They live near villages and temples, but they're adaptable to different terrains, giving preference to woods.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_snake_title</Token>
+		<Text>Indian Cobra</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_snake_desc</Token>
+		<Text>These spectacled cobras, called the Queens of Snakes, are both greatly respected and feared as they are extremely venomous. Legends say their hood markings are Buddha's fingerprints.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_moongak_title</Token>
+		<Text>Muntjac</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_moongak_desc</Token>
+		<Text>They're also called barking deer because of their loud and continuous call that resembles a dog's bark. They do not use their short antlers for protection, but instead use their sharp fangs to bite.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_lemur_title</Token>
+		<Text>Lemurs</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_lemur_desc</Token>
+		<Text>Lemurs' eyes are big and round, surrounded by a dark border. Lemurs are one of the most social primates. They communicate with scents and vocalizations.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_civetta_title</Token>
+		<Text>Viverra</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_civetta_desc</Token>
+		<Text>These civets have short legs and hairy feet. Their colors change depending on age, gender, and season. They are nocturnal and spend most of their day in abandoned burrows made by other animals.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_crokodile_title</Token>
+		<Text>Mugger Crocodile</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_crokodile_desc</Token>
+		<Text>These reptiles inhabit freshwater lakes, rivers, and marshes. They prefer slow-moving, shallow bodies of water. Mugger hatchlings are a pale olive with black spots. They are powerful swimmers that use their tails and hind feet to propel them, change direction, and dive.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_hawk_title</Token>
+		<Text>Marsh Harrier</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_hawk_desc</Token>
+		<Text>This bird is large with fairly broad wings. Most populations of the western marsh harrier are migratory or dispersive. They prefer open habitats, such as farmland and grassland, particularly where these border marshlands.</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_macho_title</Token>
+		<Text>Peacock</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_macho_desc</Token>
+		<Text>This beautiful bird has one of the largest tails in the animal world made up of more than 200 feathers that can reach 200 centimeters in length. Dutch sailors were the first to discover them and bring them to Europe. They are birds that live in packs.</Text>
+	</Element>
+
+	<Element>
+		<Token>extra_magic_hyaena_title</Token>
+		<Text>Striped Hyena</Text>
+	</Element>
+	<Element>
+		<Token>extra_magic_hyaena_desc</Token>
+		<Text>This opportunistic carnivore is not afraid to steal the kill of another predator. They are monogamous and males will not only establish dens with females but will also help raise and feed their cubs.</Text>
+	</Element>
+
+	<!-- ******************************************* tutorial ******************************************* -->
+
+	<!-- common -->
+	<Element>
+		<Token>gui_tutorial_title</Token>
+		<Text>TUTORIAL</Text>
+	</Element>
+	<Element>
+		<Token>tutorial_btn_skip</Token>
+		<Text>Skip All Tutorials</Text>
+	</Element>
+	<Element>
+		<Token>tutorial_btn_features</Token>
+		<Text>Features Only</Text>
+	</Element>
+
+	<!-- text tutorial -->
+	<Element>
+		<Token>tutor_start</Token>
+		<Text>Would you like some interactive help?</Text>
+	</Element>
+	<Element>
+		<Token>tutor_zoom</Token>
+		<Text>The magnifying glass indicates that you can zoom into an area. ♥ ♥ Examine this area.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_pickup</Token>
+		<Text>The hand indicates items you can pick up. ♥ ♥ Take this Box.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_click</Token>
+		<Text>The hand also indicates items you can interact with. ♥ ♥ Select the Bag Lock.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_map</Token>
+		<Text>Use your Map to teleport between locations and see available tasks. ♥♥ Continue...</Text>
+	</Element>
+	<Element>
+		<Token>tutor_tasks</Token>
+		<Text>Your Notebook keeps track of your available tasks. ♥♥ Continue...</Text>
+	</Element>
+	<Element>
+		<Token>tutor_hint</Token>
+		<Text>This is the Hint button. ♥♥ Use it if you ever get stuck.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_morpho</Token>
+		<Text>Select inventory items with plus symbols to examine them closely. ♥♥ Examine the Peacock Box.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_cast</Token>
+		<Text>Gears indicate that you may use an inventory item. ♥ ♥ Use the Gem Feathers here.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_cast2</Token>
+		<Text>Gears indicate that you may use an inventory item. ♥ ♥ Use the Wallet here.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_ho</Token>
+		<Text>Sparkles indicate Hidden-Object Puzzles. ♥ ♥ Search here.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_ho_match3</Token>
+		<Text>Don't want to find objects? ♥ Play Match-3 instead! ♥ ♥ Just press this button!</Text>
+	</Element>
+	<Element>
+		<Token>tutor_ho_controls</Token>
+		<Text>Some objects require additional actions to find.♥♥ Use the magnifier here.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_ho_list</Token>
+		<Text>Find all the objects marked yellow in text. ♥♥ Here's one.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_ho_zoom</Token>
+		<Text>You may zoom into some areas to ♥look for objects.♥♥Examine this area.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_mg_diff</Token>
+		<Text>Press these buttons to choose the difficulty of the current mini-game.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_mg_info</Token>
+		<Text>Press these buttons to read information about the mini-game or restart it. ♥♥ Continue...</Text>
+	</Element>
+	<Element>
+		<Token>tutor_extra_coin</Token>
+		<Text>Find butterflies in every scene to upgrade the boudoir! ♥♥ This indicator glows when one is in your location.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_extra_statuettes</Token>
+		<Text>Find all the animal pictures on stones. ♥♥ Here's the first one.</Text>
+	</Element>
+	<Element>
+		<Token>tutor_extra_magic</Token>
+		<Text>Find all the morphing figurines. ♥♥ Here's the first one.</Text>
+	</Element>
+	<Element>
+		<Token>step_01</Token>
+		<Text>An arrow appears when you can move to another location. ♥♥ Go forward.</Text>
+	</Element>
+	<Element>
+		<Token>step_02</Token>
+		<Text>Some characters will tell you useful information. ♥♥Talk to Nanda.</Text>
+	</Element>
+
+	<!-- ************************************* survey_game ************************************** -->
+
+	<!-- **************************************** scenes **************************************** -->
+
+	<Element>
+		<Token>scene_01</Token>
+		<Text>Palace of Winds</Text>
+	</Element>
+	<Element>
+		<Token>scene_02</Token>
+		<Text>Elephant Valley</Text>
+	</Element>
+
+	<!-- **************************************** cut_scenes **************************************** -->
+
+	<!-- 001_cs_intro -->
+	<Element>
+		<Token>cs_preintro</Token>
+		<Text>Mokhan! I came to you to hear your prophecy about my fate and lands!</Text>
+	</Element>
+	<Element>
+		<Token>cs_preintro_2</Token>
+		<Text>Then behold, Jagan! A mighty and feared ruler you'll become, erelong a human's hand will strike you numb.</Text>
+	</Element>
+	<Element>
+		<Token>cs_preintro_3</Token>
+		<Text>What?! I'll never let that happen!</Text>
+	</Element>
+	<Element>
+		<Token>cs_preintro_4</Token>
+		<Text>What do you need to help me reverse the prophecy? I'll do anything you say.</Text>
+	</Element>
+
+	<!-- 001_cs_intro -->
+	<Element>
+		<Token>001_cs_intro</Token>
+		<Text>Happy Birthday, brother! Here's your gift from me. Come on... open it!</Text>
+	</Element>
+	<Element>
+		<Token>001_cs_intro_2</Token>
+		<Text>Yes, you should take a break from all the Seeker's business and finally go on vacation! Don't worry, I'll take care of the house and your cat while you're away.</Text>
+	</Element>
+	<Element>
+		<Token>001_cs_intro_3</Token>
+		<Text>So, everyone's here? Let's go to the Palace of Winds and listen to the legend of Princess Manu.</Text>
+	</Element>
+
+	<!-- 001_dlg_margaret -->
+	<Element>
+		<Token>001_dlg_margaret</Token>
+		<Text>Hey! I hope you're having fun! So, where are you now?</Text>
+	</Element>
+	<Element>
+		<Token>001_dlg_margaret_2</Token>
+		<Text>The Palace of Winds? Wow! Would you take a photo for me? I'd really love to see it!</Text>
+	</Element>
+
+	<!-- 001_cs_monkey -->
+
+	<!-- 002_cs_intro -->
+	<Element>
+		<Token>002_cs_intro</Token>
+		<Text>Princess Manu was last seen in your Valley, Nanda. Tell me where she is now!</Text>
+	</Element>
+	<Element>
+		<Token>002_cs_intro_2</Token>
+		<Text>Even if she were here, I'd never tell you. Now get out! A coward like you isn't welcome in my lands.</Text>
+	</Element>
+	<Element>
+		<Token>002_cs_intro_3</Token>
+		<Text>You will regret denying me, the strongest of the Tigers! Behold my power!</Text>
+	</Element>
+
+	<!-- 002_01_dlg_elephant -->
+	<Element>
+		<Token>002_01_dlg_elephant</Token>
+		<Text>Hello, human. I'm Nanda, the Rani of the Elephant Valley. Jagan badly hurt me... Please, help me. Bring me the fruit of life's potion. Then I'll-- Ohh...</Text>
+	</Element>
+	<Element>
+		<Token>002_01_dlg_elephant_2</Token>
+		<Text>Hey! I'm Harish. I'm sorry I stole your watch. Here it is. I just wanted to lure a Seeker into our world to help us.</Text>
+	</Element>
+	<Element>
+		<Token>002_01_dlg_elephant_3</Token>
+		<Text>The situation in the jungle became dangerous after the Tiger King, Jagan heard a prophecy about his death.</Text>
+	</Element>
+	<Element>
+		<Token>002_01_dlg_elephant_4</Token>
+		<Text>Nanda will tell you more about it. Please, cure her!</Text>
+	</Element>
+
+	<!-- 001_dlg_elephant -->
+	<Element>
+		<Token>001_dlg_elephant</Token>
+		<Text>Thank you! The prophecy about Jagan said that he would die at the hands of a human. It must mean Princess Manu, the only human in this world.</Text>
+	</Element>
+	<Element>
+		<Token>001_dlg_elephant_2</Token>
+		<Text>I found Manu as a child in the jungle and raised her as my own daughter. She was so kind and generous to animals that we made her our Princess, the ruler of the Animal World.</Text>
+	</Element>
+	<Element>
+		<Token>001_dlg_elephant_3</Token>
+		<Text>Now Jagan's hunting for Manu. He'll perform a special ritual to reverse the prophecy that will kill her! It will make him the new ruler of our world!</Text>
+	</Element>
+	<Element>
+		<Token>001_dlg_elephant_4</Token>
+		<Text>Please, find and save Manu. Then she'll help you get back to your world. Now, go to the Snakes Path. She's looking for shelter there.</Text>
+	</Element>
+
+	<!-- 002_cs_elephant -->
+	<Element>
+		<Token>002_cs_elephant</Token>
+		<Text>Look around my tent. Maybe you'll find something useful there.</Text>
+	</Element>
+
+	<!-- 003_cs_intro -->
+	<Element>
+		<Token>003_cs_intro</Token>
+		<Text>Your prophecy made Jagan start hunting for Princess Manu, but I won't let anyone hurt her! Get out of my way, or I'll tear you to pieces!</Text>
+	</Element>
+	<Element>
+		<Token>003_cs_intro_2</Token>
+		<Text>You can't intimidate me now that I'm under Jagan's protection!</Text>
+	</Element>
+
+	<!-- **************************************** bbts **************************************** -->
+
+	<!-- 001 -->
+	<Element>
+		<Token>bbt_001_cs_intro</Token>
+		<Text>It's so beautiful here, I- Oh, it's Margaret! I should answer this.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_cs_monkey</Token>
+		<Text>Oh no! That little thief took Margaret's gift! I need to get it back.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_01_hook</Token>
+		<Text>I could climb right up there if I had some rope.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_01_monkey</Token>
+		<Text>There's the monkey that took my watch! I need to get it back.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_03_tasks</Token>
+		<Text>Now I can take notes to remember my trip!</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_02_seller</Token>
+		<Text>Hello! Would you like to buy a surprise box? It's only four rupees and it's full of souvenirs from India!</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_02_seller1</Token>
+		<Text>I've already bought a souvenir from him.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_02_elephant</Token>
+		<Text>I could burn incense sticks here.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_02_handkerchief</Token>
+		<Text>What beautiful earrings! Hmmm, this could be useful.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_03_name</Token>
+		<Text>Simon</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_04_guide</Token>
+		<Text>He needs my ticket to start the tour. I bet I put it in my backpack.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_03_bowl</Token>
+		<Text>There's something in the fire. I need to put it out to see what it is.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_03_bowl_fake</Token>
+		<Text>I could burn my hands! I'd better put out the fire first.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_03_bowl_2</Token>
+		<Text>The fire's out, but it's still too hot to touch.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_03_01_backpack</Token>
+		<Text>Oops, it broke! I might be able to open it, but I need something thin.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_03_01_brochure</Token>
+		<Text>India is full of myths and legends.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_05_cap</Token>
+		<Text>Some of the feathers are broken off.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_05_casket</Token>
+		<Text>How could that tiny box hold all this?! It's another world wonder!</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_05_brochure</Token>
+		<Text>Just imagine if that window were real!</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_tourists</Token>
+		<Text>So many tourists!</Text>
+	</Element>
+	<Element>
+		<Token>bbt_001_signboard</Token>
+		<Text>I should find my ticket. I don't want to miss the tour!</Text>
+	</Element>
+
+	<!-- 002 -->
+	<Element>
+		<Token>bbt_002_cs_intro</Token>
+		<Text>Where am I? Is this still India? I can't believe I'm saying this, but I should talk to that elephant.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_cs_elephant</Token>
+		<Text>Now I'm starting to understand. I need to find Princess Manu.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_01_dlg_elephant</Token>
+		<Text>I've stumbled into another adventure!</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_01_elephant</Token>
+		<Text>I need to prepare a potion before it's too late!</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_01_monkey</Token>
+		<Text>The Elephant Valley will be grateful to you for saving Nanda.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_01_monkey_2</Token>
+		<Text>Hurry! There isn't much time.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_01_monkey_3</Token>
+		<Text>I know the fruit of life grows near water.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_03_statue</Token>
+		<Text>It won't let me pass. Maybe it needs to see this symbol.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_04_bowl</Token>
+		<Text>I must gather everything for a henna tattoo.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_04_diary</Token>
+		<Text>Nanda is no mere elephant.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_04_note</Token>
+		<Text>I saw Margaret doing something like that to her hands. I could also give it a try.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_04_lizard</Token>
+		<Text>He looks hungry. I bet he would move to hunt some bugs.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_04_map</Token>
+		<Text>I hope I don't get lost here.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_05_bamboo</Token>
+		<Text>I wonder what happened to the ladder.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_06_recept</Token>
+		<Text>I should follow the instructions carefully.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_002_08_stairs</Token>
+		<Text>I have to clean it off and repair it.</Text>
+	</Element>
+
+	<!-- **************************************** objects **************************************** -->
+
+	<!-- 001 -->
+	<Element>
+		<Token>obj_title_001_incense</Token>
+		<Text>Incense</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_07_lighter</Token>
+		<Text>Lighter</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_02_bottle</Token>
+		<Text>Sand Art Bottle</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_02_brush</Token>
+		<Text>Brush</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_02_feather1</Token>
+		<Text>Peacock Gem Feathers</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_02_handkerchief</Token>
+		<Text>Stud Earring</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_02_figure</Token>
+		<Text>Rough Brush</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_03_casket</Token>
+		<Text>Peacock Box</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_03_purse</Token>
+		<Text>Wallet</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_03_saucer</Token>
+		<Text>Scoop</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_03_01_ticket</Token>
+		<Text>Tour Ticket</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_05_sari</Token>
+		<Text>Lasso</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_05_flask</Token>
+		<Text>Water</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_07_tongs</Token>
+		<Text>Tongs</Text>
+	</Element>
+
+	<!-- 002 -->
+	<Element>
+		<Token>obj_title_002_02_elastic</Token>
+		<Text>Sling</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_02_ball</Token>
+		<Text>Glass Ball</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_02_stairs</Token>
+		<Text>Broken Ladder</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_04_book</Token>
+		<Text>Thick Book</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_04_recipe</Token>
+		<Text>Healing Potion Recipe</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_04_mehendi</Token>
+		<Text>Magical Mehndi</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_04_nails</Token>
+		<Text>Wooden Boards</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_05_henna</Token>
+		<Text>Henna</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_06_stupka</Token>
+		<Text>Healing Potion</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_002_08_stairs</Token>
+		<Text>Ladder</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_08_key</Token>
+		<Text>Key</Text>
+	</Element>
+	<Element>
+		<Token>obj_title_001_08_coin</Token>
+		<Text>Coin</Text>
+	</Element>
+
+
+	<!-- **************************************** notes **************************************** -->
+
+	<!-- 001 -->
+	<Element>
+		<Token>001_03_backpack</Token>
+		<Text>Simon</Text>
+	</Element>
+	<Element>
+		<Token>001_03_01_ticket</Token>
+		<Text>ENTRANCE TICKET</Text>
+	</Element>
+	<Element>
+		<Token>001_03_01_ticket_2</Token>
+		<Text>"The Palace of Winds"</Text>
+	</Element>
+	<Element>
+		<Token>001_03_01_brochure</Token>
+		<Text>MAGICAL INDIA</Text>
+	</Element>
+	<Element>
+		<Token>001_03_01_brochure_2</Token>
+		<Text>Monkeys often steal and people are used to it. Never punish a monkey for theft, or it'll steal your soul.</Text>
+	</Element>
+	<Element>
+		<Token>001_05_brochure</Token>
+		<Text>Hawa Mahal</Text>
+	</Element>
+	<Element>
+		<Token>001_05_brochure_2</Token>
+		<Text>Palace of Winds</Text>
+	</Element>
+	<Element>
+		<Token>001_05_brochure_3</Token>
+		<Text>GUIDE FOR TOURISTS</Text>
+	</Element>
+	<Element>
+		<Token>001_05_brochure_4</Token>
+		<Text>Palace of Winds is famous for its large amount of windows: 953! Legends say that one of them is a portal to otherworldly India.</Text>
+	</Element>
+
+	<!-- 002 -->
+	<Element>
+		<Token>002_04_note</Token>
+		<Text>MAGIC MEHNDI</Text>
+	</Element>
+	<Element>
+		<Token>002_07_1_hint</Token>
+		<Text>Healing Potion</Text>
+	</Element>
+	<Element>
+		<Token>002_07_2_hint</Token>
+		<Text>Only four drops can cure a wound, and no more or no less, otherwise it turns into poison!</Text>
+	</Element>
+	<Element>
+		<Token>002_04_diary</Token>
+		<Text>Seekers used to visit this place, but this world was quite dangerous, so they never stayed for long. I, for one, love this place and the local animals, especially Nanda. She's the Rani of the Elephant Valley. That means she's the Queen! ♥ Princess Manu</Text>
+	</Element>
+	<Element>
+		<Token>002_06_recept</Token>
+		<Text>POTION RECIPE</Text>
+	</Element>
+
+	<!-- **************************************** game_desc ************************************ **** -->
+
+	<!-- 001 -->
+
+
+	<!-- 002 -->
+	<Element>
+		<Token>game_002_07_text</Token>
+		<Text>Fill the central flask with the correct amount of potion, according to the note on the left. Select a flask to pour from, then select another flask to pour the potion into.</Text>
+	</Element>
+
+	<!-- **************************************** tasks **************************************** -->
+
+	<Element>
+		<Token>task_01</Token>
+		<Text>Get your watch back.</Text>
+	</Element>
+	<Element>
+		<Token>task_02</Token>
+		<Text>Help Nanda the Elephant.</Text>
+	</Element>
+	<Element>
+		<Token>task_03</Token>
+		<Text>Get to Snakes Path through the portal.</Text>
+	</Element>
+
+	<!-- **************************************** hos_bbts **************************************** -->
+
+	<Element>
+		<Token>ho_desc_101_1</Token>
+		<Text>#fff7ff26*®id_ho_101_f_1_india®India* is an amazing country. Look around. There are a #fff7ff26*®id_ho_101_f_1_thousand®thousand* windows in this palace, almost as many as there are legends in India. Focus with your #fff7ff26*®id_ho_101_f_1_eye®eyes* and ears, and I'll tell you one of them.</Text>
+	</Element>
+	<Element>
+		<Token>ho_desc_101_2</Token>
+		<Text>Of the windows in #fff7ff26*®id_ho_101_f_2_door®the palace*, one leads to a parallel world where power is kept in the #fff7ff26*®id_ho_101_f_2_hands®hands* of animals: #fff7ff26*®id_ho_101_f_2_elephant®elephants*, panthers, monkeys, and more.</Text>
+	</Element>
+	<Element>
+		<Token>ho_desc_101_3</Token>
+		<Text>Everyone lives in perfect harmony. #fff7ff26*®id_ho_101_f_3_papaya®Papaya* grows abundantly in the gardens, and the rivers are full of #fff7ff26*®id_ho_101_f_3_fish®fish*. This all happened after the human #fff7ff26*®id_ho_101_f_3_crown®Princess* Manu appeared in their world.</Text>
+	</Element>
+	<Element>
+		<Token>ho_desc_101_4</Token>
+		<Text>She stopped the eternal #fff7ff26*®id_ho_101_f_4_dagger®wars* between #fff7ff26*®id_ho_101_f_4_fang®fangs* and hooves and showed the animals that fighting leads nowhere. Since then, friendship, #fff7ff26*®id_ho_101_f_4_love®love*, and joy have ruled in that world.</Text>
+	</Element>
+	<Element>
+		<Token>ho_desc_101_5</Token>
+		<Text>Here, take this as a souvenir.</Text>
+	</Element>
+
+	<Element>
+		<Token>bbt_ho_101_1_f_1_india</Token>
+		<Text>I can't quite make out the country names.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_ho_101_3_f_2_elephant</Token>
+		<Text>Why not finish the embroidery?</Text>
+	</Element>
+	<Element>
+		<Token>bbt_ho_101_1_f_3_beez</Token>
+		<Text>Some perfume might ward them off.</Text>
+	</Element>
+	<Element>
+		<Token>bbt_ho_101_2_f_3_fish</Token>
+		<Text>It's a bit dusty. I need something to wipe it clean.</Text>
+	</Element>
+
+</Localization>

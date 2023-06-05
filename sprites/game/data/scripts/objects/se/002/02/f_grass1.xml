@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_02_f_grass1</name>
+    <name_desc>002_02_f_grass1</name_desc>
+    <type>002_02_f_grass1</type>
+    <states size="1">          
+        <state>
+			<event>END_MOVIE</event>
+            <event_parameters>002_02_f_butterfly_click</event_parameters>		
+        </state>    
+		<state>
+            <sprite>002_02_f_grass1</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>51</layer>
+    <decorate>1</decorate>
+</object>

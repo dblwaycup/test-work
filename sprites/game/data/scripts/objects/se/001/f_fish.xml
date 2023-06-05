@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_fish</name_desc>
+    <name>001_f_fish</name>
+    <type>001_f_fish</type>
+    <states size="1">
+        <state>
+            <sprite>001_f_fish</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>7</layer>
+</object>

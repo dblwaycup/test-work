@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_02_brush</name_desc>
+    <name>001_02_brush</name>
+    <type>001_02_brush</type>
+    <states size="1">
+        <state>
+            <sprite>empty</sprite>
+        </state>
+        <state>
+            <sprite>001_02_brush</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>KILL_OBJECT</event>
+            <event_parameters>001_06_brush</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>12</layer>
+</object>

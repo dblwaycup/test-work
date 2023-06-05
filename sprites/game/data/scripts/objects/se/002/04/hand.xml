@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_04_hand</name>
+    <name_desc>002_04_hand</name_desc>
+    <type>002_04_hand</type>
+    <states size="1">
+        <state><!-- 002_04_bowl -->
+            <translate_movie>002_04_hand</translate_movie>
+            <messages>
+                <message name="002_04_paint">
+                    <msg>GM_SET_OBJECT_FINAL_STATE</msg>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_04_hand</event_parameters>
+        </state>
+        <state>
+            <achievement_get>achievements_special01</achievement_get>
+        </state>
+    </states>
+    <layer>100</layer>
+</object>

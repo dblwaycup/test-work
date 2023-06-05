@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_f_2_caleidoscope</name>
+	<name_desc>ho_101_f_2_caleidoscope</name_desc>
+	<type>ho_101_f_2_caleidoscope</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_f_2_caleidoscope</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>ho_101_f_2_caleidoscope</sprite>
+			<cursor>spt_cursor_lupa-shest</cursor>
+			
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_f_2_door</type>
+                </object>
+            </iterated_objects>
+		</state>
+		<state>
+			<sprite>ho_101_f_2_caleidoscope</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>40</layer>
+</object>

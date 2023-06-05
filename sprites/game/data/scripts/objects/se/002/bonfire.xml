@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_bonfire</name>
+    <name_desc>002_bonfire</name_desc>
+    <type>002_bonfire</type>
+    <states size="1">
+        <state>
+        </state>
+        <state>
+            <mask_sprite>002_bonfire</mask_sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <hint_delta x="0" y="0"/>
+            <particle>active_object</particle>
+            <particle_pos x="98" y="59"/>
+            <particle_wait_min_limit>2</particle_wait_min_limit>
+            <particle_wait_max_limit>7</particle_wait_max_limit>
+            <particle_fire_min_limit>1</particle_fire_min_limit>
+            <particle_fire_max_limit>1</particle_fire_max_limit>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>40</layer>
+</object>

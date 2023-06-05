@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_06_stupka</name>
+	<name_desc>002_06_stupka</name_desc>
+	<type>002_06_stupka</type>
+	<states size="1">
+		<state>
+			<!-- 002_06_recept -->
+			<blazing_sprite name="002_06_stupka_click" spawn_time="0.5" time_hold="0.5" fade_time="0.5" all_levels="false">
+				<shift_pos x="0" y="0" />
+			</blazing_sprite>
+			<tweens_defined>
+				<tween>
+					<type>transform</type>
+					<name>insert_morfo</name>
+				</tween>
+			</tweens_defined>
+		</state>
+		<state>
+			<sprite>002_06_stupka</sprite>
+			<event>TRANSLATE_TWEEN_END</event>
+			<event_parameters>002_06_stupka</event_parameters>
+			<combine_inventory_sprite>inv_002_06_stupka_1_get</combine_inventory_sprite>
+			<sound_fx>ad_getall</sound_fx>
+		</state>
+		<state>
+			<sprite>002_06_stupka</sprite>
+			<tweens_defined>
+				<tween>
+					<type>transform</type>
+					<name>002_06_stupka</name>
+				</tween>
+			</tweens_defined>
+			<combine_inventory_sprite>inv_002_06_stupka_1_get</combine_inventory_sprite>
+
+		</state>
+		<state>
+			<sprite>002_06_stupka</sprite>
+			<fast_iterate>1</fast_iterate>
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>1</mode_param>
+			<messages>
+				<message name="002_06_petals">
+					<msg>GM_SETNEXTSTATE</msg>
+				</message>
+				<message name="002_06_fruit">
+					<msg>GM_SETNEXTSTATE</msg>
+				</message>
+			</messages>
+			<translate_movie>002_06_stupka</translate_movie>
+			<combine_inventory_sprite>inv_002_06_stupka_1_get</combine_inventory_sprite>
+
+		</state>
+		<state>
+			<sprite>002_06_stupka_2</sprite>
+			<event>END_MOVIE</event>
+			<event_parameters>002_06_stupka</event_parameters>
+			<fast_iterate>1</fast_iterate>
+			<combine_inventory_sprite>inv_002_06_stupka_2_get</combine_inventory_sprite>
+
+		</state>
+		<state>
+			<sprite>002_06_stupka_4</sprite>
+			<fast_iterate>1</fast_iterate>
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>1</mode_param>
+			<combine_inventory_sprite>inv_002_06_stupka_3_get</combine_inventory_sprite>
+            <sound_fx>ad_morf_win</sound_fx>
+		</state>
+		<state>
+			<sprite>002_06_stupka_4</sprite>
+			<mode>ToInventory</mode>
+			<auto_play>1</auto_play>
+			<kill_inventory size="1">
+				<object>
+					<type>002_04_recipe</type>
+				</object>
+			</kill_inventory>
+		</state>
+		<state>
+		</state>
+	</states>
+	<drag_spt>inv_002_06_stupka_drag</drag_spt>
+	<window_spt>inv_002_06_stupka_get</window_spt>
+	<text_inv_desc>obj_title_002_06_stupka</text_inv_desc>
+	<on_get_title>obj_title_002_06_stupka</on_get_title>
+	<tween_over_type>inv_icon</tween_over_type>
+
+
+	<particle_to_inventory>002_06_potion_inv</particle_to_inventory>
+	<drag_particle_inventory>002_06_potion_inv</drag_particle_inventory>
+	<gui_get_object_particle>002_06_potion_inv</gui_get_object_particle>
+	<particle_to_inventory_delta x="40" y="40" />
+	<particle_to_inventory_drag_delta x="60" y="60" />
+	<get_object_particle_pos x="75" y="75" />
+	<particle_idle_scale>0.53</particle_idle_scale>
+	<particle_drag_scale>0.66</particle_drag_scale>
+	<particle_get_scale>1</particle_get_scale>
+	<layer>15</layer>
+</object>

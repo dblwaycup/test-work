@@ -1,0 +1,5 @@
+﻿<?xml version="1.0"?>
+<fonts>
+	<font name="fnt_system" path="data/fonts/gui/system.fnt" />
+	<font name="005_05_game" path="data/fonts/gui/number1.fnt" />
+</fonts>

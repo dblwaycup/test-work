@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_08_dirt</name_desc>
+    <name>002_08_dirt</name>
+    <type>002_08_dirt</type>
+    <states size="1">
+        <state>
+            <sprite>002_08_dirt</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT_IN_STATES</event>
+            <event_parameters>002_08_brush|2</event_parameters>
+        </state>
+        <state>
+            <sprite>002_08_dirt</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>1</mode_param>
+            <messages>
+                <message name="002_08_brush">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+            <translate_movie>002_08_stairs_change</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_08_stairs_change</event_parameters>
+        </state>
+      
+        <state>
+            <sprite>empty</sprite>
+            <event>ITERATE_OBJECT_IN_STATES</event>
+            <event_parameters>002_08_planks|4</event_parameters>
+            <messages>
+                <message name="002_08_planks">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_08_stairs">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>10</layer>
+</object>

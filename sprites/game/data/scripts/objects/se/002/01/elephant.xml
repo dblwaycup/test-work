@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_01_elephant</name>
+    <name_desc>002_01_elephant</name_desc>
+    <type>002_01_elephant</type>
+    <states size="2">
+        <state>
+            <movie>002_01_elephant_idle</movie>
+            <mask_sprite>002_01_elephant_mask</mask_sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.7</mode_param>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_01_dlg_elephant</event_parameters>
+        </state>
+        <state>
+            <movie>002_01_elephant_idle</movie>
+            <mask_sprite>002_01_elephant_mask</mask_sprite>
+            <mode>MoviePlay</mode>
+            <mode_param>002_01_elephant_click</mode_param>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_01_elephant</dialog_activate>
+            <hint_delta x="41" y="-56"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>002_06_stupka</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+        </state>
+        <state>
+            <movie>002_01_elephant_idle</movie>
+            <mask_sprite>002_01_elephant_mask</mask_sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>002_01_monkey_cast</event_parameters>
+            <messages>
+                <message name="ENGINE">
+                    <msg>GM_STARTGAME</msg>
+                    <int1>207</int1>
+                    <int2>1</int2>
+                    <str1>StartFrame</str1>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <movie>002_01_elephant_idle</movie>
+            <mask_sprite>002_01_elephant_mask</mask_sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.5</mode_param>
+            <translate_movie>002_01_elephant_final</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_01_elephant_final</event_parameters>
+        </state>
+        <state>
+            <sprite>002_01_elephant1</sprite>
+            <mask_sprite>002_01_elephant_mask</mask_sprite>
+        </state>
+    </states>
+    <layer>6</layer>
+</object>

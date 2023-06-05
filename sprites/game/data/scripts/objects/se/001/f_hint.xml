@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_hint</name_desc>
+    <name>001_f_hint</name>
+    <type>001_f_hint</type>
+    <states size="1">
+        <state>
+            <sprite>001_f_hint</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>BEGIN_MOVIE</event>
+            <event_parameters>001_07_hint_add</event_parameters> 
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>7</layer>
+</object>

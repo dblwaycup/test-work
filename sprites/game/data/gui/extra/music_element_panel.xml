@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="50"/>
+	<ctrls>
+		<ctrl>
+			<name>ButtonPlay</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="31" y="-15"/>
+			<width>80</width>
+			<height>80</height>
+			<sprites>
+				<spt>music_play</spt>
+				<spt>music_play_over</spt>
+				<spt>music_play_over</spt>
+			</sprites>
+			<mask_sprite>music_play_stop_mask</mask_sprite>
+		</ctrl>
+		<ctrl>
+			<name>ButtonStop</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="31" y="-15"/>
+			<width>80</width>
+			<height>80</height>
+			<sprites>
+				<spt>music_stop</spt>
+				<spt>music_stop_over</spt>
+				<spt>music_stop_over</spt>
+			</sprites>
+			<mask_sprite>music_play_stop_mask</mask_sprite>
+		</ctrl>
+		<ctrl>
+			<name>music_progress_status_check_back</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>442</id>
+			<pos x="170" y="8" />
+			<width>423</width>
+			<height>30</height>
+			<sprites>
+				<spt>music_element_status_back</spt>
+			</sprites>
+		</ctrl>
+		<ctrl>
+			<name>music_progress_status_check</name>
+			<type>StatusCheck</type>
+			<ext_path>data/gui/extra/music_progress_status.xml</ext_path>
+			<act_but_id>1</act_but_id>
+			<enable>0</enable>
+			<visible>1</visible>
+			<id>4</id>
+			<pos x="170" y="8"/>
+			<width>423</width>
+			<height>30</height>
+			<width_edge>8</width_edge>
+			<cur_pos_per>0</cur_pos_per>
+			<sprites>
+				<spt>music_element_status</spt>
+			</sprites>
+		</ctrl>
+		<ctrl>
+			<name>ButtonSave</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="610" y="-4"/>
+			<width>49</width>
+			<height>54</height>
+			<sprites>
+				<spt>music_save</spt>
+				<spt>music_save_on</spt>
+				<spt>music_save_on</spt>
+			</sprites>
+			<mask_sprite>music_save_mask</mask_sprite>
+		</ctrl>
+		<ctrl>
+			<name>Title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text>Tune 1</default_text>
+			<id>3</id>
+			<pos x="175" y="-30"/>
+			<width>412</width>
+			<height>60</height>
+		</ctrl>
+	</ctrls>
+</gui>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>999999999</life_time>
+	<Layers size="1">
+		<Layer>
+			<particle>hint_idle</particle>
+			<create_fx_position x="-380" y="-195" />
+			<enable_time>0</enable_time>
+			<life_time>999999999</life_time>
+			<loop>1</loop>
+		</Layer>
+	</Layers>
+</Scene>

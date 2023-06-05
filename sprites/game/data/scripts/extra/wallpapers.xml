@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Group type="ET_WALLPAPERS" enabled="1" disabled_image_spt_name="wallpapers_disable">
+	<element id="0" enabled="1" spt_name="wallpapers_01" spt_name_disabled="wallpapers_01" save_filename="LOTW_TheWildSide_CE_wallpaper_01.jpg"/>
+	<element id="1" enabled="1" spt_name="wallpapers_02" spt_name_disabled="wallpapers_02" save_filename="LOTW_TheWildSide_CE_wallpaper_02.jpg" />
+	<element id="2" enabled="1" spt_name="wallpapers_03" spt_name_disabled="wallpapers_03" save_filename="LOTW_TheWildSide_CE_wallpaper_03.jpg" />
+	<element id="3" enabled="1" spt_name="wallpapers_04" spt_name_disabled="wallpapers_04" save_filename="LOTW_TheWildSide_CE_wallpaper_04.jpg" />
+	<element id="4" enabled="1" spt_name="wallpapers_05" spt_name_disabled="wallpapers_05" save_filename="LOTW_TheWildSide_CE_wallpaper_05.jpg" />
+	<element id="5" enabled="1" spt_name="wallpapers_06" spt_name_disabled="wallpapers_06" save_filename="LOTW_TheWildSide_CE_wallpaper_06.jpg" />
+	<element id="6" enabled="1" spt_name="wallpapers_07" spt_name_disabled="wallpapers_07" save_filename="LOTW_TheWildSide_CE_wallpaper_07.jpg" />
+	<element id="7" enabled="1" spt_name="wallpapers_08" spt_name_disabled="wallpapers_08" save_filename="LOTW_TheWildSide_CE_wallpaper_08.jpg" />
+	<element id="8" enabled="1" spt_name="wallpapers_09" spt_name_disabled="wallpapers_09" save_filename="LOTW_TheWildSide_CE_wallpaper_09.jpg" />
+	<element id="9" enabled="1" spt_name="wallpapers_10" spt_name_disabled="wallpapers_10" save_filename="LOTW_TheWildSide_CE_wallpaper_10.jpg" />
+	<element id="10" enabled="1" spt_name="wallpapers_11" spt_name_disabled="wallpapers_11" save_filename="LOTW_TheWildSide_CE_wallpaper_11.jpg" />
+	<element id="11" enabled="1" spt_name="wallpapers_12" spt_name_disabled="wallpapers_12" save_filename="LOTW_TheWildSide_CE_wallpaper_12.jpg" />
+	<element id="12" enabled="1" spt_name="wallpapers_13" spt_name_disabled="wallpapers_13" save_filename="LOTW_TheWildSide_CE_wallpaper_13.jpg" />
+	<element id="13" enabled="1" spt_name="wallpapers_14" spt_name_disabled="wallpapers_14" save_filename="LOTW_TheWildSide_CE_wallpaper_14.jpg"/>
+	<element id="14" enabled="1" spt_name="wallpapers_15" spt_name_disabled="wallpapers_15" save_filename="LOTW_TheWildSide_CE_wallpaper_15.jpg" />
+	<element id="15" enabled="1" spt_name="wallpapers_16" spt_name_disabled="wallpapers_16" save_filename="LOTW_TheWildSide_CE_wallpaper_16.jpg" />
+	<element id="16" enabled="1" spt_name="wallpapers_17" spt_name_disabled="wallpapers_17" save_filename="LOTW_TheWildSide_CE_wallpaper_17.jpg" />
+	<element id="17" enabled="1" spt_name="wallpapers_18" spt_name_disabled="wallpapers_18" save_filename="LOTW_TheWildSide_CE_wallpaper_18.jpg" />
+	<element id="18" enabled="1" spt_name="wallpapers_19" spt_name_disabled="wallpapers_19" save_filename="LOTW_TheWildSide_CE_wallpaper_19.jpg" />
+	<element id="19" enabled="1" spt_name="wallpapers_20" spt_name_disabled="wallpapers_20" save_filename="LOTW_TheWildSide_CE_wallpaper_20.jpg" />
+</Group>

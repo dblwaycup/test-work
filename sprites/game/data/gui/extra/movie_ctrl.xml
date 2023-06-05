@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>main_image</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1028</width>
+			<height>647</height>
+			<sprites>
+			</sprites>
+			<layer>-5</layer>
+		</ctrl>
+
+		<ctrl>
+			<name>button_left</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="277" y="555"/>
+			<width>97</width>
+			<height>87</height>
+			<sprites>
+				<spt>btn_left</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_over</spt>
+				<spt>btn_left_dis</spt>
+			</sprites>
+			<mask_sprite>btn_left_right_mask</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_right</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="651" y="555"/>
+			<width>97</width>
+			<height>87</height>
+			<sprites>
+				<spt>btn_right</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_over</spt>
+				<spt>btn_right_dis</spt>
+			</sprites>
+			<mask_sprite>btn_left_right_mask</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_play_cutscene</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<pos x="404" y="570"/>
+			<width>216</width>
+			<height>77</height>
+			<sprites>
+				<spt>btn_extra_ok</spt>
+				<spt>btn_extra_ok_over</spt>
+				<spt>btn_extra_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_extra_ok_mask</mask_sprite>
+			<btn_text token="gui_cmn_btn_play">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="disabled" color="99ffffff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER</align>
+				<spacing left="-28" top="-8" right="0" bottom="0" />
+			</btn_text>
+			<btn_disabled_dialog>ExtraContentClosed</btn_disabled_dialog>
+		</ctrl>
+		
+		<ctrl>
+			<name>text_counter</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text></default_text>
+			<id>4</id>
+			<pos x="509" y="587"/>
+			<width>70</width>
+			<height>26</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>title</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>5</id>
+			<pos x="203" y="-1"/>
+			<width>619</width>
+			<height>96</height>
+			<sprites>
+				<spt>title_extra</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl>
+			<name>text_caption</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<font>data/fonts/gui/agopus50.fnt</font>
+			<text_scale>0.8</text_scale>
+			<id>6</id>
+			<pos x="328" y="35"/>
+			<size x="462" y="70"/>
+		</ctrl>
+		
+	</ctrls>
+</gui>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_05_first</name>
+    <name_desc>002_05_first</name_desc>
+    <type>002_05_first</type>
+    <states size="1">
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_05_bamboo_change</event_parameters>
+        </state>
+        <state>
+            <sprite>002_05_first</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>100</layer>
+</object>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>999999999</life_time>
+	<Layers size="1">
+		<Layer>
+			<movie_avi>data/movies/gui/logo/cc.flv</movie_avi>
+			<create_anim_position x="0" y="0" />
+			<virtual_video_size x="619" y="327" />
+			<enable_time>0</enable_time>
+			<life_time>999999999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+		<Layer>
+			<resource>data/sprites/gui/authorizeinterface/game_name_ce.png</resource>
+			<create_position x="200" y="215" />
+			<enable_time>0</enable_time>
+			<life_time>999999999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		<Layer>
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<loop>1</loop>
+			<sound>
+				<life_time>99999</life_time>
+				<name>main_env</name>
+				<loop>1</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+			</sound>
+		</Layer>
+	</Layers>
+</Scene>

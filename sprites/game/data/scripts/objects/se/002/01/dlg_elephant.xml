@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_01_dlg_elephant</name>
+    <name_desc>002_01_dlg_elephant</name_desc>
+    <type>002_01_dlg_elephant</type>
+    <states size="1">
+        <state>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.7</mode_param>
+            <translate_movie>002_01_dlg_elephant</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_01_dlg_elephant</event_parameters>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>15</layer>
+</object>

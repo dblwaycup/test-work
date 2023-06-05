@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_07_lighter</name_desc>
+    <name>001_07_lighter</name>
+    <type>001_07_lighter</type>
+    <states size="1">
+        <state>
+            <sprite>001_07_lighter</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_07_hint_add</event_parameters>
+        </state>
+        <state>
+            <sprite>001_07_lighter</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <hint_delta x="0" y="0"/>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_001_07_lighter_drag</drag_spt>
+    <window_spt>inv_001_07_lighter_get</window_spt>
+    <text_inv_desc>obj_title_001_07_lighter</text_inv_desc>
+    <on_get_title>obj_title_001_07_lighter</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>10</layer>
+    <particle_to_inventory>001_07_fx_lighter</particle_to_inventory>
+    <drag_particle_inventory>001_07_fx_lighter</drag_particle_inventory>
+    <gui_get_object_particle>001_07_fx_lighter</gui_get_object_particle>
+    <particle_to_inventory_delta x="40" y="40" />
+    <particle_to_inventory_drag_delta x="60" y="60" />
+    <get_object_particle_pos x="75" y="75" />
+    <particle_idle_scale>0.53</particle_idle_scale>
+    <particle_drag_scale>0.66</particle_drag_scale>
+    <particle_get_scale>1</particle_get_scale>
+</object>

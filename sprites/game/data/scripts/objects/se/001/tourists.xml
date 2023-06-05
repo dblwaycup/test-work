@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_tourists</name_desc>
+    <name>001_tourists</name>
+    <type>001_tourists</type>
+    <states size="1">
+        <state>
+            <movie>001_tourists_idle</movie>
+            <mask_sprite>001_tourists-mask</mask_sprite>
+            <cursor>spt_cursor_arrow_question</cursor>
+            <dialog_activate>bbt_001_tourists</dialog_activate>
+        </state>
+    </states>
+    <layer>4</layer>
+</object>

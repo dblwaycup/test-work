@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_07_bank6_count_hard</name>
+	<name_desc>002_07_bank6_count_hard</name_desc>
+	<type>002_07_bank6_count_hard</type>
+	<states size="2">
+		<state>
+			<sprite>002_07_bank6_count_hard_0</sprite><!--0-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_bank6_count_hard_1</sprite><!--1-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_bank6_count_hard_2</sprite><!--2-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_bank6_count_hard_3</sprite><!--3-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_bank6_count_hard_4</sprite><!--4-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_bank6_count_hard_5</sprite><!--5-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_bank6_count_hard_6</sprite><!--6-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>26</layer>
+	<soulbound>002_07_water6_hard</soulbound>
+	<decorate>1</decorate>
+</object>

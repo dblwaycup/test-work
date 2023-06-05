@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_f_4_dagger</name>
+	<name_desc>ho_101_f_4_dagger</name_desc>
+	<type>ho_101_f_4_dagger</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_f_4_dagger</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>ho_101_f_4_dagger</sprite>
+			<mode>Click</mode>
+			<mode_param3>kill</mode_param3>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_level_2</type>
+                </object>
+            </iterated_objects>
+			<color_id_reset>id_ho_101_f_4_dagger</color_id_reset>
+		</state>
+		<state>
+			<sprite>ho_101_f_4_dagger</sprite>
+		</state>
+	</states>
+	<type_accept_effect>1</type_accept_effect>
+	<accept_particle>kill_object</accept_particle>
+	<global_desc>ho_desc_101_4</global_desc>
+	<layer>150</layer>
+</object>

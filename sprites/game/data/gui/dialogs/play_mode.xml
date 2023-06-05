@@ -1,0 +1,470 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="359" y="80"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>585</width>
+			<height>590</height>
+			<sprites>
+				<spt>back_play_mode</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- title -->	
+		<ctrl>
+			<name>text_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<default_text>offer_free_dialog</default_text>
+			<id>2</id>
+			<pos x="201" y="28" />
+			<width>189</width>
+			<height>32</height>
+		</ctrl>
+		
+	<!-- casual -->	
+		<ctrl>
+			<name>button_easy</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>3</id>
+			<pos x="127" y="92"/>
+			<width>387</width>
+			<height>99</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_selection</spt>
+				<spt>btn_selection</spt>
+			</sprites>
+			<mask_sprite>btn_selection_mask</mask_sprite>
+			<special>1</special>
+			<mutex>667</mutex>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		<ctrl>
+			<name>casual_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_yellow.fnt</font>
+			<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+			<default_text>casual_title</default_text>
+			<id>4</id>
+			<pos x="192" y="106" />
+			<width>190</width>
+			<height>22</height>
+		</ctrl>
+		<ctrl>
+			<name>casual_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.92</text_scale>
+			<style>TS_ALIGNLEFT | TS_ALIGNTOP | TS_MULTILINE</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>casual_desc</default_text>
+			<id>5</id>
+			<pos x="192" y="130" />
+			<width>365</width>
+			<height>95</height>
+		</ctrl>
+		
+	<!-- advanced -->	
+		<ctrl>
+			<name>button_norm</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>6</id>
+			<pos x="127" y="197"/>
+			<width>387</width>
+			<height>99</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_selection</spt>
+				<spt>btn_selection</spt>
+			</sprites>
+			<mask_sprite>btn_selection_mask</mask_sprite>
+			<special>1</special>
+			<mutex>667</mutex>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		<ctrl>
+			<name>advanced_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_yellow.fnt</font>
+			<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+			<default_text>advanced_title</default_text>
+			<id>7</id>
+			<pos x="192" y="212" />
+			<width>190</width>
+			<height>22</height>
+		</ctrl>
+		<ctrl>
+			<name>advanced_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.92</text_scale>
+			<style>TS_ALIGNLEFT | TS_ALIGNTOP | TS_MULTILINE</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>advanced_desc</default_text>
+			<id>8</id>
+			<pos x="192" y="236" />
+			<width>365</width>
+			<height>95</height>
+		</ctrl>
+		
+	<!-- hard -->	
+		<ctrl>
+			<name>button_hard</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>9</id>
+			<pos x="127" y="300"/>
+			<width>387</width>
+			<height>131</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_selection_big</spt>
+				<spt>btn_selection_big</spt>
+			</sprites>
+			<mask_sprite>btn_selection_big_mask</mask_sprite>
+			<special>1</special>
+			<mutex>667</mutex>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		<ctrl>
+			<name>hardcore_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_yellow.fnt</font>
+			<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+			<default_text>hardcore_title</default_text>
+			<id>10</id>
+			<pos x="192" y="312" />
+			<width>190</width>
+			<height>22</height>
+		</ctrl>
+		<ctrl>
+			<name>hardcore_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.92</text_scale>
+			<style>TS_ALIGNLEFT | TS_ALIGNTOP | TS_MULTILINE</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>hardcore_desc</default_text>
+			<id>11</id>
+			<pos x="192" y="334" />
+			<width>365</width>
+			<height>95</height>
+		</ctrl>
+		
+	<!-- custom -->	
+		<ctrl>
+			<name>button_custom_difficulty</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<subsubtype>pressed</subsubtype>
+			<id>12</id>
+			<pos x="127" y="436"/>
+			<width>387</width>
+			<height>99</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_selection</spt>
+				<spt>btn_selection</spt>
+			</sprites>
+			<mask_sprite>btn_selection_mask</mask_sprite>
+			<special>1</special>
+			<mutex>667</mutex>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		<ctrl>
+			<name>custom_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_yellow.fnt</font>
+			<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+			<default_text>custom_title</default_text>
+			<id>13</id>
+			<pos x="192" y="450" />
+			<width>190</width>
+			<height>22</height>
+		</ctrl>
+		<ctrl>
+			<name>custom_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.92</text_scale>
+			<style>TS_ALIGNLEFT | TS_ALIGNTOP | TS_MULTILINE</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>custom_desc</default_text>
+			<id>14</id>
+			<pos x="192" y="474" />
+			<width>365</width>
+			<height>95</height>
+		</ctrl>
+	
+	<!-- anim -->
+		<ctrl>
+			<name>casual_mode_part</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1511</id>
+			<pos x="49" y="71"/>
+			<width>128</width>
+			<height>104</height>
+			<sprites>
+				<spt>empty</spt>
+			</sprites>
+			<TweenTemplate>casual_mode</TweenTemplate>
+			<anchor_coef x="0.5" y="0.5"/> 
+			<particles>
+				<instance>
+					<name>casual_mode_light</name>
+					<position x="240" y="150"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>			
+			<!-- <movies>
+				<instance>
+					<movie>casual_mode</movie>
+				</instance>
+			</movies> -->
+		</ctrl>
+		<ctrl>
+			<name>casual_mode</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>15</id>
+			<pos x="49" y="71"/>
+			<width>128</width>
+			<height>104</height>
+			<sprites>
+				<spt>casual</spt>
+			</sprites>
+			<TweenTemplate>casual_mode</TweenTemplate>
+			<anchor_coef x="0.5" y="0.5"/> 			
+			<!-- <movies>
+				<instance>
+					<movie>casual_mode</movie>
+				</instance>
+			</movies> -->
+		</ctrl>
+		<ctrl>
+			<name>advanced_mode_part</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1611</id>
+			<pos x="30" y="182"/>
+			<width>126</width>
+			<height>114</height>
+			<sprites>
+				<spt>empty</spt>
+			</sprites>
+			<TweenTemplate>advanced_mode</TweenTemplate>
+			<anchor_coef x="0.5" y="0.5"/> 	
+			<particles>
+				<instance>
+					<name>advanced_mode_light</name>
+					<position x="250" y="150"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>	
+			<!-- <movies>
+				<instance>
+					<movie>advanced_mode</movie>
+				</instance>
+			</movies> -->
+		</ctrl>
+		<ctrl>
+			<name>advanced_mode</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>16</id>
+			<pos x="30" y="182"/>
+			<width>126</width>
+			<height>114</height>
+			<sprites>
+				<spt>advanced</spt>
+			</sprites>
+			<TweenTemplate>advanced_mode</TweenTemplate>
+			<anchor_coef x="0.5" y="0.5"/> 		
+			<!-- <movies>
+				<instance>
+					<movie>advanced_mode</movie>
+				</instance>
+			</movies> -->
+		</ctrl>
+		<ctrl>
+			<name>hardcore_mode_part</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1711</id>
+			<pos x="23" y="298"/>
+			<width>141</width>
+			<height>125</height>
+			<sprites>
+				<spt>empty</spt>
+			</sprites>
+			<TweenTemplate>hardcore_mode</TweenTemplate>
+			<anchor_coef x="0.5" y="0.5"/> 
+			<particles>
+				<instance>
+					<name>hardcore_mode_light</name>
+					<position x="250" y="160"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>		
+			<!-- <movies>
+				<instance>
+					<movie>hardcore_mode</movie>
+				</instance>
+			</movies> -->
+		</ctrl>
+		<ctrl>
+			<name>hardcore_mode</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>17</id>
+			<pos x="23" y="298"/>
+			<width>141</width>
+			<height>125</height>
+			<sprites>
+				<spt>hardcore</spt>
+			</sprites>
+			<TweenTemplate>hardcore_mode</TweenTemplate>
+			<anchor_coef x="0.5" y="0.5"/> 
+			<!-- <movies>
+				<instance>
+					<movie>hardcore_mode</movie>
+				</instance>
+			</movies> -->
+		</ctrl>
+		<ctrl>
+			<name>custom_mode_part</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1811</id>
+			<pos x="23" y="410"/>
+			<width>154</width>
+			<height>126</height>
+			<sprites>
+				<spt>empty</spt>
+			</sprites>
+			<TweenTemplate>custom_mode</TweenTemplate>
+			<anchor_coef x="0.5" y="0.5"/> 
+			<particles>
+				<instance>
+					<name>custom_mode_light</name>
+					<position x="250" y="160"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>
+			<!-- <movies>
+				<instance>
+					<movie>custom_mode</movie>
+				</instance>
+			</movies> -->
+		</ctrl>
+		<ctrl>
+			<name>custom_mode</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>18</id>
+			<pos x="23" y="410"/>
+			<width>154</width>
+			<height>126</height>
+			<sprites>
+				<spt>custom</spt>
+			</sprites>
+			<TweenTemplate>custom_mode</TweenTemplate>
+			<anchor_coef x="0.5" y="0.5"/> 
+			<!-- <movies>
+				<instance>
+					<movie>custom_mode</movie>
+				</instance>
+			</movies> -->
+		</ctrl>
+		
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="208" y="544"/>
+			<width>169</width>	
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="gui_cmn_btn_ok">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+		
+	</ctrls>
+</gui>

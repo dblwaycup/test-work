@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_eye</name_desc>
+    <name>002_eye</name>
+    <type>002_eye</type>
+    <states size="1">
+        <state>
+            <sprite>002_eye</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<event>KILL_OBJECT</event>
+			<event_parameters>002_04_eye2</event_parameters>
+		</state>
+		<state>
+			<sprite>empty</sprite>
+		</state>
+    </states>
+    <layer>1</layer>
+</object>

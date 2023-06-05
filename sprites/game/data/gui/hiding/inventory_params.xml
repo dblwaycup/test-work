@@ -1,0 +1,194 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources><!-- не используется, но нужен для корректного парсинга-->
+	<pos x="0" y="0"/>
+	<ctrls>
+	<!-- панель инвентаря с объктами -->
+		<ctrl>
+			<name>inventory</name>
+			<type>MultiElement</type>
+			<class_name>CInventory</class_name>
+			<ext_path>data/gui/hiding/inventory.xml</ext_path>
+			<enable>0</enable>
+			<visible>1</visible>
+			<id>1</id>
+			<pos x="255" y="683"/>
+			<drugable>1</drugable><!-- таскать объекты -->
+			<max_visible>6</max_visible><!-- сколько предметов в инвентаре -->
+			<width_segment>80</width_segment><!-- ширина инв картинки -->
+			<height_segment>80</height_segment><!-- высота инв картинки -->
+			<inv_spt_get_scale>0.53</inv_spt_get_scale><!-- скейл инв картинки -->
+			<delta_with_segment>17</delta_with_segment><!-- расстояние между картинками -->
+			<delta_with_segment_over>8</delta_with_segment_over><!-- расстояние между картинками при наведении -->
+			<center_shift>280</center_shift><!-- сортировка от центра (смещает на n-ное количество px от первого элемента центр начала инвентаря) -->
+			<hos_spot x="191" y="49" /><!-- смещение объектов в инвентаре до центра первой ячейки -->
+			<clip_pos x="109" y="-15" /><!-- клипинг, считается от pos инвентаря -->
+			<clip_size x="640" y="125" /><!-- размер клипинга -->
+			<back_spt_inv>inventory_circle</back_spt_inv><!-- back для inv - объекта -->
+			<back_spt_inv_delta x="38.5" y="48.5" /><!-- смещение back от самой картинки -->
+			<template_text_id>template_text</template_text_id><!-- объект 1/2 -->
+			<text_delta x="45" y="60" /><!-- смещение текста -->
+			<delta_icon_morph x="88" y="3" /><!-- дельта иконки для морф-объекта -->
+			<icon_morph_disable>icon_morph_disable</icon_morph_disable><!-- иконка если нет активных обхектов в морф-игре -->
+			<icon_morph_enable>icon_morph_enable</icon_morph_enable><!-- иконка если есть активные обхекты в морф-игре -->
+			<default_morph_tween>1</default_morph_tween><!-- тип твина для морфо по умолчанию, также может задаваться в поднимаемом объекте через morph_tween под стейтами -->
+			<dlg_popup>Dialog_1</dlg_popup><!-- всплывающий диалог для предметов -->
+			<lock_delta x="739" y="62"/><!-- дельта для замка -->
+			<scroll_sound>inventory_scroll</scroll_sound>
+			<take_sound>click_inv_obj</take_sound>
+			<tween_hide>CloseInventory</tween_hide>
+			<tween_show>OpenInventory</tween_show>
+		</ctrl>
+		
+		<!-- конфиг для ho 80x80-->
+		<ctrl>
+			<name>inventory_ho_params</name>
+			<type>BackGround</type>
+			<inv_spt_get_scale>0.5</inv_spt_get_scale>
+			<max_visible>5</max_visible><!-- сколько предметов в инвентаре -->
+			<delta_with_segment>0</delta_with_segment><!-- расстояние между картинками -->
+			<width_segment>120</width_segment><!-- ширина инв картинки -->
+			<height_segment>120</height_segment><!-- высота инв картинки -->
+			<back_spt_inv_delta x="55" y="65" /><!-- смещение back от самой картинки -->
+		</ctrl>
+		
+	<!-- заголовок -->	
+		<ctrl>
+			<name>title_down</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="255" y="790" />
+			<width>732</width>
+			<height>210</height>
+			<sprites>
+				<spt>inventory_title</spt>
+			</sprites>
+			<mask_sprite>inventory_title_mask</mask_sprite>
+			<childs>
+				<ctrl>
+					<name>text</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data\fonts\gui\agopus25.fnt</font>
+					<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+					<default_text>gui_pnl_inventory</default_text>
+					<id>22</id>
+					<pos x="313" y="93" />
+					<width>210</width>
+					<height>26</height>
+				</ctrl>
+			</childs>	
+		</ctrl>
+		
+	<!-- панель с списком предметов, которые нужно найти -->	
+		<ctrl>
+			<name>list_game</name>
+			<type>ListBox</type>
+			<class_name>CBaseListBox</class_name>
+			<ext_path>data/gui/hiding/ho_list.xml</ext_path>
+			<text_id>1</text_id>
+			<listbox_id>3</listbox_id>
+			<button1>5</button1>
+			<button2>6</button2>
+			<height_step>25</height_step>
+			<enable>0</enable>
+			<visible>0</visible>		
+			<max_in_column>3</max_in_column>
+			<width_step>150</width_step><!-- расстояноие между столбиками -->
+			<id>3</id>
+			<pos x="273" y="663"/>
+			<lock_delta x="-1000" y="0"/><!-- дельта для замка -->
+			<width>733</width>
+			<height>138</height> 
+			<font_height>30</font_height>
+		</ctrl>
+		
+	<!-- панель с описанием хо -->	
+		<ctrl>
+			<name>desc_panel</name>
+			<type>BackGround</type>
+			<ext_path>data/gui/hiding/ho_text.xml</ext_path>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>4</id>
+			<pos x="273" y="663"/>
+			<delta_second x="0" y="92"/>
+			<coeff_visible_speed>600</coeff_visible_speed>
+			<lock_delta x="30" y="20"/><!-- дельта для замка -->
+		</ctrl>
+		
+	<!-- кнопка замка -->	
+		<ctrl>
+			<name>LockBtn</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="0" y="0"/>
+			<width>56</width>
+			<height>56</height>
+			<sprites>
+				<spt>btn_lock</spt>
+				<spt>btn_lock_over</spt>
+				<spt>btn_lock_open</spt>
+				<spt>btn_lock_open_over</spt>
+				<spt>btn_lock_open</spt>
+			</sprites>
+			<mask_sprite>btn_lock_mask</mask_sprite>			
+			<special>5</special>
+			<unique_name>LockBtn</unique_name>
+			<press_sound>ad_inv_lock</press_sound><!-- первый звук -->
+			<layer>1</layer>
+		</ctrl>
+		
+	<!-- кнопка включения инвентаря в хиддене -->	
+		<ctrl>
+			<name>InventoryBtn</name>
+			<type>CheckBox</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>6</id>
+			<pos x="734" y="653"/>
+			<width>0</width>
+			<height>0</height>
+			<sprites>
+				<spt>inv</spt>
+				<spt>inv</spt>
+				<spt>inv</spt>
+				<spt>inv</spt>
+				<spt>inv</spt>
+			</sprites>
+			<special>1</special>
+			<mutex>1</mutex>
+			<unique_name>inventory_btn</unique_name>
+		</ctrl>
+		
+	<!-- кнопка включения инвентаря в игре -->	
+		<ctrl>
+			<name>InventoryBtn2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>7</id>
+			<pos x="734" y="653"/>
+			<width>1</width>
+			<height>1</height>
+			<sprites>
+				<spt>inv</spt>
+				<spt>inv</spt>
+				<spt>inv</spt>
+				<spt>inv</spt>
+				<spt>inv</spt>
+			</sprites>
+			<special>1</special>
+			<unique_name>inventory_btn2</unique_name>
+		</ctrl>
+		
+	</ctrls>
+</gui>

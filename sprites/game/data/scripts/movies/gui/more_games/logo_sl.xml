@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>999999999</life_time>
+	<Layers size="1">
+		<Layer>
+			<movie_avi>data/movies/gui/logo/sl.flv</movie_avi>
+			<create_anim_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>999999999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+	</Layers>
+</Scene>

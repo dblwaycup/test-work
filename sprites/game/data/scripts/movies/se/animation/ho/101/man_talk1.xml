@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>9999999999</life_time>
+	<Layers size="1">
+		<Layer>
+			<movie_avi>data/movies/se/animation/ho/101/man_talk1.flv</movie_avi>
+			<create_anim_position x="-13" y="-24" />
+			<hot_spot>0</hot_spot>
+			<enable_time>0</enable_time>
+			<life_time>12.416</life_time>
+			<loop>0</loop>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+			<sound>
+				<life_time>99999</life_time>
+				<name>ho_desc_101_1_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+			</sound>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/animation/ho/101/man_idle.flv</movie_avi>
+			<create_anim_position x="-13" y="-24" />
+			<hot_spot>0</hot_spot>
+			<enable_time>12.416</enable_time>
+			<life_time>9999999</life_time>
+			<loop>1</loop>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+		</Layer>
+	</Layers>
+</Scene>

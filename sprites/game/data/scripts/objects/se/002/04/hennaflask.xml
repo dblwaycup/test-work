@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<object>
+	<name_desc>002_04_hennaflask</name_desc>
+	<name>002_04_hennaflask</name>
+	<type>002_04_hennaflask</type>
+	<states size="1">
+		<state>
+			<sprite>empty</sprite>
+			<event>ITERATE_OBJECT_IN_STATES</event> 
+			<event_parameters>002_04_flask|2;002_04_henna|2 </event_parameters>
+			<iterated_objects size="1">
+				<object>
+					<type>002_04_flask</type>
+				</object>			
+				<object>
+					<type>002_04_henna</type>
+				</object>
+			</iterated_objects>
+			<slow_iterate>true</slow_iterate>
+			<speed_iterate>400</speed_iterate>
+		</state>
+		<state>
+			<sprite>002_04_hennaflask1</sprite>
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>0.3</mode_param>
+			<translate_movie>002_04_hennaflask</translate_movie>
+			<slow_iterate>true</slow_iterate>
+			<speed_iterate>400</speed_iterate>	
+			<messages>
+				<message name="002_04_paint">
+					<msg>GM_SET_OBJECT_STATE</msg>
+					<int1>1</int1>
+					<int2>1</int2>
+				</message>
+			</messages>
+		</state>
+		<state>
+			<sprite>002_04_hennaflask1</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<event>END_MOVIE</event>
+			<event_parameters>002_04_hennaflask</event_parameters>
+			<fast_iterate>1</fast_iterate>
+		</state>
+		<state>
+			<sprite>002_04_hennaflask</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>98</layer>
+</object>

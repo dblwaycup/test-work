@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_04_lizard</name>
+    <name_desc>002_04_lizard</name_desc>
+    <type>002_04_lizard</type>
+    <states size="1">
+        <state>
+            <movie>002_04_lizard_idle</movie>
+            <mask_sprite>002_04_lizard_mask</mask_sprite>
+            <mode>MoviePlay</mode>
+            <mode_param>002_04_lizard_click</mode_param>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_04_lizard</dialog_activate>
+            <hint_delta x="0" y="0"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>004_03_crickets</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>002_04_lizard</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_04_lizard</event_parameters>
+    <layer>115</layer>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>15</layer>
+</object>

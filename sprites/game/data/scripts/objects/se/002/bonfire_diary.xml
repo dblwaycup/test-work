@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_bonfire_diary</name_desc>
+    <name>002_bonfire_diary</name>
+    <type>002_bonfire_diary</type>
+    <states size="1">
+        <state>
+            <sprite>002_bonfire_diary</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<event>ITERATE_OBJECT</event>
+			<event_parameters>002_04_diary|4</event_parameters>
+        </state>
+		<state>
+		</state>
+    </states>
+    <layer>10</layer>
+</object>

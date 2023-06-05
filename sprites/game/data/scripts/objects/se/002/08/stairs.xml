@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_08_stairs</name_desc>
+    <name>002_08_stairs</name>
+    <type>002_08_stairs</type>
+    <states size="2">
+        <state>
+            <blazing_watch>
+                <action>002_08_planks</action>
+                <action>002_08_brush</action>
+            </blazing_watch>
+            <sprite>002_08_stairs</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_002_08_stairs</dialog_activate>
+            <hint_delta x="0" y="0" />
+            <active_obj>1</active_obj>
+            <iterate_obj>0</iterate_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <inventory_cast_obj>002_04_nails : 002_08_planks;-1 | 001_06_figure : 002_08_brush;-1</inventory_cast_obj>
+            <fast_iterate>1</fast_iterate>
+            <combine_inventory_sprite>inv_002_08_stairs_2_get</combine_inventory_sprite>
+
+        </state>
+
+        <state>
+            <sprite>002_08_stairs_2</sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>1</mode_param>
+            <sound_fx>ad_morf_win</sound_fx>
+            <combine_inventory_sprite>inv_002_08_stairs_3_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>002_08_stairs_2</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <auto_play>1</auto_play>
+            <kill_inventory size="1">
+                <object>
+                    <type>002_02_stairs</type>
+                </object>
+            </kill_inventory>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_002_08_stairs_drag</drag_spt>
+    <window_spt>inv_002_08_stairs_get</window_spt>
+    <text_inv_desc>obj_title_002_08_stairs</text_inv_desc>
+    <on_get_title>obj_title_002_08_stairs</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>5</layer>
+</object>
+ 

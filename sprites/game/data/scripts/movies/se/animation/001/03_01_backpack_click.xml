@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>1.5</life_time>	
+	<Layers size="1">
+
+		 <Layer>
+			<resource>data/sprites/objects/se/001/03/01/backpack_2.png</resource>
+			<create_position x="-0" y="-0" />
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer> 
+		 <Layer>
+			<movie_avi>data/movies/se/animation/001/03_01_backpack_click.flv</movie_avi>
+			<create_anim_position x="-31" y="-17" />
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer> 
+
+	</Layers>
+</Scene>

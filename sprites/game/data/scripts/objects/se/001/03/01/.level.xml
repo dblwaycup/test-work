@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="8">
+                <object>
+                    <name>001_03_01_backpack</name>
+                    <position x="40" y="0" />
+                </object>
+                <object>
+                    <name>001_03_01_brochure</name>
+                    <position x="55" y="44" />
+                </object>
+                <object>
+                    <name>001_03_01_ticket</name>
+                    <position x="232" y="125" />
+                </object>
+                <object>
+                    <name>001_03_01_frame</name>
+                    <position x="40" y="0" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

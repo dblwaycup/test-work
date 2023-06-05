@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_f_3_fish_o</name>
+	<name_desc>ho_101_f_3_fish_o</name_desc>
+	<type>ho_101_f_3_fish_o</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_f_3_fish_o</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+		</state>
+	</states>
+	<layer>160</layer>
+</object>

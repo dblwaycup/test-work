@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_fx_smoke</name_desc>
+    <name>001_fx_smoke</name>
+    <type>001_fx_smoke</type>
+    <states size="1">
+        <state>
+            <particle>001_fx_smoke</particle>
+            <particle_pos x="640" y="400" />
+            <event>END_MOVIE</event>
+            <event_parameters>001_02_elephant_change</event_parameters>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_02_elephant2</event_parameters>
+        </state>
+        <state>
+            <particle>001_fx_smoke</particle>
+            <particle_pos x="640" y="400" />
+        </state>
+    </states>
+    <layer>5</layer>
+</object>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_05_nails</name>
+    <name_desc>002_05_nails</name_desc>
+    <type>002_05_nails</type>
+    <states size="2">
+        <state>
+        </state>
+        <state>
+            <sprite>002_05_nails</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+        <state>
+            <sprite>002_05_nails_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>1</mode_param>
+        </state>
+        <state>
+            <sprite>002_05_nails_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>15</layer>
+</object>

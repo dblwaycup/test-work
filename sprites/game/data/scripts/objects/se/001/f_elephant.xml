@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_elephant</name_desc>
+    <name>001_f_elephant</name>
+    <type>001_f_elephant</type>
+    <states size="4">
+        <state>
+            <sprite>001_f_elephant</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_02_elephant_change</event_parameters>    
+        </state>
+        <state>
+            <sprite>001_f_elephant_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_02_elephant|3</event_parameters>
+        </state>
+        <state>
+            <sprite>001_f_elephant_3</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_02_elephant|5</event_parameters>
+        </state>
+        <state>
+            <sprite>001_f_elephant_4</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>6</layer>
+</object>

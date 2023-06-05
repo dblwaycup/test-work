@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<Behavior>
+    <conditions> <!-- условия того, что это миниигра -->
+        <condition>
+            <object>002_07_condition</object>
+            <min_state>0</min_state>
+            <max_state>0</max_state>
+        </condition>
+    </conditions>
+
+    <final_object> <!-- как только прошли паззл, проверяем текущий стейт объекта, если он совпадает, то итерируем его -->
+        <object>002_07_condition</object>
+        <state>0</state>
+    </final_object>
+
+</Behavior>

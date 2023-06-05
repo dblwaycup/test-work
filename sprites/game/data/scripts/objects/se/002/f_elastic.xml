@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_elastic</name_desc>
+    <name>002_f_elastic</name>
+    <type>002_f_elastic</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_elastic</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<event>KILL_OBJECT</event>
+			<event_parameters>002_02_elastic</event_parameters>
+		</state>
+		<state>
+			<sprite>empty</sprite>
+		</state>
+    </states>
+    <layer>3</layer>
+</object>

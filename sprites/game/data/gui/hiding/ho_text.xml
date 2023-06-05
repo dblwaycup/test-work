@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl><!--  бекграунд  -->
+			<name>back_inv</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>733</width>
+			<height>138</height>
+			<sprites>
+				<spt>inventory_ho</spt>
+			</sprites>
+			<layer>-5</layer>
+		</ctrl>
+
+		<ctrl><!-- заголовок -->
+			<name>desc_panel_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<default_text>gui_pnl_ho</default_text>
+			<id>4</id>
+			<pos x="258" y="6" />
+			<width>210</width>
+			<height>39</height>
+		</ctrl>
+		
+		<ctrl><!-- счетчик для хо -->
+			<name>counter</name>
+			<type>TextBox</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>65</id>
+			<pos x="172" y="0"/>
+			<width>56</width>
+			<height>57</height>			
+			<font>data/fonts/gui/agopus35.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<sprites>
+				<spt>counter_ho</spt>
+			</sprites>
+		</ctrl>
+		
+		<ctrl><!-- контрол с описанием хо -->
+			<name>place_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus25_white.fnt</font>
+			<text_scale>0.9</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<align>2</align>
+			<default_text>text</default_text>
+			<id>51</id>
+			<pos x="39" y="52"/>
+			<width>728</width>
+			<height>88</height>
+			<coeff_visible_speed>600</coeff_visible_speed>
+			<delta_second x="0" y="0"/>
+			<coeff_int_second>1</coeff_int_second>
+			<time_effect>0.3</time_effect>
+			<text_effect>1</text_effect>
+			<color>ff98fbff</color>
+		</ctrl>
+		
+		<ctrl><!-- контрол с картинками -->
+			<name>panel_image_box</name>
+			<type>ImageBox</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>60</id>
+			<pos x="15" y="53"/>
+			<width>656</width>
+			<height>80</height>
+			<max_image>8</max_image>
+			<text_ctrl_font>data/fonts/gui/number.fnt</text_ctrl_font>
+			<text_ctrl_font_style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</text_ctrl_font_style>
+			<text_ctrl_width>50</text_ctrl_width>
+			<text_ctrl_height>50</text_ctrl_height>
+		</ctrl>
+	</ctrls>
+</gui>

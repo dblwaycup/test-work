@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_curtain</name_desc>
+    <name>001_f_curtain</name>
+    <type>001_f_curtain</type>
+    <states size="4">
+        <state>
+            <sprite>001_f_curtain</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <discord>true</discord>
+
+            <distortion_vector x="1" y="1.8"/>
+            <distortion_speed x="1.75" y="1.65"/>
+        </state>
+    </states>
+    <anchor x="3" y="65"/>
+    <layer>15</layer>
+</object>

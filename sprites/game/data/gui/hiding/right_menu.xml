@@ -1,0 +1,337 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		
+		<ctrl>
+			<name>stand_right1</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>11</id>
+			<pos x="1020" y="595"/>
+			<width>260</width>
+			<height>205</height>
+			<sprites>
+				<spt>stand_right1</spt>
+			</sprites>
+			<mask_sprite>empty</mask_sprite>
+		</ctrl>
+
+		<ctrl>
+			<name>task_dialog</name>
+			<type>BackGround</type>
+			<class_name>CTaskDialog</class_name>			
+			<ext_path>data/gui/dialogs/task.xml</ext_path>
+			<data_file>data/gui/dialogs/task_list.xml</data_file>
+			<data_file_notes>data/gui/dialogs/task_notes.xml</data_file_notes>
+			<enable>0</enable>
+			<visible>0</visible>
+			<id>1</id>
+			<pos x="0" y="900"/>
+			<delta_second x="0" y="-900"/>
+			<coeff_int_second>5</coeff_int_second>
+			<width>906</width>
+			<height>608</height>
+			<hold_timer>2</hold_timer>
+			<mask_sprite>back_mask</mask_sprite>
+			<task_state_panel_name>task_state_panel</task_state_panel_name>
+			<default_group>EG_TASKS</default_group>
+			<press_sound>ad_diary</press_sound>
+			<sound_close>ad_journal_off</sound_close>
+			<layer>-100</layer>
+		</ctrl>
+
+
+		<ctrl>
+			<name>StrategyGuide</name>
+			<type>Button</type>
+			<enable>0</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>6</id>
+			<pos x="1" y="747"/>
+			<width>195</width>
+			<height>52</height>
+			<sprites>
+				<spt>btn_strategy_guide</spt>
+				<spt>btn_strategy_guide</spt>
+				<spt>btn_strategy_guide</spt>
+			</sprites>
+			<mask_sprite>btn_strategy_guide_mask</mask_sprite>
+			<special>1</special>
+			<unique_name>StrategyGuide</unique_name>
+			<btn_text token="gui_btn_strategy_guide">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ffa9a9a9">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-5" top="1" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+	
+
+		<ctrl>
+			<name>ButtonMenu</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="6" y="704"/>
+			<width>182</width>
+			<height>57</height>
+			<special>1</special>
+			<sprites>
+				<spt>btn_menu</spt>
+				<spt>btn_menu_over</spt>
+				<spt>btn_menu_over</spt>
+			</sprites>
+			<mask_sprite>btn_menu_mask</mask_sprite>
+			<btn_text token="gui_btn_menu">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="99ffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="5" top="0" right="0" bottom="0" />
+			</btn_text>
+			<press_sound>button_click</press_sound>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+
+		<ctrl>
+			<name>stand_left</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>3</id>
+			<pos x="7" y="621"/>
+			<width>252</width>
+			<height>185</height>
+			<sprites>
+				<spt>stand_left</spt>
+			</sprites>
+			<mask_sprite>empty</mask_sprite>
+		</ctrl>
+
+		<ctrl>
+			<name>TaskBtn</name>
+			<type>Button</type>
+			<class_name>CNotepadButton</class_name>
+			<enable>0</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="8" y="593"/>
+			<width>177</width>
+			<height>167</height>
+			<sprites>
+				<spt>btn_task</spt>
+				<spt>btn_task_over</spt>
+				<spt>btn_task_over</spt>
+				<spt>btn_task_over</spt>
+				<spt>btn_task</spt>
+			</sprites>
+			<special>5</special>
+			<mask_sprite>btn_task_mask</mask_sprite>
+			<press_sound>ad_luo_journal</press_sound>
+			<over_sound>notepad_hover</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>MapLevelsBtn</name>
+			<type>Button</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="126" y="622"/>
+			<width>177</width>
+			<height>178</height>
+			<sprites>
+				<spt>btn_map</spt>
+				<spt>btn_map_over</spt>
+				<spt>btn_map_over</spt>
+			</sprites>
+			<mask_sprite>btn_map_mask</mask_sprite>
+			<unique_name>MapLevels</unique_name>
+			<over_sound>map_hover</over_sound>
+			<press_sound>ad_open_map</press_sound>
+			<btn_text token="gui_btn_map">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus35.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus35.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus35.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus35.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-8" top="-53" right="0" bottom="0" />
+				<angle>-12</angle>
+				<text_scale>0.9</text_scale>
+			</btn_text>
+		</ctrl>
+		
+		<ctrl>
+			<name>SkipMiniWindowBtn</name>
+			<type>Button</type>
+			<class_name>CClipButton</class_name>
+			<enable>0</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>8</id>
+			<pos x="1020" y="595"/>
+			<width>260</width>
+			<height>205</height>
+			<sprites>
+				<spt>btn_hint</spt>
+				<spt>btn_hint_over</spt>
+				<spt>btn_hint_over</spt>
+				<spt>btn_hint_over</spt>
+				<spt>btn_hint_disable</spt>
+				<spt>btn_hint_disable</spt>
+			</sprites>
+			<mask_sprite>btn_hint_mask</mask_sprite>
+			<skins>
+				<skin id="1">
+					<sprites>
+						<spt>btn_hint2</spt>
+						<spt>btn_hint2_over</spt>
+						<spt>btn_hint2_over</spt>
+						<spt>btn_hint2_over</spt>
+						<spt>btn_hint2_disable</spt>
+						<spt>btn_hint2_disable</spt>
+					</sprites>
+					<mask_sprite>btn_hint2_mask</mask_sprite>
+					<parameters>
+						<movie_idle>hint_idle</movie_idle><!-- idle -->
+						<movie_charge>hint_charge</movie_charge><!-- мувик зярядки -->
+						<movie_charge_end>hint_charge_end</movie_charge_end><!-- мувик того, что хинт дозарядился -->
+						<movie_intersect>hint_over</movie_intersect><!-- мувик наведения -->
+					</parameters>
+				</skin>
+			</skins>
+			<btn_text token="gui_btn_skip">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ffa9a9a9">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="18" top="76" right="0" bottom="0" />
+			</btn_text>
+			<control>skip</control><!-- три положения - skip, hint, collectables -->	
+			<ClipRectangle>1071|740|192|55</ClipRectangle><!-- размер поля ограничения -->
+			<isHorizontal>true</isHorizontal><!-- заполняется по горизонтали или нет  -->
+			<isReverse>false</isReverse><!-- в порядке сетки NW - SE(7 - 3)  или наоборот SE - NW (3 - 7) -->
+			<FillSprite>0</FillSprite><!-- указываем каким спрайтом будет заполняться, можно задавать больше которые не уч в кнопке -->
+			<RenderText>1</RenderText><!-- костыль, чтобы текстовка рисовалась поверх диз спрайта -->
+			<isOverRedraw>1</isOverRedraw>
+			<special>1</special>
+			<DisableBBT>bbt_disable</DisableBBT>
+			<fill_in_process_click_bbt_text>skip_btn_is_charging</fill_in_process_click_bbt_text>
+			<over_sound>ad_hint_hover</over_sound>
+			<hover_sound>none</hover_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>ButtonHint</name>
+			<type>Button</type>
+			<class_name>CClipButton</class_name>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>9</id>
+			<pos x="1020" y="595"/>
+			<width>260</width>
+			<height>205</height>
+			<sprites>
+				<spt>btn_hint</spt>
+				<spt>btn_hint_over</spt>
+				<spt>btn_hint_over</spt>
+				<spt>btn_hint_over</spt>
+				<spt>btn_hint_disable</spt>
+				<spt>btn_hint_disable</spt>
+			</sprites>
+			<mask_sprite>btn_hint_mask</mask_sprite>
+			<skins>
+				<skin id="1">
+					<sprites>
+						<spt>btn_hint</spt>
+						<spt>btn_hint_over</spt>
+						<spt>btn_hint_over</spt>
+						<spt>btn_hint_over</spt>
+						<spt>btn_hint_disable</spt>
+						<spt>btn_hint_disable</spt>
+					</sprites>
+					<mask_sprite>btn_hint_mask</mask_sprite>
+					<parameters>
+						<movie_idle>empty</movie_idle><!-- idle -->
+						<movie_charge>empty</movie_charge><!-- мувик зярядки -->
+						<movie_charge_end>empty</movie_charge_end><!-- мувик того, что хинт дозарядился -->
+						<movie_intersect>empty</movie_intersect><!-- мувик наведения -->
+					</parameters>
+				</skin>
+				<skin id="2">
+					<sprites>
+						<spt>btn_hint2</spt>
+						<spt>btn_hint2_over</spt>
+						<spt>btn_hint2_over</spt>
+						<spt>btn_hint2_over</spt>
+						<spt>btn_hint2_disable</spt>
+						<spt>btn_hint2_disable</spt>
+					</sprites>
+					<mask_sprite>btn_hint2_mask</mask_sprite>
+					<parameters>
+						<movie_idle>hint_idle</movie_idle><!-- idle -->
+						<movie_charge>hint_charge</movie_charge><!-- мувик зярядки -->
+						<movie_charge_end>hint_charge_end</movie_charge_end><!-- мувик того, что хинт дозарядился -->
+						<movie_intersect>hint_over</movie_intersect><!-- мувик наведения -->
+					</parameters>
+				</skin>
+			</skins>
+			<btn_text token="gui_btn_hint">
+				<font type="normal">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ffa9a9a9">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="20" top="76" right="0" bottom="0" />
+			</btn_text>
+			<control>hint</control><!-- три положения - skip, hint, collectables -->
+			<ClipRectangle>1071|740|192|55</ClipRectangle><!-- размер поля ограничения -->
+			<isHorizontal>true</isHorizontal><!-- заполняется по горизонтали или нет  -->
+			<isReverse>false</isReverse><!-- в порядке сетки NW - SE(7 - 3)  или наоборот SE - NW (3 - 7) -->
+			<FillSprite>0</FillSprite><!-- указываем каким спрайтом будет заполняться, можно задавать больше которые не уч в кнопке -->
+			<RenderText>1</RenderText><!-- костыль, чтобы текстовка рисовалась поверх диз спрайта -->
+			<isOverRedraw>1</isOverRedraw>
+			<special>1</special>
+			<DisableBBT>bbt_disable</DisableBBT>
+			<fill_in_process_click_bbt_text>hint_btn_is_charging</fill_in_process_click_bbt_text>
+			<over_sound>ad_hint_hover</over_sound>
+			<hover_sound>none</hover_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>stand_right</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>7</id>
+			<pos x="1020" y="595"/>
+			<width>260</width>
+			<height>205</height>
+			<sprites>
+				<spt>stand_right</spt>
+			</sprites>
+			<mask_sprite>empty</mask_sprite>
+		</ctrl>
+
+		<ctrl>
+			<name>toolbar_panel</name>
+			<class_name>CToolbarPanel</class_name>
+			<ext_path>data/gui/hiding/inventory_params.xml</ext_path>
+			<id>10</id>
+		</ctrl>
+		
+	</ctrls>
+</gui>

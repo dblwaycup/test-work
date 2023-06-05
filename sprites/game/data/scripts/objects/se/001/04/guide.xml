@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_04_guide</name>
+    <name_desc>001_04_guide</name_desc>
+    <type>001_04_guide</type>
+    <states size="2">
+        <state>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0</mode_param>
+            <translate_movie>001_04_guide1</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_04_guide1</event_parameters>
+        </state>
+        <state>
+            <movie>001_04_guide_idle</movie>
+            <mask_sprite>001_04_guide_mask</mask_sprite>
+            <mode>MoviePlay</mode>
+            <mode_param>001_04_guide_click</mode_param>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_001_04_guide</dialog_activate>
+            <hint_delta x="-53" y="65"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <fast_iterate>1</fast_iterate>
+            <inventory_cast_obj>001_03_01_ticket</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>001_04_guide</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_04_guide</event_parameters>
+                <layer>105</layer>
+        </state>
+        <state>
+            <movie>001_04_guide_idle</movie>
+                <layer>5</layer>
+        </state>
+    </states>
+    <layer>5</layer>
+</object>

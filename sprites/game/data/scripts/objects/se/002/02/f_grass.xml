@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_02_f_grass</name>
+    <name_desc>002_02_f_grass</name_desc>
+    <type>002_02_f_grass</type>
+    <states size="1">          
+        <!-- <state>
+			<event>END_MOVIE</event>
+            <event_parameters>002_02_f_butterfly_click</event_parameters>		
+        </state>     -->
+		<state>
+            <sprite>002_02_f_grass</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<discord>true</discord>
+			<distortion_vector x="0.9" y="0.9" />
+			<distortion_speed x="0.6" y="0.65" />  
+            <tweens_loop size="1">
+                <queue size="1">
+					<transform>
+                        <delay>0</delay>
+                        <duration>2999</duration>
+                        <type>rotation</type>
+                        <param1>0.009</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>2199</duration>
+                        <type>rotation</type>
+                        <param1>-0.008</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+				</queue>
+            </tweens_loop>
+        </state>
+    </states>
+	<anchor x="188" y="268"/> 
+    <layer>53</layer>
+    <decorate>1</decorate>
+</object>

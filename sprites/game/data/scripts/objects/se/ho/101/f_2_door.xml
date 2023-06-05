@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_f_2_door</name>
+	<name_desc>ho_101_f_2_door</name_desc>
+	<type>ho_101_f_2_door</type>
+	<states size="1">
+		<state>
+			<color_id_reset>id_ho_101_f_2_door</color_id_reset>
+		</state>
+		<state>
+			<auto_play>1</auto_play>
+			<mode>Click</mode>
+			<mode_param3>kill</mode_param3>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_level_2</type>
+                </object>
+            </iterated_objects>
+			<color_id_reset>id_ho_101_f_2_door</color_id_reset>
+			
+			<linked_objects>ho_101_f_2_caleidoscope</linked_objects>
+		</state>
+		<state>
+
+		</state>
+	</states>
+	<type_accept_effect>1</type_accept_effect>
+	<accept_particle>kill_object</accept_particle>
+	<global_desc>ho_desc_101_2</global_desc>
+	<layer>40</layer>
+</object>

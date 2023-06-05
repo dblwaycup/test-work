@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_1_table</name>
+	<name_desc>ho_101_1_table</name_desc>
+	<type>ho_101_1_table</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_1_table</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>660</layer>
+</object>

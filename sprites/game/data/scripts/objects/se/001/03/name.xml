@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_name</name>
+    <name_desc>001_03_name</name_desc>
+    <type>001_03_name</type>
+    <states size="1">
+        <state>
+            <mask_sprite>001_03_name_mask</mask_sprite>
+            <cursor>spt_cursor_arrow_question</cursor>
+            <dialog_activate>bbt_001_03_name</dialog_activate>
+            <event>ITERATE_OBJECT_IN_STATES</event>
+            <event_parameters>001_03_backpack|5</event_parameters>
+        </state>
+        <state>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>36</layer>
+</object>

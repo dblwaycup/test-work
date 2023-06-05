@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_fx_portal</name_desc>
+    <name>001_fx_portal</name>
+    <type>001_fx_portal</type>
+    <states size="1">
+        <!-- <state>
+            <sprite>001_fx_portal</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state> -->
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>2</layer>
+</object>

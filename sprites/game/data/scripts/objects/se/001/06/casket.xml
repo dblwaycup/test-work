@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_06_casket</name_desc>
+    <name>001_06_casket</name>
+    <type>001_06_casket</type>
+    <states size="1">
+        <state>
+            <sprite>001_06_casket</sprite>
+            <mask_sprite>001_06_casket_2_mask</mask_sprite>
+            <mask_pos x="-55" y="-200"/>
+        </state>
+    </states>
+    <layer>4</layer>
+</object>

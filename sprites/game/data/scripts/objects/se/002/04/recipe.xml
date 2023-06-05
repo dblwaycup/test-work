@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_04_recipe</name>
+    <name_desc>002_04_recipe</name_desc>
+    <type>002_04_recipe</type>
+    <states size="1">
+        <state>
+            <sprite>empty</sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_04_diary|3</event_parameters>
+        </state>
+        <state>
+            <sprite>002_04_recipe</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <hint_delta x="0" y="0"/>
+            <static_text_list>		
+				<static_text>
+					<text>002_06_recept</text>
+					<font>data/fonts/notes/brushScript30.fnt</font>
+					<pos x="158" y="380" />
+					<size x="300" y="50" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff441f08</color>
+                    <scale>0.55</scale>
+					<angle>283</angle>
+				</static_text>
+			</static_text_list>
+        </state>
+        <state>
+        </state>
+    </states>
+    <start_game>206</start_game>
+    <drag_spt>inv_002_04_recipe_drag</drag_spt>
+    <window_spt>inv_002_04_recipe_get</window_spt>
+    <text_inv_desc>obj_title_002_04_recipe</text_inv_desc>
+    <on_get_title>obj_title_002_04_recipe</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+     <combine_inventory_objects>
+        <action>002_06_recept</action>
+        <action>002_06_fruit</action>
+        <action>002_06_stupka</action>
+        <action>002_06_petals</action>              
+    </combine_inventory_objects>
+    <layer>115</layer>
+</object>

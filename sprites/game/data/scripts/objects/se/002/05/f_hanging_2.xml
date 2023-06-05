@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_05_f_hanging_2</name_desc>
+    <name>002_05_f_hanging_2</name>
+    <type>002_05_f_hanging_2</type>
+    <states size="1">
+        <state>
+            <sprite>002_05_f_hanging_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <tweens_loop size="1">
+                <queue size="1">
+					<transform>
+                        <delay>0</delay>
+                        <duration>2599</duration>
+                        <type>rotation</type>
+                        <param1>-0.0319</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>2999</duration>
+                        <type>rotation</type>
+                        <param1>0.0395</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+				</queue>
+            </tweens_loop>
+        </state>
+    </states>
+	<anchor x="12" y="0"/> 
+    <layer>1</layer>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Animation>
+	<Resource path="Data/Scripts/Animations/match3/select/3/main.res">
+		<part>
+			<name>Part1</name>
+			<n>1</n>
+		</part>			
+	</Resource>
+</Animation>

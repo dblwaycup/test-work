@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_3_f_2_elephant</name>
+	<name_desc>ho_101_3_f_2_elephant</name_desc>
+	<type>ho_101_3_f_2_elephant</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_3_f_2_elephant</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>ho_101_3_f_2_elephant</sprite>
+			<dialog_activate>bbt_ho_101_3_f_2_elephant</dialog_activate>
+			<active_obj>1</active_obj>
+			<iterate_obj>1</iterate_obj>
+			<inventory_cast_obj>ho_101_3_f_2_thread_cast</inventory_cast_obj>
+			<cursor>spt_cursor_arrow-shest</cursor>
+			<fast_iterate>1</fast_iterate>
+			<translate_movie>101_f_2_elephant</translate_movie>
+		</state>
+		<state>
+			<event>END_MOVIE</event>
+			<event_parameters>101_f_2_elephant</event_parameters>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_f_2_elephant</type>
+                </object>
+            </iterated_objects>
+		</state>
+		<state>
+			<sprite>ho_101_3_f_2_elephant_2</sprite>
+			<mode>Click</mode>
+			<mode_param3>kill</mode_param3>
+			<iterated_objects size="1">
+				<object>
+                    <type>ho_101_f_2_elephant</type>
+                </object>
+            </iterated_objects>
+		</state>
+		<state>
+			<sprite>ho_101_3_f_2_elephant_2</sprite>
+		</state>
+	</states>
+	<type_accept_effect>1</type_accept_effect>
+	<accept_particle>kill_object</accept_particle>
+	<layer>750</layer>
+</object>

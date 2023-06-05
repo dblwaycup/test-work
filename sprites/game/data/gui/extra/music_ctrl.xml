@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0.0" y="0.0"/>
+	<ctrls>
+		<ctrl>
+			<name>main_image</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>100</id>
+			<pos x="0" y="0"/>
+			<width>1074</width>
+			<height>660</height>
+			<sprites>
+			</sprites>
+		</ctrl>
+		<ctrl>
+			<name>music_element_panel</name>
+			<type>BackGround</type>
+			<ext_path>data/gui/extra/music_element_panel.xml</ext_path>
+			<enable>1</enable>
+			<visible>0</visible>
+			<id>1012</id>
+			<pos x="0" y="0" />
+			<width>434</width>
+			<height>369</height>
+		</ctrl>
+	</ctrls>
+</gui>

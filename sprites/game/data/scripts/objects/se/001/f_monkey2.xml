@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_monkey2</name_desc>
+    <name>001_f_monkey2</name>
+    <type>001_f_monkey2</type>
+    <states size="1">
+        <state>
+            <movie>001_f_monkey1_idle</movie>
+            <mask_sprite>001_f_monkey2</mask_sprite>
+            <mode>MoviePlay</mode>
+            <mode_param>001_f_monkey1_click</mode_param>
+        </state>
+    </states>
+    <decorate>1</decorate>
+    <layer>2</layer>
+</object>

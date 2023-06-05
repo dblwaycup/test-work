@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_fun_lizart</name_desc>
+    <name>001_fun_lizart</name>
+    <type>001_fun_lizart</type>
+    <states size="1">
+        <state>
+            <translate_movie>001_fun_lizart_change</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_fun_lizart_change</event_parameters>
+        </state>
+        <state>
+            <movie>001_fun_lizart_idle</movie>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <decorate>1</decorate>
+    <layer>15</layer>
+</object>

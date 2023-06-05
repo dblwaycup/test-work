@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_lasso</name_desc>
+    <name>001_f_lasso</name>
+    <type>001_f_lasso</type>
+    <states size="1">
+        <state>
+            <sprite>empty</sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_01_hook|1</event_parameters>
+        </state>
+        <state>
+            <sprite>001_f_lasso</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>10</layer>
+</object>

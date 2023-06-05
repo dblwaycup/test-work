@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<ctrls>
+		<ctrl>
+			<name>BackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<size x="422" y="125" />
+			<sprites>
+				<spt>back_pers</spt>
+			</sprites>
+		</ctrl>
+		
+		<!-- иконка -->
+		<!-- <ctrl>
+			<name>icon</name>
+			<type>BackGround</type>
+			<visible>1</visible>
+			<id>1</id>
+			<pos x="4" y="8"/>
+			<size x="147" y="152" />
+		</ctrl> -->
+
+		<!-- заголовок -->
+		<!-- <ctrl>
+			<name>text_headline</name>
+			<type>TextBox</type>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="176" y="21"/>
+			<size x="170" y="30" />
+		</ctrl> -->
+		
+		<!-- текстовка -->
+		<ctrl>
+			<name>vo_description</name>
+			<type>TextBox</type>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<visible>1</visible>
+			<id>3</id>
+			<pos x="16" y="8"/>
+			<size x="389" y="86" />
+		</ctrl>
+	</ctrls>
+</gui>

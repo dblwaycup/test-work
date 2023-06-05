@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_07_hint</name>
+    <name_desc>001_07_hint</name_desc>
+    <type>001_07_hint</type>
+    <states size="1">
+        <state>
+            <sprite>001_07_hint</sprite>
+            <cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<hint_delta x="-13" y="18" />
+			<translate_movie>001_07_hint_add</translate_movie>
+        </state>
+        <state>
+			<event>END_MOVIE</event>
+			<event_parameters>001_07_hint_add</event_parameters>
+            <messages>
+				<!-- <message name="stand_right" >
+					<msg>GBM_VISIBLE</msg>
+				</message>
+				<message name="stand_right1" >
+					<msg>GBM_INVISIBLE</msg>
+				</message> -->
+				<message name="ButtonHint">
+					<msg>GBM_SETSKIN</msg>
+					<int1>2</int1>
+				</message>
+				<message name="SkipMiniWindowBtn">
+					<msg>GBM_SETSKIN</msg>
+					<int1>1</int1>
+				</message>
+			</messages>
+			<position x="0" y="0" />
+			<layer>5001</layer>
+		</state>
+        <state>
+		</state>
+    </states>
+    <layer>15</layer>
+</object>

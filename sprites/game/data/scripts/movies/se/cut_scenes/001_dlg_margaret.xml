@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<Scene template="dialog">
+	<life_time>2000</life_time>
+	<common_alpha_coeff>50000</common_alpha_coeff>
+	
+	<Layers size="1">
+
+		<Layer>
+			<enable_time>0</enable_time>
+			<life_time>99999</life_time>
+			<loop>1</loop>
+			<sound>
+				<life_time>99999</life_time>
+				<name>ad_dialog_mus</name>
+				<loop>1</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+			</sound>
+		</Layer>		
+
+
+	<!-- ******************************* movie ******************************* -->
+		<Layer>
+			<resource>data/sprites/objects/se/001/phone.png</resource>
+			<create_position x="238" y="150" />
+			<enable_time>0</enable_time>
+			<life_time>2000</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/001_dlg_margaret/talk1.flv</movie_avi>
+			<create_anim_position x="520" y="225" />
+			<enable_time>0</enable_time>
+			<life_time>4.042</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/001_dlg_margaret/idle.flv</movie_avi>
+			<create_anim_position x="520" y="225" />
+			<enable_time>4.042</enable_time>
+			<life_time>995.958</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/001_dlg_margaret/talk2.flv</movie_avi>
+			<create_anim_position x="520" y="225" />
+			<enable_time>1000</enable_time>
+			<life_time>6.875</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/001_dlg_margaret/idle.flv</movie_avi>
+			<create_anim_position x="520" y="225" />
+			<enable_time>1006.875</enable_time>
+			<life_time>993.125</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+
+		<Layer>
+			<resource>data/sprites/objects/se/001/phone2.png</resource>
+			<create_position x="238" y="150" />
+			<enable_time>0</enable_time>
+			<life_time>99999999</life_time>
+			<alpha_enable_coeff>500000</alpha_enable_coeff>
+			<alpha_disable_coeff>500000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+			<loop>1</loop>
+		</Layer>
+
+	<!-- ******************************* panels ******************************* -->		
+    	<Layer>
+			<show_gui>dialog_interface</show_gui>
+			<enable_time>0</enable_time>
+			<life_time>2000</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>0</alpha_disable_coeff>
+		</Layer>
+		
+	<!-- ******************************* text ******************************* -->
+		<Layer>
+			<parent>1</parent>
+			<enable_time>0</enable_time>
+			<life_time>1000</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>001_dlg_margaret</default_resource_text>
+			<click_to_continue>true</click_to_continue>
+			<sound>
+				<name>001_dlg_margaret_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+		<Layer>
+			<parent>1</parent>
+			<enable_time>1000</enable_time>
+			<life_time>1000</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>001_dlg_margaret_2</default_resource_text>
+			<click_to_continue>true</click_to_continue>
+			<sound>
+				<name>001_dlg_margaret_2_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+		
+	</Layers>
+</Scene>

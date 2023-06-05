@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_01_frame</name>
+    <name_desc>001_03_01_frame</name_desc>
+    <type>001_03_01_frame</type>
+    <states size="4">
+        <state>
+            <sprite>001_03_01_frame</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>20</layer>
+</object>

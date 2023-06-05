@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<ctrls>
+
+	<ctrl>
+		<name>text_loading</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>-200</param2>
+					<param3>1</param3><!-- Если 1, то локальный, т.е. следующая позиция не 1280,0, а текущая + 1280,0 -->
+					<param4>0</param4><!-- зациклен -->
+				</transform>			
+			</queue>
+		</tweens_translate>		
+	</ctrl>	
+	
+	<ctrl>
+		<name>line</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>-200</param2>
+					<param3>1</param3><!-- Если 1, то локальный, т.е. следующая позиция не 1280,0, а текущая + 1280,0 -->
+					<param4>0</param4><!-- зациклен -->
+				</transform>			
+			</queue>
+		</tweens_translate>				
+	</ctrl>	
+	
+	<ctrl>
+		<name>cursor</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>-200</param2>
+					<param3>1</param3><!-- Если 1, то локальный, т.е. следующая позиция не 1280,0, а текущая + 1280,0 -->
+					<param4>0</param4><!-- зациклен -->
+				</transform>			
+			</queue>
+		</tweens_translate>				
+	</ctrl>
+	
+	<ctrl>
+		<name>logo</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>-300</param2>
+					<param3>1</param3>
+					<param4>0</param4>
+				</transform>			
+			</queue>
+		</tweens_translate>				
+	</ctrl>	
+
+	<ctrl>
+		<name>Settings</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>800</param1>
+					<param2>0</param2>
+					<param3>1</param3><!-- Если 1, то локальный, т.е. следующая позиция не 1280,0, а текущая + 1280,0 -->
+					<param4>0</param4><!-- зациклен -->
+				</transform>			
+			</queue>
+		</tweens_translate>				
+	</ctrl>	
+
+	<ctrl>
+		<name>more_games</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>800</param1>
+					<param2>0</param2>
+					<param3>1</param3><!-- Если 1, то локальный, т.е. следующая позиция не 1280,0, а текущая + 1280,0 -->
+					<param4>0</param4><!-- зациклен -->
+				</transform>			
+			</queue>
+		</tweens_translate>				
+	</ctrl>	
+	
+	<ctrl>
+		<name>Extra</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>800</param1>
+					<param2>0</param2>
+					<param3>1</param3><!-- Если 1, то локальный, т.е. следующая позиция не 1280,0, а текущая + 1280,0 -->
+					<param4>0</param4><!-- зациклен -->
+				</transform>			
+			</queue>
+		</tweens_translate>				
+	</ctrl>	
+	
+	<ctrl>
+		<name>Exit</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>800</param1>
+					<param2>0</param2>
+					<param3>1</param3><!-- Если 1, то локальный, т.е. следующая позиция не 1280,0, а текущая + 1280,0 -->
+					<param4>0</param4><!-- зациклен -->
+				</transform>			
+			</queue>
+		</tweens_translate>				
+	</ctrl>	
+	
+	<ctrl>
+		<name>ch_profile</name>		
+		<tweens_translate size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration>
+					<type>position</type>
+					<param1>800</param1>
+					<param2>0</param2>
+					<param3>1</param3><!-- Если 1, то локальный, т.е. следующая позиция не 1280,0, а текущая + 1280,0 -->
+					<param4>0</param4><!-- зациклен -->
+				</transform>			
+			</queue>
+		</tweens_translate>				
+	</ctrl>
+	
+	<ctrl>
+		<name>back_loading</name>		
+		<default_alpha>0</default_alpha>
+		<tweens_translate size="1">
+			<queue size="1">				
+				<transform>
+					<delay>0</delay>
+					<duration>1200</duration>
+					<type>alpha</type>
+					<param1>255</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</tweens_translate>	
+	</ctrl>		
+	
+</ctrls>

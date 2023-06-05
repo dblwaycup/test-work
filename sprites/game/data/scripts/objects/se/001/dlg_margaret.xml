@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_dlg_margaret</name>
+    <name_desc>001_dlg_margaret</name_desc>
+    <type>001_dlg_margaret</type>
+    <states size="1">
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_phone_slide</event_parameters>
+            <translate_movie>001_dlg_margaret</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_dlg_margaret</event_parameters>
+        </state>
+        <state>
+			<event>TRANSLATE_TWEEN_END</event>
+			<event_parameters>001_phone</event_parameters>
+            <translate_movie>001_cs_monkey</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_cs_monkey</event_parameters>
+            <messages>
+                <message name="001_bush">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="001_window">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="001_tower">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="001_backpack">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="001_guide">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>150</layer>
+</object>

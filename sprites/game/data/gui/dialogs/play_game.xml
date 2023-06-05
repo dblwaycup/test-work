@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="359" y="80"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>585</width>
+			<height>589</height>
+			<sprites>
+				<spt>back_play_se</spt>
+			</sprites>
+		</ctrl>
+		
+	<!-- title -->	
+		<ctrl>
+			<name>text_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.92</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style><!-- TS_ALIGNLEFT,TS_ALIGNHCENTER,TS_ALIGNRIGHT,TS_ALIGNTOP,TS_ALIGNVCENTER,TS_ALIGNBOTTOM -->
+			<default_text>play_game_confirm_dialog</default_text>
+			<id>1</id>
+			<pos x="208" y="29" />
+			<width>189</width>
+			<height>32</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>screen_image</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="98" y="112"/>
+			<width>397</width>
+			<height>250</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_continue_game</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<pos x="161" y="395"/>
+			<width>270</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_long</spt>
+				<spt>btn_long_over</spt>
+				<spt>btn_long_over</spt>
+			</sprites>
+			<mask_sprite>btn_long_mask</mask_sprite>
+			<btn_text token="play_confirm_btn_continue">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff51a3aa">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>	
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_new_game</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="212" y="458"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<btn_text token="play_confirm_btn_reset">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff51a3aa">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_cancel</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="208" y="545"/>
+			<width>169</width>	
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<btn_text token="gui_cmn_btn_close">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff51a3aa">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+	</ctrls>
+</gui>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_guide</name>
+    <name_desc>001_guide</name_desc>
+    <type>001_guide</type>
+    <states size="1">
+        <state>
+        </state>
+        <state>
+            <mask_sprite>001_guide_mask</mask_sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <hint_delta x="0" y="0"/>
+            <particle>active_object</particle>
+            <particle_pos x="44" y="91"/>
+            <particle_wait_min_limit>2</particle_wait_min_limit>
+            <particle_wait_max_limit>7</particle_wait_max_limit>
+            <particle_fire_min_limit>1</particle_fire_min_limit>
+            <particle_fire_max_limit>1</particle_fire_max_limit>  
+        </state>
+        <state>
+            <sprite>001_guide_2</sprite>
+            <mask_sprite>001_guide_mask</mask_sprite>
+			<cursor>spt_cursor_lupa-shest</cursor>
+			<hint_delta x="0" y="0" />
+			<particle>001_ho</particle>
+			<particle_pos x="-315" y="55" />
+			<inventory_add_obj>001_incense</inventory_add_obj>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>4</layer>
+</object>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_07_bank5_top_hard</name>
+	<name_desc>002_07_bank5_top_hard</name_desc>
+	<type>002_07_bank5_top_hard</type>
+	<states size="2">
+		<state>
+			<sprite>002_07_bank5_top_hard</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>25</layer>
+</object>

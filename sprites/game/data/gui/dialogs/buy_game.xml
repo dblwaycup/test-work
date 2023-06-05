@@ -1,0 +1,258 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<sprites>
+				<spt>back_buy</spt>
+			</sprites>
+			<layer>-20</layer>
+		</ctrl>
+
+		 <ctrl>
+			<name>fx_light</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>11</id>
+			<pos x="0" y="0"/>
+			<particles>
+				<instance>
+					<name>buy_game_light</name>
+					<position x="640" y="400"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>
+			<layer>-22</layer>
+		</ctrl> 
+
+		<ctrl>
+			<name>bush</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>9</id>
+			<pos x="924" y="462"/>
+			<width>376</width>
+			<height>358</height>
+			<movies>
+				<instance>
+					<movie>bush_idle</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<layer>-21</layer>	
+		</ctrl>	
+		
+		<ctrl>
+			<name>manu</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>10</id>
+			<pos x="346" y="0"/>
+			<width>719</width>
+			<height>800</height>
+			<mask_sprite>manu_mask</mask_sprite>
+			<movies>
+				<instance>
+					<movie>manu1_idle</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>manu1_click</movie_name>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<movies_max_count>1</movies_max_count>
+				</action>
+			</actions>
+			<layer>-20</layer>
+		</ctrl>
+		
+	<!-- logo -->	
+		<ctrl>
+			<name>logo</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1</id>
+			<pos x="712" y="-38"/>
+			<width>568</width>
+			<height>245</height>
+			<mask_sprite>logo_mask</mask_sprite>
+			<movies>
+				<instance>
+					<movie>buy_page_logo</movie>
+					<before_draw>true</before_draw>
+				</instance>
+			</movies>
+			<actions>
+				<action event="Click" >
+					<type>PlayMovie</type>
+					<movie_name>logo_click</movie_name>
+					<hide_other_movies>hide_all</hide_other_movies>
+					<movies_max_count>1</movies_max_count>
+				</action>
+			</actions>
+			<layer>-20</layer>
+		</ctrl>
+		
+	<!-- title -->	
+		<ctrl>
+			<name>title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus50.fnt</font>
+			<text_scale>0.8</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<!-- <default_text>gui_buy_title_demo</default_text> -->
+			<default_text>gui_buy_title_survey</default_text>
+			<id>2</id>
+			<pos x="25" y="35"/>
+			<width>537</width>
+			<height>100</height>
+			<layer>-20</layer>
+		</ctrl>
+		
+	<!-- buy text -->	
+		<ctrl>
+			<name>buy_get_title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_on.fnt</font>
+			<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text>gui_buy_full_title</default_text>
+			<id>3</id>
+			<pos x="960" y="450"/>
+			<width>370</width>
+			<height>35</height>
+			<layer>-20</layer>
+		</ctrl>
+		
+		<ctrl>
+			<name>buy_get</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25_on.fnt</font>
+			<style>TS_ALIGNLEFT | TS_ALIGNTOP | TS_MULTILINE</style>
+			<default_text>gui_buy_full</default_text>
+			<id>4</id>
+			<pos x="960" y="490"/>
+			<width>370</width>
+			<height>150</height>
+			<layer>-20</layer>
+		</ctrl>
+
+	<!-- image -->	
+		<ctrl>
+			<name>button_image_1</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="52" y="149"/>
+			<width>384</width>
+			<height>247</height>
+			<manual_update>1</manual_update>
+			<mask_sprite>image_mask</mask_sprite>
+			<layer>-20</layer>
+		</ctrl>
+		<ctrl>
+			<name>button_image_2</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>6</id>
+			<pos x="52" y="421"/>
+			<width>384</width>
+			<height>247</height>
+			<manual_update>1</manual_update>
+			<mask_sprite>image_mask</mask_sprite>
+			<layer>-20</layer>
+		</ctrl>
+		<!-- <ctrl>
+			<name>button_image_3</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>7</id>
+			<pos x="458" y="421"/>
+			<width>384</width>
+			<height>247</height>
+			<manual_update>1</manual_update>
+			<mask_sprite>image_mask</mask_sprite>
+			<layer>-20</layer>
+		</ctrl> -->
+		
+	<!-- btn -->	
+		<ctrl>
+			<name>button_general</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>8</id>
+			<pos x="971" y="705"/>
+			<width>271</width>
+			<height>51</height>
+			<sprites>
+				<spt>btn_main</spt>
+				<spt>btn_main_over</spt>
+				<spt>btn_main_over</spt>
+			</sprites>
+			<mask_sprite>btn_main_mask</mask_sprite>
+			<btn_text token="main_menu_title">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+			<layer>-20</layer>
+		</ctrl>
+
+		<ctrl>
+			<name>button_buy</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>9</id>
+			<pos x="59" y="698"/>
+			<width>370</width>
+			<height>68</height>
+			<mask_sprite>btn_buy_mask</mask_sprite>
+			<btn_text token="gui_buy_btn_survey">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus50.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus50_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus50_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus50.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+			<layer>-20</layer>
+		</ctrl>
+	</ctrls>
+</gui>

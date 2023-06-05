@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_bowl</name>
+    <name_desc>001_03_bowl</name_desc>
+    <type>001_03_bowl</type>
+    <states size="3">
+        <state>
+            <sprite>001_03_bowl</sprite>
+            <mask_sprite>001_03_bowl_mask</mask_sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_001_03_bowl</dialog_activate>
+            <hint_delta x="15" y="11"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <fast_iterate>1</fast_iterate>
+            <inventory_cast_obj>001_02_bottle</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>001_03_bowl1</translate_movie>
+
+            <specific_dlg_list>
+                <specific_dlg>
+                    <path_dlg_after_movie>bbt_001_03_bowl_fake</path_dlg_after_movie>
+                    <name_object>001_07_tongs</name_object>
+                    <movie>001_03_bowl_fake</movie>
+                    <!-- <movie_hide_this>025_03_dirt</movie_hide_this> -->
+                    <movie_hide_nameObject>1</movie_hide_nameObject>
+                </specific_dlg>
+            </specific_dlg_list>
+
+        </state>
+        <state>
+            <sprite>001_03_bowl</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_bowl1</event_parameters>
+            <fast_iterate>1</fast_iterate>
+        </state>
+        <state>
+            <sprite>001_03_bowl_2</sprite>
+            <mask_sprite>001_03_bowl_mask</mask_sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_001_03_bowl_2</dialog_activate>
+            <hint_delta x="15" y="11"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <fast_iterate>1</fast_iterate>
+            <inventory_cast_obj>001_07_tongs</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>001_03_bowl2</translate_movie>
+        </state>
+        <state>
+            <sprite>001_03_bowl_3</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_bowl2</event_parameters>
+            <fast_iterate>1</fast_iterate>   
+        </state>
+        <state>
+            <sprite>001_03_bowl_3</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>5</layer>
+</object>

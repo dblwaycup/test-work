@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_thing1</name_desc>
+    <name>002_thing1</name>
+    <type>002_thing1</type>
+    <states size="1">
+        <state>
+            <sprite>002_thing1</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <tweens_loop size="1">
+                <queue size="1">
+					<transform>
+                        <delay>0</delay>
+                        <duration>1999</duration>
+                        <type>rotation</type>
+                        <param1>0.029</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>1599</duration>
+                        <type>rotation</type>
+                        <param1>-0.0295</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+				</queue>
+            </tweens_loop>
+        </state>
+    </states>
+	<anchor x="9" y="0"/> 
+    <layer>2</layer>
+</object>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_08_key</name>
+	<name_desc>001_08_key</name_desc>
+    <type>001_08_key</type>
+    <states size="1">
+        <state>
+		<sprite>001_08_key</sprite>
+		<mode>ToInventory</mode>
+        <cursor>spt_cursor_hand</cursor>
+        <hint_delta x="0" y="0"/>
+        </state>
+    <state>
+    </state>	
+    </states>
+      <drag_spt>inv_001_08_key_drag</drag_spt>><!--перетаскиваемый спрайт-->
+      <window_spt>inv_001_08_key_get</window_spt>><!--спрайт, отображающийся в инвентаре-->
+      <text_inv_desc>obj_title_001_08_key</text_inv_desc> <!--текстовое название объекта-->
+      <on_get_title>obj_title_001_08_key</on_get_title> <!--текстовое название объекта-->
+	  <tween_over_type>inv_icon</tween_over_type>
+	  <combine_inventory_objects>
+        <action>001_08_casket</action>       
+    </combine_inventory_objects>
+    <layer>5</layer>
+</object>

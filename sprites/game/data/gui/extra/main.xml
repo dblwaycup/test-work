@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<sprites>
+				<spt>back_extra</spt>
+			</sprites>
+		</ctrl>
+
+	<!-- btn_bonus_chapter -->
+		<ctrl>
+			<name>btn_bonus_chapter</name>
+			<type>Button</type>
+			<class_name>CExtraGameplayButton</class_name>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="596" y="517"/>
+			<width>382</width>
+			<height>271</height>
+			<sprites>
+				<spt>btn_bonus_chapter</spt>
+				<spt>btn_bonus_chapter_on</spt>
+				<spt>btn_bonus_chapter_on</spt>
+			</sprites>
+			<mask_sprite>btn_bonus_chapter_mask</mask_sprite>
+			<btn_disabled_dialog>extra_dlg_se_not_complete</btn_disabled_dialog><!-- если кнопка отключена (например, в демо), при клике по ней будет выводиться этот диалог -->
+			<extraGameplay_closed_dialog>extra_dlg_se_not_complete</extraGameplay_closed_dialog><!-- если экстра еще не открыта, при клике по ней будет выводиться этот диалог -->
+			<extraGameplay_restart_dialog>extra_dlg_ce_restart</extraGameplay_restart_dialog><!-- если экстра была пройдена, будет показан диалог с предложением ресетнуть экстра-игру-->
+			<over_sound>button_authorize</over_sound>
+			<press_sound>button_click</press_sound>
+			<btn_text token="extra_btn_bonus_chapter">
+				<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="-20" top="30" right="0" bottom="0" />
+				<angle>0</angle>
+			</btn_text>	
+		</ctrl>
+
+	<!-- btn achivements -->
+		<ctrl>
+			<name>btn_achievements</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<pos x="342" y="0"/>
+			<width>332</width>
+			<height>278</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_achievements_on</spt>
+				<spt>btn_achievements_on</spt>
+			</sprites>
+			<mask_sprite>btn_achievements_mask</mask_sprite>
+			<open_dialog_by_click>achievements_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<ok_id>10</ok_id>
+			<close_on_click>10</close_on_click>
+			<btn_text token="extra_btn_achievements">
+					<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="-10" top="75" right="0" bottom="0" />
+				<angle>-3</angle>
+			</btn_text>
+		</ctrl>
+
+	<!-- btn_statuettes -->
+		<ctrl>
+			<name>btn_statuettes</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="329" y="177"/>
+			<width>323</width>
+			<height>222</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_statuettes_on</spt>
+				<spt>btn_statuettes_on</spt>
+			</sprites>
+			<mask_sprite>btn_statuettes_mask</mask_sprite>
+			<open_dialog_by_click>statuettes_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="extra_btn_statuettes">
+					<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="25" top="143" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+
+	<!-- btn_video -->
+		<ctrl>
+			<name>btn_video</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="713" y="0"/>
+			<width>301</width>
+			<height>327</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_video_on</spt>
+				<spt>btn_video_on</spt>
+			</sprites>
+			<mask_sprite>btn_video_mask</mask_sprite>
+			<open_dialog_by_click>movie_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="extra_btn_video">
+				<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="-45" top="85" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+
+	<!-- btn_boudoir -->
+		<ctrl>
+			<name>BtnBoudoir</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>6</id>
+			<pos x="486" y="72"/>
+			<width>278</width>
+			<height>265</height>
+			<sprites>
+				<spt>btn_boudoir</spt>
+				<spt>btn_boudoir_on</spt>
+				<spt>btn_boudoir_on</spt>
+			</sprites>
+			<mask_sprite>btn_boudoir_mask</mask_sprite>
+			<hover_group>btn_boudoir_text</hover_group>
+			<open_dialog_by_click>extra_boudoir</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="extra_btn_boudoir">
+					<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="-15" top="180" right="0" bottom="0" />
+				<angle>-5</angle>
+			</btn_text>
+		</ctrl>
+
+	<!-- btn_concept -->
+		<ctrl>
+			<name>btn_concept</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>7</id>
+			<pos x="952" y="18"/>
+			<width>299</width>
+			<height>367</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_concept_on</spt>
+				<spt>btn_concept_on</spt>
+			</sprites>
+			<mask_sprite>btn_concept_mask</mask_sprite>
+			<open_dialog_by_click>extra_concept_art_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<ok_id>10</ok_id>
+			<close_on_click>10</close_on_click>
+			<btn_text token="extra_btn_concept">
+					<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<spacing left="10" top="110" right="0" bottom="0" />
+				<angle>-8</angle>
+			</btn_text>
+		</ctrl>
+		
+	<!-- btn_ho -->
+		<ctrl>
+			<name>btn_ho</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>8</id>
+			<pos x="17" y="42"/>
+			<width>297</width>
+			<height>329</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_ho_on</spt>
+				<spt>btn_ho_on</spt>
+			</sprites>
+			<mask_sprite>btn_ho_mask</mask_sprite>
+			<open_dialog_by_click>hidden_objects_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="extra_btn_ho">
+					<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="25" top="210" right="0" bottom="0" />
+				<angle>8</angle>
+			</btn_text>
+		</ctrl>
+
+	<!-- btn_music -->
+		<ctrl>
+			<name>btn_music</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>9</id>
+			<pos x="868" y="418"/>
+			<width>364</width>
+			<height>339</height>
+			<sprites>
+				<spt>btn_music</spt>
+				<spt>btn_music_on</spt>
+				<spt>btn_music_on</spt>
+			</sprites>
+			<mask_sprite>btn_music_mask</mask_sprite>
+			<open_dialog_by_click>extra_music_dialog</open_dialog_by_click>
+			<!-- <open_dialog_by_click>ExtraContentDisabledInDemoDialog</open_dialog_by_click> -->
+			<ok_id>10</ok_id>
+			<close_on_click>10</close_on_click>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="extra_btn_music">
+				<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="-80" top="80" right="0" bottom="0" />
+				<angle>-15</angle>
+			</btn_text>
+		</ctrl>
+
+	<!-- btn_magic -->
+		<ctrl>
+			<name>btn_magic</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>10</id>
+			<pos x="822" y="189"/>
+			<width>283</width>
+			<height>267</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_magic_on</spt>
+				<spt>btn_magic_on</spt>
+			</sprites>
+			<mask_sprite>btn_magic_mask</mask_sprite>
+			<open_dialog_by_click>magic_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="extra_btn_magic">
+					<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="-20" top="195" right="0" bottom="0" />
+				<angle>-6</angle>
+			</btn_text>
+		</ctrl>
+
+	<!-- btn_minigames -->
+		<ctrl>
+			<name>btn_minigames</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>11</id>
+			<pos x="124" y="317"/>
+			<width>379</width>
+			<height>197</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_minigames_on</spt>
+				<spt>btn_minigames_on</spt>
+			</sprites>
+			<mask_sprite>btn_minigames_mask</mask_sprite>
+			<open_dialog_by_click>minigames_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<btn_text token="extra_btn_mg">
+				<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="-60" top="50" right="0" bottom="0" />
+				<angle>0</angle>
+			</btn_text>
+		</ctrl>
+
+	<!-- btn_wallpaper -->
+		<ctrl>
+			<name>btn_wallpaper</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>12</id>
+			<pos x="2" y="452"/>
+			<width>407</width>
+			<height>264</height>
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_wallpaper_on</spt>
+				<spt>btn_wallpaper_on</spt>
+			</sprites>
+			<mask_sprite>btn_wallpaper_mask</mask_sprite>
+			<open_dialog_by_click>extra_wallpapers_dialog</open_dialog_by_click>
+			<over_sound>button_authorize</over_sound>
+			<ok_id>10</ok_id>
+			<close_on_click>10</close_on_click>
+			<btn_text token="extra_btn_wlp">
+					<font type="normal">data/fonts/gui/cooper.fnt</font>
+				<font type="hover">data/fonts/gui/cooper_on.fnt</font>
+				<font type="press">data/fonts/gui/cooper_on.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+				<spacing left="-50" top="85" right="0" bottom="0" />
+				<angle>0</angle>
+			</btn_text>
+		</ctrl>
+
+	<!-- particles_light -->
+		<ctrl>
+			<name>fx_light</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>13</id>
+			<pos x="0" y="0"/>
+			<particles>
+				<instance>
+					<name>main_light</name>
+					<position x="640" y="400"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>
+		</ctrl>
+
+		<!-- <ctrl> -->
+			<!-- <name>fan</name> -->
+			<!-- <type>BackGround</type> -->
+			<!-- <enable>1</enable> -->
+			<!-- <visible>1</visible> -->
+			<!-- <id>14</id> -->
+			<!-- <pos x="618" y="0"/> -->
+			<!-- <width>494</width> -->
+			<!-- <height>154</height> -->
+			<!-- <movies> -->
+				<!-- <instance> -->
+					<!-- <movie>fan_idle</movie> -->
+					<!-- <before_draw>true</before_draw> -->
+				<!-- </instance> -->
+			<!-- </movies> -->
+		<!-- </ctrl> -->
+
+		<!-- <ctrl> -->
+			<!-- <name>branch</name> -->
+			<!-- <type>BackGround</type> -->
+			<!-- <enable>1</enable> -->
+			<!-- <visible>1</visible> -->
+			<!-- <id>15</id> -->
+			<!-- <pos x="995" y="0"/> -->
+			<!-- <width>285</width> -->
+			<!-- <height>330</height> -->
+			<!-- <movies> -->
+				<!-- <instance> -->
+					<!-- <movie>extra_branch_idle</movie> -->
+					<!-- <before_draw>true</before_draw> -->
+				<!-- </instance> -->
+			<!-- </movies> -->
+		<!-- </ctrl> -->
+
+	<!-- btn_close -->
+		<ctrl>
+			<name>btn_close</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="1183" y="20"/>
+			<width>81</width>
+            <height>80</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	</ctrls>
+</gui>

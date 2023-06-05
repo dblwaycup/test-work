@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>999999</life_time>	
+	<Layers size="1">
+
+		<Layer>
+			<resource>data/sprites/objects/se/001/phone.png</resource>
+			<create_position x="-0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>99999999</life_time>
+			<alpha_enable_coeff>500000</alpha_enable_coeff>
+			<alpha_disable_coeff>500000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+			<loop>1</loop>
+		</Layer>
+		<Layer>
+			<resource>data/sprites/objects/se/001/phone1.png</resource>
+			<create_position x="-0" y="0" />
+			<!-- <hot_spot>1</hot_spot>
+			<hot_spot_position x="-20" y="300" /> -->
+			<enable_time>0</enable_time>
+			<life_time>99999999</life_time>
+			<alpha_enable_coeff>500000</alpha_enable_coeff>
+			<alpha_disable_coeff>500000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+			<tweens_loop size="1">
+				<queue size="1">
+					<transform>
+                        <delay>0</delay>
+                        <duration>70</duration>
+                        <type>position</type>
+                        <param1>0.5</param1>
+                        <param2>0</param2>
+                        <param3>1</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+					<transform>
+                        <delay>0</delay>
+                        <duration>70</duration>
+                        <type>position</type>
+                        <param1>-0.5</param1>
+                        <param2>0</param2>
+                        <param3>1</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+					<transform>
+                        <delay>0</delay>
+                        <duration>70</duration>
+                        <type>position</type>
+                        <param1>0.5</param1>
+                        <param2>0</param2>
+                        <param3>1</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+					<transform>
+                        <delay>0</delay>
+                        <duration>70</duration>
+                        <type>position</type>
+                        <param1>-0.5</param1>
+                        <param2>0</param2>
+                        <param3>1</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+					<transform>
+                        <delay>0</delay>
+                        <duration>70</duration>
+                        <type>position</type>
+                        <param1>0.5</param1>
+                        <param2>0</param2>
+                        <param3>1</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+					<transform>
+                        <delay>0</delay>
+                        <duration>70</duration>
+                        <type>position</type>
+                        <param1>-0.5</param1>
+                        <param2>0</param2>
+                        <param3>1</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+					<transform>
+                        <delay>0</delay>
+                        <duration>800</duration>
+                        <type>position</type>
+                        <param1>0</param1>
+                        <param2>0</param2>
+                        <param3>1</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+				</queue>
+			</tweens_loop>
+			<loop>1</loop>
+		</Layer>
+		 <Layer>
+			<movie_avi>data/movies/se/animation/001/phone_idle.flv</movie_avi>
+			<create_anim_position x="282" y="305" />
+			<enable_time>0</enable_time>
+			<life_time>99999999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+			<sound>
+				<name>phone_idle</name>
+				<loop>1</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer> 
+		<Layer>
+			<resource>data/sprites/objects/se/001/phone2.png</resource>
+			<create_position x="-0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>99999999</life_time>
+			<alpha_enable_coeff>500000</alpha_enable_coeff>
+			<alpha_disable_coeff>500000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+			<loop>1</loop>
+		</Layer>		
+
+	</Layers>
+</Scene>

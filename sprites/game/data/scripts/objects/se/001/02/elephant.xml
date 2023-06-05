@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_02_elephant</name>
+    <name_desc>001_02_elephant</name_desc>
+    <type>001_02_elephant</type>
+    <states size="6">
+        <state>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.1</mode_param>
+            <translate_movie>001_02_elephant_change</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_02_elephant_change</event_parameters>
+        </state>
+        <state>
+            <sprite>001_02_elephant_4</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_001_02_elephant</dialog_activate>
+            <hint_delta x="-65" y="118"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <fast_iterate>1</fast_iterate>
+            <inventory_cast_obj>001_incense</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <sound_fx>cast_01</sound_fx>
+        </state>
+        <state>
+            <sprite>001_02_elephant_5</sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_001_02_elephant</dialog_activate>
+            <hint_delta x="-52" y="3 "/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <fast_iterate>1</fast_iterate>
+            <inventory_cast_obj>001_07_lighter</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>001_02_elephant2</translate_movie>
+        </state>
+        <state>
+            <sprite>001_02_elephant_anim</sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_02_elephant2</event_parameters>
+            <fast_iterate>1</fast_iterate>
+
+        </state>
+        <state>
+
+            <movie>001_02_smoke_dile</movie>
+            <sprite>001_02_elephant_7</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <sound_fx>fire_loop2_01</sound_fx>
+            <loop_sound>1</loop_sound>
+        </state>
+    </states>
+    <layer>45</layer>
+</object>

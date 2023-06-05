@@ -1,0 +1,225 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>back_inv</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>792</width>
+			<height>117</height>
+			<sprites>
+				<spt>inventory</spt>
+			</sprites>
+			<layer>-5</layer>
+		</ctrl>
+
+	 <!-- левая кнопка инвентаря --> 	
+		<ctrl>
+			<name>Buttonleft</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="93" y="15"/>
+			<width>60</width>
+			<height>53</height>
+			<sprites>
+				<spt>arrow_left</spt>
+				<spt>arrow_left_on</spt>
+				<spt>arrow_left_on</spt>
+				<spt>arrow_left_on</spt>
+				<spt>none</spt><!-- arrow_left_dis -->
+			</sprites>
+			<mask_sprite>arrow_mask</mask_sprite>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	 <!-- правая кнопка инвентаря --> 	
+		<ctrl>
+			<name>Buttonright</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="716" y="15"/>
+			<width>60</width>
+			<height>53</height>
+			<sprites>
+				<spt>arrow_right</spt>
+				<spt>arrow_right_on</spt>
+				<spt>arrow_right_on</spt>
+				<spt>arrow_right_on</spt>
+				<spt>none</spt><!-- arrow_right_dis -->
+			</sprites>
+			<mask_sprite>arrow_mask</mask_sprite>
+			<press_sound>button_click</press_sound>
+		</ctrl>
+		
+	<!-- кол-во объектов 1/2 -->	
+		<ctrl>
+			<name>template_text</name>
+			<type>TextBox</type>
+			<enable>0</enable>
+			<visible>0</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<font>data\fonts\gui\number.fnt</font>
+			<default_text>Empty</default_text>
+			<id>3</id>
+			<pos x="0" y="0" />
+			<width>41</width>
+			<height>29</height>
+		</ctrl> 
+		
+	<!-- текст названия предмета -->	
+		<ctrl>
+			<name>template_desc_text</name>
+			<type>RichText</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<default_text>Empty</default_text>
+			<font_name>fnt_lc_inv_description</font_name>
+			<align>2</align>
+			<id>4</id>
+			<pos x="107" y="24"/>
+			<width>176</width>
+			<height>59</height>
+			<manual_render>1</manual_render>
+			<manual_update>1</manual_update>
+		</ctrl>
+		
+	<!-- extra кнопки -->	
+		<ctrl>
+			<name>extra_crosses</name>
+			<type>BackGround</type>
+			<class_name>CUsefullCtrl</class_name>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>5</id>
+			<pos x="59" y="63" />
+			<size x="53" y="54" />
+			<disabled_spt>btn_extra_crosses</disabled_spt>
+			<enabled_spt>btn_extra_crosses_on</enabled_spt>
+			<over_spt>btn_extra_crosses_on</over_spt>
+			<check_resource>extra_crosses</check_resource>
+			<particles>
+				<instance_manual>
+					<name>inv_collectibles</name>
+					<position x="25" y="28" />
+					<loop>1</loop>
+				</instance_manual>
+			</particles>
+			<enabled_particle>inv_collectibles</enabled_particle>
+			<tooltip_str>Dialog_1|inventory_extra_crosses</tooltip_str>
+			<sound_found>ad_lock_bonus</sound_found>
+		</ctrl>
+		<ctrl>
+			<name>btn_extra_crosses</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>6</id>
+				<pos x="44" y="48" />
+			<size x="53" y="54" />
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_extra_over</spt>
+				<spt>btn_extra_over</spt>
+			</sprites>
+			<mask_sprite>btn_extra_mask</mask_sprite>
+			<open_dialog_by_click>extra_boudoir</open_dialog_by_click>
+		</ctrl> 
+		
+		<ctrl>
+			<name>extra_magic</name>
+			<type>BackGround</type>
+			<class_name>CUsefullCtrl</class_name>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>7</id>
+			<pos x="4" y="63" />
+			<size x="53" y="54" />
+			<disabled_spt>btn_extra_magic</disabled_spt>
+			<enabled_spt>btn_extra_magic_on</enabled_spt>
+			<over_spt>btn_extra_magic_on</over_spt>
+			<check_resource>extra_magic</check_resource>
+			<particles>
+				<instance_manual>
+					<name>inv_collectibles</name>
+					<position x="25" y="28" />
+					<loop>1</loop>
+				</instance_manual>
+			</particles>
+			<enabled_particle>inv_collectibles</enabled_particle>
+			<tooltip_str>Dialog_1|inventory_extra_magic</tooltip_str>
+			<sound_found>ad_lock_bonus</sound_found>
+		</ctrl>
+		 <ctrl>
+			<name>btn_extra_magic</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>8</id>
+			<pos x="-11" y="48" />
+			<size x="53" y="54" />
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_extra_over</spt>
+				<spt>btn_extra_over</spt>
+			</sprites>
+			<mask_sprite>btn_extra_mask</mask_sprite>
+			<open_dialog_by_click>magic_dialog</open_dialog_by_click>
+		</ctrl>
+		
+		<ctrl>
+			<name>extra_statuettes</name>
+			<type>BackGround</type>
+			<class_name>CUsefullCtrl</class_name>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>9</id>
+			<pos x="32" y="15" />
+			<size x="53" y="54" />
+			<disabled_spt>btn_extra_statuettes</disabled_spt>
+			<enabled_spt>btn_extra_statuettes_on</enabled_spt>
+			<over_spt>btn_extra_statuettes_on</over_spt>
+			<check_resource>extra_statuettes</check_resource>
+			<particles>
+				<instance_manual>
+					<name>inv_collectibles</name>
+					<position x="25" y="28" />
+					<loop>1</loop>
+				</instance_manual>
+			</particles>
+			<enabled_particle>inv_collectibles</enabled_particle>
+			<tooltip_str>Dialog_1|inventory_extra_statuettes</tooltip_str>
+			<sound_found>ad_lock_bonus</sound_found>
+		</ctrl>
+		<ctrl>
+			<name>btn_extra_statuettes</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>10</id>
+			<pos x="17" y="0" />
+			<size x="83" y="84" />
+			<sprites>
+				<spt>empty</spt>
+				<spt>btn_extra_over</spt>
+				<spt>btn_extra_over</spt>
+			</sprites>
+			<mask_sprite>btn_extra_mask</mask_sprite>
+			<open_dialog_by_click>statuettes_dialog</open_dialog_by_click>
+		</ctrl> 
+		
+	</ctrls>
+</gui>

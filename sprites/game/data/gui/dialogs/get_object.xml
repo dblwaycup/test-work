@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="346" y="130"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>587</width>
+			<height>474</height>
+			<sprites>
+				<spt>back_get_object</spt>
+			</sprites>
+			<layer>-5</layer>
+		</ctrl>
+
+		<ctrl>
+			<name>fx_backlight</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="0" y="0"/>
+			<particles>
+				<instance>
+					<name>get_backlight</name>
+					<position x="294" y="279"/>
+					<loop>1</loop>
+					<period_time_min_limit>0</period_time_min_limit>
+					<period_time_max_limit>0</period_time_max_limit>
+				</instance>
+			</particles>
+			<layer>-5</layer>
+		</ctrl>
+		
+		<ctrl>
+			<name>desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus50.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<text_scale>0.65</text_scale>
+			<default_text>get_object_title</default_text>
+			<id>3</id>
+			<pos x="194" y="50"/>
+			<width>308</width>
+			<height>46</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>main_you_found</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus35.fnt</font>
+			<text_scale>0.9</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<default_text>main_you_found</default_text>
+			<id>4</id>
+			<pos x="194" y="90" />
+			<width>223</width>
+			<height>33</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>MainImage</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>5</id>
+			<pos x="294" y="235"/><!-- где будет центр картинки -->
+			<layer>-5</layer>
+		</ctrl>
+
+		<ctrl>
+			<name>title_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data\fonts\gui\agopus50.fnt</font>
+			<text_scale>0.75</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<id>6</id>
+			<pos x="117" y="365"/>
+			<width>473</width>
+			<height>67</height>
+		</ctrl>
+
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="209" y="436"/>
+			<width>169</width>
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<btn_text token="gui_cmn_btn_ok">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+		</ctrl>
+	</ctrls>
+</gui>

@@ -1,0 +1,1245 @@
+<?xml version="1.0" ?>
+<tweens size="1">	
+
+	<tween_queue>
+		<name>AutoOver</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>200</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1200</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.02</param1>
+					<param2>1.02</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1150</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.98</param1>
+					<param2>0.98</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>800</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.015</param1>
+					<param2>1.015</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>750</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>		
+	</tween_queue>
+
+	<tween_queue>
+		<name>PlayOver</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.2</param1>
+					<param2>1.2</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>200</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.3</param1>
+					<param3>0</param3><!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+				<transform>
+					<delay>0</delay>
+					<duration>200</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>-0.3</param1>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>300</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>		
+	</tween_queue>
+
+	<tween_queue>
+		<name>OverButton</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.03</param1>
+					<param2>1.03</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>	
+				<transform>
+					<delay>0</delay>
+					<duration>300</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.97</param1>
+					<param2>0.97</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>300</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>		
+		</queue_array>		
+	</tween_queue>
+
+	<tween_queue>
+		<name>OpenFrame</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_outInSin</type_int>
+				</transform>	
+				<transform>
+					<delay>0</delay>
+					<duration>480</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.02</param1>
+					<param2>1.02</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_outInSin</type_int>
+				</transform>					
+				<transform>
+					<delay>0</delay>
+					<duration>200</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_outInSin</type_int>
+				</transform>					
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>500</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_outInSin</type_int>
+				</transform>										
+			</queue>		
+		</queue_array>		
+	</tween_queue>
+	
+	<tween_queue>
+		<name>CloseFrame</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.2</param1>
+					<param2>1.2</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>					
+				<transform>
+					<delay>0</delay>
+					<duration>450</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>					
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>600</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+	
+	<tween_queue>
+		<name>CloseMorph</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>210</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.2</param1>
+					<param2>1.2</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.2</param1>
+					<param2>0.2</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>					
+				<transform>
+					<delay>0</delay>
+					<duration>160</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>					
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>730</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+
+	<tween_queue>
+		<name>OpenDialogAS</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>	
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.07</param1>
+					<param2>1.07</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>					
+				<transform>
+					<delay>0</delay>
+					<duration>200</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>					
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>		
+		</queue_array>		
+	</tween_queue>
+	
+	<tween_queue>
+		<name>CloseDialogAS</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.2</param1>
+					<param2>1.2</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>					
+				<transform>
+					<delay>0</delay>
+					<duration>450</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>					
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>700</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+	
+	<tween_queue>
+		<name>OpenDialogA</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>						
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+	
+	<tween_queue>
+		<name>CloseDialogA</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>500</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+
+	<tween_queue>
+		<name>OpenDialogSX</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+	
+	<tween_queue>
+		<name>CloseDialogSX</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>270</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>270</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+	
+	<tween_queue>
+		<name>OpenBBT</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>-95</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">		
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>	
+			</queue>
+		</queue_array>
+	</tween_queue>
+	
+	<tween_queue>
+		<name>CloseBBT</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>-95</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">		
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>	
+			</queue>
+		</queue_array>		
+	</tween_queue>
+	
+	<tween_queue>
+		<name>OpenPersBBT</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>-113</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">		
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>	
+			</queue>
+		</queue_array>	
+	</tween_queue>
+	
+	<tween_queue>
+		<name>ClosePersBBT</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>-113</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">		
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>	
+			</queue>
+		</queue_array>	
+	</tween_queue>
+	
+	<tween_queue>
+		<name>OpenAchievements</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>-490</param1>
+					<param2>0</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">		
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>	
+			</queue>
+		</queue_array>	
+	</tween_queue>
+	
+	<tween_queue>
+		<name>CloseAchievements</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>400</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>-490</param1>
+					<param2>0</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">		
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>	
+			</queue>
+		</queue_array>	
+	</tween_queue>
+	
+	<tween_queue>
+		<name>OpenInventory</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<param2>683</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+		</queue_array>	
+	</tween_queue>
+	
+	<tween_queue>
+		<name>CloseInventory</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<param2>790</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>CloseDialogAchievements</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>0</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>		
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+
+<!-- cs tweens -->
+	<tween_queue>
+		<name>BorderTopUp</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>BorderTopDown</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>-78</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>BorderBottomUp</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>722</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>BorderBottomDown</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>800</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+<!-- dlg tweens -->
+	<tween_queue>
+		<name>BorderTextUp</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>196</param1>
+					<param2>660</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>BorderTextDown</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>196</param1>
+					<param2>800</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+<!-- dlg left tweens -->
+	<tween_queue>
+		<name>BorderTextLeftUp</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>3</param1>
+					<param2>660</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>BorderTextLeftDown</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>3</param1>
+					<param2>800</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+<!-- dlg right tweens -->
+	<tween_queue>
+		<name>BorderTextRightUp</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>389</param1>
+					<param2>660</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>BorderTextRightDown</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration> <!-- time in ms -->
+					<type>position</type> <!-- scale, position, rotation, alpha -->
+					<param1>389</param1>
+					<param2>800</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+<!-- StartFrame -->
+	<tween_queue>
+		<name>StartFrame</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_outInSin</type_int>
+				</transform>	
+				<transform>
+					<delay>0</delay>
+					<duration>750</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.15</param1>
+					<param2>1.15</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_outInSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>200</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_outInSin</type_int>
+				</transform>					
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>0</param1>
+					<type_int>ease_outInSin</type_int>
+				</transform>
+				<transform>
+					<delay>50</delay>
+					<duration>900</duration> <!-- time in ms -->
+					<type>alpha</type> <!-- scale, position, rotation, alpha -->
+					<param1>255</param1>
+					<type_int>ease_outInSin</type_int>
+				</transform>										
+			</queue>
+		</queue_array>		
+	</tween_queue>
+
+<!-- NoClose -->
+	<tween_queue>
+		<name>NoClose</name>
+		<queue_array size = "1">
+			<queue size="1">	
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_outInSin</type_int>
+				</transform>								
+			</queue>
+		</queue_array>		
+	</tween_queue>
+
+
+	<tween_queue>
+		<name>casual_mode</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1150</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.038</param1>
+					<param2>1.038</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>800</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.019</param1>
+					<param3>0</param3><!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				</queue>
+				<queue>		
+				<transform>
+					<delay>0</delay>
+					<duration>800</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>-0.019</param1>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1150</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>advanced_mode</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.035</param1>
+					<param2>1.035</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>750</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>-0.022</param1>
+					<param3>0</param3><!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				</queue>
+				<queue>		
+				<transform>
+					<delay>0</delay>
+					<duration>750</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.022</param1>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1000</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>hardcore_mode</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1100</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.04</param1>
+					<param2>1.04</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>820</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.017</param1>
+					<param3>0</param3><!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				</queue>
+				<queue>		
+				<transform>
+					<delay>0</delay>
+					<duration>820</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>-0.017</param1>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1100</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+
+	<tween_queue>
+		<name>custom_mode</name>
+		<queue_array size = "1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1150</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1.03</param1>
+					<param2>1.03</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>800</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>-0.015</param1>
+					<param3>0</param3><!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				</queue>
+				<queue>		
+				<transform>
+					<delay>0</delay>
+					<duration>800</duration> <!-- time in ms -->
+					<type>rotation</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.015</param1>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1150</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>	
+	</tween_queue>
+	
+</tweens>

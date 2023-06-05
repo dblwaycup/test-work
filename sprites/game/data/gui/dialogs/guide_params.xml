@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="50"/>
+			<width>640</width>
+			<height>400</height>
+			<sprites>
+				<spt>back</spt>
+			</sprites>
+		</ctrl>
+		<ctrl>
+			<name>Cover</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1</id>
+			<pos x="-15" y="36"/>
+			<width>668</width>
+			<height>426</height>
+			<sprites>
+				<spt>frame_sg</spt>
+			</sprites>
+		</ctrl>
+	</ctrls>
+</gui>

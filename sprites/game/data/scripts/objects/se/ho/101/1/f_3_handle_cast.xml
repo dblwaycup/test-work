@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_1_f_3_handle_cast</name>
+	<name_desc>ho_101_1_f_3_handle_cast</name_desc>
+	<type>ho_101_1_f_3_handle_cast</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_1_f_3_handle_cast</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>ho_101_1_f_3_handle_cast</sprite>
+			<mode>ActiveDrag</mode>
+            <drag_obj_press_sound>ad_getall</drag_obj_press_sound>
+            <mode_param>ho_101_1_f_3_cap</mode_param>
+            <cursor>spt_cursor_hand</cursor>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>ho_101_1_f_3_handle_drag</drag_spt>
+	<layer>680</layer>
+</object>

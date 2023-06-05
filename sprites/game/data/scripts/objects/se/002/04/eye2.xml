@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_04_eye2</name>
+    <name_desc>002_04_eye2</name_desc>
+    <type>004_03_eye1</type>
+    <states size="1">
+        <state>
+            <sprite>002_04_eye2</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_04_lizard|2</event_parameters>
+        </state>
+        <state>
+            <sprite>002_04_eye2</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <hint_delta x="0" y="0"/>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_002_04_eye2_drag</drag_spt>
+    <window_spt>inv_002_04_eye2_get</window_spt>
+    <text_inv_desc>obj_title_004_03_eye1</text_inv_desc>
+    <on_get_title>obj_title_004_03_eye1</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+	<inventory_obj_multisprite_icons>1</inventory_obj_multisprite_icons>
+	<inventory_max_parts>2</inventory_max_parts>
+    <layer>5</layer>
+</object>

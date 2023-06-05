@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>back</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="79" y="50"/>
+			<width>1110</width>
+			<height>716</height>
+			<sprites>
+				<spt>frame_back</spt>
+			</sprites>
+			<layer>-5</layer>
+		</ctrl>
+		
+		<ctrl>
+			<name>cutscenes_ctrl</name>
+			<type>BackGround</type>
+			<class_name>CExtraCutscenesCtrl</class_name>
+			<ext_path>data/gui/extra/movie_ctrl.xml</ext_path>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1</id>
+			<pos x="127" y="80"/>
+			<width>1025</width>
+			<height>641</height>
+			<btn_scroll_left_name>button_left</btn_scroll_left_name>
+			<btn_scroll_right_name>button_right</btn_scroll_right_name>
+			<btn_play_cutscene_name>button_play_cutscene</btn_play_cutscene_name>
+			<text_counter_name>text_counter</text_counter_name> <!-- счетчик -->
+			<main_image_ctrl_name>main_image</main_image_ctrl_name>
+			<video_render_ctrl_name>video_render</video_render_ctrl_name>
+			<video_skip_ctrl_name>button_skip_video</video_skip_ctrl_name>
+		</ctrl>
+		
+		<ctrl>
+			<name>frame_extra</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="79" y="50"/>
+			<width>1110</width>
+			<height>716</height>
+			<sprites>
+				<spt>frame_extra</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>header</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text>extra_cutscenes_header</default_text>
+			<id>3</id>
+			<pos x="541" y="63"/>
+			<width>189</width>
+			<height>32</height>
+			<font_height>1</font_height>
+		</ctrl>
+
+		<ctrl>
+			<name>btn_close</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+			<mask_sprite>main_mask</mask_sprite>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>video_render</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>5</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<layer>20</layer>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_skip_video</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>0</visible>
+			<subtype>box</subtype>
+			<id>6</id>
+			<pos x="1031" y="0"/>
+			<width>213</width>
+			<height>68</height>
+			<layer>30</layer>
+			<sprites>
+				<spt>btn_skip</spt>
+				<spt>btn_skip_over</spt>
+				<spt>btn_skip_over</spt>
+			</sprites>
+			<mask_sprite>btn_skip_mask</mask_sprite>
+			<btn_text token="gui_btn_skip">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="7" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+		
+	</ctrls>
+</gui>

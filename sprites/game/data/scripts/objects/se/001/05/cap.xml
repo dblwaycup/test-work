@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_05_cap</name>
+    <name_desc>001_05_cap</name_desc>
+    <type>001_05_cap</type>
+    <states size="5">
+        <state>
+            <sprite>001_05_cap</sprite>
+            <blazing_sprite name="001_05_cap_click" spawn_time="0.5" time_hold="0.5" fade_time="0.5" all_levels="false">
+                <shift_pos x="299" y="292" />
+            </blazing_sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <dialog_activate>bbt_001_05_cap</dialog_activate>
+            <hint_delta x="65" y="90"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <fast_iterate>1</fast_iterate>
+            <inventory_cast_obj>001_02_feather1</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <combine_inventory_sprite>inv_001_05_casket_1_get</combine_inventory_sprite>
+            <sound_fx>cast_amulet_01</sound_fx>
+        </state>
+        <state>
+            <fast_iterate>1</fast_iterate>
+            <sprite>001_05_cap_2</sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.5</mode_param>
+            <translate_movie>001_05_cap1</translate_movie>
+            <combine_inventory_sprite>inv_001_05_casket_1_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <fast_iterate>1</fast_iterate>
+            <sprite>001_05_cap_anim</sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_05_cap1</event_parameters>
+            <combine_inventory_sprite>inv_001_05_casket_1_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>001_05_cap_3</sprite>
+            <fast_iterate>1</fast_iterate>
+            <cursor>spt_cursor_hand-finger</cursor>
+            <mode>Click</mode>
+            <hint_delta x="80" y="140"/>
+            <combine_inventory_sprite>inv_001_05_casket_2_get</combine_inventory_sprite>
+            <sound_fx>click_button_01</sound_fx>
+        </state>
+        <state>
+            <sprite>001_05_cap_4</sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>0.5</mode_param>
+            <translate_movie>001_05_cap2</translate_movie>
+            <combine_inventory_sprite>inv_001_05_casket_2_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_05_cap2</event_parameters>
+            <messages>
+                <message name="001_05_brochure">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="001_05_flask">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="001_05_sari">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+            <combine_inventory_sprite>inv_001_05_casket_2_get</combine_inventory_sprite>
+
+        </state>
+        <state>
+            <sprite>001_05_cap_5</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <layer>7</layer>
+            <combine_inventory_sprite>inv_001_05_casket_3_get</combine_inventory_sprite>
+
+        </state>
+    </states>
+    <layer>25</layer>
+</object>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="5">
+                <object>
+                    <name>001_06_brush</name>
+                    <position x="474" y="337" />
+                </object>
+                <object>
+                    <name>001_06_figure</name>
+                    <position x="503" y="314" />
+                </object>
+                <object>
+                    <name>001_06_handkerchief</name>
+                    <position x="661" y="346" />
+                </object>
+                <object>
+                    <name>001_06_cap</name>
+                    <position x="408" y="132" />
+                </object>
+                <object>
+                    <name>001_06_casket</name>
+                    <position x="438" y="320" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

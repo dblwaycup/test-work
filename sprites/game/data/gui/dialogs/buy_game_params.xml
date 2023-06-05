@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<params>
+	<zoomable_image>
+		<zoom_speed>300</zoom_speed>
+		<parent_gui_ctrl_name>button_image_1</parent_gui_ctrl_name>
+		<image>
+			<spt_name>image_1</spt_name>
+			<zoomed_spt_name>image_1_zoomed</zoomed_spt_name>
+			<zoomed_spt_pos x="124" y="74" />
+		</image>
+	</zoomable_image>
+	
+	<zoomable_image>
+		<zoom_speed>300</zoom_speed>
+		<parent_gui_ctrl_name>button_image_2</parent_gui_ctrl_name>
+		<image>
+			<spt_name>image_2</spt_name>
+			<zoomed_spt_name>image_2_zoomed</zoomed_spt_name>
+			<zoomed_spt_pos x="124" y="74" />
+		</image>
+	</zoomable_image>
+	
+	<zoomable_image>
+		<zoom_speed>300</zoom_speed>
+		<parent_gui_ctrl_name>button_image_3</parent_gui_ctrl_name>
+		<image>
+			<spt_name>image_3</spt_name>
+			<zoomed_spt_name>image_3_zoomed</zoomed_spt_name>
+			<zoomed_spt_pos x="124" y="74" />
+		</image>
+	</zoomable_image>
+</params>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_task</name>
+	<name_desc>002_task</name_desc>
+	<type>002_task</type>
+	<states size="2">
+		<state>
+			<event>END_MOVIE</event>
+            <event_parameters>002_cs_intro</event_parameters>
+			<add_resource>task_01|task_02</add_resource>
+			<spritelight>true</spritelight>
+		</state>
+		<state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_cs_elephant</event_parameters>
+			<add_resource>task_02|task_03</add_resource>
+			<spritelight>true</spritelight>
+		</state>
+		<state>
+		</state>
+	</states>
+</object>

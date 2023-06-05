@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<!--
+0 - работает всегда
+1 - откл хардмодом (АО)
+2 - откл хардмодом (хиденны)
+3 - откл флажком special effects 
+-->
+<magic_particles>
+	<array size="1">
+
+		<!-- ************************************** gui ************************************** -->
+
+		<particle>
+			<!-- используем подсказку -->
+			<name>Get_Hint</name>
+			<dir>data/fx/gui/hint.ptc</dir>
+			<loop>0</loop>
+			<need_level>1</need_level>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- idle хинта -->
+			<name>hint_idle</name>
+			<dir>data/fx/gui/hint_idle.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- наведение на хинт -->
+			<name>hint_over</name>
+			<dir>data/fx/gui/hint_over.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- зарядка хинта -->
+			<name>hint_charge</name>
+			<dir>data/fx/gui/hint_charge.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- хинт дозарядился -->
+			<name>hint_charge_end</name>
+			<dir>data/fx/gui/hint_charge_end.ptc</dir>
+			<sound_fx>ad_hint_charge</sound_fx>
+			<loop>0</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- партикл ао -->
+			<name>active_object</name>
+			<dir>data/fx/gui/active_object.ptc</dir>
+			<loop>0</loop>
+			<type>1</type>
+		</particle>
+		<particle>
+			<!-- партикл когда взяли объект -->
+			<name>take_object</name>
+			<dir>data/fx/gui/take_object.ptc</dir>
+			<loop>0</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- партикл когда объект летит -->
+			<name>get_object</name>
+			<dir>data/fx/gui/get_object.ptc</dir>
+			<loop>0</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- объект долетел в инв -->
+			<name>gui_inv_object</name>
+			<dir>data/fx/gui/get_object_end.ptc</dir>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- партикл подсветки в get диалоге -->
+			<name>get_backlight</name>
+			<dir>data/fx/gui/get_backlight.ptc</dir>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- подсказка вокруг стрелки перехода -->
+			<name>hint_arrow</name>
+			<dir>data/fx/gui/hint_arrow.ptc</dir>
+			<loop>0</loop>
+			<type>1</type>
+		</particle>
+		<particle>
+			<!-- хинт в инвентаре -->
+			<name>Hint_Inventory</name>
+			<dir>data/fx/gui/hint_arrow.ptc</dir>
+			<loop>0</loop>
+			<need_level>1</need_level>
+		</particle>
+		<particle>
+			<!-- подсказка на карте -->
+			<name>hint_map</name>
+			<dir>data/fx/gui/hint_map.ptc</dir>
+			<loop>0</loop>
+			<type>1</type>
+		</particle>
+		<particle>
+			<!-- наведение на карту -->
+			<name>map_over</name>
+			<dir>data/fx/gui/map_over.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+
+		<!-- системные партиклы в хо -->
+		<particle>
+			<!-- партикл для зачеркивания объекта в списке -->
+			<name>line_accept</name>
+			<dir>data/fx/gui/line_particle.ptc</dir>
+			<type>0</type>
+		</particle>
+		<particle>
+			<!-- партикл убирания предмета в хо -->
+			<name>kill_object</name>
+			<dir>data/fx/gui/kill_object.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- партикл убирания предмета в хо -->
+			<name>kill_object2</name>
+			<dir>data/fx/gui/kill_object2.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- партикл уменьшения предмета в хо -->
+			<name>scale_down_object</name>
+			<dir>data/fx/gui/scale_down_object.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- партикл появления предмета в хо -->
+			<name>scale_up_object</name>
+			<dir>data/fx/gui/scale_up_object.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- партикл появления текста в хо -->
+			<name>inventory_text</name>
+			<dir>data/fx/gui/inventory_text.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- партикл сгорания предмета в панеле хо -->
+			<name>sprite_inventory</name>
+			<dir>data/fx/gui/sprite_inventory.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+
+		<!-- системные партиклы в Match-3 -->
+		<particle>
+			<!-- Удаление линии -->
+			<name>m3-line</name>
+			<dir>data/fx/gui/match3/line.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- Удаление ячейки -->
+			<name>m3-cell</name>
+			<dir>data/fx/gui/match3/cell.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- лампочка 1 -->
+			<name>m3-lamp_1</name>
+			<dir>data/fx/gui/match3/lamp_1.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- лампочка 2 -->
+			<name>m3-lamp_2</name>
+			<dir>data/fx/gui/match3/lamp_2.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- лампочка 3 -->
+			<name>m3-lamp_3</name>
+			<dir>data/fx/gui/match3/lamp_3.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- фон -->
+			<name>m3_back</name>
+			<dir>data/fx/gui/match3/back.ptc</dir>
+			<type>3</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- ID_BONUS_EFFECT_3x3 -->
+			<name>bonus_effect_3x3</name>
+			<dir>data/fx/gui/match3/bonus_effect_3x3.ptc</dir>
+			<type>0</type>
+			<loop>1</loop>
+		</particle>
+		<particle>
+			<!-- ID_BONUS_EFFECT_FULL_LINE -->
+			<name>bonus_effect_full_line</name>
+			<dir>data/fx/gui/match3/bonus_effect_full_line.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- ID_BONUS_EFFECT_FULL_LINE_VERT -->
+			<name>bonus_effect_full_line_vert</name>
+			<dir>data/fx/gui/match3/bonus_effect_full_line_vert.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+		<particle>
+			<!-- ID_BONUS_EFFECT_CROSS -->
+			<name>bonus_effect_cross</name>
+			<dir>data/fx/gui/match3/bonus_effect_cross.ptc</dir>
+			<type>0</type>
+			<loop>0</loop>
+		</particle>
+
+		<!-- инвентарь -->
+		<particle>
+			<name>inv_collectibles</name>
+			<dir>data/fx/gui/inv_collectibles.ptc</dir>
+			<type>0</type>
+			<loop>1</loop>
+		</particle>
+
+		<!-- подсветка переходов -->
+		<particle>
+			<name>light_big</name>
+			<dir>data/fx/gui/light_big.ptc</dir>
+			<sound_fx>ad_hover_loc</sound_fx>
+			<type>0</type>
+			<loop>1</loop>
+		</particle>
+		<particle>
+			<name>light_small</name>
+			<dir>data/fx/gui/light_small.ptc</dir>
+			<sound_fx>ad_hover_loc</sound_fx>
+			<type>0</type>
+			<loop>1</loop>
+		</particle>
+		<particle>
+			<name>f_back</name>
+			<dir>data/fx/gui/f_back.ptc</dir>
+			<type>0</type>
+			<loop>1</loop>
+		</particle>
+
+		<!-- authorize -->
+		<particle>
+			<name>main_page_light</name>
+			<dir>data/fx/gui/authorize/light.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>main_page_leafes</name>
+			<dir>data/fx/gui/authorize/leafes.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>main_page_leafes1</name>
+			<dir>data/fx/gui/authorize/leafes1.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+
+		<!-- buy -->
+		<particle>
+			<name>buy_game_light</name>
+			<dir>data/fx/gui/buy_page/light.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+
+		<!-- buttons_mg -->
+		<particle>
+			<name>buttons_mg</name>
+			<dir>data/fx/gui/buttons_mg.ptc</dir>
+			<sound_fx>ad_change_mode</sound_fx>
+			<loop>0</loop>
+			<type>0</type>
+		</particle>
+
+		<!-- inv -->
+		<particle>
+			<name>world_magicians</name>
+			<dir>data/fx/gui/world_magicians.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+
+		<!-- extra -->
+		<particle>
+			<name>main_light</name>
+			<dir>data/fx/gui/extra/main_light.ptc</dir>
+			<loop>1</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>artifacts_light</name>
+			<dir>data/fx/gui/extra/artifacts_light.ptc</dir>
+			<loop>1</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_light</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_light.ptc</dir>
+			<loop>1</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_antimoskito</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_antimoskito.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_barelief</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_barelief.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_bear</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_bear.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_bed</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_bed.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_bookshelf</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_bookshelf.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_chair</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_chair.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_elephant</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_elephant.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_fan</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_fan.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_flower</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_flower.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_holder</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_holder.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_jar</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_jar.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_peerchair</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_peerchair.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_sofa</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_sofa.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_table</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_table.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>boudoir_totem</name>
+			<dir>data/fx/gui/extra/boudoir/boudoir_totem.ptc</dir>
+			<loop>0</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>extra_boudoir_fireflies_idle</name>
+			<dir>data/fx/gui/extra/boudoir/fireflies_idle.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+
+		<!-- mode -->
+		<particle>
+			<name>casual_mode_light</name>
+			<dir>data/fx/gui/play_mode/casual_mode_light.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>advanced_mode_light</name>
+			<dir>data/fx/gui/play_mode/advanced_mode_light.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>hardcore_mode_light</name>
+			<dir>data/fx/gui/play_mode/hardcore_mode_light.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>custom_mode_light</name>
+			<dir>data/fx/gui/play_mode/custom_mode_light.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+
+		<!-- ************************************** se ************************************** -->
+
+		<!-- 001 -->
+		<particle>
+			<name>001_ho</name>
+			<dir>data/fx/se/001/ho.ptc</dir>
+			<loop>1</loop>
+			<type>2</type>
+		</particle>
+		<particle>
+			<name>001_fx_sand</name>
+			<dir>data/fx/se/001/fx_sand.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>001_fx_leaves</name>
+			<dir>data/fx/se/001/fx_leaves.ptc</dir>
+			<loop>1</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>001_fx_fire</name>
+			<dir>data/fx/se/001/fx_fire.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>001_fx_smoke</name>
+			<dir>data/fx/se/001/fx_smoke.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>001_02_fx_smoke</name>
+			<dir>data/fx/se/001/02_fx_smoke.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>001_03_fx_fire</name>
+			<dir>data/fx/se/001/03_fx_fire.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>001_03_fx_smoke</name>
+			<dir>data/fx/se/001/03_fx_smoke.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>001_07_fx_lighter</name>
+			<dir>data/fx/se/001/07_fx_lighter.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+
+		<!-- 002 -->
+		<particle>
+			<name>002_fx_light</name>
+			<dir>data/fx/se/002/fx_light.ptc</dir>
+			<loop>1</loop>
+			<type>3</type>
+		</particle>
+		<particle>
+			<name>002_fx_elephant</name>
+			<dir>data/fx/se/002/fx_elephant.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>002_06_potion</name>
+			<dir>data/fx/se/002/06_potion.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		<particle>
+			<name>002_06_potion_inv</name>
+			<dir>data/fx/se/002/06_potion_inv.ptc</dir>
+			<loop>1</loop>
+			<type>0</type>
+		</particle>
+		
+	</array>
+</magic_particles>

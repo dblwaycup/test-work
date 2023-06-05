@@ -1,0 +1,703 @@
+﻿<?xml version="1.0"?>
+<MapLevels>
+	<resources>data/main.res</resources>
+	<particle_hint>hint_map</particle_hint><!-- партикл хинта -->
+	<extra_show>extra_crosses|extra_magic|extra_statuettes</extra_show>
+	<not_binding_particle>0</not_binding_particle>
+
+	<Location name="SE" >
+	<!-- ************************************* 0-й слой ************************************* -->
+		<Level>
+			<ctrl><!-- фон уровня -->
+				<type>Sprite</type>
+				<sprite x="0" y="0">se_back_01</sprite>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>2</game>
+				<text>scene_02</text>
+				<mini_frame x="26" y="18">se_02</mini_frame><!-- скрин локации, координаты относительно левого верхнего угла всплывающего окна -->
+				<sprites x="485" y="569">
+					<sprite>room_disable</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>3</game>
+				<text>scene_03</text>
+				<mini_frame x="26" y="18"  shift_x="-0" shift_y="20">se_03</mini_frame>
+				<sprites x="620" y="239">
+					<sprite>smoke_03</sprite>							<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>	
+			<ctrl>
+				<type>Game</type>
+				<game>4</game>
+				<text>scene_04</text>
+				<mini_frame x="26" y="18"  shift_x="-515" shift_y="-30">se_04</mini_frame>
+				<sprites x="970" y="500">
+					<sprite>smoke_04</sprite>							<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+		</Level>
+		
+	<!-- ************************************* 1-й слой ************************************* -->
+		<Level>
+			<ctrl><!-- фон уровня -->
+				<type>Sprite</type>
+				<sprite x="0" y="0">se_back_02</sprite>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>5</game>
+				<text>scene_05</text>
+				<mini_frame x="26" y="18">se_05</mini_frame>
+				<sprites x="608" y="615">
+					<sprite>room_disable</sprite>							<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>6</game>
+				<text>scene_06</text>
+				<mini_frame x="26" y="18">se_06</mini_frame>
+				<sprites x="402" y="359">
+					<sprite>smoke_05</sprite>							<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>7</game>
+				<text>scene_07</text>
+				<mini_frame x="26" y="18" shift_x="0" shift_y="130">se_07</mini_frame>
+				<sprites x="430" y="132">
+					<sprite>smoke_07</sprite>							<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>8</game>
+				<text>scene_08</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="310">se_08</mini_frame>
+				<sprites x="1010" y="280">
+					<sprite>smoke_08</sprite>							<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+		</Level>
+		
+	<!-- ************************************* 2-й слой ************************************* -->
+		<Level>
+			<ctrl><!-- фон уровня -->
+				<type>Sprite</type>
+				<sprite x="0" y="0">se_back_03</sprite>
+			</ctrl>	
+			<ctrl>
+				<type>Game</type>
+				<game>9</game>
+				<text>scene_09</text>
+				<mini_frame x="26" y="18">se_09</mini_frame>
+				<sprites x="608" y="639">
+					<sprite>room_disable</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>10</game>
+				<text>scene_10</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="120">se_10</mini_frame>
+				<sprites x="119" y="520">
+					<sprite>smoke_10</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>11</game>
+				<text>scene_11</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="-50">se_11</mini_frame>
+				<sprites x="909" y="601">
+					<sprite>smoke_11</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>12</game>
+				<text>scene_12</text>
+				<mini_frame x="26" y="18" shift_x="-350" shift_y="-50">se_12</mini_frame>
+				<sprites x="918" y="300">
+					<sprite>smoke_12</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+		</Level>
+		
+	<!-- ************************************* 3-й слой ************************************* -->
+		<Level>
+			<ctrl><!-- фон уровня -->
+				<type>Sprite</type>
+				<sprite x="0" y="0">se_back_04</sprite>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>13</game>
+				<text>scene_13</text>
+				<mini_frame x="26" y="18">se_13</mini_frame>
+				<sprites x="675" y="538">
+					<sprite>room_disable</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>14</game>
+				<text>scene_14</text>
+				<mini_frame x="26" y="18" shift_x="-350" shift_y="330">se_14</mini_frame>
+				<sprites x="854" y="203">
+					<sprite>smoke_14</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>15</game>
+				<text>scene_15</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="-50">se_15</mini_frame>
+				<sprites x="1061" y="453">
+					<sprite>smoke_15</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>16</game>
+				<text>scene_16</text>
+				<mini_frame x="26" y="18" shift_x="-180" shift_y="320">se_16</mini_frame>
+				<sprites x="560" y="127">
+					<sprite>smoke_16</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+		</Level>
+		
+	<!-- ************************************* 4-й слой ************************************* -->
+		<Level>
+			<ctrl><!-- фон уровня -->
+				<type>Sprite</type>
+				<sprite x="0" y="0">se_back_05</sprite>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>18</game>
+				<text>scene_18</text>
+				<mini_frame x="26" y="18" shift_x="-20" shift_y="-30">se_18</mini_frame>
+				<sprites x="790" y="670">
+					<sprite>room_disable</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>19</game>
+				<text>scene_19</text>
+				<mini_frame x="26" y="18" shift_x="-420" shift_y="-50">se_19</mini_frame>
+				<sprites x="880" y="300">
+					<sprite>smoke_19</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>20</game>
+				<text>scene_20</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="200">se_20</mini_frame>
+				<sprites x="100" y="450">
+					<sprite>smoke_20</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+		</Level>
+		
+	<!-- ************************************* 5-й слой ************************************* -->
+		<Level>
+			<ctrl><!-- фон уровня -->
+				<type>Sprite</type>
+				<sprite x="0" y="0">se_back_06</sprite>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>21</game>
+				<text>scene_21</text>
+				<mini_frame x="26" y="18">se_21</mini_frame>
+				<sprites x="370" y="670">
+					<sprite>room_disable</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>22</game>
+				<text>scene_22</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="-30">se_22</mini_frame>
+				<sprites x="870" y="600">
+					<sprite>smoke_22</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>23</game>
+				<text>scene_23</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="330">se_23</mini_frame>
+				<sprites x="1060" y="220">
+					<sprite>smoke_23</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>24</game>
+				<text>scene_24</text>
+				<mini_frame x="26" y="18">se_24</mini_frame>
+				<sprites x="455" y="260">
+					<sprite>smoke_24</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>25</game>
+				<text>scene_25</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="330">se_25</mini_frame>
+				<sprites x="760" y="140">
+					<sprite>smoke_25</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<mask_sprite>room_mask</mask_sprite>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+		</Level>
+	</Location>
+	
+	<Location name="CE" >
+	<!-- ************************************* 6-й слой ************************************* -->
+		<Level>
+			<ctrl><!-- фон уровня -->
+				<type>Sprite</type>
+				<sprite x="0" y="0">ce_back_01</sprite>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>1</game>
+				<text>ce_scene_01</text>
+				<mini_frame x="26" y="18">ce_01</mini_frame><!-- скрин локации, координаты относительно левого верхнего угла всплывающего окна -->
+				<sprites x="700" y="592">
+					<sprite>room_disable</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->										
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>2</game>
+				<text>ce_scene_02</text>
+				<mini_frame x="26" y="18">ce_02</mini_frame>
+				<sprites x="488" y="442">
+					<sprite>ce_smoke_02</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>3</game>
+				<text>ce_scene_03</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="50">ce_03</mini_frame>
+				<sprites x="717" y="304">
+					<sprite>ce_smoke_03</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>4</game>
+				<text>ce_scene_04</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="330">ce_04</mini_frame><!-- скрин локации, координаты относительно левого верхнего угла всплывающего окна -->
+				<sprites x="949" y="185">
+					<sprite>ce_smoke_04</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->										
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>5</game>
+				<text>ce_scene_05</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="300">ce_05</mini_frame>
+				<sprites x="776" y="52">
+					<sprite>ce_smoke_05</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+		</Level>
+		
+	<!-- ************************************* 7-й слой ************************************* -->
+		<Level>
+			<ctrl><!-- фон уровня -->
+				<type>Sprite</type>
+				<sprite x="0" y="0">ce_back_02</sprite>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>6</game>
+				<text>ce_scene_06</text>
+				<mini_frame x="26" y="18">ce_06</mini_frame>
+				<sprites x="730" y="578">
+					<sprite>ce_smoke_06</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>		
+			<ctrl>
+				<type>Game</type>
+				<game>7</game>
+				<text>ce_scene_07</text>
+				<mini_frame x="26" y="18">ce_07</mini_frame>
+				<sprites x="400" y="585">
+					<sprite>ce_smoke_07</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>8</game>
+				<text>ce_scene_08</text>
+				<mini_frame x="26" y="18">ce_08</mini_frame>
+				<sprites x="790" y="392">
+					<sprite>ce_smoke_08</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+			<ctrl>
+				<type>Game</type>
+				<game>9</game>
+				<text>ce_scene_09</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="50">ce_09</mini_frame>
+				<sprites x="739" y="305">
+					<sprite>ce_smoke_09</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>		
+			<ctrl>
+				<type>Game</type>
+				<game>10</game>
+				<text>ce_scene_10</text>
+				<mini_frame x="26" y="18" shift_x="-0" shift_y="280">ce_10</mini_frame>
+				<sprites x="790" y="80">
+					<sprite>ce_smoke_10</sprite>					<!-- игра неактивна (сюда можно написать имя партикла) -->
+					<sprite>room</sprite>								<!-- игра активна -->
+					<sprite>room_over</sprite>						<!-- наведённое состояние -->
+					<sprite>room_inside</sprite>						<!-- игра активна и мы находимся в ней -->
+					<sprite>room_inside_over</sprite>				<!-- наведённое состояние -->
+					<sprite>room_with_ho</sprite>					<!-- игра активна, есть объекты для поиска -->
+					<sprite>room_with_ho_over</sprite>			<!-- наведённое состояние -->
+					<sprite>room_inside_with_ho</sprite>			<!-- игра активна, мы находимся в ней, есть объекты для поиска -->
+					<sprite>room_inside_with_ho_over</sprite>	<!-- наведённое состояние -->						
+				</sprites>
+				<extra_available x="-23" y="-3">extra_available</extra_available>
+			</ctrl>
+		</Level>
+	</Location>	
+
+	<Frame x="80" y="-250"><!-- окно, координаты задаются по нижней части рамки -->
+		<frame_top>frame_top</frame_top>
+		<frame_center>empty</frame_center>
+		<frame_bottom>frame_bottom</frame_bottom>
+	</Frame>
+
+	<Sound><!-- звуки -->
+		<press_arrow>button_click</press_arrow>
+		<show_frame>hint_object_dialog</show_frame>
+	</Sound>
+</MapLevels>

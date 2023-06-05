@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<hint_behavior>
+	<Blocks size="50">
+		<Block>
+			<steps size="30">
+				<step>
+					<type_action>ET_TIME</type_action>
+					<param1>0.1</param1>			
+					<close_type>ET_CLICK_ACTIVE_OBJ</close_type>
+					<param2>001_03_01_backpack</param2>	
+					<hint_desc>
+						<back_spt>back_cmn</back_spt><!-- back tutorial -->
+						<back_positions x="740" y="120" />
+						<text>tutor_click</text><!-- text steps -->
+						<skip_button>1</skip_button><!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button><!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>270</anim_rotation><!-- rotation -->
+								<anim_pos x="-270" y="15" />
+							</animation>
+							
+						</animations>
+					</hint_desc>
+				</step>
+				
+			</steps>
+		</Block>
+	</Blocks>
+	
+<!-- непошаговый туториал -->	
+	<CommonHintSteps>
+		<steps>
+		
+        </steps>
+	</CommonHintSteps>
+	
+</hint_behavior>

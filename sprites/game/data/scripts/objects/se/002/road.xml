@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_road</name>
+    <name_desc>002_road</name_desc>
+    <type>002_road</type>
+    <states size="1">
+        <state>
+        </state>
+        <state>
+            <mask_sprite>002_road</mask_sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <hint_delta x="0" y="0"/>
+            <particle>active_object</particle>
+            <particle_pos x="80" y="70"/>
+            <particle_wait_min_limit>2</particle_wait_min_limit>
+            <particle_wait_max_limit>7</particle_wait_max_limit>
+            <particle_fire_min_limit>1</particle_fire_min_limit>
+            <particle_fire_max_limit>1</particle_fire_max_limit>
+        </state>
+        <state>
+            <mask_sprite>002_road</mask_sprite>
+            <arrow_hint_pos x="544" y="310" />
+            <arrow_hint_particle_offset x="0" y="0" />
+            <particle_on_mouse>light_small</particle_on_mouse>
+            <particle_om_pos x="90" y="70" />
+            <cursor>spt_cursor_01</cursor>
+             <mode>Click</mode>
+        </state>
+        <state>
+			<mode>NextLocationStart</mode>
+			<auto_play>1</auto_play>
+		</state>	   
+        <state>
+        </state>
+    </states>
+    <layer>30</layer>
+</object>

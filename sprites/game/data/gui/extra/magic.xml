@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<sprites>
+				<spt>magic_back</spt>
+			</sprites>
+		</ctrl>
+
+		<ctrl>
+			<name>magic_bear</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>12</id>
+			<pos x="871" y="89"/>
+			<size x="267" y="248"/>
+			<sprites>
+				<spt>magic_bear</spt>
+				<spt>magic_bear_3</spt>
+				<spt>magic_bear_3</spt>
+				<spt>magic_bear_3</spt>
+				<spt>magic_bear_2</spt>
+			</sprites>
+			<mask_sprite>magic_bear_4</mask_sprite>
+		</ctrl>
+		
+		
+		
+		
+		
+		
+
+		<ctrl>
+			<name>magic_elephant</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>16</id>
+			<pos x="160" y="90"/>
+			<size x="255" y="207"/>
+			<sprites>
+				<spt>magic_elephant</spt>
+				<spt>magic_elephant_3</spt>
+				<spt>magic_elephant_3</spt>
+				<spt>magic_elephant_3</spt>
+				<spt>magic_elephant_2</spt>
+			</sprites>
+			<mask_sprite>magic_elephant_4</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>magic_deer</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>15</id>
+			<pos x="127" y="186"/>
+			<size x="188" y="346"/>
+			<sprites>
+				<spt>magic_deer</spt>
+				<spt>magic_deer_3</spt>
+				<spt>magic_deer_3</spt>
+				<spt>magic_deer_3</spt>
+				<spt>magic_deer_2</spt>
+			</sprites>
+			<mask_sprite>magic_deer_4</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>magic_hawk</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>17</id>
+			<pos x="420" y="398"/>
+			<size x="260" y="281"/>
+			<sprites>
+				<spt>magic_hawk</spt>
+				<spt>magic_hawk_3</spt>
+				<spt>magic_hawk_3</spt>
+				<spt>magic_hawk_3</spt>
+				<spt>magic_hawk_2</spt>
+			</sprites>
+			<mask_sprite>magic_hawk_4</mask_sprite>
+		</ctrl>
+		
+		
+
+		<ctrl>
+			<name>magic_lemur</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>19</id>
+			<pos x="735" y="10"/>
+			<size x="218" y="342"/>
+			<sprites>
+				<spt>magic_lemur</spt>
+				<spt>magic_lemur_3</spt>
+				<spt>magic_lemur_3</spt>
+				<spt>magic_lemur_3</spt>
+				<spt>magic_lemur_2</spt>
+			</sprites>
+			<mask_sprite>magic_lemur_4</mask_sprite>
+		</ctrl>
+
+		<ctrl>
+			<name>magic_civetta</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>13</id>
+			<pos x="713" y="271"/>
+			<size x="328" y="190"/>
+			<sprites>
+				<spt>magic_civetta</spt>
+				<spt>magic_civetta_3</spt>
+				<spt>magic_civetta_3</spt>
+				<spt>magic_civetta_3</spt>
+				<spt>magic_civetta_2</spt>
+			</sprites>
+			<mask_sprite>magic_civetta_4</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>magic_hyaena</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>18</id>
+			<pos x="874" y="408"/>
+			<size x="361" y="209"/>
+			<sprites>
+				<spt>magic_hyaena</spt>
+				<spt>magic_hyaena_3</spt>
+				<spt>magic_hyaena_3</spt>
+				<spt>magic_hyaena_3</spt>
+				<spt>magic_hyaena_2</spt>
+			</sprites>
+			<mask_sprite>magic_hyaena_4</mask_sprite>
+		</ctrl>
+	
+		
+		
+		
+		
+		<ctrl>
+			<name>magic_moongak</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>22</id>
+			<pos x="461" y="14"/>
+			<size x="233" y="284"/>
+			<sprites>
+				<spt>magic_moongak</spt>
+				<spt>magic_moongak_3</spt>
+				<spt>magic_moongak_3</spt>
+				<spt>magic_moongak_3</spt>
+				<spt>magic_moongak_2</spt>
+			</sprites>
+			<mask_sprite>magic_moongak_4</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>magic_snake</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>23</id>
+			<pos x="553" y="174"/>
+			<size x="255" y="269"/>
+			<sprites>
+				<spt>magic_snake</spt>
+				<spt>magic_snake_3</spt>
+				<spt>magic_snake_3</spt>
+				<spt>magic_snake_3</spt>
+				<spt>magic_snake_2</spt>
+			</sprites>
+			<mask_sprite>magic_snake_4</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>magic_stork</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>24</id>
+			<pos x="997" y="157"/>
+			<size x="237" y="360"/>
+			<sprites>
+				<spt>magic_stork</spt>
+				<spt>magic_stork_3</spt>
+				<spt>magic_stork_3</spt>
+				<spt>magic_stork_3</spt>
+				<spt>magic_stork_2</spt>
+			</sprites>
+			<mask_sprite>magic_stork_4</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>magic_tiger</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>25</id>
+			<pos x="149" y="216"/>
+			<size x="516" y="165"/>
+			<sprites>
+				<spt>magic_tiger</spt>
+				<spt>magic_tiger_3</spt>
+				<spt>magic_tiger_3</spt>
+				<spt>magic_tiger_3</spt>
+				<spt>magic_tiger_2</spt>
+			</sprites>
+			<mask_sprite>magic_tiger_4</mask_sprite>
+		</ctrl>
+		<ctrl>
+			<name>magic_monkey</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>21</id>
+			<pos x="258" y="274"/>
+			<size x="243" y="258"/>
+			<sprites>
+				<spt>magic_monkey</spt>
+				<spt>magic_monkey_3</spt>
+				<spt>magic_monkey_3</spt>
+				<spt>magic_monkey_3</spt>
+				<spt>magic_monkey_2</spt>
+			</sprites>
+			<mask_sprite>magic_monkey_4</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>magic_wolf</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>26</id>
+			<pos x="592" y="353"/>
+			<size x="293" y="288"/>
+			<sprites>
+				<spt>magic_wolf</spt>
+				<spt>magic_wolf_3</spt>
+				<spt>magic_wolf_3</spt>
+				<spt>magic_wolf_3</spt>
+				<spt>magic_wolf_2</spt>
+			</sprites>
+			<mask_sprite>magic_wolf_4</mask_sprite>
+		</ctrl>
+		<ctrl>
+			<name>magic_macho</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>20</id>
+			<pos x="117" y="455"/>
+			<size x="397" y="278"/>
+			<sprites>
+				<spt>magic_macho</spt>
+				<spt>magic_macho_3</spt>
+				<spt>magic_macho_3</spt>
+				<spt>magic_macho_3</spt>
+				<spt>magic_macho_2</spt>
+			</sprites>
+			<mask_sprite>magic_macho_4</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>magic_crokodile</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>14</id>
+			<pos x="601" y="541"/>
+			<size x="352" y="153"/>
+			<sprites>
+				<spt>magic_crokodile</spt>
+				<spt>magic_crokodile_3</spt>
+				<spt>magic_crokodile_3</spt>
+				<spt>magic_crokodile_3</spt>
+				<spt>magic_crokodile_2</spt>
+			</sprites>
+			<mask_sprite>magic_crokodile_4</mask_sprite>
+		</ctrl>
+
+		<ctrl>
+			<name>fx_light</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>1000</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<particles>
+				<instance>
+					<name>magic_light</name>
+					<position x="640" y="400"/>
+					<loop>1</loop>
+				</instance>   
+			</particles>
+		</ctrl>
+		
+		<ctrl>
+			<name>Close</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="1183" y="20"/>
+			<width>81</width>
+            <height>80</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+		</ctrl>
+
+	</ctrls>
+</gui>

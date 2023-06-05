@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<Game_Params>
+
+	<game_name>Labyrinths Of The World: The Wild Side Collector's Edition</game_name><!-- название игры -->
+	<game_tech_name>Labyrinths Of The World The Wild Side Collector's Edition</game_tech_name><!-- название игры для профиля -->
+	<company>DominiGames</company><!-- название компании для профиля -->
+	<default_player_name>Player</default_player_name><!-- имя игрока по умолчанию -->
+	
+	<!-- размер окна -->	
+	<default_window_width>1280</default_window_width>
+	<default_window_height>800</default_window_height>
+
+	<!-- общие настройки -->
+	<buy_request>1</buy_request><!-- демо-версия или нет -->
+	<bfg_cheater_enabled>0</bfg_cheater_enabled><!-- включает читы для фишей -->
+	<allow_hide_object_dialog_by_lbm>1</allow_hide_object_dialog_by_lbm><!-- можно ли скрывать окно обьекта (сверху с текстом) по клику мышкой в HintObjectDialog -->
+	<show_object_pickup_dialog>1</show_object_pickup_dialog><!-- после того, как взяли обьект - показывать окно get_object или класть в инвентарь сразу -->
+	<camel_caps>false</camel_caps><!-- для get object, true по умолчанию - все буквы большие -->
+	<smooth_increase_invobject>1</smooth_increase_invobject><!-- чтобы в инвентаре inv картинки плавно переходили в drag -->
+	<authorize_menu_behavior>1</authorize_menu_behavior><!-- включение нового поведения меню авторизации, новые диалоги, подтверждение удаления профилей и т.д.-->
+	<wrong_dlg_object>dlg_obj_wrong</wrong_dlg_object><!-- если у диалога не указан false_inventory_click_dialog, то будет использоваться этот диалог -->
+ 	<pause_game_on_menu>1</pause_game_on_menu><!-- все паузится когда окно игры неактивно -->
+	<hard_level_dialog>1</hard_level_dialog><!-- если нам нужен диалог выбора сложности перед первой загрузкой игры  -->
+	<scroll_int_coeff>4000.f</scroll_int_coeff><!-- скорость скролла для мода eaomScrollToBackScreen-->
+	<is_creep_credits>1</is_creep_credits><!-- credits_dialog или help_global после мода eaomEndStandartEdition -->
+	<drug_no_cursor>1</drug_no_cursor><!-- когда тащим объект курсора нет -->
+	<delay_skip>3</delay_skip><!-- через сколько секунд показывать кнопку skip в диалогах объектов =5 -->
+	<trans_area_ignore_inventory>0</trans_area_ignore_inventory><!-- курсор для возврата назад поверх инвентаря или нет -->
+	<mainmenu_backmusic_start_delay>60</mainmenu_backmusic_start_delay><!-- через сколько секунд после старта вступительного ролика запустится фоновая музыка в главном меню -->
+	<pause_between_sound>30</pause_between_sound><!-- пауза между треками фоновой музыки -->
+	<test_addToInventory2>1</test_addToInventory2><!-- полет объектов -->
+	<movie_name_first>preintro</movie_name_first><!-- preintro -->
+	<inventory_type>1</inventory_type><!-- поведение инвентаря -->
+	<global_map>0</global_map><!-- нужна глобальная карта или нет -->
+	<no_end_dialog>1</no_end_dialog><!-- ? -->
+	
+	<!-- настройки игры по умолчанию -->
+	<default_settings>
+		<music_volume>70</music_volume><!-- 25 -->
+		<sound_volume>70</sound_volume><!-- 70 -->
+		<sound_effects_volume>70</sound_effects_volume>
+		<sound_envirinment_volume>70</sound_envirinment_volume>
+		<sound_voice_volume>70</sound_voice_volume>
+		<full_screen>1</full_screen><!-- 1 -->
+		<custom_cursor>1</custom_cursor>
+	</default_settings>
+	
+	<!-- скейл фона при запуске фреймов -->
+	<scene_scale_effect_enabled>1</scene_scale_effect_enabled> 
+	<scene_max_scale>1.15</scene_max_scale><!-- max scale for the main scene when the frame is opened -->
+	<scene_speed_scale>30</scene_speed_scale><!-- speed of change scale for the main scene -->
+	
+	<!-- путь popup dialog -->
+	<popup_path>data/gui/dialogs/popup.xml</popup_path>
+	<next_location_popup_name>Dialog_1</next_location_popup_name>
+	
+	<!-- alpha -->
+	<black_alpha>200</black_alpha><!-- степень затенения под открытыми диалогам -->
+	<black_alpha_frames>200</black_alpha_frames><!-- степень затенения под открытыми фреймами -->
+	<coeff_speed_dialog_open>400</coeff_speed_dialog_open><!-- скорость появления окошек в игре -->
+	<click_anim_alpha_change_factor>200</click_anim_alpha_change_factor><!-- скорость изменения альфы для movie на клик и наведение у WO --> 
+	<alpha_translate>0</alpha_translate><!-- переход через альфу между фонами -->
+	
+	<!-- ho -->
+	<random_list>0</random_list><!-- сортировать объекты в списке или нет (для хиддена) -->
+	<free_game_max_count_objs>120</free_game_max_count_objs><!-- сколько объектов отображать в свободном поиске -->
+	<list_particle_accept>line_accept</list_particle_accept><!-- партикл, который отображается при зачеркивании названия в списке -->
+	<alpha_kill>1</alpha_kill><!-- объекты в хидене исчезают через альфу -->
+	<alpha_word>0</alpha_word><!-- прозрачность зачеркнутых слов в хидене 0-255 -->
+	<free_play_hiddens_like_normals>1</free_play_hiddens_like_normals><!-- free play хиддены будут такими же, как обычные, а не со своим набором предметов для поиска-->
+	
+	<!-- achievements -->
+	<achiev_dlg_life_time>5</achiev_dlg_life_time><!-- время жизни окна ачивки -->
+	<achiev_max_visible_on_screen>1</achiev_max_visible_on_screen><!-- задает, сколько одновременно ачивок будет видно на экране -->
+	<achiev_instant_check>1</achiev_instant_check><!-- будут ли ачивки зарабатываться сразу, а не в конце хиддена/миниигры -->
+
+	<!-- хинт скип -->
+	<hint_charge_time>30.f</hint_charge_time><!-- сколько секунд обновляется хинт -->
+	<procent_line_int>30.f</procent_line_int><!-- сколько секунд обновляется скип -->				
+	<norm_level_skip_coeff>2</norm_level_skip_coeff><!-- коеффициент скорости для кнопки скип для normal lvl -->		
+	<norm_level_hint_coeff>2</norm_level_hint_coeff><!-- коеффициент скорости для кнопки хинт для normal lvl  -->
+	
+	<!-- хинт и стрелка -->
+	<hint_arrow_particle>hint_arrow</hint_arrow_particle>
+	<hint_arrow_particle_delta x="0" y="0" />
+	<life_time_hint_arrow>3.0</life_time_hint_arrow><!--  время отсчитывающее сколько будет рисоваться стрелка хинта -->
+	<coeff_int_alpha_hint_arrow>200</coeff_int_alpha_hint_arrow><!-- скорость изменения альфы для стрелки -->
+	<particle_hint_scene>Get_Hint</particle_hint_scene><!-- партикл хинта на сцене (по умолчанию "Get_Hint") -->
+	<particle_hint_inventory>Hint_Inventory</particle_hint_inventory><!-- партикл хинта в инвенторе (по умолчанию "Get_Hint") -->
+
+	<!-- сохранение gui ctrl -->
+	<save_gui_objects size="1">
+		<action>MapLevelsBtn</action>
+		<action>TaskBtn</action>
+		<action>SkipMiniWindowBtn</action>
+		<action>ButtonHint</action>	
+		<action>stand_left</action>		
+		<action>stand_right</action>
+		<action>stand_right1</action>
+		<action>worlds_skins</action>
+	</save_gui_objects>
+	
+	<!-- при клике на * добавятся ctrl -->	
+	<cheat_active>TaskBtn|MapLevelsBtn|stand_left|stand_right|SkipMiniWindowBtn:1|ButtonHint:1</cheat_active>
+
+	<!-- настройки мувиков -->
+	<movie_settings_path>data/gui/dialogs/movies_params.xml</movie_settings_path>
+
+	<!-- общие настройки для movie -->
+	<param_movie size="2">
+		<param type="0"><!-- loading page -->
+			<font>data/fonts/gui/loading.fnt</font>
+			<text_box_position_offset x="552" y="648" /><!-- дополнительное смещение для текстовки -->
+			<width>175</width>
+			<height>45</height>
+			<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+		</param>
+	</param_movie>
+	
+	<!-- loading -->
+	<movie_loading_back>loading</movie_loading_back><!-- мувик, который проигрывается при загрузке (фоновый)-->
+	<movie_loading_finished>loading_finish</movie_loading_finished>
+	 <movie_loading>loading</movie_loading> <!-- мувик, который проигрывается при загрузке-->
+	<loading_position x="233" y="704" /><!-- координаты полосы загрузки -->
+	<delta_status x="0" y="0" /><!-- дельта для спрайта line -->
+	<loading_cursor_in_center>0</loading_cursor_in_center><!-- значит картинка будет по центру загрузки -->
+	<start_via_bb>true</start_via_bb><!-- старт через затемнение -->
+
+	<!-- порядок отрисовки элементов на экране загрузки 1 - back; 2 - canvas; 3 - line; 4 - canvas_over; 5 - cursor; 6 - animation; 7 - movie; 8 - "movie_loading_back" -->
+	<loading_sequence size="7">
+		<param>1</param>
+		<param>8</param>
+		<param>6</param>
+		<param>2</param>
+		<param>3</param>
+		<param>4</param>
+		<param>7</param>
+		<param>5</param>
+		<param>9</param>
+	</loading_sequence>
+	
+	<!-- extra -->
+	<resource_count><!-- сколько всего ресурсов в игре. Используется для определения - сколько осталось найти ресурсов -->
+		<buy_resourse>
+            <name>extra_crosses</name>
+            <total_count>69</total_count>
+        </buy_resourse>
+	</resource_count>
+
+	<default_resources size="1"><!-- после запуска игры у нас сразу будут доступны для покупки следующие объекты -->
+		<action>extra_totem</action>
+		<action>extra_table</action>
+		<action>extra_sofa</action>
+		<action>extra_peerchair</action>
+		<action>extra_jar</action>
+		<action>extra_holder</action>
+		<action>extra_flower</action>
+		<action>extra_fan</action>
+		<action>extra_elephant</action>
+		<action>extra_chair</action>
+		<action>extra_bookshelf</action>
+		<action>extra_bed</action>
+		<action>extra_bear</action>
+		<action>extra_barelief</action>
+		<action>extra_antimoskito</action>
+		
+		<!-- extra_statuettes - закомментить к отправке -->
+		<!-- <action>magic_bear</action> -->
+		<!-- <action>magic_elephant</action>		 -->
+		<!-- <action>magic_civetta</action> -->
+		<!-- <action>magic_crokodile</action> -->
+		<!-- <action>magic_deer</action> -->
+		<!-- <action>magic_hawk</action> -->
+		<!-- <action>magic_hyaena</action> -->
+		<!-- <action>magic_lemur</action> -->
+		<!-- <action>magic_macho</action> -->
+		<!-- <action>magic_monkey</action> -->
+		<!-- <action>magic_moongak</action> -->
+		<!-- <action>magic_snake</action> -->
+		<!-- <action>magic_stork</action> -->
+		<!-- <action>magic_tiger</action> -->
+		<!-- <action>magic_wolf</action> -->
+		
+		<!-- extra_plates закомментить к отправке -->
+		<!-- <action>stone_bear</action> -->
+		<!-- <action>stone_elephant</action>		 -->
+		<!-- <action>civetta</action> -->
+		<!-- <action>crokodile</action> -->
+		<!-- <action>deer</action> -->
+		<!-- <action>hawk</action> -->
+		<!-- <action>hyaena</action> -->
+		<!-- <action>lemur</action> -->
+		<!-- <action>macho</action> -->
+		<!-- <action>monkey</action> -->
+		<!-- <action>moongak</action> -->
+		<!-- <action>snake</action> -->
+		<!-- <action>stork</action> -->
+		<!-- <action>tiger</action> -->
+		<!-- <action>wolf</action> -->
+		
+		
+	</default_resources>
+
+	<!-- ios -->
+	<debug_info>
+		<font>data/fonts/gui/system.fnt</font>
+		<mode type="hint_target"></mode>
+		<mode type="ctrl_info">
+			<ctrl_type>text</ctrl_type>
+			<ctrl_info>name | rect</ctrl_info>
+		</mode>
+		<!-- <mode type="stats_fx" x="10" y="300" />
+		<mode type="stats_mov" x="400" y="300" /> -->
+		 <!-- <mode type="ipad_screen_border"></mode> -->
+	</debug_info>
+	
+	<ios_test>0</ios_test><!-- выводит окна при тесте на ПК-->
+
+	 <!-- <advertisement_site>trial.url</advertisement_site>  -->
+
+</Game_Params>

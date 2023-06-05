@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_07_water8</name>
+	<name_desc>002_07_water8</name_desc>
+	<type>002_07_water8</type>
+	<states size="2">
+		<state>
+			<sprite>empty</sprite>
+		</state>
+		<state>
+			<sprite>002_07_water8_1</sprite><!--1-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water8_2</sprite><!--2-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water8_3</sprite><!--3-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water8_4</sprite><!--4-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water8_5</sprite><!--5-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water8_6</sprite><!--6-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water8_7</sprite><!--7-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water8_8</sprite><!--8-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>22</layer>
+	<decorate>1</decorate>
+</object>

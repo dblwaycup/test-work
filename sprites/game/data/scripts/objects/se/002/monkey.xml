@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_monkey</name_desc>
+    <name>002_monkey</name>
+    <type>002_monkey</type>
+    <states size="2">
+        <state>
+            <sprite>002_monkey_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_07_condition|2</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>12</layer>
+</object>

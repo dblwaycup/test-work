@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>1.42</life_time>
+	<Layers size="1">
+		<Layer>
+			<movie_avi>data/movies/se/animation/ho/901/item.flv</movie_avi>
+			<create_anim_position x="-19" y="-9" />
+			<hot_spot>0</hot_spot>
+			<enable_time>0</enable_time>
+			<life_time>1.42</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<max_alpha>255</max_alpha>
+		</Layer>
+	</Layers>
+</Scene>

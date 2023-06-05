@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_07_bank10_hard</name>
+	<name_desc>002_07_bank10_hard</name_desc>
+	<type>002_07_bank10_hard</type>
+	<states size="2">
+		<state>
+			<sprite>002_07_bank8</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_bank8</sprite>
+			<mask_sprite>002_07_bank8_mask</mask_sprite>
+			<over_sprite>002_07_bank8_2</over_sprite>
+			<press_sprite>002_07_bank8_2</press_sprite>
+			<over_sprite_change_speed>50000</over_sprite_change_speed>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<click_sprite_sound>click_mg_02</click_sprite_sound>
+		</state>
+		<state>
+			<sprite>002_07_bank8</sprite>
+			<mask_sprite>002_07_bank8_mask</mask_sprite>
+			<over_sprite>002_07_bank8_2</over_sprite>
+			<press_sprite>002_07_bank8_2</press_sprite>
+			<over_sprite_change_speed>50000</over_sprite_change_speed>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<click_sprite_sound>click_mg_02</click_sprite_sound>	
+		</state>
+		<state>
+			<sprite>002_07_bank8</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>20</layer>
+	<decorate>1</decorate>
+</object>

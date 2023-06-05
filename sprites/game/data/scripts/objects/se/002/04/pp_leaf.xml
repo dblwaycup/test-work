@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_04_pp_leaf</name>
+	<name_desc>002_04_pp_leaf</name_desc>
+	<type>002_04_pp_leaf</type>
+	<states size="1">
+		<state>
+			<sprite>002_04_pp_leaf</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<discord>true</discord>
+			<distortion_vector x="2" y="2" />
+			<distortion_speed x="0.5" y="0.5" />
+		</state>
+	</states>
+	<layer>55</layer>
+</object>

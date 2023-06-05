@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>9999999999</life_time>
+	<Layers size="1">
+		<Layer>
+			<resource>data/sprites/objects/se/002/f_sky.png</resource>
+			<create_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>9999999999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+			<affine_behavior size="3">
+				<action>
+					<on_time>0</on_time>
+					<type>move</type>
+					<coeff>100</coeff>
+					<move_position x="1280" y="0" />
+				</action>
+			</affine_behavior>
+		</Layer>
+		<Layer>
+			<resource>data/sprites/objects/se/002/f_sky.png</resource>
+			<create_position x="-1280" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>9999999999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+			<affine_behavior size="3">
+				<action>
+					<on_time>0</on_time>
+					<type>move</type>
+					<coeff>100</coeff>
+					<move_position x="0" y="0" />
+				</action>
+			</affine_behavior>
+		</Layer>
+		<Layer>
+			<resource>data/sprites/objects/se/002/f_object.png</resource>
+			<create_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>9999999999</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+	</Layers>
+</Scene>

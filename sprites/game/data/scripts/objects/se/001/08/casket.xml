@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_08_casket</name>
+    <name_desc>001_08_casket</name_desc>
+    <type>001_08_casket</type>
+    <states size="3">
+        <state>
+            <sprite>001_08_casket</sprite>
+			<mode>MoviePlay</mode>
+			<mode_param>002_03_statue_click</mode_param>
+            <cursor>spt_cursor_arrow-shest</cursor>
+			<active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+			<fast_iterate>1</fast_iterate>
+            <inventory_cast_obj>001_08_key</inventory_cast_obj>
+			<translate_movie>002_03_statue</translate_movie>
+        </state>
+        <state>
+		            <event>END_MOVIE</event>
+					<event_parameters>002_03_statue</event_parameters>
+        </state>
+		<state>
+		            <event>END_MOVIE</event>
+		            <sprite>001_08_casket_2</sprite>
+					<layer>10</layer>
+		</state>
+		<state>
+		</state>
+    </states>
+    <layer>15</layer>
+</object>

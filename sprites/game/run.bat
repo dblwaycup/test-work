@@ -1,0 +1,1 @@
+start LabyrinthsOfTheWorld_TheWildSide_CE.exe cheats_on crashdump

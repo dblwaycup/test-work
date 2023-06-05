@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<hint_behavior>
+	<Blocks size="50">
+		<Block>
+			<steps size="30">
+				<step>
+					<type_action>ET_OBJECT_IN_STATE</type_action>					<!-- открытие окна -->
+					<param1>002_07_condition</param1>					<!-- имя объекта_1 -->
+					<param3>0</param3>					<!-- номер стейта -->
+					<close_type>ET_TIME</close_type>					<!-- закрытие окна -->
+					<param2>0.1</param2>
+					<special>1</special>
+				</step>
+				<step>
+					<type_action>ET_TIME</type_action>					<!-- открытие окна -->
+					<param1>0.5</param1>					<!-- промежуток времени (в секундах) -->
+					<close_type>ET_ON_SCREEN_CLICK</close_type>
+					<param2>1</param2>
+					<special>1</special>
+					<hint_desc>
+						<back_spt>back_cmn</back_spt>						<!-- back tutorial -->
+						<back_positions x="660" y="130" />130
+						<text>tutor_mg_diff</text>						<!-- text steps -->
+						<skip_button>1</skip_button>						<!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button>						<!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>90</anim_rotation>								<!-- rotation -->
+								<anim_pos x="270" y="-20" />
+							</animation>
+						</animations>
+					</hint_desc>
+				</step>
+				<!-- чекни описание мини или сбрось ее -->
+				<step>
+					<type_action>ET_TIME</type_action>
+					<param1>0.3</param1>
+					<close_type>ET_ON_SCREEN_CLICK</close_type>
+					<param2>1</param2>
+					<hint_desc>
+						<back_spt>back_cmn</back_spt>						<!-- back tutorial -->
+						<back_positions x="660" y="243" />
+						<text>tutor_mg_info</text>						<!-- text steps -->
+						<skip_button>1</skip_button>						<!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button>						<!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>90</anim_rotation>								<!-- rotation -->
+								<anim_pos x="270" y="30" />
+							</animation>
+						</animations>
+					</hint_desc>
+				</step>
+
+
+			</steps>
+		</Block>
+	</Blocks>
+
+
+
+</hint_behavior>

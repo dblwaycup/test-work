@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_02_f_butterfly</name>
+    <name_desc>002_02_f_butterfly</name_desc>
+    <type>002_02_f_butterfly</type>
+    <states size="1">
+        <state>
+			<movie>002_02_f_butterfly_idle</movie>	 
+			<mask_sprite>002_02_f_butterfly_mask</mask_sprite>
+			<mode>Click</mode>
+            <translate_movie>002_02_f_butterfly_click</translate_movie>
+        </state>           
+        <state>
+			<event>END_MOVIE</event>
+            <event_parameters>002_02_f_butterfly_click</event_parameters>		
+        </state>    
+		<state>
+        </state>
+    </states>
+    <layer>52</layer>
+    <decorate>1</decorate>
+</object>

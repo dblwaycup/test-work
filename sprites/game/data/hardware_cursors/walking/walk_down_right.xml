@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<cursor xhot="32" yhot="32">
+	<object path="walking/walk_down_right/01.png"/>
+	<object path="walking/walk_down_right/02.png"/>
+	<object path="walking/walk_down_right/03.png"/>
+	<object path="walking/walk_down_right/04.png"/>
+	<object path="walking/walk_down_right/05.png"/>
+	<object path="walking/walk_down_right/06.png"/>
+	<object path="walking/walk_down_right/07.png"/>
+	<object path="walking/walk_down_right/08.png"/>
+	<object path="walking/walk_down_right/09.png"/>
+	<object path="walking/walk_down_right/10.png"/>
+	<object path="walking/walk_down_right/11.png"/>
+	<object path="walking/walk_down_right/12.png"/>
+</cursor>

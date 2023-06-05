@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_07_water5_hard</name>
+	<name_desc>002_07_water5_hard</name_desc>
+	<type>002_07_water5_hard</type>
+	<states size="2">
+		<state>
+			<sprite>empty</sprite>
+		</state>
+		<state>
+			<sprite>002_07_water5_1_hard</sprite><!--1-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water5_2_hard</sprite><!--2-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water5_3_hard</sprite><!--3-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water5_4_hard</sprite><!--4-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+			<sprite>002_07_water5_5_hard</sprite><!--5-->
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>22</layer>
+	<decorate>1</decorate>
+</object>

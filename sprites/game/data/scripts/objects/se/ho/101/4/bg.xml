@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_4_bg</name>
+	<name_desc>ho_101_4_bg</name_desc>
+	<type>ho_101_4_bg</type>
+	<states size="1">
+		<state><!-- 0 -->
+			<sprite>ho_101_4_bg</sprite>
+			<mode>Click</mode>
+			<cursor>spt_cursor_hand-finger</cursor>
+			<sound_fx>glass_01</sound_fx>
+		</state>
+		<state><!-- 0 -->
+			<sprite>ho_101_4_bg_2</sprite>
+			<mode>Click</mode>
+			<cursor>spt_cursor_hand-finger</cursor>
+			
+			<iterated_objects size="1">
+				<object>
+					<type>ho_101_4_door</type>
+				</object>
+
+			</iterated_objects>
+			<sound_fx>glass_01</sound_fx>
+		</state>
+		<state><!-- 0 -->
+			<sprite>ho_101_4_bg_3</sprite>
+		</state>
+	</states>
+	<layer>5</layer>
+</object>

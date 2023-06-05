@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_dlg_elephant</name>
+    <name_desc>002_dlg_elephant</name_desc>
+    <type>002_dlg_elephant</type>
+    <states size="1">
+        <state>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_elephant|3</event_parameters>
+            <translate_movie>002_dlg_elephant</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_dlg_elephant</event_parameters>
+            <translate_movie>002_cs_elephant</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_cs_elephant</event_parameters>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>150</layer>
+</object>

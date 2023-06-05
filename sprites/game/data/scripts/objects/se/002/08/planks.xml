@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_08_planks</name_desc>
+    <name>002_08_planks</name>
+    <type>002_08_planks</type>
+    <states size="2">
+        <state>
+            <blazing_sprite name="002_08_planks_2" spawn_time="0.5" time_hold="0.5" fade_time="0.5" all_levels="false">
+                <shift_pos x="0" y="0" />
+            </blazing_sprite>
+            <tweens_defined>
+                <tween>
+                    <type>transform</type>
+                    <name>insert_morfo</name>
+                </tween>
+            </tweens_defined>
+
+        </state>
+        <state>
+            <sprite>002_08_planks</sprite>
+            <event>TRANSLATE_TWEEN_END</event>
+            <event_parameters>002_08_planks</event_parameters>
+            <combine_inventory_sprite>inv_002_08_nails_get</combine_inventory_sprite>
+            <sound_fx>ad_getall</sound_fx>
+        </state>
+        <state>
+            <sprite>002_08_planks</sprite>
+            <event>ITERATE_OBJECT_IN_STATES</event>
+            <event_parameters>002_08_dirt|3</event_parameters>
+            <translate_movie>002_08_stairs_change2</translate_movie>
+            <combine_inventory_sprite>inv_002_08_nails_get</combine_inventory_sprite>
+
+        </state>
+
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_08_stairs_change2</event_parameters>
+            <combine_inventory_sprite>inv_002_08_nails_get</combine_inventory_sprite>
+
+        </state>
+
+        <state>
+        </state>
+    </states>
+    <layer>15</layer>
+</object>

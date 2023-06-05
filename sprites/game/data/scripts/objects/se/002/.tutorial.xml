@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<hint_behavior>
+	<Blocks size="50">
+		<Block>
+			<steps size="30">
+			<!-- поговори с Нандой -->
+				<step>
+					<type_action>ET_OBJECT_IN_STATE</type_action>
+					<param1>002_for_tutorial</param1>
+					<param3>1</param3>
+					<close_type>ET_START_GAME</close_type>
+					<param2>201</param2>					
+					<hint_desc>
+						<back_spt>back_cmn</back_spt><!-- back tutorial -->
+						<back_positions x="240" y="200" />
+						<text>step_02</text><!-- text steps -->
+						<skip_button>1</skip_button><!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button><!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>90</anim_rotation><!-- rotation -->
+								<anim_pos x="300" y="100" />
+							</animation>
+						</animations>
+					</hint_desc>
+				</step>
+				
+				<step>
+					<type_action>ET_OBJECT_IN_STATE</type_action>
+					<param1>002_road</param1>
+					<param3>2</param3>
+					<close_type>ET_START_GAME</close_type>
+					<param2>3</param2>			
+					<hint_desc>
+						<back_spt>back_cmn</back_spt><!-- back tutorial -->
+						<back_positions x="320" y="380" />
+						<text>step_01</text><!-- text steps -->
+						<skip_button>1</skip_button><!-- button skip -->
+						<show_skip_hint_step_button>1</show_skip_hint_step_button><!-- button close -->
+						<global>1</global>
+						<!-- анимации -->
+						<animations>
+							<animation>
+								<anim_name>tutorial_arrow</anim_name>
+								<anim_rotation>0</anim_rotation><!-- rotation -->
+								<anim_pos x="-30" y="-165" />
+							</animation>
+						</animations>
+					</hint_desc>
+				</step>
+
+			</steps>
+		</Block>
+	</Blocks>
+	
+<!-- непошаговый туториал -->	
+	<CommonHintSteps>
+		<steps>
+		
+        </steps>
+	</CommonHintSteps>
+	
+</hint_behavior>

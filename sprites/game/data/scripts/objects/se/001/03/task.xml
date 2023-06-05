@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_task</name>
+    <name_desc>001_03_task</name_desc>
+    <type>001_03_task</type>
+    <states size="1">
+        <state>
+            <sprite>001_03_task</sprite>
+            <cursor>spt_cursor_hand</cursor>
+			<mode>Click</mode>
+			<task_delta x="23" y="85" />
+			<translate_movie>001_03_tasks_add</translate_movie>
+        </state>
+        <state>
+			<event>END_MOVIE</event>
+			<event_parameters>001_03_tasks_add</event_parameters>
+			<messages>
+				<message name="TaskBtn" >
+					<msg>GBM_ENABLE</msg>
+				</message>
+				<message name="TaskBtn" >
+					<msg>GBM_VISIBLE</msg>
+				</message>
+				<message name="stand_left" >
+					<msg>GBM_VISIBLE</msg>
+				</message>
+			</messages>
+			<position x="0" y="0" />
+			<layer>5001</layer>
+		</state>
+        <state>
+		</state>
+    </states>
+    <layer>36</layer>
+</object>

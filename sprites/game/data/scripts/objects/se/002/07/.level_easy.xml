@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="1">
+                <object>
+                    <name>002_07_condition</name>
+                    <position x="0" y="0" />
+                </object>
+                <object>
+                    <name>002_07_hint</name>
+                    <position x="109" y="303" />
+                </object>
+                <object>
+                    <name>002_07_bank3</name>
+                    <position x="766" y="307" />
+                </object>
+                <object>
+                    <name>002_07_water3</name>
+                    <position x="766" y="307" />
+                </object>
+                <object>
+                    <name>002_07_bank3_top</name>
+                    <position x="766" y="307" />
+                </object>
+                <object>
+                    <name>002_07_bank3_count</name>
+                    <position x="766" y="307" />
+                </object>
+                <object>
+                    <name>002_07_bank5</name>
+                    <position x="294" y="248" />
+                </object>
+                <object>
+                    <name>002_07_water5</name>
+                    <position x="294" y="248" />
+                </object>
+                <object>
+                    <name>002_07_bank5_top</name>
+                    <position x="294" y="248" />
+                </object>
+                <object>
+                    <name>002_07_bank5_count</name>
+                    <position x="294" y="248" />
+                </object>
+                <object>
+                    <name>002_07_bank8</name>
+                    <position x="548" y="118" />
+                </object>
+                <object>
+                    <name>002_07_water8</name>
+                    <position x="548" y="118" />
+                </object>
+                <object>
+                    <name>002_07_bank8_top</name>
+                    <position x="548" y="118" />
+                </object>
+                <object>
+                    <name>002_07_bank8_count</name>
+                    <position x="548" y="118" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

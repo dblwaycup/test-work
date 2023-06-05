@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_table</name>
+	<name_desc>ho_101_table</name_desc>
+	<type>ho_101_table</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_table</sprite>
+			<cursor>spt_cursor_lupa-shest</cursor>
+			<hint_delta x="0" y="120"/>
+			
+			<particle>active_object</particle>
+            <particle_pos x="417" y="517"/>
+            <particle_wait_min_limit>2</particle_wait_min_limit>
+            <particle_wait_max_limit>7</particle_wait_max_limit>
+            <particle_fire_min_limit>1</particle_fire_min_limit>
+            <particle_fire_max_limit>1</particle_fire_max_limit>
+		</state>
+		<state>
+			<sprite>ho_101_table</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+	</states>
+	<layer>60</layer>
+</object>

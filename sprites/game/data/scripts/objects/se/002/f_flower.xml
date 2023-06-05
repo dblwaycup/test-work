@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_flower</name_desc>
+    <name>002_f_flower</name>
+    <type>002_f_flower</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_flower</sprite>
+            <mask_sprite>002_f_flowers-mask</mask_sprite>
+            <mode>Click</mode>
+            <discord>true</discord>
+            <distortion_vector x="1" y="1"/>
+            <distortion_speed x="1" y="1"/>
+            <tweens_loop size="1">
+                <queue size="1">
+                    <transform>
+                        <delay>0</delay>
+                        <duration>3099</duration>
+                        <type>rotation</type>
+                        <param1>0.0015</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>3999</duration>
+                        <type>rotation</type>
+                        <param1>-0.0012</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                </queue>
+            </tweens_loop>
+            <messages>
+                <message name="002_frog">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <sprite>002_f_flower</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <discord>true</discord>
+            <distortion_vector x="1" y="1"/>
+            <distortion_speed x="1" y="1"/>
+            <tweens_loop size="1">
+                <queue size="1">
+                    <transform>
+                        <delay>0</delay>
+                        <duration>3099</duration>
+                        <type>rotation</type>
+                        <param1>0.0015</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                    <transform>
+                        <delay>0</delay>
+                        <duration>3999</duration>
+                        <type>rotation</type>
+                        <param1>-0.0012</param1>
+                        <param2>0</param2>
+                        <param3>0</param3>
+                        <type_int>ease_inOutSin</type_int>
+                    </transform>
+                </queue>
+            </tweens_loop>
+        </state>
+    </states>
+        <decorate>1</decorate>
+
+    <anchor x="-20" y="350"/>
+    <layer>11</layer>
+</object>

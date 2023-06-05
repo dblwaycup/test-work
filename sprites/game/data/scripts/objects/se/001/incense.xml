@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_incense</name>
+    <name_desc>001_incense</name_desc>
+    <type>001_incense</type>
+    <states size="1">
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_001_incense_drag</drag_spt>
+    <window_spt>inv_001_incense_get</window_spt>
+    <text_inv_desc>obj_title_001_incense</text_inv_desc>
+    <on_get_title>obj_title_001_incense</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+</object>

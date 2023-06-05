@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_01_brochure</name>
+    <name_desc>001_03_01_brochure</name_desc>
+    <type>001_03_01_brochure</type>
+    <states size="4">
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_01_backpack2</event_parameters>
+        </state>
+        <state>
+            <sprite>001_03_01_brochure</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <fast_iterate>1</fast_iterate>
+            <iterate_effect>note_open_dr</iterate_effect>
+            <static_text_list>
+                <static_text>
+                    <text>001_03_01_ticket</text>
+                    <font>data/fonts/notes/bannikova16.fnt</font>
+                    <pos x="38" y="275" />
+                    <size x="170" y="40" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <scale>0.6</scale>
+                    <angle>25</angle> 
+                </static_text> 
+            </static_text_list> 
+            <sound_fx>paper_01</sound_fx>
+        </state>
+        <state>
+            <sprite>001_03_01_brochure_open</sprite>
+            <cursor>spt_cursor_hand-finger</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <static_text_list>
+                <static_text>
+                    <text>001_03_01_brochure</text>
+                    <font>data/fonts/notes/agopushrc30.fnt</font>
+                    <pos x="266" y="26" />
+                    <size x="230" y="40" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <scale>1</scale>
+                    <skew x="0.039" y="-0.348"/>
+                </static_text> 
+                <static_text>
+                    <text>001_03_01_ticket</text>
+                    <font>data/fonts/notes/bannikova16.fnt</font>
+                    <pos x="227" y="514" />
+                    <size x="170" y="40" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <scale>0.67</scale>
+                    <skew x="0.078" y="-0.309"/>
+                </static_text> 
+            </static_text_list>
+            <position x="290" y="133" />  
+            <layer>100</layer>
+            <sound_fx>paper1_01</sound_fx>
+        </state>
+        <state>
+            <sprite>001_03_01_brochure_open_2</sprite>
+            <sound_fx>paper2_01</sound_fx>
+            <cursor>spt_cursor_hand-finger</cursor>
+            <mode>Click</mode>
+            <hint_delta x="0" y="0"/>
+            <static_text_list>
+                <static_text>
+                    <text>001_03_01_brochure_2</text>
+                    <font>data/fonts/notes/bannikova16.fnt</font>
+                    <pos x="470" y="189" />
+                    <size x="155" y="170" />
+                    <align>TS_ALIGNHLEFT | TS_ALIGNVTOP | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <scale>1</scale>
+                    <skew x="0.300" y="-0.093"/>
+                </static_text> 
+                <static_text>
+                    <text>001_03_01_ticket</text>
+                    <font>data/fonts/notes/bannikova16.fnt</font>
+                    <pos x="508" y="521" />
+                    <size x="170" y="40" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <scale>0.67</scale>
+                    <angle>12</angle>
+                </static_text>  
+            </static_text_list>
+            <add_resource>001_03_01_brochure</add_resource> 
+            <translate_bbt>bbt_001_03_01_brochure</translate_bbt>    
+            <position x="290" y="133" />
+            <layer>100</layer>
+        </state>
+        <state>
+            <sprite>001_03_01_brochure_open_3</sprite>
+            <event>OBJECT_FLY_END</event>
+            <event_parameters>001_03_01_ticket</event_parameters>
+            <position x="290" y="133" />
+            <layer>100</layer>
+			<iterate_effect>note_close_dr</iterate_effect>
+			<fast_iterate>1</fast_iterate>   
+            <sound_fx>paper_01</sound_fx>
+        </state>
+        <state>
+            <sprite>001_03_01_brochure_open_3</sprite>
+            <position x="290" y="133" />
+            <layer>150</layer>           
+			<mode>WaitTimeWithHint</mode>
+			<mode_param>0.9</mode_param>
+			<fast_iterate>1</fast_iterate>
+			<!-- <sound_fx>get_achive</sound_fx>	   -->
+        </state>
+        <state>
+        </state>
+    </states>
+    <anchor x="373" y="186"/>
+    <layer>10</layer>
+</object>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_fx_elephant</name_desc>
+    <name>002_fx_elephant</name>
+    <type>002_fx_elephant</type>
+    <states size="1">
+        <state>
+            <particle>002_fx_elephant</particle>
+            <particle_pos x="640" y="400" />
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_07_condition|2</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>49</layer>
+</object>

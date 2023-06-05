@@ -1,0 +1,1373 @@
+<tweens size="1">
+	<tween_queue>
+		<name>open_frame</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_outInSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>480</duration>
+					<type>scale</type>
+					<param1>1.02</param1>
+					<param2>1.02</param2>
+					<param3>0</param3>
+					<type_int>ease_outInSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>200</duration>
+					<type>scale</type>
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3>
+					<type_int>ease_outInSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>500</duration>
+					<type>alpha</type>
+					<param1>255</param1>
+					<type_int>ease_outInSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>close_frame</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration>
+					<type>scale</type>
+					<param1>1.02</param1>
+					<param2>1.02</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>450</duration>
+					<type>scale</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>250</delay>
+					<duration>450</duration>
+					<type>alpha</type>
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>note_open</name>
+		<anchor x="0" y="0" />
+		<start_alpha>50</start_alpha>
+		<start_scale>0.3</start_scale>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>340</duration>
+					<type>scale</type>
+					<param1>1.1</param1>
+					<param2>1.1</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>300</duration>
+					<type>scale</type>
+					<param1>1</param1>
+					<param2>1</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration>
+					<type>alpha</type>
+					<param1>255</param1>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>note_close</name>
+		<anchor x="0" y="0" />
+		<start_alpha>255</start_alpha>
+		<start_scale>1</start_scale>
+		<iterate>1</iterate>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>220</duration>
+					<type>scale</type>
+					<param1>1.1</param1>
+					<param2>1.1</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration>
+					<type>scale</type>
+					<param1>0.2</param1>
+					<param2>0.2</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>200</delay>
+					<duration>400</duration>
+					<type>alpha</type>
+					<param1>30</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>note_open_dr</name>
+		<anchor x="0.5" y="0.5" />
+		<start_alpha>255</start_alpha>
+		<start_scale>0.3</start_scale>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>600</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.85</param1>
+					<param2>0.85</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>450</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.7</param1>
+					<param2>0.7</param2>
+					<param3>1</param3> <!-- is local -->
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>note_close_dr</name>
+		<anchor x="0.5" y="0.5" />
+		<start_alpha>255</start_alpha>
+		<start_scale>1</start_scale>
+		<!-- <iterate>1</iterate> -->
+		<queue_array size = "1">
+			<queue size="1">					
+										
+				<transform>
+					<delay>0</delay>
+					<duration>900</duration> <!-- time in ms -->
+					<type>scale</type> <!-- scale, position, rotation, alpha -->
+					<param1>0.45</param1>
+					<param2>0.45</param2>
+					<param3>0</param3> <!-- is local -->
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>900</duration>
+					<type>bezier</type>
+					<param1>0x0|50x50|150x250|0x750</param1>
+					<param2>0</param2>
+					<param3>1</param3>					
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>panel_left</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration>
+					<type>position</type>
+					<param1>-167</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration>
+					<type>alpha</type>
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>panel_left_close</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration>
+					<type>position</type>
+					<param1>167</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration>
+					<type>alpha</type>
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>panel_right</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration>
+					<type>position</type>
+					<param1>167</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration>
+					<type>alpha</type>
+					<param1>255</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>panel_right_close</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration>
+					<type>position</type>
+					<param1>-167</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>420</duration>
+					<type>alpha</type>
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>sway</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>2500</duration>
+					<type>rotation</type>
+					<param1>0.020</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2650</duration>
+					<type>rotation</type>
+					<param1>-0.017</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1850</duration>
+					<type>rotation</type>
+					<param1>0.035</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2340</duration>
+					<type>rotation</type>
+					<param1>-0.022</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>sway_2</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1950</duration>
+					<type>rotation</type>
+					<param1>0.023</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2100</duration>
+					<type>rotation</type>
+					<param1>-0.028</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2350</duration>
+					<type>rotation</type>
+					<param1>0.030</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2430</duration>
+					<type>rotation</type>
+					<param1>-0.017</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>sway_3</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1950</duration>
+					<type>rotation</type>
+					<param1>-0.030</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2150</duration>
+					<type>rotation</type>
+					<param1>0.020</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1850</duration>
+					<type>rotation</type>
+					<param1>-0.025</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2330</duration>
+					<type>rotation</type>
+					<param1>0.015</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>sway_position</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>2500</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>1.5</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2600</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>-2</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>2500</duration>
+					<type>rotation</type>
+					<param1>0.020</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2650</duration>
+					<type>rotation</type>
+					<param1>-0.017</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>door_click_scale</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>50</delay>
+					<duration>250</duration>
+					<type>scale</type>
+					<param2>0.015</param2>
+					<param1>0.015</param1>
+					<param3>1</param3>
+					<param5>1</param5>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration>
+					<type>scale</type>
+					<param2>0.015</param2>
+					<param1>0.015</param1>
+					<param3>1</param3>
+					<param5>1</param5>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>door_click_position</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>130</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>3</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>130</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>-1.5</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>door_click_position2</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>210</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>-4</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>1</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>door_click_pos_rot</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>250</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>5</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>-2</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>120</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>300</duration>
+					<type>rotation</type>
+					<param1>0.007</param1>
+					<param2>0</param2>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>300</duration>
+					<type>rotation</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>lockpick</name>
+		<queue_array size="3">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>850</duration>
+					<type>bezier</type>
+					<param1>200x650|160x-50|0x0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param2>1.2</param2>
+					<param1>1.2</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>650</delay>
+					<duration>200</duration>
+					<type>scale</type>
+					<param2>1</param2>
+					<param1>1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>850</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>0.02</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>-0.02</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>0.04</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>-0.04</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>0.03</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>-0.03</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>650</duration>
+					<type>position</type>
+					<param1>150</param1>
+					<param2>650</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>lockpick_2</name>
+		<queue_array size="3">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>850</duration>
+					<type>bezier</type>
+					<param1>-200x650|-160x-50|0x0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param2>1.2</param2>
+					<param1>1.2</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>650</delay>
+					<duration>200</duration>
+					<type>scale</type>
+					<param2>1</param2>
+					<param1>1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>850</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>0.02</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>-0.02</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>0.04</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>-0.04</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>0.03</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>150</duration>
+					<type>rotation</type>
+					<param1>-0.03</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>650</duration>
+					<type>position</type>
+					<param1>150</param1>
+					<param2>650</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>key</name>
+		<queue_array size="3">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>850</duration>
+					<type>bezier</type>
+					<param1>-220x600|-200x130|0x0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param2>1.3</param2>
+					<param1>1.3</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>600</delay>
+					<duration>250</duration>
+					<type>scale</type>
+					<param2>1</param2>
+					<param1>1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>key_2</name>
+		<queue_array size="3">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>850</duration>
+					<type>bezier</type>
+					<param1>220x600|200x130|0x0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param2>1.3</param2>
+					<param1>1.3</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>600</delay>
+					<duration>250</duration>
+					<type>scale</type>
+					<param2>1</param2>
+					<param1>1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>set_up</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>position</type>
+					<param1>50</param1>
+					<param2>450</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1300</duration>
+					<type>bezier</type>
+					<param1>50x450|450x250|350x-150|100x-250|0x-250|0x0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>insert</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>position</type>
+					<param1>30</param1>
+					<param2>450</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>750</duration>
+					<type>bezier</type>
+					<param1>30x450|50x-50|0x0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param2>1.1</param2>
+					<param1>1.1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>700</delay>
+					<duration>300</duration>
+					<type>scale</type>
+					<param2>1</param2>
+					<param1>1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>rotation</type>
+					<param1>0.4</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>700</delay>
+					<duration>300</duration>
+					<type>rotation</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<type>8</type>
+		<name>insert_morfo</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>position</type>
+					<param1>30</param1>
+					<param2>850</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>750</duration>
+					<type>bezier</type>
+					<param1>30x850|50x-50|0x0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param2>0.5</param2>
+					<param1>0.5</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>400</delay>
+					<duration>600</duration>
+					<type>scale</type>
+					<param2>1</param2>
+					<param1>1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>rotation</type>
+					<param1>0.02</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>600</delay>
+					<duration>400</duration>
+					<type>rotation</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>insert_without_rotation</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>750</duration>
+					<type>bezier</type>
+					<param1>30x600|50x-50|0x0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param2>1.1</param2>
+					<param1>1.1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>700</delay>
+					<duration>300</duration>
+					<type>scale</type>
+					<param2>1</param2>
+					<param1>1</param1>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>indicator_open</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>scale</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration>
+					<type>scale</type>
+					<param1>1.1</param1>
+					<param2>1.1</param2>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>300</duration>
+					<type>scale</type>
+					<param1>1</param1>
+					<param2>1</param2>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>indicator_close</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>350</duration>
+					<type>scale</type>
+					<param1>1.1</param1>
+					<param2>1.1</param2>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>300</duration>
+					<type>scale</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>350</delay>
+					<duration>300</duration>
+					<type>alpha</type>
+					<param1>0</param1>
+					<type_int>ease_inOutQuad</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<!-- *************************** game_tweens *************************** -->
+	<tween_queue>
+		<name>001_phone</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>250</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>950</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>rotation</type>
+					<param1>1</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>950</duration>
+					<type>rotation</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>	
+
+	<tween_queue>
+		<name>021_sleeve</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>1250</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>950</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>0</duration>
+					<type>rotation</type>
+					<param1>1</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>950</duration>
+					<type>rotation</type>
+					<param1>0</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>002_06_recept</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>650</duration>
+					<type>position</type>
+					<param1>0</param1>
+					<param2>600</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+			<queue size="1">
+				<transform>
+					<delay>30</delay>
+					<duration>620</duration>
+					<type>rotation</type>
+					<param1>0.25</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>002_06_stupka</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>650</duration>
+					<type>position</type>
+					<param1>-367</param1>
+					<param2>47</param2>
+					<param3>1</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+
+	<tween_queue>
+		<name>decorate</name>
+		<queue_array size="1">
+			<queue size="1">
+				<transform>
+					<delay>0</delay>
+					<duration>1950</duration>
+					<type>rotation</type>
+					<param1>-0.010</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2150</duration>
+					<type>rotation</type>
+					<param1>0.008</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>1850</duration>
+					<type>rotation</type>
+					<param1>-0.006</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+				<transform>
+					<delay>0</delay>
+					<duration>2330</duration>
+					<type>rotation</type>
+					<param1>0.007</param1>
+					<param2>0</param2>
+					<param3>0</param3>
+					<type_int>ease_inOutSin</type_int>
+				</transform>
+			</queue>
+		</queue_array>
+	</tween_queue>
+</tweens>

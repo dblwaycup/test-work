@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_lighter</name_desc>
+    <name>001_f_lighter</name>
+    <type>001_f_lighter</type>
+    <states size="1">
+        <state>
+            <sprite>001_f_lighter</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>KILL_OBJECT</event>
+            <event_parameters>001_07_lighter</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>6</layer>
+</object>

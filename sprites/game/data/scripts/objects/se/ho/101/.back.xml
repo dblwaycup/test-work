@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_back</name>
+	<name_desc>ho_101_back</name_desc>
+	<type>ho_101_back</type>
+	<states size="1">
+		<state><!-- 0 -->
+			<mask_sprite>back_mask</mask_sprite>
+			<arrow_hint_pos x="640" y="670" />
+			<arrow_hint_rot>3.14</arrow_hint_rot>
+			<particle_on_mouse>f_back</particle_on_mouse>
+			<particle_om_pos x="450" y="210" />
+			<particle_link_inventory_panel>1</particle_link_inventory_panel>
+		</state>
+	</states>
+	<text_next_location>scene_01</text_next_location>
+	<layer>1000</layer>
+</object>

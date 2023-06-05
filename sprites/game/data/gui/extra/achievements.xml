@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>MainBackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="358" y="105"/>
+			<width>563</width>
+			<height>551</height>
+			<sprites>
+				<spt>back_achievements</spt>
+			</sprites>
+			<layer>-2</layer>
+		</ctrl>
+		
+		<ctrl>
+			<name>title</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>76801</id>
+			<pos x="520" y="87" />
+			<width>248</width>
+			<height>77</height>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<default_text>extra_achievements_header</default_text>
+			<sprites>
+				<spt>title</spt>
+			</sprites>
+			<layer>200</layer>
+		</ctrl>
+		
+		<ctrl><!-- текстовый контрол для названия ачивки -->
+			<name>desc_name_text</name>
+			<type>TextBox</type>
+			<text_scale>0.9</text_scale>
+			<style>TS_ALIGNLEFT</style>
+			<visible>0</visible>
+			<id>77777</id>
+			<pos x="145" y="14"/>
+			<width>334</width>
+			<height>25</height>
+		</ctrl>
+		
+		<ctrl><!-- текстовый контрол для описания ачивки -->
+			<name>desc_text</name>
+			<type>TextBox</type>
+			<text_scale>0.9</text_scale>
+			<style>TS_ALIGNLEFT | TS_MULTILINE</style>
+			<visible>0</visible>
+			<id>77778</id>
+			<pos x="145" y="40"/>
+			<width>334</width>
+			<height>50</height>
+		</ctrl>
+		
+		<ctrl>
+			<name>btn_arrow_down</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>5</id>
+			<pos x="820" y="250"/>
+			<width>80</width>
+			<height>54</height>
+			<sprites>
+				<spt>btn_extra_up</spt>
+				<spt>btn_extra_up_on</spt>
+				<spt>btn_extra_up_on</spt>
+				<spt>btn_extra_up_on</spt>
+				<spt>btn_extra_up_dis</spt>
+			</sprites>
+			<mask_sprite>btn_extra_up_down_mask</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>btn_arrow_up</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="820" y="450"/>
+			<width>80</width>
+			<height>54</height>
+			<sprites>
+				<spt>btn_extra_down</spt>
+				<spt>btn_extra_down_over</spt>
+				<spt>btn_extra_down_over</spt>
+				<spt>btn_extra_down_over</spt>
+				<spt>btn_extra_down_dis</spt>
+			</sprites>
+			<mask_sprite>btn_extra_up_down_mask</mask_sprite>
+		</ctrl>
+		
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="555" y="623"/>
+			<width>169</width>	
+			<height>46</height>
+			<sprites>
+				<spt>btn_ok</spt>
+				<spt>btn_ok_over</spt>
+				<spt>btn_ok_over</spt>
+			</sprites>
+			<mask_sprite>btn_ok_mask</mask_sprite>
+			<render_up_achiev>true</render_up_achiev>
+			<btn_text token="gui_cmn_btn_close">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<layer>200</layer>
+		</ctrl>
+		
+	</ctrls>
+</gui>

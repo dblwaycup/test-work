@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_02_seller</name>
+    <name_desc>001_02_seller</name_desc>
+    <type>001_02_seller</type>
+    <states size="1">
+        <state>
+            <movie>001_02_seller_idle</movie>
+            <event>BEGIN_MOVIE</event>
+            <event_parameters>001_02_elephant_change</event_parameters>
+            <translate_movie>001_02_seller_click</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_02_seller_click</event_parameters>
+            <messages>
+                <message name="001_for_tutorial">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+			</messages>
+        </state>
+        <state>
+            <movie>001_02_seller_idle</movie>
+            <mask_sprite>001_02_seller_mask</mask_sprite>
+            <cursor>spt_cursor_arrow-shest</cursor>
+            <mode>MoviePlay</mode>
+            <mode_param>001_02_seller_click</mode_param>
+			<MoviePlay_wait_to_end>1</MoviePlay_wait_to_end>
+            <hint_delta x="40" y="-27"/>
+            <active_obj>1</active_obj>
+            <iterate_obj>1</iterate_obj>
+            <inventory_cast_obj>001_03_purse</inventory_cast_obj>
+            <false_inventory_click_dialog>dlg_obj_wrong</false_inventory_click_dialog>
+            <translate_movie>001_02_seller</translate_movie>
+        </state>
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_02_seller</event_parameters>
+            <messages>
+                <message name="001_02_casket">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+        </state> 
+        <state>
+            <movie>001_02_seller_idle</movie>
+            <mask_sprite>001_02_seller_mask</mask_sprite>
+            <cursor>spt_cursor_arrow_question</cursor>
+            <dialog_activate>bbt_001_02_seller1</dialog_activate> 
+            <mode>MoviePlay</mode>
+            <mode_param>001_02_seller1_click</mode_param>
+			<!-- <MoviePlay_wait_to_end>1</MoviePlay_wait_to_end> -->
+        </state>
+    </states>
+    <layer>4</layer>
+</object>

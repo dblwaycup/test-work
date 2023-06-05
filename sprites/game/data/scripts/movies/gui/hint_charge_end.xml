@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>3.5</life_time>
+	<Layers size="1">
+		<Layer>
+			<particle>hint_charge_end</particle>
+			<create_fx_position x="-380" y="-195" />
+			<enable_time>0</enable_time>
+			<life_time>9</life_time>
+		</Layer>
+	</Layers>
+</Scene>

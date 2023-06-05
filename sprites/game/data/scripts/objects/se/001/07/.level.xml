@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="4">
+                <object>
+                    <name>001_07_tongs</name>
+                    <position x="560" y="375" />
+                </object>
+                <object>
+                    <name>001_07_bush</name>
+                    <position x="428" y="65" />
+                </object>
+                <object>
+                    <name>001_07_hint</name>
+                    <position x="560" y="375" />
+                </object>
+                <object>
+                    <name>001_07_lighter</name>
+                    <position x="628" y="522" />
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

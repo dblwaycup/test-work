@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<Scene>
+    <fields size="1">
+        <field>
+            <objects size="6">
+                <object>
+                    <name>002_05_f_bush</name>
+                    <position x="-1" y="0" />
+                </object>
+                <object>
+                    <name>002_05_f_hanging</name>
+                    <position x="435" y="116" />
+                </object>
+                <object>
+                    <name>002_05_f_hanging_2</name>
+                    <position x="403" y="139" />
+                </object>
+                <object>
+                    <name>002_05_bamboo</name>
+                    <position x="143" y="0" />
+                </object>
+                <object>
+                    <name>002_05_bush</name>
+                    <position x="0" y="0" />
+                </object>
+                <object>
+                    <name>002_05_condition</name>
+                    <position x="0" y="0" />
+                    <objects>
+                        <object>
+                            <name>002_05_henna</name>
+                            <position x="61" y="300" />
+                        </object>
+                        <object>
+                            <name>002_05_cap</name>
+                            <position x="0" y="3" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle_on</name>
+                            <position x="11" y="212" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle2_on</name>
+                            <position x="91" y="210" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle3_on</name>
+                            <position x="47" y="229" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle4_on</name>
+                            <position x="166" y="206" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle5_on</name>
+                            <position x="127" y="226" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle6_on</name>
+                            <position x="85" y="247" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle</name>
+                            <position x="299" y="315" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle2</name>
+                            <position x="387" y="314" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle3</name>
+                            <position x="72" y="267" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle4</name>
+                            <position x="374" y="230" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle5</name>
+                            <position x="364" y="426" />
+                        </object>
+                        <object>
+                            <name>002_05_puzzle6</name>
+                            <position x="272" y="335" />
+                        </object>
+                        <object>
+                            <name>002_05_first</name>
+                            <position x="0" y="0" />
+                        </object>
+                    </objects>
+                </object>
+            </objects>
+        </field>
+    </fields>
+</Scene>

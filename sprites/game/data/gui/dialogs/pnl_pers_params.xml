@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Tasks>
+	<Resources>data/main.res</Resources>
+	
+	<task>
+		<name_token>007_pers_manu</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<text_token>bbt_007_pers_manu</text_token>
+						<text_scale>1.0</text_scale>
+					</text_box_param>
+				</text_list>
+				<panel_pos x="302" y="240" />
+			</task_state>
+		</task_panel_params>
+	</task>
+	
+	<task>
+		<name_token>008_f_manu</name_token>
+		<task_panel_params>
+			<task_state id="0" >
+				<text_list>
+					<text_box_param>
+						<ctrl_name>vo_description</ctrl_name>
+						<text_token>bbt_008_f_manu</text_token>
+						<text_scale>1.0</text_scale>
+					</text_box_param>
+				</text_list>
+				<panel_pos x="590" y="333" />
+			</task_state>
+		</task_panel_params>
+	</task>
+	
+</Tasks>

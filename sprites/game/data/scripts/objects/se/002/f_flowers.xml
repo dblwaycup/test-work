@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_flowers</name_desc>
+    <name>002_f_flowers</name>
+    <type>002_f_flowers</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_flowers</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<discord>true</discord>
+			<distortion_vector x="0.5" y="0.5"/>
+			<distortion_speed x="0.5" y="0.5"/>
+        </state>
+    </states>
+    <layer>10</layer>
+</object>

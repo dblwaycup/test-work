@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<object>
+	<name>002_07_hint</name>
+	<name_desc>002_07_hint</name_desc>
+	<type>002_07_hint</type>
+	<states size="1">
+		<state>
+			<layer>15</layer>
+			<sprite>002_07_hint</sprite>
+			<mask_sprite>002_07_hint_mask</mask_sprite>
+			<mode>Click</mode>
+			<cursor>spt_cursor_lupa-shest</cursor>
+			<iterate_effect>note_open</iterate_effect>
+			<fast_iterate>1</fast_iterate>
+			<static_text_list>
+				<static_text>
+					<text>002_07_1_hint</text>
+					<font>data/fonts/gui/agopus35_yellow.fnt</font>
+					<pos x="54" y="190" />
+					<size x="300" y="100" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+					<scale>0.45</scale>
+					<angle>-29</angle>
+					<color>fff1009d</color>
+				</static_text>
+				<static_text>
+					<text>002_07_2_hint</text>
+					<font>data/fonts/gui/agopus35_yellow.fnt</font>
+					<pos x="157" y="280" />
+					<size x="250" y="100" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+					<scale>0.45</scale>
+					<angle>-37</angle>
+					<color>fff1009d</color>
+				</static_text>
+			</static_text_list>
+            <position x="109" y="303" />
+			<sound_fx>paper2_01</sound_fx>
+		</state>
+		<state>
+			<layer>110</layer>
+			<sprite>002_07_hint_2</sprite>
+			<mode>Click</mode>
+			<cursor>spt_cursor_lupa-shest</cursor>
+			<static_text_list>
+				<static_text>
+					<text>002_07_1_hint</text>
+					<font>data/fonts/gui/agopus35_yellow.fnt</font>
+					<pos x="80" y="55" />
+					<size x="300" y="100" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+					<scale>1</scale>
+					<angle>0</angle>
+					<color>fff1009d</color>
+				</static_text>
+				<static_text>
+					<text>002_07_2_hint</text>
+					<font>data/fonts/gui/agopus35_yellow.fnt</font>
+					<pos x="80" y="210" />
+					<size x="300" y="100" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+					<scale>1</scale>
+					<angle>0</angle>
+					<color>fff1009d</color>
+				</static_text>
+			</static_text_list>
+			<iterate_effect>note_close</iterate_effect>
+            <position x="406" y="45" />
+			<fast_iterate>1</fast_iterate>
+			<sound_fx>paper2_01</sound_fx>
+		</state>
+		<state>
+			<layer>110</layer>
+			<sprite>002_07_hint_2</sprite>
+			<mode>Click</mode>
+			<cursor>spt_cursor_lupa-shest</cursor>
+			<static_text_list>
+				<static_text>
+					<text>002_07_1_hint</text>
+					<font>data/fonts/gui/agopus35_yellow.fnt</font>
+					<pos x="80" y="55" />
+					<size x="300" y="100" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+					<scale>1</scale>
+					<angle>0</angle>
+					<color>fff1009d</color>
+				</static_text>
+				<static_text>
+					<text>002_07_2_hint</text>
+					<font>data/fonts/gui/agopus35_yellow.fnt</font>
+					<pos x="80" y="210" />
+					<size x="300" y="100" />
+					<align>TS_ALIGNHCENTER | TS_ALIGNVTOP | TS_MULTILINE</align>
+					<scale>1</scale>
+					<angle>0</angle>
+					<color>fff1009d</color>
+				</static_text>
+			</static_text_list>
+            <position x="406" y="45" />
+			<jump_to_state>0</jump_to_state>
+			<fast_iterate>1</fast_iterate>
+		</state>
+		<state>
+		</state>
+	</states>
+	<anchor x="-50" y="354" />
+	<decorate>1</decorate>
+	<layer>18</layer>
+</object>

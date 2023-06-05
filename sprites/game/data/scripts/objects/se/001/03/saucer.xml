@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_saucer</name>
+    <name_desc>001_03_saucer</name_desc>
+    <type>001_03_saucer</type>
+    <states size="1">
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_bowl2</event_parameters>
+        </state>
+        <state>
+            <sprite>001_03_saucer</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <hint_delta x="0" y="0"/>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_001_03_saucer_drag</drag_spt>
+    <window_spt>inv_001_03_saucer_get</window_spt>
+    <text_inv_desc>obj_title_001_03_saucer</text_inv_desc>
+    <on_get_title>obj_title_001_03_saucer</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>20</layer>
+</object>

@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<Animations>
+
+	<Animation>
+		<name>cursor_anim</name>
+		<path>data/scripts/animations/cursor/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>hint_arrow</name>
+		<path>data/scripts/animations/cursor/hint_arrow/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>hint_arrow_lost_screen</name>
+		<path>data/scripts/animations/cursor/hint_arrow/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>arrow-anim</name>
+		<path>data/scripts/animations/cursor/arrow/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>translate_arrow</name>
+		<path>data/scripts/animations/cursor/move/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>tutorial_arrow</name>
+		<path>data/scripts/animations/cursor/tutorial_arrow/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>hand-anim</name>
+		<path>data/scripts/animations/cursor/hand/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>finger-anim</name>
+		<path>data/scripts/animations/cursor/finger/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>shest-anim</name>
+		<path>data/scripts/animations/cursor/shest/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>lupa-anim</name>
+		<path>data/scripts/animations/cursor/lupa/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>list_line</name>
+		<path>data/scripts/animations/List_Line/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>arrow-shest-anim</name>
+		<path>data/scripts/animations/cursor/arrow-shest/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>arrow-question-anim</name>
+		<path>data/scripts/animations/cursor/arrow-question/main.xml</path>
+	</Animation>
+
+	<!-- match3 -->
+	<!-- уничтожаем желтую ячейку -->
+	<Animation>
+		<name>m3-ceil_destroy</name>
+		<path>data/scripts/animations/match3/ceil_destroy/main.xml</path>
+	</Animation>
+
+	<!-- подсказка -->
+	<Animation>
+		<name>m3-hint</name>
+		<path>data/scripts/animations/match3/hint/main.xml</path>
+	</Animation>
+
+	<!-- idle анимации фишек -->
+	<Animation>
+		<name>m3-idle</name>
+		<path>data/scripts/animations/match3/idle/main.xml</path>
+	</Animation>
+
+	<!-- анимации уничтожения фишек -->
+	<Animation>
+		<name>m3-destroy_1</name>
+		<path>data/scripts/animations/match3/destroy/1/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-destroy_2</name>
+		<path>data/scripts/animations/match3/destroy/2/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-destroy_3</name>
+		<path>data/scripts/animations/match3/destroy/3/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-destroy_4</name>
+		<path>data/scripts/animations/match3/destroy/4/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-destroy_5</name>
+		<path>data/scripts/animations/match3/destroy/5/main.xml</path>
+	</Animation>
+
+	<!-- анимации выделения фишек -->
+	<Animation>
+		<name>m3-select_1</name>
+		<path>data/scripts/animations/match3/select/1/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-select_2</name>
+		<path>data/scripts/animations/match3/select/2/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-select_3</name>
+		<path>data/scripts/animations/match3/select/3/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-select_4</name>
+		<path>data/scripts/animations/match3/select/4/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-select_5</name>
+		<path>data/scripts/animations/match3/select/5/main.xml</path>
+	</Animation>
+
+	<!-- анимации падения фишек -->
+	<Animation>
+		<name>m3-fall_1</name>
+		<path>data/scripts/animations/match3/fall/1/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-fall_2</name>
+		<path>data/scripts/animations/match3/fall/2/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-fall_3</name>
+		<path>data/scripts/animations/match3/fall/3/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-fall_4</name>
+		<path>data/scripts/animations/match3/fall/4/main.xml</path>
+	</Animation>
+	<Animation>
+		<name>m3-fall_5</name>
+		<path>data/scripts/animations/match3/fall/5/main.xml</path>
+	</Animation>
+	
+</Animations>

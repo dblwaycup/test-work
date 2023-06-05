@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_feather2</name_desc>
+    <name>001_f_feather2</name>
+    <type>001_f_feather2</type>
+    <states size="1">
+        <state>
+            <sprite>empty</sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_03_bowl|2</event_parameters> 
+        </state>
+        <state>
+            <sprite>001_f_feather2</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<event>KILL_OBJECT</event>
+			<event_parameters>001_03_feather2</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state> 
+    </states>
+    <layer>9</layer>
+</object>

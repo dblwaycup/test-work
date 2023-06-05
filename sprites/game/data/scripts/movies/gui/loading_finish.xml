@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>2</life_time>
+	<Layers size="1">
+	
+		<Layer>
+			<movie_avi>data/movies/gui/loading_finish.mp4</movie_avi>
+			<create_anim_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>5</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<!-- <sound>
+				<name>ad_load_final</name>
+				<loop>0</loop>
+			</sound>			 -->
+		</Layer>
+
+	<!-- полоса загрузки -->
+		<Layer>
+			<resource>data/sprites/gui/loading/line.png</resource> 
+			<create_position x="233" y="704" />
+			<enable_time>0</enable_time>
+			<life_time>0.5</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>25</alpha_disable_coeff>
+			<loop>1</loop>
+		</Layer>
+		
+	<!-- курсор -->
+		<Layer>
+			<resource>data/sprites/gui/loading/cursor.png</resource> 
+			<create_position x="830" y="670" />
+			<enable_time>0</enable_time>
+			<life_time>0.5</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>25</alpha_disable_coeff>
+		</Layer>
+		
+	<!-- текст -->
+		<Layer>
+			<enable_time>0</enable_time>
+			<life_time>0.5</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>25</alpha_disable_coeff>
+			<resource_text>loading_title</resource_text>
+		</Layer>
+		
+	</Layers>
+</Scene>

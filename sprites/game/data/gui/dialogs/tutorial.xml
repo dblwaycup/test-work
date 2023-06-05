@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+
+		<ctrl> 
+			<name>button_yes</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="79" y="155"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<btn_text token="gui_cmn_btn_yes">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_no</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>2</id>
+			<pos x="263" y="155"/>
+			<width>168</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_small</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+				<spt>btn_small_over</spt>
+			</sprites>
+			<mask_sprite>btn_small_mask</mask_sprite>
+			<btn_text token="gui_cmn_btn_no">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+		</ctrl>
+
+		<ctrl>
+			<name>button_show_special</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>3</id>
+			<pos x="120" y="215"/>
+			<width>270</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_long</spt>
+				<spt>btn_long_over</spt>
+				<spt>btn_long_over</spt>
+			</sprites>
+			<mask_sprite>btn_long_mask</mask_sprite>
+			<btn_text token="tutorial_btn_features">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<over_sound>button_authorize</over_sound>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+
+		<ctrl>
+			<name>button_skip</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>4</id>
+			<pos x="120" y="205"/>
+			<width>270</width>
+			<height>63</height>
+			<sprites>
+				<spt>btn_long</spt>
+				<spt>btn_long_over</spt>
+				<spt>btn_long_over</spt>
+			</sprites>
+			<mask_sprite>btn_long_mask</mask_sprite>
+			<btn_text token="tutorial_btn_skip">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="0" top="0" right="0" bottom="0" />
+			</btn_text>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+
+		<ctrl>
+			<name>text_desc</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>5</id>
+			<pos x="65" y="88"/>
+			<width>391</width>
+			<height>93</height>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<text_scale>0.95</text_scale>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text></default_text>
+		</ctrl>
+
+		<ctrl><!-- работает только в 1 окне туториала -->
+			<name>text_desc2</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>6</id>
+			<pos x="135" y="-16" />
+			<width>248</width>
+			<height>78</height>
+			<sprites>
+				<spt>title</spt>
+			</sprites>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</style>
+			<default_text>gui_tutorial_title</default_text>
+		</ctrl>
+
+		<ctrl>
+			<name>button_skip_hint_step</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>7</id>
+			<pos x="440" y="20"/>
+			<width>42</width>
+			<height>42</height>
+			<sprites>
+				<spt>btn_close</spt>
+				<spt>btn_close_over</spt>
+				<spt>btn_close_over</spt>
+			</sprites>
+			<mask_sprite>btn_close_mask</mask_sprite>
+			<tutorial_ignore>1</tutorial_ignore>
+		</ctrl>
+
+	</ctrls>
+</gui>

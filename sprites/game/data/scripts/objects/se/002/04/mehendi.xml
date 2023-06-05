@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_04_mehendi</name>
+    <name_desc>002_04_mehendi</name_desc>
+    <type>002_04_mehendi</type>
+    <states size="1">
+        <state>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>002_04_hand|2</event_parameters>
+        </state>
+        <state>
+            <mode>ToInventory</mode>
+            <auto_play>1</auto_play>
+        </state>
+        <state>
+        </state>
+    </states>
+    <start_fly_pos x="577" y="434"/>
+    <drag_spt>inv_002_04_mehendi_drag</drag_spt>
+    <window_spt>inv_002_04_mehendi_get</window_spt>
+    <text_inv_desc>obj_title_002_04_mehendi</text_inv_desc>
+    <on_get_title>obj_title_002_04_mehendi</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>45</layer>
+</object>

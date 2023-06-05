@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Scene>
+	<fields size="1">
+		<field>
+			<objects size="17">			
+				<object>
+					<name>ho_101_4_bg</name>
+					<position>
+						<x>378</x>
+						<y>131</y>
+					</position>
+				</object>
+				<object>
+					<name>ho_101_4_door</name>
+					<position>
+						<x>426</x>
+						<y>239</y>
+					</position>
+				</object>
+			</objects>
+		</field>
+	</fields>
+</Scene>

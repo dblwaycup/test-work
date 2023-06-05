@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Scene>
+	<fields size="1">
+		<field>
+			<objects size="17">			
+				<object>
+					<name>ho_101_2_f_1_thousand</name>
+					<position>
+						<x>574</x>
+						<y>343</y>
+					</position>
+				</object>
+				<object>
+					<name>ho_101_2_z_butterfly</name>
+					<position>
+						<x>0</x>
+						<y>200</y>
+					</position>
+				</object>
+				<object>
+					<name>ho_101_2_f_3_fish</name>
+					<position>
+						<x>420</x>
+						<y>349</y>
+					</position>
+				</object>
+				<object>
+					<name>ho_101_2_f_3_fish_o</name>
+					<position>
+						<x>378</x>
+						<y>348</y>
+					</position>
+				</object>
+				<object>
+					<name>ho_101_2_f_3_fish_o_part</name>
+					<position>
+						<x>99</x>
+						<y>117</y>
+					</position>
+				</object>
+				<object>
+					<name>ho_101_2_z_o</name>
+					<position>
+						<x>0</x>
+						<y>192</y>
+					</position>
+				</object>
+				<object>
+                    <name>101_2_fx_water</name>
+                    <position x="350" y="300" />
+                    <resource>101_2_fx_water</resource>
+                    <layer>110</layer>
+                    <type>6</type>
+                </object>
+			</objects>
+		</field>
+	</fields>
+</Scene>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<object>
+    <name>001_03_01_ticket</name>
+    <name_desc>001_03_01_ticket</name_desc>
+    <type>001_03_01_ticket</type>
+    <states size="4">
+        <state>
+            <sprite>empty</sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_03_01_brochure|4</event_parameters>
+        </state>
+        <state>
+            <sprite>001_03_01_ticket</sprite>
+            <cursor>spt_cursor_hand</cursor>
+            <mode>ToInventory</mode>
+            <hint_delta x="0" y="0"/>
+            <static_text_list>
+                <static_text>
+                    <text>001_03_01_ticket</text>
+                    <font>data/fonts/notes/bannikova16.fnt</font>
+                    <pos x="13" y="368" />
+                    <size x="170" y="40" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ff000000</color>
+                    <scale>0.67</scale>
+                    <angle>12</angle>
+                </static_text>
+                <static_text>
+                    <text>001_03_01_ticket_2</text>
+                    <font>data/fonts/notes/bannikova16.fnt</font>
+                    <pos x="171" y="60" />
+                    <size x="180" y="30" />
+                    <align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+                    <color>ffbcf7f5</color>
+                    <scale>1</scale>
+                    <angle>103</angle>
+                </static_text>
+            </static_text_list>
+        </state>
+        <state>
+        </state>
+    </states>
+    <drag_spt>inv_001_03_01_ticket_drag</drag_spt>
+    <window_spt>inv_001_03_01_ticket_get</window_spt>
+    <text_inv_desc>obj_title_001_03_01_ticket</text_inv_desc>
+    <on_get_title>obj_title_001_03_01_ticket</on_get_title>
+    <tween_over_type>inv_icon</tween_over_type>
+    <layer>105</layer>
+</object>

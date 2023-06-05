@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Scene template="cut_scene">
+	<life_time>17.333</life_time>
+	<activate_bbt>bbt_002_cs_elephant</activate_bbt>
+	<start_music_after_end>track2_1_mus</start_music_after_end>
+	<Layers size="1">
+
+	<!-- ******************************* movie ******************************* -->
+
+		<Layer>
+			<movie_avi>data/movies/se/cut_scenes/002_cs_elephant.mp4</movie_avi>
+			<create_anim_position x="0" y="0" />
+			<enable_time>0</enable_time>
+			<life_time>50</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+		</Layer>
+
+	<!-- ******************************* panels ******************************* -->
+		<Layer>
+			<show_gui>cut_scene_interface</show_gui>
+			<enable_time>0</enable_time>
+			<life_time>16.6</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>0</alpha_disable_coeff>
+		</Layer>
+
+	<!-- ******************************* text ******************************* -->
+		<Layer>
+			<enable_time>2.5</enable_time>
+			<life_time>5</life_time>
+			<alpha_enable_coeff>50</alpha_enable_coeff>
+			<alpha_disable_coeff>50</alpha_disable_coeff>
+			<default_resource_text>002_cs_elephant</default_resource_text>
+			<sound>
+				<name>002_cs_elephant_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>
+		</Layer>
+
+	</Layers>
+</Scene>

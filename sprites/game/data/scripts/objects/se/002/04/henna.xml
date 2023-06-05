@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<object>
+	<name_desc>002_04_henna</name_desc>
+	<name>002_04_henna</name>
+	<type>002_04_henna</type>
+	<states size="2">
+		<state>
+			<translate_movie>002_04_henna</translate_movie>
+			<messages>
+				<message name="002_04_paint">
+					<msg>GM_SET_OBJECT_STATE</msg>
+					<int1>1</int1>
+					<int2>1</int2>
+				</message>
+			</messages>
+		</state>
+		<state>
+			<event>END_MOVIE</event>
+			<event_parameters>002_04_henna</event_parameters>
+		</state>
+		<state>
+			<sprite>002_04_henna_2</sprite>
+			<mask_sprite>empty</mask_sprite>
+			<slow_iterate>true</slow_iterate>
+			<speed_iterate>400</speed_iterate>
+		</state>
+		<state>
+			<sprite>empty</sprite>
+			<slow_iterate>true</slow_iterate>
+			<speed_iterate>400</speed_iterate>	
+		</state>
+	</states>
+	<layer>96</layer>
+</object>

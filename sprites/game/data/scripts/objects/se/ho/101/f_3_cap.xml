@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_f_3_cap</name>
+	<name_desc>ho_101_f_3_cap</name_desc>
+	<type>ho_101_f_3_cap</type>
+	<states size="1">
+		<state>
+			<movie>101_f_3_cap_mini_idle</movie>
+			<!-- <sprite>ho_101_f_3_cap</sprite>
+			<mask_sprite>empty</mask_sprite> -->
+		</state>
+		<state>
+		</state>
+	</states>
+	<layer>120</layer>
+</object>

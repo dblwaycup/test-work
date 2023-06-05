@@ -1,0 +1,169 @@
+﻿<?xml version="1.0"?>
+<achievements_desc>
+
+	<!-- hop_no_hints -->
+	<achievement name="achievements_hop_no_hints01" type="MILTI_HIDDEN_FINISHED_WITHOUT_HINTS">
+		<param>1</param>	<!-- сколько пройдено хидденов без хинта-->
+	</achievement>
+	<achievement name="achievements_hop_no_hints02" type="MILTI_HIDDEN_FINISHED_WITHOUT_HINTS">
+		<param>3</param>	<!-- сколько пройдено хидденов без хинта-->
+	</achievement>
+	<achievement name="achievements_hop_no_hints03" type="MILTI_HIDDEN_FINISHED_WITHOUT_HINTS">
+		<param>5</param>	<!-- сколько пройдено хидденов без хинта-->
+	</achievement>
+    <achievement name="achievements_hop_match3" type="HIDDEN_FINISHED_WITH_ONLY_HELPER_GAME">
+        <param>1</param>	<!-- сколько пройдено хидденов по match3 -->
+    </achievement>
+
+    <!--hop for time-->
+    <achievement name="achievements_hop_time01" type="MULTI_HIDDEN_FINISHED_WITH_TIME">
+        <param>1</param>	<!-- сколько подряд пройдено хидденов -->
+        <param>60</param>	<!-- за время, меньшее чем столько секунд -->
+    </achievement>
+    <achievement name="achievements_hop_time02" type="MULTI_HIDDEN_FINISHED_WITH_TIME">
+        <param>3</param>	<!-- сколько подряд пройдено хидденов -->
+        <param>60</param>	<!-- за время, меньшее чем столько секунд -->
+    </achievement>
+    <achievement name="achievements_hop_time03" type="MULTI_HIDDEN_FINISHED_WITH_TIME">
+        <param>5</param>	<!-- сколько подряд пройдено хидденов -->
+        <param>60</param>	<!-- за время, меньшее чем столько секунд -->
+    </achievement>
+
+    <!-- hop_obj -->
+	<achievement name="achievements_hop_time04" type="HIDDEN_FOUND_MULTI_OBJECT_WITH_TIME">
+		<param>3</param>	<!-- сколько подряд найдено обьектов в хиддене -->
+		<param>3</param>	<!-- за время, меньшее чем столько секунд -->
+	</achievement>
+	<achievement name="achievements_hop_time05" type="HIDDEN_FOUND_MULTI_OBJECT_WITH_TIME">
+		<param>5</param>	<!-- сколько подряд найдено обьектов в хиддене -->
+		<param>5</param>	<!-- за время, меньшее чем столько секунд -->
+	</achievement>
+	<achievement name="achievements_hop_time06" type="HIDDEN_FOUND_MULTI_OBJECT_WITH_TIME">
+		<param>10</param>	<!-- сколько подряд найдено обьектов в хиддене -->
+		<param>10</param>	<!-- за время, меньшее чем столько секунд -->
+	</achievement>
+    <achievement name="achievements_found_100_obj" type="FOUND_OBJECTS_COUNT_IN_HIDDEN">
+        <param>100</param> <!--найденно 100 объектов в хидденах-->
+    </achievement>
+
+    <!-- hop_no_misclicks -->
+	<achievement name="achievements_hop_no_misclicks" type="HIDDEN_FINISHED_WITH_MISSCLICK_COUNT">
+		<param>1</param>	<!-- сколько подряд пройдено хидденов без мисклика -->
+	</achievement>
+
+	<!-- mg_no_skip -->
+    <achievement name="achievements_mg_no_skip01" type="MULTI_MINIGAME_FINISHED_WITHOUT_SKIP_NO">
+        <param>5</param>	<!-- сколько пройдено миниигр без кнопки скип-->
+    </achievement>
+	<achievement name="achievements_mg_no_skip02" type="MULTI_MINIGAME_FINISHED_WITHOUT_SKIP_NO">
+		<param>10</param>	<!-- сколько пройдено миниигр без кнопки скип-->
+	</achievement>
+
+	<!-- mg_time -->
+	<achievement name="achievements_mg_time" type="MULTI_MINIGAME_FINISHED_WITH_TIME_EACH">
+		<param>1</param>	<!-- сколько пройдено миниигр -->
+		<param>60</param>	<!-- за время, меньшее чем столько секунд -->
+	</achievement>
+	
+	<!-- mg_no_info -->
+	<achievement name="achievements_mg_no_info" type="MULTI_MINIGAME_FINISHED_WITHOUT_HELP">
+		<param>5</param>	<!-- сколько пройдено миниигр -->
+	</achievement>
+
+<!-- misc -->	
+	<achievement name="achievements_misc_medalions" type="GET_RESOURCE">
+		<param>extra_magic</param>
+		<param>15</param>
+	</achievement>
+	
+	<achievement name="achievements_misc_all" type="GET_RESOURCE">
+		<param>extra_statuettes</param>
+		<param>15</param>
+	</achievement>
+	
+	<achievement name="achievements_misc_all_budoir" type="SPEND_RESOURCE">
+		<param>extra_crosses</param>
+		<param>70</param>
+	</achievement>
+	
+	<!-- 1 раз заюзали карту за SE -->
+	<achievement name="achievements_map_once" type="MAPLEVEL_CHANGE_SCENE_COUNT">
+		<param>1</param>
+	</achievement>
+	
+	<!-- досмотрели кредитсы до конца -->
+	<achievement name="achievements_review_credits" type="CREDITS_FINISHED">
+	</achievement>
+	
+	<!-- прошли SE по хардкору -->
+	<achievement name="achievements_hardcore" type="SE_GAME_FINISHED_IN_HARD_MODE">
+	</achievement>
+
+	<!-- посмотрели без скипа флеш-бек по истории мира  -->
+	<achievement name="achievements_special07" type="MOVIE_FINISHED">
+		<param>cutscene_name</param>
+	</achievement>
+	
+	<!-- некоторые группы миниигры должны представлять собой одну логическую миниигру. Обычно, это несколько разных миниигр, которые идут одна за другой. Ачивки в таких МГ должны даваться после прохождения всей группы.
+	в этих структурах описываются - какие миниигры представлять собой одну логическую миниигру.
+	Структура:
+	<minigame_group> блок логической группы
+		<Location>0</Location> локация 0 - se, 1 - ce
+		<group_n>-100</group_n> "n" номер логической группы. Не должен совпадать c "n" настоящих фонов или фреймов
+		<minigame_n>1501</minigame_n> набор "n" миниигр, которые в сумме представляют одну логическую миниигру
+		<minigame_n>1511</minigame_n>
+	</minigame_group> -->
+	
+<!-- многоуровневые мини -->
+	<minigame_groups>
+		<minigame_group>
+			<Location>0</Location>
+			<group_id>-2</group_id>
+			<minigame_n>119</minigame_n>
+			<minigame_n>0210</minigame_n>
+			<minigame_n>0211</minigame_n>
+		</minigame_group>
+		<minigame_group>
+			<Location>1</Location>
+			<group_id>-2</group_id>
+			<minigame_n>177</minigame_n>
+			<minigame_n>178</minigame_n>
+			<minigame_n>179</minigame_n>
+		</minigame_group>
+		<minigame_group>
+			<Location>0</Location>
+			<group_id>-2</group_id>
+			<minigame_n>2209</minigame_n>
+			<minigame_n>2210</minigame_n>
+			<minigame_n>2211</minigame_n>
+		</minigame_group>
+		<minigame_group><!-- ce -->
+			<Location>1</Location>
+			<group_id>-2</group_id>
+			<minigame_n>116</minigame_n>
+			<minigame_n>118</minigame_n>
+		</minigame_group>
+	</minigame_groups>
+</achievements_desc>
+
+<!-- 	
+		MILTI_HIDDEN_FINISHED_WITHOUT_HINTS		= 1,	// пройдено несколько хидденов без использования хинта
+		HIDDEN_FOUND_MULTI_OBJECT_WITH_TIME		= 2,	// в хиддене найдено подряд несколько обьектов за время, меньшее чем "x"
+		MULTI_HIDDEN_FINISHED_WITH_TIME			= 3,	// пройдено подряд несколько хидденов за время, меньшее чем "x"
+		MULTI_HIDDEN_FINISHED_WITH_TIME_EACH	= 4,	// пройдено несколько хидденов за время, меньшее чем "x" (время отдельное для каждого ХО)
+		MULTI_MINIGAME_FINISHED_WITHOUT_SKIP	= 5,	// пройдено подряд несколько миниигр без использования скипа
+		MULTI_MINIGAME_FINISHED_WITHOUT_SKIP_NO	= 6,	// пройдено несколько миниигр без использования скипа
+		MINIGAME_FINISHED_WITH_TIME				= 7,	// пройдена миниигра за время, меньшее чем "x"
+		MULTI_MINIGAME_FINISHED_WITH_TIME_EACH	= 8,	// пройдено несколько миниигр за время, меньшее чем "x" (время отдельное для каждой МГ)
+		MULTI_MINIGAME_FINISHED_WITHOUT_HELP	= 9,	// пройдено несколько миниигр без использования кнопки Info
+		SPEND_FIRST_RESOURCE_WITH_TYPE			= 10,	// потрачен первый ресурс типа "x"
+		GET_ALL_ACHIEVEMENTS					= 11,	// получены все ачивки (кроме этой)
+		GET_RESOURCE							= 12,	// найден ресурс (или определенное кол-во ресурса)	
+		MAPLEVEL_CHANGE_SCENE_COUNT,					// прошли стандарт-часть игры и через карту переходили по фонам не больше, чем заданное кол-во раз
+		FOUND_OBJECTS_COUNT_IN_HIDDEN			= 13,	// за всю игру было найдено определенное кол-во обьектов в хидденах. Обьекты были найдены по стандартному, без использования хелпер-миниигр (матч3, паззл)
+		HIDDEN_FINISHED_WITH_ONLY_HELPER_GAME	= 14,	// хидден был пройден, использовав только хелпер-миниигру. Ни одного обьекта не было найдено по стандартному
+		HIDDEN_FINISHED_WITH_MISSCLICK_COUNT	= 15,	// хидден был пройден, и в нем было сделано мисс-кликов меньше или равное заданному кол-ву
+		"EAT_GET_RESOURCE"
+		"EAT_FOUND_OBJECTS_COUNT_IN_HIDDEN"
+		"EAT_HIDDEN_FINISHED_WITH_ONLY_HELPER_GAME"
+-->

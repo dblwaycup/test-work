@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<cursor xhot="22" yhot="20">
+	<object path="hand/01.png"/>
+	<object path="hand/02.png"/>
+	<object path="hand/03.png"/>
+	<object path="hand/04.png"/>
+	<object path="hand/05.png"/>
+	<object path="hand/06.png"/>
+	<object path="hand/07.png"/>
+	<object path="hand/08.png"/>
+	<object path="hand/09.png"/>
+	<object path="hand/10.png"/>
+	<object path="hand/11.png"/>
+	<object path="hand/12.png"/>
+	<object path="hand/13.png"/>
+	<object path="hand/14.png"/>
+	<object path="hand/15.png"/>
+	<object path="hand/16.png"/>
+	<object path="hand/17.png"/>
+	<object path="hand/18.png"/>
+</cursor>

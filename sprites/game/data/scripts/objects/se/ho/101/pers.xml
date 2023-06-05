@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_pers</name>
+	<name_desc>ho_101_pers</name_desc>
+	<type>ho_101_pers</type>
+	<states size="1">
+		<state><!-- 0 -->
+			<!-- <sprite>ho_101_pers</sprite> -->
+			<movie>101_man_talk1</movie>
+		</state>
+		<state><!-- 0 -->
+			<!-- <sprite>ho_101_pers</sprite> -->
+			<movie>101_man_talk2</movie>
+		</state>
+		<state><!-- 0 -->
+			<!-- <sprite>ho_101_pers</sprite> -->
+			<movie>101_man_talk3</movie>
+		</state>
+		<state><!-- 0 -->
+			<sprite>empty</sprite>
+			<movie>101_man_talk4</movie>
+		</state>
+		<state><!-- 0 -->
+			<sprite>empty</sprite>
+			<movie>101_man_talk5</movie>
+		</state>
+	</states>
+	<layer>120</layer>
+</object>

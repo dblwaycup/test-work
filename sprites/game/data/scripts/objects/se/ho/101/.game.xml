@@ -1,0 +1,282 @@
+﻿<?xml version="1.0"?>
+<TWordsDesc>
+	<Puzzle>
+		<field_data><!-- Button Data -->
+			<width>40</width>
+			<height>40</height>
+			<segments>70</segments>
+			<position x="0" y="0"/>
+		</field_data>
+		<inactive_image>spt_test1</inactive_image><!--Norm State -->
+		<active_image>spt_test2</active_image><!--Over State -->
+		<over_image>spt_test3</over_image><!--Press State -->
+		<back_position>
+			<x>0</x>
+			<y>0</y>
+		</back_position>
+	</Puzzle>
+
+<!--------------------------------------------------------------------
+game_type = 65,	Match3FromHidden
+
+mutex:
+RANDOM_FISHKA		= 1,	обычная фишка
+LOWER_FISHKA		= 2,	фишка которую нужно спустить вниз
+BACKGROUND_CELL		= 200,
+LIGHT_STONE			= 300,
+---------------------------------------------------------------------->
+
+	<border_local_position><!--координаты начала поля, относительно координат фона поля -->
+		<x>234</x>
+		<y>88</y>
+	</border_local_position>
+	<dynamic_border_spt>m3_back</dynamic_border_spt><!-- спрайт фона поля -->
+	<dynamic_border_local_position><!--координаты фона поля -->
+		<x>0</x>
+		<y>0</y>
+	</dynamic_border_local_position>
+	<hint_anim>m3-hint</hint_anim><!-- анимация хинта -->
+	<width>10</width><!-- ширина поля -->
+	<height>7</height><!-- высота поля -->
+	<step>2</step><!-- скорость движения фишек -->
+	<width_segment>78</width_segment><!-- ширина отдельной ячейки -->
+	<height_segment>78</height_segment><!-- высота отдельной ячейки -->
+	<min_time_limit>3</min_time_limit><!-- время зарядки хинта -->
+	<fire_anim>m3-line</fire_anim><!-- партикл при уничтожении групп фишек -->
+	<fire_position>
+		<x>0</x>
+		<y>0</y>
+	</fire_position>
+	<max_count>3</max_count><!-- сколько закрыть фишек при нахождении объекта -->
+	<!-- <gun_default_strings>15</gun_default_strings> -->
+	
+	<Sprites_Desc_States size="1">
+		
+<!-- -------------------------------------------------------------- --> 
+<!-- эти обьекты будут рисоваться на соответствующем "render_layer" -->
+<!-- "render_layer" =   0 - тут рисуется бек -->
+<!-- "render_layer" = 100 - тут рисуется матч3 с своим барахлом -->
+<!-- ниже примеры спрайта, ролик и партикла -->
+		
+		
+		<!-- <Sprite>
+			<States size="1">
+                <action>m3_stone_1</action>
+            </States>
+			<position x="10" y="50" />
+			<render_layer>10</render_layer>
+		</Sprite> 
+		<Sprite>
+			<movie>m3_back</movie>
+			<position x="92" y="162" />
+			<render_layer>40</render_layer>
+		</Sprite> -->
+		<Sprite>
+			<particle_fx>m3_back</particle_fx>
+			<position x="640" y="400" />
+			<render_layer>30</render_layer>
+		</Sprite>
+		
+	
+<!-- какие фишки есть в игре --> 
+		<Sprite>
+			<States size="1">
+				<action>m3_stone_1</action><!-- 1 -->
+			</States>
+			<mutex>1</mutex><!-- фишка -->
+			<press_sound>ad_clickel</press_sound><!-- звук выделения фишки -->
+			<user_sound1>ad_usering</user_sound1><!-- звук обмена фишками -->
+			<user_sound2>ad_burnmatch</user_sound2><!-- звук уничтожения фишки -->
+			<user_sound_rotate>ad_guidance</user_sound_rotate><!-- звук когда навели на фишку -->
+			<move_sound>n</move_sound><!-- звук падения -->
+			<Animations size="3">
+				<action>m3-idle</action>
+				<action>m3-destroy_1</action>
+				<action>m3-fall_1</action>
+				<action>m3-select_1</action>
+			</Animations>
+		</Sprite> 
+
+		<Sprite>
+			<States size="1">
+				<action>m3_stone_2</action><!-- 2 -->
+			</States>
+			<mutex>1</mutex><!-- фишка -->
+			<press_sound>ad_clickel</press_sound><!-- звук выделения фишки -->
+			<user_sound1>ad_usering</user_sound1><!-- звук обмена фишками -->
+			<user_sound2>ad_burnmatch</user_sound2><!-- звук уничтожения фишки -->
+			<user_sound_rotate>ad_guidance</user_sound_rotate><!-- звук когда навели на фишку -->
+			<move_sound>none</move_sound><!-- звук падения -->
+			<Animations size="3">
+				<action>m3-idle</action>
+				<action>m3-destroy_2</action>
+				<action>m3-fall_2</action>
+				<action>m3-select_2</action>
+			</Animations>
+		</Sprite>
+
+		<Sprite>
+			<States size="1">
+				<action>m3_stone_3</action><!-- 3 -->
+			</States>
+			<mutex>1</mutex><!-- фишка -->
+			<press_sound>ad_clickel</press_sound><!-- звук выделения фишки -->
+			<user_sound1>ad_usering</user_sound1><!-- звук обмена фишками -->
+			<user_sound2>ad_burnmatch</user_sound2><!-- звук уничтожения фишки -->
+			<user_sound_rotate>ad_guidance</user_sound_rotate><!-- звук когда навели на фишку -->
+			<move_sound>none</move_sound><!-- звук падения -->
+			<Animations size="3">
+				<action>m3-idle</action>
+				<action>m3-destroy_3</action>
+				<action>m3-fall_3</action>
+				<action>m3-select_3</action>
+			</Animations>
+		</Sprite>
+
+		<Sprite>
+			<States size="1">
+				<action>m3_stone_4</action><!-- 5 -->
+			</States>
+			<mutex>1</mutex><!-- фишка -->
+			<press_sound>ad_clickel</press_sound><!-- звук выделения фишки -->
+			<user_sound1>ad_usering</user_sound1><!-- звук обмена фишками -->
+			<user_sound2>ad_burnmatch</user_sound2><!-- звук уничтожения фишки -->
+			<user_sound_rotate>ad_guidance</user_sound_rotate><!-- звук когда навели на фишку -->
+			<move_sound>none</move_sound><!-- звук падения -->
+			<Animations size="3">
+				<action>m3-idle</action>
+				<action>m3-destroy_4</action>
+				<action>m3-fall_4</action>
+				<action>m3-select_4</action>
+			</Animations>
+		</Sprite>
+
+		<Sprite>
+			<States size="1">
+				<action>m3_stone_5</action><!-- 5 -->
+			</States>
+			<mutex>1</mutex><!-- фишка -->
+			<press_sound>ad_clickel</press_sound><!-- звук выделения фишки -->
+			<user_sound1>ad_usering</user_sound1><!-- звук обмена фишками -->
+			<user_sound2>ad_burnmatch</user_sound2><!-- звук уничтожения фишки -->
+			<user_sound_rotate>ad_guidance</user_sound_rotate><!-- звук когда навели на фишку -->
+			<move_sound>none</move_sound><!-- звук падения -->
+			<Animations size="3">
+				<action>m3-idle</action>
+				<action>m3-destroy_5</action>
+				<action>m3-fall_5</action>
+				<action>m3-select_5</action>
+			</Animations>
+		</Sprite>
+
+<!-- дефолтные спрайты фоновых ячеек -->
+		<Sprite>
+			<States size="1">
+				<action>m3_cell_1</action><!-- 1 -->
+				<action>m3_cell_2</action><!-- 2 -->
+			</States>
+			<mutex>200</mutex><!-- фон ячейки -->
+			<dialog>m3-ceil_destroy</dialog>
+			<user_sound1>ad_usesmallplast</user_sound1><!-- звук уничтожения фишки -->
+		</Sprite>
+<!-- спрайты лампочек -->
+		<Sprite>
+			<States size="1">
+				<action>m3_lamp_1</action>
+				<action>m3_lamp_1</action>
+				<action>m3_lamp_1</action>
+				<action>m3_lamp_1_on</action>
+			</States>
+			<mutex>300</mutex>
+			<position x="970" y="0"/>
+			<particle_fx>m3-lamp_1</particle_fx>		
+			<particle_fx_delta x="-330" y="400" />
+		</Sprite>
+		<Sprite>
+			<States size="1">
+				<action>m3_lamp_2</action>
+				<action>m3_lamp_2</action>
+				<action>m3_lamp_2</action>
+				<action>m3_lamp_2_on</action>
+			</States>
+			<mutex>300</mutex>
+			<position x="1051" y="0"/>
+			<particle_fx>m3-lamp_2</particle_fx>			
+			<particle_fx_delta x="-411" y="400" />
+		</Sprite>
+		<Sprite>
+			<States size="1">
+				<action>m3_lamp_3</action>
+				<action>m3_lamp_3</action>
+				<action>m3_lamp_3</action>
+				<action>m3_lamp_3_on</action>
+			</States>
+			<mutex>300</mutex>
+			<position x="978" y="0"/>
+			<particle_fx>m3-lamp_3</particle_fx>		
+			<particle_fx_delta x="-311" y="325" />
+		</Sprite>
+
+		<Sprite>
+			<mutex>2050</mutex><!-- ID_BONUS_EFFECT_3x3 -->
+			<particle_fx>bonus_effect_3x3</particle_fx><!-- имя партикла для этого бонуса -->
+		</Sprite>
+		<Sprite>
+			<mutex>2100</mutex><!-- ID_BONUS_EFFECT_FULL_LINE -->
+			<particle_fx>bonus_effect_full_line</particle_fx><!-- имя партикла для этого бонуса -->
+		</Sprite>
+		<Sprite>
+			<mutex>2200</mutex><!-- ID_BONUS_EFFECT_FULL_LINE_VERT -->
+			<particle_fx>bonus_effect_full_line_vert</particle_fx><!-- имя партикла для этого бонуса -->
+		</Sprite>
+		<Sprite>
+			<mutex>2300</mutex><!-- ID_BONUS_EFFECT_CROSS -->
+			<particle_fx>bonus_effect_cross</particle_fx><!-- имя партикла для этого бонуса -->
+		</Sprite>
+		
+
+	</Sprites_Desc_States>
+	
+	<!-- если флаг включен - будут работать бонусы "ID_BONUS_EFFECT" -->
+	<type_no_demo>1</type_no_demo>
+
+
+
+<!--
+типы фишек по mutex:
+RANDOM_FISHKA		= 1,
+LOWER_FISHKA		= 2,	фишка которую нужно довести вниз
+-->
+	<words>
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+	</words>
+
+<!-- типы фона ячееки: 0 - пустой фон, 1 - закрытая ячейка -->
+	<matrix_fill>
+0 0 0 0 0 0 0 0 0 0
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+0 0 0 0 1 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+	</matrix_fill>
+
+<!-- сколько нужно раз собрать комбинацию на этой ячейке, чтобы она проитерировалась -->
+	<iterations_matrix>
+0 1 1 1 1 1 1 1 1 0
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+0 1 1 1 1 1 1 1 1 0
+	</iterations_matrix>
+
+</TWordsDesc>

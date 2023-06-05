@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Scene>
+	<life_time>1.958</life_time>
+	<killer_click>true</killer_click>
+	<continue_music>1</continue_music>
+	<activate_dialog_start name="bbt_pers" params="002_01_monkey_2" />
+
+	<Layers size="1">
+
+		<Layer>
+			<movie_avi>data/movies/se/animation/002/01_monkey_2.flv</movie_avi>
+			<create_anim_position x="37" y="40" />
+			<enable_time>0</enable_time>
+			<life_time>3</life_time>
+			<alpha_enable_coeff>50000</alpha_enable_coeff>
+			<alpha_disable_coeff>50000</alpha_disable_coeff>
+			<sound>
+				<name>bbt_002_01_monkey_2_voc</name>
+				<loop>0</loop>
+				<period_min>0</period_min>
+				<period_max>0</period_max>
+				<catch_sound>true</catch_sound>
+			</sound>					
+		</Layer>
+	</Layers>
+</Scene>

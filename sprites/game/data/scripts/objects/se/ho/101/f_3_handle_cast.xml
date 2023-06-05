@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object>
+	<name>ho_101_f_3_handle_cast</name>
+	<name_desc>ho_101_f_3_handle_cast</name_desc>
+	<type>ho_101_f_3_handle_cast</type>
+	<states size="1">
+		<state>
+			<sprite>ho_101_f_3_handle_cast</sprite>
+			<mask_sprite>empty</mask_sprite>
+		</state>
+		<state>
+		</state>
+	</states>
+	<layer>190</layer>
+</object>

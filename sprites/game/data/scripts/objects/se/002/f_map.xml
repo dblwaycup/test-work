@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>002_f_map</name_desc>
+    <name>002_f_map</name>
+    <type>002_f_map</type>
+    <states size="1">
+        <state>
+            <sprite>002_f_map</sprite>
+            <mask_sprite>empty</mask_sprite>
+			<event>BEGIN_MOVIE</event>
+			<event_parameters>002_04_map_add</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>9</layer>
+</object>

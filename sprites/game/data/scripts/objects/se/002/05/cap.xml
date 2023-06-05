@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_05_cap</name>
+    <name_desc>002_05_cap</name_desc>
+    <type>002_05_cap</type>
+    <states size="2">
+        <state>
+            <event>END_MOVIE</event>
+            <event_parameters>002_05_bamboo_change</event_parameters>
+        </state>
+        <state>
+            <sprite>002_05_cap</sprite>
+        </state>
+        <state>
+            <sprite>002_05_cap</sprite>
+        </state>
+        <state>
+            <sprite>002_05_cap</sprite>
+        </state>
+        <state>
+            <sprite>002_05_cap</sprite>
+        </state>
+        <state>
+            <sprite>002_05_cap</sprite>
+        </state>
+        <state>
+            <sprite>002_05_cap</sprite>
+        </state>
+        <state>
+            <sprite>002_05_cap</sprite>
+            <mode>WaitTimeWithHint</mode>
+            <mode_param>1</mode_param>
+            <messages>
+                <message name="002_05_henna">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_05_puzzle_on">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_05_puzzle2_on">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_05_puzzle3_on">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_05_puzzle4_on">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_05_puzzle5_on">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+                <message name="002_05_puzzle6_on">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+            <sound_fx>open_box_02</sound_fx>
+        </state>
+        <state>
+            <sprite>002_05_cap_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+        </state>
+    </states>
+    <layer>35</layer>
+</object>

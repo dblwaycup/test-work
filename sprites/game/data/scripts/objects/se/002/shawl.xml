@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<object>
+    <name>002_shawl</name>
+    <name_desc>002_shawl</name_desc>
+    <type>002_shawl</type>
+    <states size="1">
+        <state>
+        </state>
+        <state>
+            <mask_sprite>002_shawl</mask_sprite>
+            <cursor>spt_cursor_lupa-shest</cursor>
+            <hint_delta x="0" y="0"/>
+            <particle>active_object</particle>
+            <particle_pos x="75" y="54"/>
+            <particle_wait_min_limit>2</particle_wait_min_limit>
+            <particle_wait_max_limit>7</particle_wait_max_limit>
+            <particle_fire_min_limit>1</particle_fire_min_limit>
+            <particle_fire_max_limit>1</particle_fire_max_limit>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>20</layer>
+</object>

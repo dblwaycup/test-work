@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_signboard</name_desc>
+    <name>001_signboard</name>
+    <type>001_signboard</type>
+    <states size="1">
+        <state>
+            <mask_sprite>001_signboard</mask_sprite>
+            <cursor>spt_cursor_arrow_question</cursor>
+            <dialog_activate>bbt_001_signboard</dialog_activate>
+            <mode>Click</mode>
+            <messages>
+                <message name="001_fun_lizart">
+                    <msg>GM_SETNEXTSTATE</msg>
+                </message>
+            </messages>
+        </state>
+        <state>
+            <mask_sprite>001_signboard</mask_sprite>
+            <cursor>spt_cursor_arrow_question</cursor>
+            <dialog_activate>bbt_001_signboard</dialog_activate>
+        </state>
+    </states>
+    <decorate>1</decorate>
+    <layer>2</layer>
+</object>

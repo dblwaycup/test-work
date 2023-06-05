@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<gui name="main">
+	<Resources>data/main.res</Resources>
+	<pos x="0" y="0"/>
+	<ctrls>
+		<ctrl>
+			<name>BackGround</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>0</id>
+			<pos x="0" y="0"/>
+			<width>1280</width>
+			<height>800</height>
+			<sprites>
+				<spt>back_map</spt>
+			</sprites>
+			<manual_render>1</manual_render>
+		</ctrl>
+
+	<!-- info -->
+		<ctrl> 
+			<name>info_back</name>
+			<type>BackGround</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<id>2</id>
+			<pos x="16" y="50"/>
+			<width>343</width>
+			<height>343</height>
+			<sprites>
+				<spt>info_panel</spt>
+			</sprites>
+			
+			<childs>
+				<ctrl>
+					<name>you_are_here</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/agopus25.fnt</font>
+					<text_scale>0.96</text_scale>
+					<style>TS_ALIGNHLEFT | TS_ALIGNVCENTER</style>
+					<default_text>you_are_here</default_text>
+					<id>3</id>
+					<pos x="115" y="56" />
+					<width>187</width>
+					<height>21</height>
+				</ctrl>
+				
+				<ctrl>
+					<name>unlocked_locations</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/agopus25.fnt</font>
+					<text_scale>0.96</text_scale>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>unlocked_locations</default_text>
+					<id>4</id>
+					<pos x="115" y="125" />
+					<width>187</width>
+					<height>21</height>
+				</ctrl>
+				
+			<!-- action -->	
+				<ctrl>
+					<name>CB_HideHint</name>
+					<type>CheckBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>5</id>
+					<pos x="70" y="182"/>
+					<width>34</width>
+					<height>29</height>
+					<sprites>
+						<spt>btn_check</spt>
+						<spt>btn_check</spt>
+						<spt>btn_check_arrow</spt>
+						<spt>btn_check_arrow</spt>
+						<spt>btn_check_disable</spt>
+					</sprites>
+					<mask_sprite>btn_check_mask</mask_sprite>
+					<tutorial_ignore>1</tutorial_ignore>
+					<state>2</state>
+					<press_sound>button_click</press_sound>
+				</ctrl>
+				<ctrl>
+					<name>available_actions</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/agopus25.fnt</font>
+					<text_scale>0.96</text_scale>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>available_actions</default_text>
+					<id>6</id>
+					<pos x="115" y="175" />
+					<width>187</width>
+					<height>21</height>
+				</ctrl>
+				<ctrl>
+					<name>actions_show</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/agopus25.fnt</font>
+					<text_scale>0.9</text_scale>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>show</default_text>
+					<id>7</id>
+					<pos x="115" y="196" />
+					<width>187</width>
+					<height>21</height>
+				</ctrl>
+				
+			<!-- extra -->	
+				<ctrl>
+					<name>CB_HideExtra</name>
+					<type>CheckBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<id>8</id>
+					<pos x="101" y="248"/>
+					<width>32</width>
+					<height>29</height>
+					<sprites>
+						<spt>btn_check</spt>
+						<spt>btn_check</spt>
+						<spt>btn_check_arrow</spt>
+						<spt>btn_check_arrow</spt>
+						<spt>btn_check_disable</spt>
+					</sprites>
+					<mask_sprite>btn_check_mask</mask_sprite>
+					<tutorial_ignore>1</tutorial_ignore>
+					<state>2</state>
+					<press_sound>button_click</press_sound>
+				</ctrl>
+				<ctrl>
+					<name>collectibles</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/agopus25.fnt</font>
+					<text_scale>0.96</text_scale>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>Collectibles</default_text>
+					<id>9</id>
+					<pos x="140" y="241" />
+					<width>125</width>
+					<height>21</height>
+				</ctrl>
+				<ctrl>
+					<name>collectibles_show</name>
+					<type>TextBox</type>
+					<enable>1</enable>
+					<visible>1</visible>
+					<font>data/fonts/gui/agopus25.fnt</font>
+					<text_scale>0.9</text_scale>
+					<style>TS_ALIGNLEFT | TS_ALIGNVCENTER</style>
+					<default_text>show</default_text>
+					<id>10</id>
+					<pos x="140" y="262" />
+					<width>133</width>
+					<height>22</height>
+				</ctrl>
+			</childs>
+		</ctrl>
+
+	<!-- кнопка ачивок -->
+		<ctrl>
+			<name>button_achievements</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>11</id>
+			<pos x="28" y="677"/>
+			<width>262</width>
+			<height>132</height>
+			<sprites>
+				<spt>btn_achiev</spt>
+				<spt>btn_achiev_over</spt>
+				<spt>btn_achiev_over</spt>
+			</sprites>
+            <mask_sprite>btn_achiev_mask</mask_sprite>
+			<btn_text token="Achievements">
+				<font type="normal" color="ffffffff">data/fonts/gui/agopus25.fnt</font>
+				<font type="hover" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="press" color="ffffffff">data/fonts/gui/agopus25_on.fnt</font>
+				<font type="disabled" color="ff2eeeff">data/fonts/gui/agopus25.fnt</font>
+				<align>TS_ALIGNHCENTER | TS_ALIGNVCENTER | TS_MULTILINE</align>
+				<spacing left="50" top="0" right="0" bottom="0" />
+			</btn_text>
+			<open_dialog_by_click>achievements_dialog</open_dialog_by_click>
+		</ctrl>
+		
+	<!-- локация -->
+		<ctrl>
+			<name>TB_Location</name>
+			<type>TextBox</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<font>data/fonts/gui/agopus25.fnt</font>
+			<style>TS_ALIGNHCENTER | TS_ALIGNVCENTER</style>
+			<id>12</id>
+			<pos x="86" y="254"/><!-- координаты относительно верхнего левого угла всплывающего окна -->
+			<width>258</width>
+			<height>42</height>
+			<manual_render>1</manual_render>
+		</ctrl>
+
+	<!-- btn close -->	
+		<ctrl>
+			<name>button_ok</name>
+			<type>Button</type>
+			<enable>1</enable>
+			<visible>1</visible>
+			<subtype>box</subtype>
+			<id>1</id>
+			<pos x="1183" y="20"/>
+			<width>77</width>
+			<height>76</height>
+			<sprites>
+				<spt>btn_close_big</spt>
+				<spt>btn_close_big_over</spt>
+				<spt>btn_close_big_over</spt>
+			</sprites>
+		</ctrl>
+		
+    </ctrls>
+</gui>

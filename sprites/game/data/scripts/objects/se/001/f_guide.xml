@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_guide</name_desc>
+    <name>001_f_guide</name>
+    <type>001_f_guide</type>
+    <states size="1">
+        <state>
+            <movie>001_f_guide_idle</movie>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_guide|2</event_parameters>
+        </state>
+        <state>
+            <sprite>empty</sprite>
+        </state>
+    </states>
+    <layer>3</layer>
+</object>

@@ -1,0 +1,853 @@
+<?xml version="1.0"?>
+<Movies>
+	<Movies_array size="1">
+
+		<!-- ************************************** gui ************************************** -->
+
+		<!-- вступительный мульт -->
+		<Movie>
+			<Name>preintro</Name>
+			<Dir>data/scripts/movies/gui/preintro.xml</Dir>
+		</Movie>
+
+		<!-- branding -->
+		<Movie>
+			<Name>branding</Name>
+			<Dir>data/scripts/movies/gui/branding.xml</Dir>
+		</Movie>
+
+		<!-- главная страница -->
+		<Movie>
+			<Name>logo_idle</Name>
+			<Dir>data/scripts/movies/gui/logo_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_click</Name>
+			<Dir>data/scripts/movies/gui/logo_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>first_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/first_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass1_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass1_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass2_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass2_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass3_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass3_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass4_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass4_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass5_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass5_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass6_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass6_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass7_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass7_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass8_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass8_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass9_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass9_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass10_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass10_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>grass11_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/grass11_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>mist_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/mist_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>tree1_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/tree1_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>tree2_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/tree2_idle.xml</Dir>
+		</Movie>
+
+		<Movie>
+			<Name>lizard_click</Name>
+			<Dir>data/scripts/movies/gui/main_page/lizard_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>lizard_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/lizard_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>monkey1_click</Name>
+			<Dir>data/scripts/movies/gui/main_page/monkey1_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>monkey1_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/monkey1_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>monkey2_click</Name>
+			<Dir>data/scripts/movies/gui/main_page/monkey2_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>monkey2_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/monkey2_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>tiger_click</Name>
+			<Dir>data/scripts/movies/gui/main_page/tiger_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>tiger_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/tiger_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>manu_click</Name>
+			<Dir>data/scripts/movies/gui/main_page/manu_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>manu_idle</Name>
+			<Dir>data/scripts/movies/gui/main_page/manu_idle.xml</Dir>
+		</Movie>
+
+		<!-- more games -->
+		<Movie>
+			<Name>logo_small_idle</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_small_click</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_cc</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_cc.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_ch</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_ch.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_dr</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_dr.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_ek</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_ek.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_hn</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_hn.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_mt</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_mt.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_sc</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_sc.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_sl</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_sl.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_tcs</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_tcs.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>logo_fe</Name>
+			<Dir>data/scripts/movies/gui/more_games/logo_fe.xml</Dir>
+		</Movie>
+
+		<!-- загрузка -->
+		<Movie>
+			<Name>loading</Name>
+			<Dir>data/scripts/movies/gui/loading.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>loading_finish</Name>
+			<Dir>data/scripts/movies/gui/loading_finish.xml</Dir>
+		</Movie>
+
+		<!-- интерфейс -->
+		<Movie>
+			<Name>casual_mode</Name>
+			<Dir>data/scripts/movies/gui/play_mode/casual_mode.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>advanced_mode</Name>
+			<Dir>data/scripts/movies/gui/play_mode/advanced_mode.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>custom_mode</Name>
+			<Dir>data/scripts/movies/gui/play_mode/custom_mode.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>hardcore_mode</Name>
+			<Dir>data/scripts/movies/gui/play_mode/hardcore_mode.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>interface_task_up</Name>
+			<Dir>data/scripts/movies/gui/task_up.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>hint_idle</Name>
+			<Dir>data/scripts/movies/gui/hint_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>hint_over</Name>
+			<Dir>data/scripts/movies/gui/hint_over.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>hint_charge</Name>
+			<Dir>data/scripts/movies/gui/hint_charge.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>hint_charge_end</Name>
+			<Dir>data/scripts/movies/gui/hint_charge_end.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>map_over</Name>
+			<Dir>data/scripts/movies/gui/map_over.xml</Dir>
+		</Movie>
+
+		<!-- текст в инвентаре для хо -->
+		<Movie>
+			<Name>inventory_text</Name>
+			<Dir>data/scripts/movies/gui/inventory_text.xml</Dir>
+		</Movie>
+
+		<!-- buy_page -->
+		<Movie>
+			<Name>buy_page_logo</Name>
+			<Dir>data/scripts/movies/gui/logo_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>bush_idle</Name>
+			<Dir>data/scripts/movies/gui/buy_page/bush_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>manu1_idle</Name>
+			<Dir>data/scripts/movies/gui/buy_page/manu_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>manu1_click</Name>
+			<Dir>data/scripts/movies/gui/buy_page/manu_click.xml</Dir>
+		</Movie>
+
+		<!-- extra -->
+		<Movie>
+			<Name>fan_idle</Name>
+			<Dir>data/scripts/movies/gui/extra/fan_idle.xml</Dir>
+		</Movie>
+
+		<!-- ************************************** se ************************************** -->
+		<!-- *********************************** cut_scenes *********************************** -->
+
+		<!-- 001 -->
+		<Movie>
+			<Name>001_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/001_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_dlg_margaret</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/001_dlg_margaret.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_cs_monkey</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/001_cs_monkey.xml</Dir>
+		</Movie>
+
+		<!-- 002 -->
+		<Movie>
+			<Name>002_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/002_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_dlg_elephant</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/002_01_dlg_elephant.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_dlg_elephant</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/002_dlg_elephant.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_cs_elephant</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/002_cs_elephant.xml</Dir>
+		</Movie>
+
+		<!-- 003 -->
+		<Movie>
+			<Name>003_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/003_cs_intro.xml</Dir>
+		</Movie>
+
+		<!-- 004 -->
+
+
+		<!-- 005 -->
+		<Movie>
+			<Name>005_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/005_cs_intro.xml</Dir>
+		</Movie>
+		<!-- 006 -->
+		<Movie>
+			<Name>006_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/006_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>006_dlg_manu</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/006_dlg_manu.xml</Dir>
+		</Movie>
+		<!-- 007 -->
+		<Movie>
+			<Name>007_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/007_cs_intro.xml</Dir>
+		</Movie>
+
+		<!-- 008 -->
+		<Movie>
+			<Name>008_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/008_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>008_cs_final</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/008_cs_final.xml</Dir>
+		</Movie>
+
+		<!-- 009 -->
+		<Movie>
+			<Name>009_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/009_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>009_dlg_harish</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/009_dlg_harish.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>009_dlg_harish_2</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/009_dlg_harish_2.xml</Dir>
+		</Movie>
+
+		<!-- 010-->
+
+
+		<!-- 011-->
+
+
+		<!-- 012 -->
+
+		<!-- 013 -->
+		<Movie>
+			<Name>013_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/013_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>013_dlg_sajita</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/013_dlg_sajita.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>013_dlg_sajita2</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/013_dlg_sajita2.xml</Dir>
+		</Movie>
+
+		<!-- 014 -->
+		<Movie>
+			<Name>014_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/014_cs_intro.xml</Dir>
+		</Movie>
+
+		<!-- 015 -->
+
+
+		<!-- 016 -->
+
+
+		<!-- 017 -->
+		<Movie>
+			<Name>017_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/017_cs_intro.xml</Dir>
+		</Movie>
+
+		<!-- 018 -->
+		<Movie>
+			<Name>018_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/018_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>018_dlg_jagjita</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/018_dlg_jagjita.xml</Dir>
+		</Movie>
+
+		<!-- 019 -->
+		<Movie>
+			<Name>019_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/019_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>019_cs_monkeyking</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/019_cs_monkeyking.xml</Dir>
+		</Movie>
+
+		<!-- 020 -->
+		<Movie>
+			<Name>020_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/020_cs_intro.xml</Dir>
+		</Movie>
+
+		<!-- 021 -->
+		<Movie>
+			<Name>021_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/021_cs_intro.xml</Dir>
+		</Movie>
+
+		<!-- 022 -->
+
+		<Movie>
+			<Name>022_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/022_cs_intro.xml</Dir>
+		</Movie>
+		<!-- 023 -->
+
+
+		<!-- 024 -->
+		<Movie>
+			<Name>024_dlg_sadjita</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/024_dlg_sadjita.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>024_cs_intro</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/024_cs_intro.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>024_cs_final</Name>
+			<Dir>data/scripts/movies/se/cut_scenes/024_cs_final.xml</Dir>
+		</Movie>
+		<!-- 025 -->
+
+
+		<!-- *********************************** anim *********************************** -->
+
+		<!-- 001 -->
+		<Movie>
+			<Name>001_phone_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/phone_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_phone_slide</Name>
+			<Dir>data/scripts/movies/se/animation/001/phone_slide.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_sky</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_sky.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_seller_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_seller_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_guide_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_guide_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_monkey_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_monkey_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_monkey1_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_monkey1_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_monkey2_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_monkey2_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_monkey1_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_monkey1_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_monkey2_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_monkey2_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_bird1_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_bird1_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_bird1_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_bird1_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_bird2_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_bird2_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_bird2_change</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_bird2_change.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_bird3_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_bird3_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_f_bird3_change</Name>
+			<Dir>data/scripts/movies/se/animation/001/f_bird3_change.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_tourists_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/tourists_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_fun_lizart_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/fun_lizart_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_fun_lizart_change</Name>
+			<Dir>data/scripts/movies/se/animation/001/fun_lizart_change.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_01_hook</Name>
+			<Dir>data/scripts/movies/se/animation/001/01_hook.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_01_hook_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/01_hook_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_01_monkey_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/01_monkey_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_01_monkey_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/01_monkey_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_seller</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_seller.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_hand</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_hand.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_beads</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_beads.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_beads_give</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_beads_give.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_beads_give_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_beads_give_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_seller_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_seller_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_seller1_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_seller1_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_seller_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_seller_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_elephant_change</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_elephant_change.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_elephant2</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_elephant2.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_02_smoke_dile</Name>
+			<Dir>data/scripts/movies/se/animation/001/02_smoke_dile.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_03_tasks_add</Name>
+			<Dir>data/scripts/movies/se/animation/001/03_tasks_add.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_03_bowl_fake</Name>
+			<Dir>data/scripts/movies/se/animation/001/03_bowl_fake.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_03_bowl1</Name>
+			<Dir>data/scripts/movies/se/animation/001/03_bowl1.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_03_bowl2</Name>
+			<Dir>data/scripts/movies/se/animation/001/03_bowl2.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_003_backpack_change</Name>
+			<Dir>data/scripts/movies/se/animation/001/03_backpack_change.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_03_01_backpack_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/03_01_backpack_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_03_01_backpack1</Name>
+			<Dir>data/scripts/movies/se/animation/001/03_01_backpack1.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_03_01_backpack2</Name>
+			<Dir>data/scripts/movies/se/animation/001/03_01_backpack2.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_04_guide</Name>
+			<Dir>data/scripts/movies/se/animation/001/04_guide.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_04_guide1</Name>
+			<Dir>data/scripts/movies/se/animation/001/04_guide1.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_04_guide_click</Name>
+			<Dir>data/scripts/movies/se/animation/001/04_guide_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_04_guide_idle</Name>
+			<Dir>data/scripts/movies/se/animation/001/04_guide_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_05_cap1</Name>
+			<Dir>data/scripts/movies/se/animation/001/05_cap1.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_05_cap2</Name>
+			<Dir>data/scripts/movies/se/animation/001/05_cap2.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_05_sari</Name>
+			<Dir>data/scripts/movies/se/animation/001/05_sari.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>001_07_hint_add</Name>
+			<Dir>data/scripts/movies/se/animation/001/07_hint_add.xml</Dir>
+		</Movie>
+
+		<!-- 002 -->
+		<Movie>
+			<Name>002_f_sky</Name>
+			<Dir>data/scripts/movies/se/animation/002/f_sky.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_lizard_idle</Name>
+			<Dir>data/scripts/movies/se/animation/002/lizard_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_f_elephant_idle</Name>
+			<Dir>data/scripts/movies/se/animation/002/f_elephant_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_f_flower1_click</Name>
+			<Dir>data/scripts/movies/se/animation/002/f_flower1_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_frog_click</Name>
+			<Dir>data/scripts/movies/se/animation/002/frog_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_frog_change</Name>
+			<Dir>data/scripts/movies/se/animation/002/frog_change.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_frog_idle</Name>
+			<Dir>data/scripts/movies/se/animation/002/frog_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_elephant_idle</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_elephant_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_elephant_click</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_elephant_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_monkey_idle</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_monkey_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_monkey_cast</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_monkey_cast.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_monkey</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_monkey.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_monkey_2</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_monkey_2.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_monkey_3</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_monkey_3.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_monkey_final</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_monkey_final.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_01_elephant_final</Name>
+			<Dir>data/scripts/movies/se/animation/002/01_elephant_final.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_02_f_beetle_click</Name>
+			<Dir>data/scripts/movies/se/animation/002/02_f_beetle_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_02_f_beetle_idle</Name>
+			<Dir>data/scripts/movies/se/animation/002/02_f_beetle_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_02_f_butterfly_click</Name>
+			<Dir>data/scripts/movies/se/animation/002/02_f_butterfly_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_02_f_butterfly_idle</Name>
+			<Dir>data/scripts/movies/se/animation/002/02_f_butterfly_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_03_statue</Name>
+			<Dir>data/scripts/movies/se/animation/002/03_statue.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_03_statue_click</Name>
+			<Dir>data/scripts/movies/se/animation/002/03_statue_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_04_map_add</Name>
+			<Dir>data/scripts/movies/se/animation/002/04_map_add.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_04_flask</Name>
+			<Dir>data/scripts/movies/se/animation/002/04_flask.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_04_henna</Name>
+			<Dir>data/scripts/movies/se/animation/002/04_henna.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_04_hennaflask</Name>
+			<Dir>data/scripts/movies/se/animation/002/04_hennaflask.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_04_hand</Name>
+			<Dir>data/scripts/movies/se/animation/002/04_hand.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_04_lizard</Name>
+			<Dir>data/scripts/movies/se/animation/002/04_lizard.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_04_lizard_click</Name>
+			<Dir>data/scripts/movies/se/animation/002/04_lizard_click.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_04_lizard_idle</Name>
+			<Dir>data/scripts/movies/se/animation/002/04_lizard_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_05_bamboo_change</Name>
+			<Dir>data/scripts/movies/se/animation/002/05_bamboo_change.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_05_bamboo_cast</Name>
+			<Dir>data/scripts/movies/se/animation/002/05_bamboo_cast.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_08_stairs_change</Name>
+			<Dir>data/scripts/movies/se/animation/002/08_stairs_change.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_08_stairs_change2</Name>
+			<Dir>data/scripts/movies/se/animation/002/08_stairs_change2.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>002_06_stupka</Name>
+			<Dir>data/scripts/movies/se/animation/002/06_stupka.xml</Dir>
+		</Movie>
+
+		<!-- *********************************** match3 *********************************** -->
+		<Movie>
+			<Name>m3_back</Name>
+			<Dir>data/scripts/movies/se/animation/match3/back.xml</Dir>
+		</Movie>
+
+		<!-- *********************************** hos *********************************** -->
+		<Movie>
+			<Name>101_z_butterfly</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/z_butterfly.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_f_3_cap_idle</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/f_3_cap_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_f_3_cap_mini_idle</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/f_3_cap_mini_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_f_3_cap</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/f_3_cap.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_f_2_elephant</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/f_2_elephant.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_f_3_fish_o</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/f_3_fish_o.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_man_talk1</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/man_talk1.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_man_talk2</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/man_talk2.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_man_talk3</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/man_talk3.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_man_talk4</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/man_talk4.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_man_talk5</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/man_talk5.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_man_idle</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/man_idle.xml</Dir>
+		</Movie>
+		<Movie>
+			<Name>101_man_idle_2</Name>
+			<Dir>data/scripts/movies/se/animation/ho/101/man_idle_2.xml</Dir>
+		</Movie>
+	</Movies_array>
+</Movies>

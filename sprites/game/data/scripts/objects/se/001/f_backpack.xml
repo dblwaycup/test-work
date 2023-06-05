@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<object>
+    <name_desc>001_f_backpack</name_desc>
+    <name>001_f_backpack</name>
+    <type>001_f_backpack</type>
+    <states size="3">
+        <state>
+            <sprite>001_f_backpack</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_03_01_backpack2</event_parameters>
+        </state>
+        <state>
+            <sprite>001_f_backpack_2</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>ITERATE_OBJECT</event>
+            <event_parameters>001_03_backpack|4</event_parameters>
+        </state>
+        <state>
+            <sprite>001_f_backpack_3</sprite>
+            <mask_sprite>empty</mask_sprite>
+            <event>END_MOVIE</event>
+            <event_parameters>001_003_backpack_change</event_parameters>
+        </state>
+        <state>
+        </state>
+    </states>
+    <layer>11</layer>
+</object>
